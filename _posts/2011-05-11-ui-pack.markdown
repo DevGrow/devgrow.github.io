@@ -1,0 +1,36 @@
+---
+author: admin
+comments: true
+date: 2011-05-11 17:04:35+00:00
+layout: post
+slug: ui-pack
+title: 'Freebie: Modern UI Pack Photoshop PSD'
+wordpress_id: 2385
+categories:
+- Freebies
+tags:
+- buttons
+- design
+- free PSD
+- freebies
+- photoshop
+- PSD
+- ui-pack
+- user interface
+---
+
+I've been running across several new UI PSD kits that cover a wide range of elements, everything from buttons to media players.  I wanted to take a shot at making my own with a few simple elements - feel free to use the following UI elements in any project you'd like.
+<!-- more -->
+
+
+
+    [Preview](http://devgrow.com/wp-content/uploads/2011/05/ui-pack-preview.png)[Download PSD](http://demos.devgrow.com/ui-pack.zip)
+
+
+
+
+[![](http://devgrow.com/wp-content/uploads/2011/05/ui-pack-big.png)](http://devgrow.com/wp-content/uploads/2011/05/ui-pack-preview.png)
+
+Even if you don't end up using the elements themselves, consider taking a look at the blending effects to see how they were achieved.  I'll be using this kit and others like it to help create Photoshop mockups for clients more quickly, it saves time not having to remake elements over and over again (obvious I know, not sure why I didn't consider it earlier).
+
+As always, please leave feedback in the comments and let me know if you like the set!

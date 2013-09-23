@@ -1,0 +1,8 @@
+name: Your New Jekyll Site
+markdown: redcarpet
+paginate: 10
+pygments: true
+permalink: /:title/
+
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
