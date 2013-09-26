@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-07-10 22:20:11+00:00
 layout: post
@@ -34,49 +34,49 @@ Here is an example of a simple contact form that uses the honey pot spam prevent
 
 `
 
-	
+
 		Contact Me
-		
+
 
 
 			Name:
-			
-		
 
 
-		
+
+
+
 
 
 			E-mail:
-			
-		
 
 
-		
+
+
+
 
 
 			Message:
-			
-		
 
 
-		
-		
+
+
+
+
 
 
 			If you're human leave this blank:
-			
-		
 
 
-		
 
 
-			
-		
 
 
-	
+
+
+
+
+
+
 
 `
 

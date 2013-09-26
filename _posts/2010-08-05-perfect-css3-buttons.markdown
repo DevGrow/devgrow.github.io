@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-08-05 17:37:59+00:00
 layout: post
@@ -17,7 +17,7 @@ tags:
 - Tutorials
 ---
 
-The sweet looking buttons in this tutorial are created using only HTML and CSS3 - no JavaScript or images required!  The buttons are easy to make and are pretty extensible but don't take my word for it, check out the demo instead:<!-- more -->
+The sweet looking buttons in this tutorial are created using only HTML and CSS3 - no JavaScript or images required!  The buttons are easy to make and are pretty extensible but don't take my word for it, check out the demo instead:
 
 
 

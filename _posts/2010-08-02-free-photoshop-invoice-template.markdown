@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-08-02 22:14:17+00:00
 layout: post
@@ -19,13 +19,13 @@ tags:
 - Resources
 ---
 
-I finally got around to redesigning my client invoice template and I've decided to share it with you guys.  It's in PSD format and you're free to use it for whatever you'd like!  Simply open the document in Photoshop, add new items, save it as a PDF and email it to your clients - a few quick steps to a professional invoice.<!-- more -->
+I finally got around to redesigning my client invoice template and I've decided to share it with you guys.  It's in PSD format and you're free to use it for whatever you'd like!  Simply open the document in Photoshop, add new items, save it as a PDF and email it to your clients - a few quick steps to a professional invoice.
 
 
 ## Invoice Preview
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/08/invoice.jpg)](http://devgrow.com/files/invoice.pdf)
+[![](http://devgrow.s3.amazonaws.com/assets/images/invoice.jpg)](http://devgrow.com/files/invoice.pdf)
 
 
 ## Download

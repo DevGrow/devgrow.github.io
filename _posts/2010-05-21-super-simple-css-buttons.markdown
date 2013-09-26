@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-05-21 23:47:28+00:00
 layout: post
@@ -17,7 +17,7 @@ tags:
 - web design
 ---
 
-While playing around with a few button designs for my latest project, I came up with a simple CSS-only button system that is both lightweight and compatible with nearly all major browsers.  Check it out and let me know what you think!<!-- more -->
+While playing around with a few button designs for my latest project, I came up with a simple CSS-only button system that is both lightweight and compatible with nearly all major browsers.  Check it out and let me know what you think!
 
 
 

@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-05-26 18:30:27+00:00
 layout: post
@@ -16,7 +16,7 @@ tags:
 - web design
 ---
 
-I'm always looking for ways to create neat looking effects with minimal code, so today we'll take a look at a couple of slick  animated menus made with CSS3 goodness.<!-- more -->  I was inspired by the menu system on [Mashable](http://www.mashable.com/) for the first example, while the second one is popular on many [tutorial](http://tutorialzine.com/2009/09/stylish-navigation-menu-jquery/) [sites](http://www.jqueryglobe.com/article/animated-menu) (they use JQuery though).
+I'm always looking for ways to create neat looking effects with minimal code, so today we'll take a look at a couple of slick  animated menus made with CSS3 goodness.  I was inspired by the menu system on [Mashable](http://www.mashable.com/) for the first example, while the second one is popular on many [tutorial](http://tutorialzine.com/2009/09/stylish-navigation-menu-jquery/) [sites](http://www.jqueryglobe.com/article/animated-menu) (they use JQuery though).
 
 
 ## Demo
@@ -40,16 +40,16 @@ This is probably the more practical example, as it uses the standard/conventiona
 
 
 
-	
+
   * [Home](/)
 
-	
+
   * [About Us](/)
 
-	
+
   * [Portfolio](/)
 
-	
+
   * [Services](/)
 
 
@@ -94,16 +94,16 @@ While this animation arguably looks cooler, it requires a bit more effort when w
 
 
 
-	
+
   * [**Home**_Home_](/)
 
-	
+
   * [**About Us**_About Us_](/)
 
-	
+
   * [**Portfolio**_Portfolio_](/)
 
-	
+
   * [**Services**_Services_](/)
 
 

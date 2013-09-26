@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2011-02-23 04:27:05+00:00
 layout: post
@@ -19,9 +19,9 @@ tags:
 - web hosts
 ---
 
-It turns out that the majority of readers here use either [GoDaddy](http://www.godaddy.com/), [Linode](http://devgrow.com/go/linode.com), [MediaTemple](http://www.mediatemple.net/) or [Host Gator](http://devgrow.com/hostgator) as your current shared or VPS hosting provider.  Somehow GoDaddy had the most votes (by a small margin) and, at least for me, is the most surprising result.  Here's a pretty pie graph of the complete spread:<!-- more -->
+It turns out that the majority of readers here use either [GoDaddy](http://www.godaddy.com/), [Linode](http://devgrow.com/go/linode.com), [MediaTemple](http://www.mediatemple.net/) or [Host Gator](http://devgrow.com/hostgator) as your current shared or VPS hosting provider.  Somehow GoDaddy had the most votes (by a small margin) and, at least for me, is the most surprising result.  Here's a pretty pie graph of the complete spread:
 
-![](http://devgrow.com/wp-content/uploads/2011/02/hosts.png)
+![](http://devgrow.s3.amazonaws.com/assets/images/hosts.png)
 
 For those of you who use GoDaddy, I am very curious - why did you decide to go with them?  While I use them to host over 40 domain names, I find their overall site and service to be completely gimmicky, spammy and a cluttered mess of sales pitches.  I only use them for domains because it is a bit of a pain to transfer elsewhere, though I may just take the plunge and do that soon, ridding myself of the awful user experience that is GoDaddy.com.
 

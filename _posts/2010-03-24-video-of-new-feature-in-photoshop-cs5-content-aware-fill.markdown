@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-03-24 18:47:57+00:00
 layout: post
@@ -14,7 +14,7 @@ tags:
 - photoshop
 ---
 
-Just came across this on [HN](http://news.ycombinator.com/) and it looks incredibly exciting - a feature in the upcoming version of Photoshop that allows you to fill spaces seamlessly and intelligently.  The video highlights using it for removing unwanted artifacts (instead of using the spot healing tool) and patching large chunks of an image.<!-- more -->  It looks like it can be a bit CPU intensive when calculating larger areas, however achieving the same effect manually would take much, much longer.
+Just came across this on [HN](http://news.ycombinator.com/) and it looks incredibly exciting - a feature in the upcoming version of Photoshop that allows you to fill spaces seamlessly and intelligently.  The video highlights using it for removing unwanted artifacts (instead of using the spot healing tool) and patching large chunks of an image.  It looks like it can be a bit CPU intensive when calculating larger areas, however achieving the same effect manually would take much, much longer.
 
 
 

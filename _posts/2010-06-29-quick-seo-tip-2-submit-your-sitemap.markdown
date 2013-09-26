@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-06-29 17:31:54+00:00
 layout: post
@@ -15,7 +15,7 @@ tags:
 - sitemap
 ---
 
-A sitemap is an index of pages and content found on your website.  If you don't have a sitemap yet, make one now using free sitemap generators or plugins.  If you do have one, submit it to the big search engines to make sure your website is correctly indexed and ranked.<!-- more -->
+A sitemap is an index of pages and content found on your website.  If you don't have a sitemap yet, make one now using free sitemap generators or plugins.  If you do have one, submit it to the big search engines to make sure your website is correctly indexed and ranked.
 
 
 
@@ -25,20 +25,20 @@ A sitemap is an index of pages and content found on your website.  If you don't 
 A sitemap is simply a listing of all the important pages of your website.  It's a directory that can be easily and quickly understood by both search engines and visitors who may be lost.  Your sitemap can be a simple page on your website that lists all of the inner pages, but ideally you should use an XML sitemap, as it is preferred by most search engines.  The structure of your XML sitemap is simple:
 [cce lang="xml"]
 
- 
-   
+
+
      http://devgrow.com/sharebar-wordpress-plugin/
      2010-06-16
      yearly
      0.8
-   
-   
+
+
      http://devgrow.com/articles/
      2010-06-01
      weekly
      0.5
-   
- 
+
+
 [/cc]
 The above example indexes two pages from my site, a blog post and the main article homepage.  Obviously this method can be time consuming if you have a lot of pages, and this is the perfect reason to use services like [MakeASitemap.com](http://www.makeasitemap.com/) or the [XML Sitemap Generator](http://www.xml-sitemaps.com/) to automatically index your site.  If you're running WordPress, I highly recommend the [Google XML Sitemaps plugin](http://www.arnebrachhold.de/redir/sitemap-home/), which automates sitemap creation for you blog.  If you've manually created the file, save it in the root of your site.
 
@@ -53,13 +53,13 @@ After you've created your sitemap, submitting it to search engines is a great wa
 
 
 
-	
+
   * [Google Webmaster Tools](http://google.com/webmasters/)
 
-	
+
   * [Yahoo! Site Explorer](http://siteexplorer.search.yahoo.com/)
 
-	
+
   * [Bing Webmaster Tools](http://www.bing.com/webmaster)
 
 

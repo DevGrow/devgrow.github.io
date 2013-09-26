@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2011-01-18 21:43:13+00:00
 layout: post
@@ -20,7 +20,7 @@ tags:
 - web design
 ---
 
-Last night at a dinner party, I spoke with someone who makes a living selling relatively cheap goods on eBay.  As soon as I told him that I make websites for a living, he asked me if having his own personal storefront could improve his business.  After hearing his current pain points and coming up with a quick strategy to improve on them, it hit me that there are a lot of other small businesses facing the same dilemma: **is it worthwhile to invest in your own storefront?**<!-- more -->
+Last night at a dinner party, I spoke with someone who makes a living selling relatively cheap goods on eBay.  As soon as I told him that I make websites for a living, he asked me if having his own personal storefront could improve his business.  After hearing his current pain points and coming up with a quick strategy to improve on them, it hit me that there are a lot of other small businesses facing the same dilemma: **is it worthwhile to invest in your own storefront?**
 
 
 
@@ -34,13 +34,13 @@ So from that, we can extrapolate a few problems:
 
 
 
-	
+
   * **Time** - he has to invest a lot of time into the logistics of his business, including making the individual listings, handling sales and shipping to customers
 
-	
+
   * **Competition** - high merchant fees make it hard for him to be competitively priced with other factories and wholesalers
 
-	
+
   * **Marketing** - he has a list of tens of thousands of emails but does not know what to do with them
 
 
@@ -67,22 +67,22 @@ I made several suggestions over the course of dinner, offering some free advice 
 
 
 
-	
+
   1. Set at least 2-3 months aside (just mentally, don't have to stop all other work) and be prepared to spend a lot of time and effort during this time
 
-	
+
   2. Hire a developer/designer and have them make the online store, invest in a strong domain and reliable hosting (~ 1-1.5 months)
 
-	
+
   3. Add all products to the store at current eBay prices; use several pictures, strong wording
 
-	
+
   4. Cross post items to other available marketplaces, including Amazon (with a link back to your storefront in your profile)
 
-	
+
   5. Start an [AdWords campaign](https://adwords.google.com/) for the hottest selling products, linking to the storefront product page
 
-	
+
   6. Gather all existing customer e-mails and send them an announcement of your new storefront, some pictures/names of current hot products and a coupon code they can use (much like Newegg)
 
 
@@ -99,10 +99,10 @@ I wanted to illustrate two things with this article:
 
 
 
-	
+
   * The process in which I try to identify problems and use my background knowledge to come up with a solution
 
-	
+
   * How getting new web design/development gigs can be passive and come about almost unexpectedly
 
 

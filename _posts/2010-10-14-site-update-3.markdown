@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-10-14 21:36:17+00:00
 layout: post
@@ -14,7 +14,7 @@ tags:
 - updates
 ---
 
-It's been a busy month here and I just wanted to take a minute to make a few announcements regarding DevGrow.<!-- more -->
+It's been a busy month here and I just wanted to take a minute to make a few announcements regarding DevGrow.
 
 
 

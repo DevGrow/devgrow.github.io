@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2011-02-17 23:22:38+00:00
 layout: post
@@ -20,7 +20,7 @@ tags:
 - web design
 ---
 
-One problem I used to frequently run into in my earlier days of freelancing was that I'd give a client a quote, start working on the project and halfway through realize that I was charging way too little for way too much work.  I had vastly underestimated the scale of the project.  Over the past year, I've been using a technique that is glaringly obvious but often overlooked when determining what to charge a client.<!-- more -->
+One problem I used to frequently run into in my earlier days of freelancing was that I'd give a client a quote, start working on the project and halfway through realize that I was charging way too little for way too much work.  I had vastly underestimated the scale of the project.  Over the past year, I've been using a technique that is glaringly obvious but often overlooked when determining what to charge a client.
 
 
 ### Step 1. Create An Outline
@@ -30,34 +30,34 @@ This step is rather simple: just write down everything you plan on doing for the
 
 
 
-	
+
   * **Research and Planning - _8 hours _**
 
-	
+
     * **Competitive analysis - _6 hours _**
 
-	
+
       * What are immediate online competitors and why would customers go there instead of your site?
 
-	
+
       * What is needed to maximize conversions (visitors to customers) and what user interface elements can help with this?
 
-	
+
       * Which market/audience are catering to and does the current design reflect that?
 
-	
+
       * How can we make the site's usability and interface stand out from it's competitors?
 
 
 
 
-	
+
     * **SEO analysis - _2 hours _**
 
-	
+
       * Review issues in current ranking
 
-	
+
       * Outline steps needed to bring the site to front page of Google
 
 
@@ -66,40 +66,40 @@ This step is rather simple: just write down everything you plan on doing for the
 
 
 
-	
+
   * **Wireframe mockups of new design - _10 hours _**
 
-	
+
     * 4-6 wireframe mockups of design ideas/concepts based on research
 
-	
+
     * Pick a few, reiterate repeatedly until we reach the perfect layout and design
 
-	
+
     * Create mockups for landing page, category page, item page and user pages
 
 
 
 
-	
+
   * **Full scale, complete/full-detail Photoshop mockups - _22 hours _**
 
-	
+
     * Based on wireframe mockups, the full-scale mockups feature complete design details (nearly a screenshot) so you know exactly what your site will look like
 
-	
+
     * Reiterate 2-3 best Photoshop mockups until we reach perfect design
 
 
 
 
-	
+
   * **Conversion of full-scale mockups to XHTML/CSS/JS (frontend code) - _8 hours _**
 
-	
+
     * Add necessary JavaScript effects and elements, including dynamic content sliders
 
-	
+
     * Verify browser compatibility with IE6-8, Firefox, Chrome, Safari and Opera
 
 

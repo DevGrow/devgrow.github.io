@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-10-22 19:20:41+00:00
 layout: post
@@ -14,7 +14,7 @@ tags:
 - giveaways
 ---
 
-This week we held our first ever giveaway contest, in which two lucky winners will receive the [AppSumo User Love Bundle](http://www.appsumo.com/).  The winners have been picked!<!-- more -->
+This week we held our first ever giveaway contest, in which two lucky winners will receive the [AppSumo User Love Bundle](http://www.appsumo.com/).  The winners have been picked!
 
 
 
@@ -24,10 +24,10 @@ This week we held our first ever giveaway contest, in which two lucky winners wi
 
 
 
-	
+
   1. [@mikegreenberg](http://twitter.com/mikegreenberg)
 
-	
+
   2. [@pablolarah](http://twitter.com/pablolarah)
 
 

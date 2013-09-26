@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-06-04 16:20:56+00:00
 layout: post
@@ -14,17 +14,17 @@ tags:
 - wywof
 ---
 
-In order to simply the process of updating my plugins and to give you guys the ability to fork them into your own works, I've moved all of my plugins to [Github](http://github.com/mdolon) (thanks to Sam Sherlock for the suggestion).<!-- more -->  I'll also be updating the download links to point to the repository instead of the zip file, so you can have more freedom to download what you'd like.
+In order to simply the process of updating my plugins and to give you guys the ability to fork them into your own works, I've moved all of my plugins to [Github](http://github.com/mdolon) (thanks to Sam Sherlock for the suggestion).  I'll also be updating the download links to point to the repository instead of the zip file, so you can have more freedom to download what you'd like.
 
 
 
-	
+
   * [jCollapsible](http://github.com/mdolon/jCollapsible) - takes any nested list (OL or UL that have children) and coverts it into collapsible threads
 
-	
+
   * [Griddy](http://github.com/mdolon/Griddy) - creates a simple, customizable overlay on top of any element
 
-	
+
   * [SliderNav](http://github.com/mdolon/SliderNav) - lets you add dynamic, sliding content using a vertical navigation bar (index)
 
 

@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-03-30 04:48:59+00:00
 layout: post
@@ -14,7 +14,7 @@ tags:
 - standards
 ---
 
-If web design is art and art is interpretive, can there be such a thing as design etiquette?  While it's true that beauty is in the eye of the beholder, there are certain standards and conventions to follow when dealing with design, otherwise you may face a lot of difficulty with people accepting or understanding your work.<!-- more -->  This concept of a design standards is especially vital if you're a business attempting to sell a service or product - you need to engage your visitors and convert them into paying customers, and having a great design can help you do just that.
+If web design is art and art is interpretive, can there be such a thing as design etiquette?  While it's true that beauty is in the eye of the beholder, there are certain standards and conventions to follow when dealing with design, otherwise you may face a lot of difficulty with people accepting or understanding your work.  This concept of a design standards is especially vital if you're a business attempting to sell a service or product - you need to engage your visitors and convert them into paying customers, and having a great design can help you do just that.
 
 
 
@@ -40,14 +40,14 @@ This is a relatively simple concept that many websites fail to understand.  If y
 ### DO NOT use colors that are too bright, angry or blinding, ie:
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/03/color-bad2.jpg)](http://www.miauk.com/)[![](http://devgrow.com/wp-content/uploads/2010/03/color-bad1.jpg)](http://www.gop.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/color-bad2.jpg)](http://www.miauk.com/)[![](http://devgrow.s3.amazonaws.com/assets/images/color-bad1.jpg)](http://www.gop.com/)
 
 
 ### DO use a sensible color palette and base your design on it.
 
 Use services like [Kuler](http://kuler.adobe.com/) or [COLOURlovers](http://www.colourlovers.com) if you need and keep in mind that limiting colors should not limit your creativity:
 
-[![](http://devgrow.com/wp-content/uploads/2010/03/color-good1.jpg)](http://www.carbonmade.com/)[![](http://devgrow.com/wp-content/uploads/2010/03/color-good2.jpg)](http://www.carsonified.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/color-good1.jpg)](http://www.carbonmade.com/)[![](http://devgrow.s3.amazonaws.com/assets/images/color-good2.jpg)](http://www.carsonified.com/)
 
 
 
@@ -63,14 +63,14 @@ Great design can be ruined by overwhelming the visitor with too much information
 ### DO NOT overload the visitor with too much text or content in general:
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/03/overload-bad1.jpg)](http://www.lingscars.com/)[![](http://devgrow.com/wp-content/uploads/2010/03/overload-bad2.jpg)](http://www.lanyardsupply.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/overload-bad1.jpg)](http://www.lingscars.com/)[![](http://devgrow.s3.amazonaws.com/assets/images/overload-bad2.jpg)](http://www.lanyardsupply.com/)
 
 
 
 ### DO use intelligent design, grid layouts and a limited amount of information:
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/03/overload-good1.jpg)](http://www.uxmag.com/)[![](http://devgrow.com/wp-content/uploads/2010/03/overload-good2.jpg)](http://creativereview.co.uk/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/overload-good1.jpg)](http://www.uxmag.com/)[![](http://devgrow.s3.amazonaws.com/assets/images/overload-good2.jpg)](http://creativereview.co.uk/)
 
 
 
@@ -83,22 +83,22 @@ Last but not least, for the sake of your visitors, keep your site user friendly!
 
 
 
-	
+
   * If you have something shaped like a button, make sure it is clickable and acts like a button!
 
-	
+
   * Keep things obvious - if you want to embed a video, make it clear that what the visitor is seeing _is_ in fact a video (video controls often help, as do a translucent "play" button)
 
-	
+
   * If you're a business, let the visitor understand what you are immediately - they don't want to spend more than 30 seconds figuring out what you offer
 
-	
+
   * Put your navigation at the top of the site and make it prominent/obvious
 
-	
+
   * On the subject of navigations, keep the links limited and broad, use sub-menus if you must
 
-	
+
   * Consider the manner in which a visitor, or a potential customer, would want to view your website and try to place your content in that order
 
 
@@ -115,7 +115,7 @@ Last but not least, for the sake of your visitors, keep your site user friendly!
 
 Make life easy for the visitor and encourage them to do whatever is that you want them to.
 
-[![](http://devgrow.com/wp-content/uploads/2010/03/usability-good1.jpg)](http://futureofwebdesign.com/)[![](http://devgrow.com/wp-content/uploads/2010/03/usability-good2.jpg)](http://teamexcellence.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/usability-good1.jpg)](http://futureofwebdesign.com/)[![](http://devgrow.s3.amazonaws.com/assets/images/usability-good2.jpg)](http://teamexcellence.com/)
 
 
 

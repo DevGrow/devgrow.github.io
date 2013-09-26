@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-11-19 19:04:47+00:00
 layout: post
@@ -15,7 +15,7 @@ tags:
 - WordPress
 ---
 
-I've just updated Sharebar to version 1.1.3, which adds support for disabling the Sharebar widget on individual posts and pages.  After you update the plugin, a new option panel should appear in your post and page editing screens at the bottom of the right sidebar - just check that option to disable Sharebar for that post!<!-- more -->
+I've just updated Sharebar to version 1.1.3, which adds support for disabling the Sharebar widget on individual posts and pages.  After you update the plugin, a new option panel should appear in your post and page editing screens at the bottom of the right sidebar - just check that option to disable Sharebar for that post!
 
 
 

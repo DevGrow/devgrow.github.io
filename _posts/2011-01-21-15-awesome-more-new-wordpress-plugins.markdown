@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2011-01-21 04:59:05+00:00
 layout: post
@@ -15,12 +15,12 @@ tags:
 - wordpress plugins
 ---
 
-More than 800 new plugins have been added to the [WordPress Plugin Directory](http://wordpress.org/extend/plugins/) since my [November coverage](http://devgrow.com/top-15-new-wordpress-plugins/), showcasing the best of these new WordPress plugins.  This month, we take a look at 15 more plugins that add some pretty cool functionality to your blog!<!-- more -->
+More than 800 new plugins have been added to the [WordPress Plugin Directory](http://wordpress.org/extend/plugins/) since my [November coverage](http://devgrow.com/top-15-new-wordpress-plugins/), showcasing the best of these new WordPress plugins.  This month, we take a look at 15 more plugins that add some pretty cool functionality to your blog!
 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2011/01/oqey.gif)](http://wordpress.org/extend/plugins/oqey-gallery/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/oqey.gif)](http://wordpress.org/extend/plugins/oqey-gallery/)
 
 
 #### [oQey Gallery](http://wordpress.org/extend/plugins/oqey-gallery/) by [oQeySites.com](http://www.oqeysites.com/)
@@ -31,7 +31,7 @@ oQey Gallery is a Plugin for WordPress that let users create and manage flash sl
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2011/01/fullscreen.gif)](http://wordpress.org/extend/plugins/fullscreen-html-editor/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/fullscreen.gif)](http://wordpress.org/extend/plugins/fullscreen-html-editor/)
 
 
 #### [Fullscreen HTML Editor](http://wordpress.org/extend/plugins/fullscreen-html-editor/)  by jbleuzen
@@ -42,7 +42,7 @@ This plugin adds a button to the default WordPress editor entitled "Fullscreen."
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2011/01/specific-css.gif)](http://wordpress.org/extend/plugins/specific-cssjs-for-posts-and-pages/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/specific-css.gif)](http://wordpress.org/extend/plugins/specific-cssjs-for-posts-and-pages/)
 
 
 #### [Specific CSS/JS for Posts and Pages](http://wordpress.org/extend/plugins/specific-cssjs-for-posts-and-pages/) by [techtastico](http://profiles.wordpress.org/users/techtastico/)
@@ -53,7 +53,7 @@ Specific CSS/JS for Posts and Pages is a plugin that allows you to add custom CS
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2011/01/author-location.gif)](http://wordpress.org/extend/plugins/comment-ip-trace/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/author-location.gif)](http://wordpress.org/extend/plugins/comment-ip-trace/)
 
 
 #### [Comment Location Tracker](http://wordpress.org/extend/plugins/comment-ip-trace/) by [jason.grim](http://profiles.wordpress.org/users/jason.grim/)
@@ -64,7 +64,7 @@ This plugin can be useful but is also somewhat creepy - it lets you track which 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2011/01/donation.gif)](http://wordpress.org/extend/plugins/wordpress-donation-plugin-with-goals-and-paypal-ipn-by-nonprofitcmsorg/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/donation.gif)](http://wordpress.org/extend/plugins/wordpress-donation-plugin-with-goals-and-paypal-ipn-by-nonprofitcmsorg/)
 
 
 #### [WordPress Donation Plugin with Goals and Paypal IPN](http://wordpress.org/extend/plugins/wordpress-donation-plugin-with-goals-and-paypal-ipn-by-nonprofitcmsorg/) by [NonprofitCMS.org](http://NonprofitCMS.org/)
@@ -75,7 +75,7 @@ The NonprofitCMS.org WordPress Donate Plugin allows you to create unlimited dona
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2011/01/avatar.gif)](http://wordpress.org/extend/plugins/simple-local-avatars/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/avatar.gif)](http://wordpress.org/extend/plugins/simple-local-avatars/)
 
 
 #### [Simple Local Avatars](http://wordpress.org/extend/plugins/simple-local-avatars/) by [jakemgold](http://profiles.wordpress.org/users/jakemgold/)
@@ -86,7 +86,7 @@ Adds an avatar upload field to user profiles if the current user has media permi
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2011/01/captcha.gif)](http://wordpress.org/extend/plugins/comments-capcha-box/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/captcha.gif)](http://wordpress.org/extend/plugins/comments-capcha-box/)
 
 
 #### [Comments Capcha Box](http://wordpress.org/extend/plugins/comments-capcha-box/) by [digitalzoomstudio](http://profiles.wordpress.org/users/digitalzoomstudio/)
@@ -97,7 +97,7 @@ This plugin creates a capcha box before your submit button in the comments secti
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2011/01/search-engines.gif)](http://wordpress.org/extend/plugins/search-engines/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/search-engines.gif)](http://wordpress.org/extend/plugins/search-engines/)
 
 
 #### [Search Engines](http://wordpress.org/extend/plugins/search-engines/) by Luis Alberto Ochoa
@@ -108,7 +108,7 @@ This is YASEOP - Yet Another Search Engine Optimization Plugin! Search Engines i
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2011/01/fanbox.gif)](http://wordpress.org/extend/plugins/facebook-fanbox-with-css-support/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/fanbox.gif)](http://wordpress.org/extend/plugins/facebook-fanbox-with-css-support/)
 
 
 #### [Facebook Fanbox (with CSS Support)](http://wordpress.org/extend/plugins/facebook-fanbox-with-css-support/) by [ppfeufer](http://profiles.wordpress.org/users/ppfeufer/)
@@ -119,7 +119,7 @@ Adds a likebox for your Facebook fanpage to your wordpress-sidebar. Use your own
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2011/01/timeline-calendar.gif)](http://wordpress.org/extend/plugins/timeline-calendar/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/timeline-calendar.gif)](http://wordpress.org/extend/plugins/timeline-calendar/)
 
 
 #### [Timeline Calendar](http://wordpress.org/extend/plugins/timeline-calendar/) by [omidkorat](http://profiles.wordpress.org/users/omidkorat/)
@@ -130,7 +130,7 @@ A plugin for make your own timeline calendar. With this plugin, you can add your
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2011/01/related.gif)](http://wordpress.org/extend/plugins/related-posts-slider/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/related.gif)](http://wordpress.org/extend/plugins/related-posts-slider/)
 
 
 #### [Related Posts Slider](http://wordpress.org/extend/plugins/related-posts-slider/) by [Compact News Previewer](http://tympanus.net/codrops/2010/10/03/compact-news-previewer/)
@@ -141,7 +141,7 @@ Related posts slider creates a very attractive slider of the related posts or/an
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2011/01/maxfoundry.gif)](http://wordpress.org/extend/plugins/max-foundry-landing-pages-free/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/maxfoundry.gif)](http://wordpress.org/extend/plugins/max-foundry-landing-pages-free/)
 
 
 #### [Max Foundry Landing Pages](http://wordpress.org/extend/plugins/max-foundry-landing-pages-free/) by [maxfoundry](http://profiles.wordpress.org/users/maxfoundry/)
@@ -152,7 +152,7 @@ Quickly create great-looking landing pages using a built-in template that is hig
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2011/01/fanbox-cache.gif)](http://wordpress.org/extend/plugins/facebook-fan-box-cache/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/fanbox-cache.gif)](http://wordpress.org/extend/plugins/facebook-fan-box-cache/)
 
 
 #### [Facebook Fan Box Cache](http://wordpress.org/extend/plugins/facebook-fan-box-cache/) by [dilbert4life](http://profiles.wordpress.org/users/dilbert4life/), [electriceasel](http://profiles.wordpress.org/users/electriceasel/)
@@ -163,7 +163,7 @@ A plugin to cache the Facebook Fan Box.  As the author says, "this plugin was wr
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2011/01/plus-points.gif)](http://wordpress.org/extend/plugins/wp-pluspoints/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/plus-points.gif)](http://wordpress.org/extend/plugins/wp-pluspoints/)
 
 
 #### [WordPress Plus Points](http://wordpress.org/extend/plugins/wp-pluspoints/) by [andrew.alba](http://profiles.wordpress.org/users/andrew.alba/)
@@ -174,7 +174,7 @@ This is an interesting plug-in that allows you to log your meals and let you kno
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2011/01/graceless.gif)](http://wordpress.org/extend/plugins/graceless-degradation/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/graceless.gif)](http://wordpress.org/extend/plugins/graceless-degradation/)
 
 
 #### [Graceless Degradation](http://wordpress.org/extend/plugins/graceless-degradation/) by [drench](http://profiles.wordpress.org/users/drench/)
@@ -184,16 +184,16 @@ Graceless Degradation checks to see if the current browser is MSIE 6. If it's no
 
 
 
-	
+
   * Puts Comic Sans fonts everywhere!
 
-	
+
   * Makes emphasis tags (bold, italic, strong, and underline) blink! Even though IE doesn't support the tag!
 
-	
+
   * Turns tags into animated rainbows!
 
-	
+
   * Finds "mailto:" links and tacks on animated mailbox graphics!
 
 

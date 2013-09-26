@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2011-01-06 23:43:08+00:00
 layout: post
@@ -26,7 +26,7 @@ I've released an update to this, check out the [blog post](http://devgrow.com/up
 
 
 
-In my [Introduction to jQuery Mobile](http://devgrow.com/mobile-web-dev-using-jquery-mobile/), I mentioned that I had plans for a simple MVC framework using jQuery Mobile and that I would release it if there was enough interest (there was!).  While it's not completely finished yet, I've decided to release it in hopes that others find use in it and can perhaps even contribute towards it's development.<!-- more -->
+In my [Introduction to jQuery Mobile](http://devgrow.com/mobile-web-dev-using-jquery-mobile/), I mentioned that I had plans for a simple MVC framework using jQuery Mobile and that I would release it if there was enough interest (there was!).  While it's not completely finished yet, I've decided to release it in hopes that others find use in it and can perhaps even contribute towards it's development.
 
 
 
@@ -41,7 +41,7 @@ You can view the files or contribute at the [Github repository](https://github.c
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2011/01/jquery-mobile-mvc.gif)](https://github.com/mdolon/jQuery-Mobile-PHP-MVC)
+[![](http://devgrow.s3.amazonaws.com/assets/images/jquery-mobile-mvc.gif)](https://github.com/mdolon/jQuery-Mobile-PHP-MVC)
 
 
 
@@ -51,16 +51,16 @@ You can view the files or contribute at the [Github repository](https://github.c
 
 
 
-	
+
   * MVC Architecture
 
-	
+
   * Simple Database (MySQL) and Authentication Classes
 
-	
+
   * Custom routing for clean URLs
 
-	
+
   * Apache (.htaccess), NGINX and Lighttpd support
 
 

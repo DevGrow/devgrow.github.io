@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-03-23 20:02:55+00:00
 layout: post
@@ -14,7 +14,7 @@ tags:
 - updates
 ---
 
-Earlier today the JQuery UI team [announced](http://blog.jqueryui.com/2010/03/jquery-ui-18/trackback/) the final release of JQuery UI 1.8.  In case you're not familiar with JQuery UI, it is an extension of the JQuery library that provides "abstractions for low-level interaction and animation, advanced effects and high-level, themeable widgets, built on top of the jQuery JavaScript Library, that you can use to build highly interactive web applications."<!-- more -->
+Earlier today the JQuery UI team [announced](http://blog.jqueryui.com/2010/03/jquery-ui-18/trackback/) the final release of JQuery UI 1.8.  In case you're not familiar with JQuery UI, it is an extension of the JQuery library that provides "abstractions for low-level interaction and animation, advanced effects and high-level, themeable widgets, built on top of the jQuery JavaScript Library, that you can use to build highly interactive web applications."
 
 The new version of JQuery UI brings about some exciting new additions:
 
@@ -32,7 +32,7 @@ You can now [position any element](http://wiki.jqueryui.com/Position) relative t
 
 This is incredibly useful and a God send for many designers - you can now create [beautiful buttons](http://jqueryui.com/demos/button/), stylish radios, checkboxes and select menus without breaking a sweat.  The minimalistic code makes it simple to implement as well.  The following code:
 `$("button").button();`
-When paired with the usual button HTML elements, produces:![](http://devgrow.com/wp-content/uploads/2010/03/button.png)It's one thing to see a picture and something else to actually interact with it - try it out on the [button demo page](http://jqueryui.com/demos/button/).
+When paired with the usual button HTML elements, produces:![](http://devgrow.s3.amazonaws.com/assets/images/button.png)It's one thing to see a picture and something else to actually interact with it - try it out on the [button demo page](http://jqueryui.com/demos/button/).
 
 
 

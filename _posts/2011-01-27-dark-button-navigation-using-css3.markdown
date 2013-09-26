@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2011-01-27 18:02:45+00:00
 layout: post
@@ -20,7 +20,7 @@ tags:
 - simple css
 ---
 
-I recently came across a great looking set of [navigational buttons](http://www.premiumpixels.com/dark-button-navigation-psd/) designed by Orman Clark of [Premium Pixels](http://www.premiumpixels.com/).  I'm a big fan of his design style and decided to whip together a quick CSS3/HTML version of the buttons.  Check out the demo and feel free to download the example zip file as well.<!-- more -->
+I recently came across a great looking set of [navigational buttons](http://www.premiumpixels.com/dark-button-navigation-psd/) designed by Orman Clark of [Premium Pixels](http://www.premiumpixels.com/).  I'm a big fan of his design style and decided to whip together a quick CSS3/HTML version of the buttons.  Check out the demo and feel free to download the example zip file as well.
 
 
 
@@ -28,7 +28,7 @@ I recently came across a great looking set of [navigational buttons](http://www.
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2011/01/dark-nav-buttons-big.jpg)](http://demos.devgrow.com/dark-nav-buttons/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/dark-nav-buttons-big.jpg)](http://demos.devgrow.com/dark-nav-buttons/)
 
 
 
@@ -165,20 +165,20 @@ I recently came across a great looking set of [navigational buttons](http://www.
 
 
 
-	
+
   * [Home](/)
 
-	
+
   * [About](/)
 
-	
+
   * [Portfolio](/)
 
-	
+
   * [Blog](/)
 
-	
-  * 
+
+  *
 
 
 
@@ -188,19 +188,19 @@ I recently came across a great looking set of [navigational buttons](http://www.
 
 
 
-	
+
   * [Home](/)
 
-	
+
   * [Our Studio](/)
 
-	
+
   * [Portfolio](/)
 
-	
+
   * [Our Team](/)
 
-	
+
   * [Get in Touch](/)
 
 

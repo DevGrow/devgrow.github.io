@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-04-29 13:31:10+00:00
 layout: post
@@ -18,7 +18,7 @@ tags:
 - tips
 ---
 
-There are a few quick fixes you can apply to your site that can help boost your search rankings.  If you haven't already done these, take a break from what you're doing and do this first - the results will be well worth the 10 minutes it will take.<!-- more -->
+There are a few quick fixes you can apply to your site that can help boost your search rankings.  If you haven't already done these, take a break from what you're doing and do this first - the results will be well worth the 10 minutes it will take.
 
 
 
@@ -112,7 +112,7 @@ I personally have zero experience using Windows servers, however I did find [thi
 ## Set Preferred Domain
 
 
-![Setting Preferred Domain in Google Webmaster Tools](http://devgrow.com/wp-content/uploads/2010/04/preferred-domain.gif)Using the incredibly useful [Google Webmaster Tools](http://www.google.com/webmasters/tools/), you can set a preferred domain for your website that Google will favor in rankings.  One useful bit of information is that you must verify both **www.domain.com** and **domain.com** to be able to select a preferred domain.  This took me a little searching to figure out but it makes sense - Google does really treat different sub-domains, including www, as different websites.
+![Setting Preferred Domain in Google Webmaster Tools](http://devgrow.s3.amazonaws.com/assets/images/preferred-domain.gif)Using the incredibly useful [Google Webmaster Tools](http://www.google.com/webmasters/tools/), you can set a preferred domain for your website that Google will favor in rankings.  One useful bit of information is that you must verify both **www.domain.com** and **domain.com** to be able to select a preferred domain.  This took me a little searching to figure out but it makes sense - Google does really treat different sub-domains, including www, as different websites.
 
 You can find the **Preferred Domain** setting under **Site Configuration -> Settings** in your domain settings.
 

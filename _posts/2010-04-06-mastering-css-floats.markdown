@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-04-06 21:20:41+00:00
 layout: post
@@ -15,13 +15,13 @@ tags:
 - tips and tricks
 ---
 
-Last month, I had the pleasure of teaching a friend basic HTML and CSS for a job that required him to know the bare essentials of building a website.  Instead of learning how to use Dreamweaver, he wanted to understand the way modern websites work, utilizing CSS stylesheets and table-less layouts.<!-- more -->  While he quickly picked up most of what I taught him, the concept of the floating elements was something that took a lot more work and time to fully understand.
+Last month, I had the pleasure of teaching a friend basic HTML and CSS for a job that required him to know the bare essentials of building a website.  Instead of learning how to use Dreamweaver, he wanted to understand the way modern websites work, utilizing CSS stylesheets and table-less layouts.  While he quickly picked up most of what I taught him, the concept of the floating elements was something that took a lot more work and time to fully understand.
 
 
 
 #### Root Beer and Vanilla Ice Cream?
 
-![](http://devgrow.com/wp-content/uploads/2010/04/root-beer-float-e1270587170844.jpg)We're talking about web development here, not the tasty drink!  Simply put, the [CSS float property](http://www.w3schools.com/css/pr_class_float.asp) allows you to position block-level elements on your page.  In truth, a thorough understanding of this property is key to creating your dream layout - it can singlehandedly help you create a work of art, or if incorrectly used, bring down your website like the Titanic (depending on browser used, of course).
+![](http://devgrow.s3.amazonaws.com/assets/images/root-beer-float-e1270587170844.jpg)We're talking about web development here, not the tasty drink!  Simply put, the [CSS float property](http://www.w3schools.com/css/pr_class_float.asp) allows you to position block-level elements on your page.  In truth, a thorough understanding of this property is key to creating your dream layout - it can singlehandedly help you create a work of art, or if incorrectly used, bring down your website like the Titanic (depending on browser used, of course).
 
 
 
@@ -31,7 +31,7 @@ Last month, I had the pleasure of teaching a friend basic HTML and CSS for a job
 Consider your website like a blank piece of paper.  On it, you have several different elements, each cut out from another piece of paper and placed on this blank sheet.  Using floats allows you to place your sidebar cutout to the right and have your larger content section to the left.  Sure you can achieve a lot of these effects using tables, however using floats allows you to achieve that effect with browser cross-compatibility, fluid layouts and code that's easier to maintain or update (assuming you keep your CSS in a linked stylesheet).
 
 When you float an element, that element will go to either the left or right edge of it's parent container element.  In my example above, the edges of the piece of paper would be considered the edges of the element.  Within it, you could have an element with a width of 50% floated right (blue outline), and within that have an element with another width of 50% floated to the left (red outline) to produce this:
-![](http://devgrow.com/wp-content/uploads/2010/04/css-floats-example1.gif)
+![](http://devgrow.s3.amazonaws.com/assets/images/css-floats-example1.gif)
 
 
 
@@ -92,22 +92,22 @@ CSS Float Practice
 
 
 
-	
 
 
-		
+
+
 
 This element has **float: right;** and **width: 50%;** applied
 
 
-		
-			
+
+
 
 This element has **float: left;** and **width: 50%;** applied
 
 
-		
-	
+
+
 
 
 

@@ -1,0 +1,30 @@
+<article class="post">
+
+  {% if page.external-url %}
+    <h1 class="heading">
+      <a href="{{ page.external-url }}">{{ page.title }}</a>
+      <a class="anchor" href="{{ page.url }}"><i class="icon-anchor"></i></a>
+    </h1>
+  {% else %}
+    <h1 class="heading"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+    <p class="meta">
+      {% if page.author %}
+        By {{ page.author }}
+      {% endif %}
+      {% if show_count %}
+        &bull;
+        {% if page.wordpress_id %}
+          <a href="{{ page.url }}#disqus_thread" class="dsq-postid" rel="{{ page.wordpress_id }} http://devgrow.com/?p={{ page.wordpress_id }}">Comments</a>
+        {% else %}
+          <a href="{{ page.url }}#disqus_thread">Comments</a>
+        {% endif %}
+      {% else %}
+        &bull;
+        Published {{ page.date | date: "%B %d, %Y" }}
+      {% endif %}
+    </p>
+  {% endif %}
+
+  <div class="post-content">{{ content }}</div>
+
+</article>

@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-09-20 18:37:32+00:00
 layout: post
@@ -21,7 +21,7 @@ tags:
 - web design
 ---
 
-As I've mentioned before, I'm working on a premium WordPress themes site at the moment and came across the need for a decent-looking SaaS-style pricing table.  After looking over dozens of other sites to get an idea of what works best, I whipped one up that satisfies the needs of my customers.  To save you a bit of time, I'm sharing the code here so you can use it in your projects as well (GPLicious!).<!-- more -->
+As I've mentioned before, I'm working on a premium WordPress themes site at the moment and came across the need for a decent-looking SaaS-style pricing table.  After looking over dozens of other sites to get an idea of what works best, I whipped one up that satisfies the needs of my customers.  To save you a bit of time, I'm sharing the code here so you can use it in your projects as well (GPLicious!).
 
 
 ## Download
@@ -30,7 +30,7 @@ As I've mentioned before, I'm working on a premium WordPress themes site at the 
 The zip file below contains the CSS and HTML to create all of the elements in the above example, as well as the icon images used.
 [Download HTML/CSS (zip)](http://devgrow.com/examples/pricechart/pricechart.zip)[Live Example](http://devgrow.com/examples/pricechart/)
 
-[![](http://devgrow.com/wp-content/uploads/2010/09/saas-pricechart.gif)](http://devgrow.com/examples/pricechart/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/saas-pricechart.gif)](http://devgrow.com/examples/pricechart/)
 
 To create the price chart/table, I opted to use unordered lists over tables as it makes life easier when you want to change things around later on.  It's also fully valid code (W3C - XHTML 1.0 strict) and looks the same/correct in the latest versions of Firefox, Chrome, Safari, Opera and IE8+.  I haven't tested it in IE6 or IE7 but it _should_ look correct, can someone verify that for me in the comments?
 
@@ -43,97 +43,97 @@ To create the price chart/table, I opted to use unordered lists over tables as i
 
 
 
-	
 
 
-		
 
 
-			
+
+
+
   * Recurring Payments:
 
-			
+
   * Automatic Updates:
 
-			
+
   * Tutorials and Support Docs:
 
-			
+
   * Support Forum Access:
 
-			
+
   * Usage Limits:
 
-		
-	
 
 
-	
 
 
-		
 
 
-			
 
 
-				
+
+
+
+
+
+
   * Category 1Category 2Category 3Hidden Column
 
-				
+
   * $5$10$20$25
 
-				
+
   * ----
 
-				
-  * 
-				
-  * 
-				
-  * 
-				
+
+  *
+
+  *
+
+  *
+
   * Single License2 Licenses2 Licenses
 
-				
+
   * [Browse Our Products](./products)
 
-			
-		
 
 
-		
 
 
-			
 
 
-				
+
+
+
+
+
   * Special Plan
 
-				
+
   * $100
 
-				
+
   * $2 / month
 
-				
-  * 
-				
-  * 
-				
-  * 
-				
+
+  *
+
+  *
+
+  *
+
   * Unlimited Usage
 
-				
+
   * [Join Now](./join)
 
-			
-		
 
 
-	
+
+
+
 
 
 

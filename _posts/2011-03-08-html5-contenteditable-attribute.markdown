@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2011-03-08 22:35:37+00:00
 layout: post
@@ -20,7 +20,7 @@ tags:
 
 I've been trying to utilize HTML5 more recently in a few smaller projects and came across a really cool new attribute: ContentEditable.  You can add this attribute to any HTML element and it automatically makes that (and any element within it) editable.
 
-<!-- more -->
+
 
 
 
@@ -41,10 +41,10 @@ Everything in this paragraph is editable in any modern browser that supports HTM
 
 
 
-	
+
   * Feel free to edit this list element.
 
-	
+
   * Or add more by simply pressing enter after the last list item - no HTML needed!
 
 

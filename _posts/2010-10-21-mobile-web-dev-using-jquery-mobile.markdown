@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-10-21 18:53:53+00:00
 layout: post
@@ -23,7 +23,7 @@ I've released an update to my jQuery Mobile PHP MVC Framework, check out the [bl
 
 
 
-This past weekend, John Resig (creator of jQuery) announced the release of the alpha version of [jQuery Mobile](http://jquerymobile.com/), a simple and lightweight JavaScript framework for mobile web development.  In this article, we'll take a look at how easy it is to create a simple mobile website using framework, complete with dynamic (AJAX) page loading, iOS-style design and slick page transitions.<!-- more -->
+This past weekend, John Resig (creator of jQuery) announced the release of the alpha version of [jQuery Mobile](http://jquerymobile.com/), a simple and lightweight JavaScript framework for mobile web development.  In this article, we'll take a look at how easy it is to create a simple mobile website using framework, complete with dynamic (AJAX) page loading, iOS-style design and slick page transitions.
 
 
 
@@ -36,7 +36,7 @@ This past weekend, John Resig (creator of jQuery) announced the release of the a
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/10/mobile-dev2-screenshot.png)](http://devgrow.com/examples/jquerymobile/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/mobile-dev2-screenshot.png)](http://devgrow.com/examples/jquerymobile/)
 
 
 

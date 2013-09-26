@@ -1,10 +1,10 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2012-01-24 20:27:01+00:00
 layout: post
 slug: working-at-a-startup
-title: 'Working at a Startup: What I''ve Learned Over the Last 6 Months'
+title: 'Working at a Startup: What I''ve Learned Over the Last Six Months'
 wordpress_id: 2437
 categories:
 - General
@@ -16,7 +16,7 @@ tags:
 - startups
 ---
 
-Over the past six months, I've lived and breathed the startup life, working full-time as lead designer/frontend engineer for a pre-Series-A startup in Silicon Valley.  I'm back on the East Coast now tending to some family issues, but I wanted to take some time to reflect on what I've learned over the past few months.<!-- more -->
+Over the past six months, I've lived and breathed the startup life, working full-time as lead designer/frontend engineer for a pre-Series-A startup in Silicon Valley.  I'm back on the East Coast now tending to some family issues, but I wanted to take some time to reflect on what I've learned over the past few months.
 
 
 

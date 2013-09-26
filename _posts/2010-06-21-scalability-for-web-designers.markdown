@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-06-21 16:23:00+00:00
 layout: post
@@ -15,7 +15,7 @@ tags:
 - web design
 ---
 
-A scalable website is one that can handle growth with grace and dignity. Adobe refers to scalability as  "a Web server's ability to maintain a site's availability, reliability, and performance as the amount of simultaneous Web traffic, or load, hitting the Web server increases."  While the bulk of the work is developmental and server-side, web designers can also take steps to ensure your website is capable of handling growth.<!-- more -->
+A scalable website is one that can handle growth with grace and dignity. Adobe refers to scalability as  "a Web server's ability to maintain a site's availability, reliability, and performance as the amount of simultaneous Web traffic, or load, hitting the Web server increases."  While the bulk of the work is developmental and server-side, web designers can also take steps to ensure your website is capable of handling growth.
 
 
 
@@ -30,31 +30,31 @@ Planning ahead is really the key to scalability - try to understand what difficu
 
 #### 1. Modularity
 
-![](http://devgrow.com/wp-content/uploads/2010/06/modular.gif)As your userbase increases, so too will demands of new features and functionality.  You can prepare for this by coding your website modularly - this means using little to no inline CSS or Javascript (link to files instead) and breaking apart the website itself into different files (header, footer, sidebar, etc.) and calling them from your pages.  The goal of creating a modular design is to be able to quickly and efficiently update the design if needed, and it's much easier to edit one file rather than dozens.
+![](http://devgrow.s3.amazonaws.com/assets/images/modular.gif)As your userbase increases, so too will demands of new features and functionality.  You can prepare for this by coding your website modularly - this means using little to no inline CSS or Javascript (link to files instead) and breaking apart the website itself into different files (header, footer, sidebar, etc.) and calling them from your pages.  The goal of creating a modular design is to be able to quickly and efficiently update the design if needed, and it's much easier to edit one file rather than dozens.
 
 
 
 #### 2. Maximum Coverage
 
-![](http://devgrow.com/wp-content/uploads/2010/06/coverage.gif)Just like poor cell phone coverage, a user is likely to leave your site immediately (and increase bounce rates) if they find it difficult to view or incompatible with their limited technology.  I've mentioned this in [previous articles](http://devgrow.com/web-designers-not-everyone-uses-a-mac/) but browser/OS/resolution compatability are vital to successful growth of a website.  While you can argue that old technology is just that - old and obsolete, there are still many corporate companies that use IE6 as their primary browsers.  Small or big, all websites should be accessible to their visitors.  This is not to say you should design for every browser and resolution to have ever existed, try to understand the market you're targeting and build accordingly to that.
+![](http://devgrow.s3.amazonaws.com/assets/images/coverage.gif)Just like poor cell phone coverage, a user is likely to leave your site immediately (and increase bounce rates) if they find it difficult to view or incompatible with their limited technology.  I've mentioned this in [previous articles](http://devgrow.com/web-designers-not-everyone-uses-a-mac/) but browser/OS/resolution compatability are vital to successful growth of a website.  While you can argue that old technology is just that - old and obsolete, there are still many corporate companies that use IE6 as their primary browsers.  Small or big, all websites should be accessible to their visitors.  This is not to say you should design for every browser and resolution to have ever existed, try to understand the market you're targeting and build accordingly to that.
 
 
 
 #### 3. Convincing Call to Action
 
-![](http://devgrow.com/wp-content/uploads/2010/06/calltoaction.gif)With any surge of traffic comes an opportunity to convert temporary visitors into users - try to get your visitors to participate by commenting, register or at least subscribing to an RSS feed.  Make sure your design has some kind of call to action, be it a button asking to sign up for a free trial or a simple RSS e-mail subscription form.  Most people have relatively short attention spans and much more so online, don't make your visitors look for what to do, put it in plain site with a large typeface to help convert them to repeat users ([split testing](http://visualwebsiteoptimizer.com/) can work wonders here).
+![](http://devgrow.s3.amazonaws.com/assets/images/calltoaction.gif)With any surge of traffic comes an opportunity to convert temporary visitors into users - try to get your visitors to participate by commenting, register or at least subscribing to an RSS feed.  Make sure your design has some kind of call to action, be it a button asking to sign up for a free trial or a simple RSS e-mail subscription form.  Most people have relatively short attention spans and much more so online, don't make your visitors look for what to do, put it in plain site with a large typeface to help convert them to repeat users ([split testing](http://visualwebsiteoptimizer.com/) can work wonders here).
 
 
 
 #### 4. Reason to Come Back
 
-![](http://devgrow.com/wp-content/uploads/2010/06/content.gif)Give your users a convincing reason to keep coming back to your website.  The key here is really the constant addition of content, be it from you or your visitors.  If you don't have one, consider adding a blog to keep your users in the loop, or provide some means for your users to contribute content themselves, which increases participation and reduces workload for you.  Having a pleasant user experience (via an intelligent UI design) can also help to increase user retention, so [make your design as painless as possible](http://devgrow.com/design-etiquette-101/) for your users.
+![](http://devgrow.s3.amazonaws.com/assets/images/content.gif)Give your users a convincing reason to keep coming back to your website.  The key here is really the constant addition of content, be it from you or your visitors.  If you don't have one, consider adding a blog to keep your users in the loop, or provide some means for your users to contribute content themselves, which increases participation and reduces workload for you.  Having a pleasant user experience (via an intelligent UI design) can also help to increase user retention, so [make your design as painless as possible](http://devgrow.com/design-etiquette-101/) for your users.
 
 
 
 #### 5. Leverage Social Networks
 
-![](http://devgrow.com/wp-content/uploads/2010/06/social.gif)I've previously outlined several [methods to market websites for free](http://devgrow.com/12-ways-to-market-your-website-for-free/) and I'll repeat one of my suggestions here again: take advantage of the proliferation or social networking sites.  Try adding social sharing buttons to strategic locations in your layout (or use something like [Sharebar](http://devgrow.com/sharebar-wordpress-plugin/)) so users are able to spread your content in a viral nature.
+![](http://devgrow.s3.amazonaws.com/assets/images/social.gif)I've previously outlined several [methods to market websites for free](http://devgrow.com/12-ways-to-market-your-website-for-free/) and I'll repeat one of my suggestions here again: take advantage of the proliferation or social networking sites.  Try adding social sharing buttons to strategic locations in your layout (or use something like [Sharebar](http://devgrow.com/sharebar-wordpress-plugin/)) so users are able to spread your content in a viral nature.
 
 
 

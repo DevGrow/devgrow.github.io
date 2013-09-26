@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-10-18 20:14:12+00:00
 layout: post
@@ -18,7 +18,7 @@ tags:
 - zendesk
 ---
 
-This is the first of many giveaways to come on DevGrow, this week we're giving away **2 [AppSumo](http://appsumo.com/) User Love bundles** for total customer care.  The giveaway contest starts today and the winners will be announced this Friday, so act fast if you want to enter!<!-- more -->
+This is the first of many giveaways to come on DevGrow, this week we're giving away **2 [AppSumo](http://appsumo.com/) User Love bundles** for total customer care.  The giveaway contest starts today and the winners will be announced this Friday, so act fast if you want to enter!
 
 
 
@@ -30,7 +30,7 @@ The AppSumo [User Love Bundle](http://www.appsumo.com/) is all about customer su
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/10/zendesk.gif)](http://www.zendesk.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/zendesk.gif)](http://www.zendesk.com/)
 
 ##### 1. [Zendesk](http://www.zendesk.com/) - $107 Value
 
@@ -42,7 +42,7 @@ Zendesk is web-based customer support software that provides your support agents
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/10/snapengage.gif)](http://www.snapengage.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/snapengage.gif)](http://www.snapengage.com/)
 
 ##### 2. [SnapEngage](http://www.snapengage.com/) - $196 Value
 
@@ -54,7 +54,7 @@ SnapEngage lets you chat with your website visitors in real-time using a single 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/10/getsatisfaction.gif)](http://www.getsatisfaction.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/getsatisfaction.gif)](http://www.getsatisfaction.com/)
 
 ##### 3. [GetSatisfaction](http://www.getsatisfaction.com/) - $76 Value
 
@@ -85,8 +85,8 @@ We are giving away a total of **2 bundles** drawn randomly from our list of entr
 
 
 
-I want an http://AppSumo.com User Love Bundle.  
-Follow @appsumo and RT this to enter! details: http://t.co/KQ0hYa2  
+I want an http://AppSumo.com User Love Bundle.
+Follow @appsumo and RT this to enter! details: http://t.co/KQ0hYa2
 via @ThinkDevGrow
 [Tweet](http://twitter.com/share?url=http%3A%2F%2Fdevgrow.com%2Fappsumo-giveaway&via=ThinkDevGrow&text=I%20want%20an%20http://AppSumo.com%20User%20Love%20Bundle.%20Follow%20@appsumo%20and%20RT%20this%20to%20enter!%20details:)
 
@@ -104,16 +104,16 @@ Don't use Twitter?  Leave a comment below using your e-mail address and you will
 
 
 
-	
+
   * **Starts:** Today, October 18
 
-	
+
   * **Ends:** Friday, October 22
 
-	
+
   * **Number of Winners:** 2
 
-	
+
   * **How to Enter:** Tweet or Comment (or both for 2 entries)
 
 

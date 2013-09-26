@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-09-15 16:37:34+00:00
 layout: post
@@ -19,7 +19,7 @@ tags:
 - web design
 ---
 
-Getting and implementing user feedback is critical to building a great business.  Fortunately for us, there are many great options to perform quick and easy usability tests using a variety of online tools.<!-- more -->
+Getting and implementing user feedback is critical to building a great business.  Fortunately for us, there are many great options to perform quick and easy usability tests using a variety of online tools.
 
 The following tools make usability and user testing affordable, quick and simple:
 
@@ -28,7 +28,7 @@ The following tools make usability and user testing affordable, quick and simple
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/09/usertesting.gif)](http://usertesting.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/usertesting.gif)](http://usertesting.com/)
 
 ##### 1. [UserTesting.com](http://usertesting.com/)
 
@@ -39,7 +39,7 @@ Used by several large companies including Disney, Dell and Sony, UserTesting.com
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/09/feedbackarmy.gif)](http://www.feedbackarmy.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/feedbackarmy.gif)](http://www.feedbackarmy.com/)
 
 ##### 2. [Feedback Army](http://www.feedbackarmy.com/)
 
@@ -50,7 +50,7 @@ This is another user testing site I've personally used with fairly successful re
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/09/userfly.gif)](http://devgrow.com/go/userfly)
+[![](http://devgrow.s3.amazonaws.com/assets/images/userfly.gif)](http://devgrow.com/go/userfly)
 
 ##### 3. [UserFly](http://devgrow.com/go/userfly)
 
@@ -61,7 +61,7 @@ UserFly lets you record the actions your users perform on your website - everyth
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/09/conceptfeedback.gif)](http://www.conceptfeedback.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/conceptfeedback.gif)](http://www.conceptfeedback.com/)
 
 ##### 4. [Concept Feedback](http://www.conceptfeedback.com/)
 
@@ -72,7 +72,7 @@ Concept Feedback allows you to get direct feedback on websites, mockups or even 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/09/clicktale.gif)](http://www.clicktale.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/clicktale.gif)](http://www.clicktale.com/)
 
 ##### 5. [ClickTale](http://www.clicktale.com/default.aspx)
 
@@ -83,7 +83,7 @@ Very similar to UserFly, Click Tale allows you to monitor every action your user
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/09/clixpy.gif)](http://clixpy.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/clixpy.gif)](http://clixpy.com/)
 
 ##### 6. [Clixpy](http://clixpy.com/)
 
@@ -94,7 +94,7 @@ Another simple tool that captures mouse-movement and actions your users perform 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/09/crazyegg.gif)](http://www.crazyegg.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/crazyegg.gif)](http://www.crazyegg.com/)
 
 ##### 7. [CrazyEgg](http://www.crazyegg.com/)
 
@@ -105,7 +105,7 @@ CrazyEgg is a very popular service that lets you track where your user clicks us
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/09/feng-gui.gif)](http://www.feng-gui.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/feng-gui.gif)](http://www.feng-gui.com/)
 
 ##### 8. [Feng-Gui](http://www.feng-gui.com/)
 
@@ -116,7 +116,7 @@ Probably the most interesting out of the bunch (seeing they don't use real users
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/09/fivesecondtest.gif)](http://www.fivesecondtest.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/fivesecondtest.gif)](http://www.fivesecondtest.com/)
 
 ##### 9. [FiveSecondTest](http://fivesecondtest.com/)
 
@@ -127,7 +127,7 @@ The FiveSecondTest is just that - users are allowed to see your mockup or websit
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/09/silverbackapp.gif)](http://silverbackapp.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/silverbackapp.gif)](http://silverbackapp.com/)
 
 ##### 10. [Silverback](http://silverbackapp.com/)
 
@@ -145,16 +145,16 @@ When you're performing a usability test for your website/app, think about questi
 
 
 
-	
+
   * Is it clear what we're trying to sell or what service we're trying to provide?
 
-	
+
   * Did you have any trouble navigating the site?
 
-	
+
   * Is our homepage too busy or cluttered?
 
-	
+
   * What is the worst or most confusing part of the site?
 
 

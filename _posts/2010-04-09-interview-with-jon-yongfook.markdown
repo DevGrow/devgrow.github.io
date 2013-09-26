@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-04-09 20:15:02+00:00
 layout: post
@@ -14,7 +14,7 @@ tags:
 
 This is the first interview for a new series here at DevGrow aimed at learning from multi-talented developers, designers and entrepreneurs on the road to success.
 
-<!-- more -->
+
 
 I first came across Jon's work a few years ago, when he made a big splash in the design community with the release of [SweetCron](http://code.google.com/p/sweetcron/), an open source life-streaming platform.  Since then, he's successfully sold his first startup and is now working on two new products - a Twitter marketing app ([Peashoot](http://peashootapp.com/)) and a simple survey tool ([Seashell](http://seashellapp.com/)).
 
@@ -33,7 +33,7 @@ Like most startup successes (large or small) I think you need a combination of s
 
 I started [Open Source Food](http://www.opensourcefood.com/) (now known as Nibbledish) as a hobby project because I love to cook.  That was important, as it kept me motivated and it also meant I had a community around me who were interested in the project.  Having people around you who can help you spread the word in a genuine way is invaluable.  For sites like that, word of mouth marketing is key - it's just not cost-effective to acquire users by traditional means e.g. SEM, advertising etc.
 
-[![Open Source Food](http://devgrow.com/wp-content/uploads/2010/04/yongfook-osf.jpg)](http://www.opensourcefood.com/)
+[![Open Source Food](http://devgrow.s3.amazonaws.com/assets/images/yongfook-osf.jpg)](http://www.opensourcefood.com/)
 It grew organically to tens of thousands of members and was comfortably doing around 5-figures in AdSense per year.  The site appeared all over Google since people google recipes all the time.  It was by no means a massive success, but it was certainly satisfying to see for a 1-man hobby project, and it was a solid enough base for a larger company / team to take and improve upon.  That's what happened in January 2009.  The deal was a multiple of revenue (i.e. not a billion dollar deal!) and gave me some peace of mind, allowing me to spend time figuring out where I wanted to take my life next! :)
 
 
@@ -54,7 +54,7 @@ I moved the administrative base of the company to Singapore (as opposed to Japan
 
 Actually I like to think they are related! :)  They both have a marketing theme, as that's what I'm most interested in these days. Peashoot is a marketing kit for Twitter and Seashell is a poll and surveys app.
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/yongfook-seashell.gif)](http://seashellapp.com/)[![](http://devgrow.com/wp-content/uploads/2010/04/yongfook-peashoot.gif)](http://peashootapp.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/yongfook-seashell.gif)](http://seashellapp.com/)[![](http://devgrow.s3.amazonaws.com/assets/images/yongfook-peashoot.gif)](http://peashootapp.com/)
 
 
 
@@ -83,7 +83,7 @@ I also very rarely "design" in Photoshop.  I design directly into HTML and CSS, 
 ### What made you choose CodeIgniter for your startups over the many other frameworks (both for PHP and other languages) and have you been happy with that decision?
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/codeigniter.png)](http://codeigniter.com/user_guide/)Probably like many people who are thinking of diving into using a framework, before I started using [CodeIgniter](http://codeigniter.com/) I didn't really understand the MVC format.  Thanks to CodeIgniter's excellent and beautiful documentation, I was able to understand it and soon I was building my first app.  I think it was that ability to get started so quickly that really gave me an affinity for the framework.
+[![](http://devgrow.s3.amazonaws.com/assets/images/codeigniter.png)](http://codeigniter.com/user_guide/)Probably like many people who are thinking of diving into using a framework, before I started using [CodeIgniter](http://codeigniter.com/) I didn't really understand the MVC format.  Thanks to CodeIgniter's excellent and beautiful documentation, I was able to understand it and soon I was building my first app.  I think it was that ability to get started so quickly that really gave me an affinity for the framework.
 
 As my knowledge of PHP and the infrastructure side of web development grew, I then realised that CodeIgniter was also really efficient and fast, too.  I've been using it ever since.
 
@@ -97,16 +97,16 @@ As my knowledge of PHP and the infrastructure side of web development grew, I th
 
 
 
-	
+
   1. **A small amount of CPC-based advertising.**  This will help you validate your market, test out landing pages and pricing etc.
 
-	
+
   2. **Mailing list opt-ins.**  Offering a freebie (such as an ebook) in exchange for an email address and then marketing to that list has proven quite effective.
 
-	
+
   3. **Blog reviews.**  I have never paid for a review and don't think I would - but the most effective marketing I have experienced was a review on a well-respected blog.  It converted customers like crazy. That's was pure luck though - I could definitely work harder on cultivating relationships with good bloggers.  But on a higher level the main objective here would be to create an awesome product - so awesome that lots of people write about it.  That's what I hope to aim for!
 
-	
+
   4. **Banner advertising.**  I've used [FusionAds](http://fusionads.net) before and whilst it didn't work out for me in terms of immediate ROI, it had some indirect effects in terms of awareness.  Your mileage may vary.
 
 
@@ -149,7 +149,7 @@ Thanks again to Jon for participating in this interview and helping shed some li
 
 You can find out more about Jon at his blog, [Yongfook](http://yongfook.com/).  His Tokyo-based company is called [Curious Forest](http://www.curiousforest.com/), check it out if you haven't already!
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/yongfook-blog.gif)](http://yongfook.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/yongfook-blog.gif)](http://yongfook.com/)
 
 
 

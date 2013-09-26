@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2011-02-04 02:18:32+00:00
 layout: post
@@ -18,7 +18,7 @@ tags:
 - wireframe
 ---
 
-This past week, I had the pleasure of demoing three great wireframe mockup applications: [Balsamiq](http://balsamiq.com/), [Mockingbird](https://gomockingbird.com/) and [MockFlow](http://www.mockflow.com/).  While they each have some unique capabilities, I ultimately ended up picking the one that made my work process easier for me and my clients.<!-- more -->
+This past week, I had the pleasure of demoing three great wireframe mockup applications: [Balsamiq](http://balsamiq.com/), [Mockingbird](https://gomockingbird.com/) and [MockFlow](http://www.mockflow.com/).  While they each have some unique capabilities, I ultimately ended up picking the one that made my work process easier for me and my clients.
 
 
 
@@ -30,19 +30,19 @@ I'm currently working on a client project that involved designing several wirefr
 
 
 
-	
+
   1. Be versatile - have many elements that let me create a mockup that truly reflects what I envision
 
-	
+
   2. Let me export in PNG form (or something else that's high quality)
 
-	
+
   3. Allow me to share the work with my client, get direct feedback on it if possible
 
-	
+
   4. Let others work on the mockups if needed (team editing)
 
-	
+
   5. Be affordable
 
 
@@ -57,47 +57,47 @@ Thankfully, all of the mockup applications I used took care of requirements 2 an
 
 I've been following Balsamiq for the past couple of years, ever since reading about [Peldi](http://blogs.balsamiq.com/peldi/) quitting his job and diving into this venture on [HackerNews](http://news.ycombinator.com/).  I remember being glued to his blog and getting giddy as I read about his rapid success (and being thankful that he was sharing this).  So naturally, I have a slight lean towards his product, and it was the first of the applications I tried.
 
-[![](http://devgrow.com/wp-content/uploads/2011/02/balsamiq.gif)](http://balsamiq.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/balsamiq.gif)](http://balsamiq.com/)
 
 
 
 
-	
+
 
 #### Pros
 
 
-	
 
 
-		
+
+
   * Intuitive interface
 
-		
+
   * Endless supply of elements/controls
 
-		
+
   * Plugins for lots of other apps
 
-		
+
   * Has desktop version (Adobe Air)
 
-	
-	
+
+
 
 #### Cons
 
 
-	
 
 
-		
+
+
   * No easy way to share
 
-		
+
   * Standalone doesn't offer team support/editing
 
-	
+
 
 
 
@@ -120,44 +120,44 @@ The only real issues I had with Balsamiq came about when it was time to share my
 
 I also heard about Mockingbird from HackerNews (if you can't tell, I spend a lot of time there).  They were one of the first big web apps I saw using the [Cappuccino](http://cappuccino.org/) framework (Objective-J) developed by the clever guys at [280North](http://www.280north.com/).
 
-[![](http://devgrow.com/wp-content/uploads/2011/02/mockingbird.gif)](http://gomockingbird.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/mockingbird.gif)](http://gomockingbird.com/)
 
 
 
 
-	
+
 
 #### Pros
 
 
-	
 
 
-		
+
+
   * Intuitive interface
 
-		
+
   * JavaScript-based (no plugin required)
 
-		
+
   * Team Collaboration Support
 
-	
-	
+
+
 
 #### Cons
 
 
-	
 
 
-		
+
+
   * No Desktop/Offline Version
 
-		
+
   * Team features not as extensive
 
-	
+
 
 
 
@@ -174,50 +174,50 @@ I came across two issues with Mockingbird.  The first is that while their collec
 
 I came across MockFlow from a Google search for "wireframe mockups" and having seen their landing page, my expectations suddenly dipped.  It simply wasn't as nice as Balsamiq or Mockingbird, so immediately I had a negative connotation of their product.  When I took the time to look at it further and actually try it out, my opinions completely changed.
 
-[![](http://devgrow.com/wp-content/uploads/2011/02/mockflow.gif)](http://www.mockflow.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/mockflow.gif)](http://www.mockflow.com/)
 
 
 
 
-	
+
 
 #### Pros
 
 
-	
 
 
-		
+
+
   * Intuitive interface
 
-		
+
   * Web or Desktop versions
 
-		
+
   * Excellent Team Features
 
-		
+
   * Import Images
 
-		
+
   * MockStore (place to get more elements)
 
-	
-	
+
+
 
 #### Cons
 
 
-	
 
 
-		
+
+
   * No monthly payment option
 
-		
+
   * Flash-based
 
-	
+
 
 
 

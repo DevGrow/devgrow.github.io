@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-09-04 19:33:32+00:00
 layout: post
@@ -15,7 +15,7 @@ tags:
 - tips
 ---
 
-__One of my clients recently asked for an image slideshow on his blog to showcase his photography.  When I asked him how he wanted it to be, he was insistent on using a Flash slideshow over JavaScript.  It turns out that although the Flash gallery was far less useful for him, as he couldn't view it on the iPhone or iPad, he preferred it anyways because it prevented people from right-clicking on his images and saving them to their hard drives.<!-- more -->
+__One of my clients recently asked for an image slideshow on his blog to showcase his photography.  When I asked him how he wanted it to be, he was insistent on using a Flash slideshow over JavaScript.  It turns out that although the Flash gallery was far less useful for him, as he couldn't view it on the iPhone or iPad, he preferred it anyways because it prevented people from right-clicking on his images and saving them to their hard drives.
 
 I spent a good bit of time attempting to explain to him that while people couldn't right-click, they could still easily rip the photos using the Print Screen button or using any screen capture tool.  My suggestion was to simply watermark the images, however he was insistent on having no context-menus show up on right-click.  Ultimately, I ended up using a bit of jQuery to disable all context-menus in any images on the site, which allowed him to use the more compatible JS slideshows:
 

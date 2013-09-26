@@ -1,8 +1,8 @@
-name: Your New Jekyll Site
+name: DevGrow - Design. Develop. Grow.
 markdown: redcarpet
-paginate: 10
+paginate: 30
+paginate_path: ":num"
 pygments: true
 permalink: /:title/
 
-
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'Capfile', 'Guardfile']

@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-04-20 23:11:42+00:00
 layout: post
@@ -14,7 +14,7 @@ tags:
 - productivity
 ---
 
-As a freelance web designer, I make use of a lot of web-based tools and applications to help manage all aspects of my business.  Using these tools has increased my organization, professionalism and timeliness, which in turn has increased profits. The best part?  Most offer free plans for single users (aka freelancers).<!-- more -->
+As a freelance web designer, I make use of a lot of web-based tools and applications to help manage all aspects of my business.  Using these tools has increased my organization, professionalism and timeliness, which in turn has increased profits. The best part?  Most offer free plans for single users (aka freelancers).
 
 
 
@@ -25,7 +25,7 @@ You may think that the plethora of project management apps are made for teams of
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/basecamp.gif)](http://www.basecamphq.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/basecamp.gif)](http://www.basecamphq.com/)
 
 
 #### [Basecamp](http://www.basecamphq.com/)
@@ -35,7 +35,7 @@ The most well-established of project management apps, Basecamp is a solid piece 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/actionmethod.gif)](http://www.actionmethod.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/actionmethod.gif)](http://www.actionmethod.com/)
 
 
 #### [Action Method](http://www.actionmethod.com/)
@@ -44,26 +44,26 @@ The most well-established of project management apps, Basecamp is a solid piece 
 Presents a unique way of managing your projects by reducing them to their basic elements:
 
 
-	
+
   * Action Steps - Tasks
 
-	
+
   * References - Notes, files, sketches, links
 
-	
+
   * Backburners - Ideas (not yet tasks)
 
-	
+
   * Discussions - Messaging
 
-	
+
   * Events - Milestones and due dates
 
 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/unfuddle.gif)](http://www.unfuddle.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/unfuddle.gif)](http://www.unfuddle.com/)
 
 
 #### [Unfuddle](http://www.unfuddle.com/)
@@ -82,7 +82,7 @@ While it's fine to send clients a PayPal payment request for your work, a profes
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/freshbooks.gif)](http://www.freshbooks.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/freshbooks.gif)](http://www.freshbooks.com/)
 
 
 #### [Freshbooks](http://www.freshbooks.com/)
@@ -92,7 +92,7 @@ This Toronto-based service lets you easily track time and send invoices to clien
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/ballpark.gif)](http://www.getballpark.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/ballpark.gif)](http://www.getballpark.com/)
 
 
 #### [Ballpark](http://www.getballpark.com/)
@@ -102,7 +102,7 @@ Made by the popular design studio [MetaLab](http://www.metalabdesign.com/), Ball
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/blinksale.gif)](http://www.blinksale.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/blinksale.gif)](http://www.blinksale.com/)
 
 
 #### [Blinksale](http://www.blinksale.com/)
@@ -112,7 +112,7 @@ Blinksale allows you to send custom designed invoices and even supports recurrin
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/freeagent.gif)](http://www.freeagentcentral.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/freeagent.gif)](http://www.freeagentcentral.com/)
 
 
 #### [Free Agent](http://www.freeagentcentral.com/)
@@ -122,7 +122,7 @@ Packed with a ton of features, Free Agent is the big-daddy of invoicing and acco
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/pulse.gif)](http://www.pulseapp.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/pulse.gif)](http://www.pulseapp.com/)
 
 
 #### [Pulse](http://www.pulseapp.com/)
@@ -141,7 +141,7 @@ If you're a freelance web designer you know all about the significance of mockup
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/mockingbird.gif)](http://www.gomockingbird.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/mockingbird.gif)](http://www.gomockingbird.com/)
 
 
 #### [Mockingbird](http://www.gomockingbird.com/)
@@ -151,7 +151,7 @@ This free (while in beta) tool lets you create mockups directly in your browser 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/balsamiq.gif)](http://www.balsamiq.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/balsamiq.gif)](http://www.balsamiq.com/)
 
 
 #### [Balsamiq](http://www.balsamiq.com/)
@@ -161,7 +161,7 @@ Balsamiq is a highly extensible mockup builder with a web client, desktop client
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/mockflow.gif)](http://www.mockflow.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/mockflow.gif)](http://www.mockflow.com/)
 
 
 #### [Mockflow](http://www.mockflow.com/)
@@ -180,7 +180,7 @@ Clients absolutely love to be able to manage their content without external help
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/lightcms.gif)](http://www.speaklight.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/lightcms.gif)](http://www.speaklight.com/)
 
 
 #### [LightCMS](http://www.speaklight.com/)
@@ -190,7 +190,7 @@ LightCMS is a really a lot more than just a content management system, with supp
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/traffik.gif)](http://www.playintraffik.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/traffik.gif)](http://www.playintraffik.com/)
 
 
 #### [Traffik](http://www.playintraffik.com/)
@@ -200,7 +200,7 @@ Similar to LightCMS, Traffik allows you to manage all aspects of your site (or y
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/cushycms.gif)](http://www.cushycms.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/cushycms.gif)](http://www.cushycms.com/)
 
 
 #### [CushyCMS](http://www.cushycms.com/)
@@ -219,7 +219,7 @@ Any good web designer knows the importance of browser compatability but frankly,
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/litmus.gif)](http://litmusapp.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/litmus.gif)](http://litmusapp.com/)
 
 
 #### [Litmus](http://litmusapp.com/)
@@ -229,7 +229,7 @@ Certainly the best looking site of the three, Litmus is the Basecamp of the brow
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/browsershots.gif)](http://browsershots.org/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/browsershots.gif)](http://browsershots.org/)
 
 
 #### [BrowserShots](http://browsershots.org/)
@@ -239,7 +239,7 @@ BrowserShots is a free, open-source service that takes screenshots on more than 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/browsercam.gif)](http://www.browsercam.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/browsercam.gif)](http://www.browsercam.com/)
 
 
 #### [BrowserCam](http://www.browsercam.com/)
@@ -258,7 +258,7 @@ While most freelancers can get away with providing client support through e-mail
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/zendesk.gif)](http://www.zendesk.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/zendesk.gif)](http://www.zendesk.com/)
 
 
 #### [Zendesk](http://www.zendesk.com/)
@@ -268,7 +268,7 @@ This is probably one of my favorite 'new' web app.  Zendesk is a complete suppor
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/tender.gif)](http://tenderapp.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/tender.gif)](http://tenderapp.com/)
 
 
 #### [Tender](http://tenderapp.com/)
@@ -278,7 +278,7 @@ Made by the creative minds at [entp](http://entp.com/), Tender is another comple
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/04/grasshopper.gif)](http://grasshopper.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/grasshopper.gif)](http://grasshopper.com/)
 
 
 #### [Grasshopper](http://grasshopper.com/)

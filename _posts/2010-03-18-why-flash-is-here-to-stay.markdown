@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-03-18 16:51:56+00:00
 layout: post
@@ -18,7 +18,7 @@ tags:
 - unity
 ---
 
-There's a huge debate stirring around the internet about the capabilities of HTML5 and it's threat to Adobe Flash, Microsoft Silverlight and other rich internet application (RIA) technologies.  The amount of support behind HTML5 is encouraging and great to see, as it will only help it's adoption by both browsers and users, however it is important to understand it's capabilities and limitations.  As the hype builds up, so does the flash-bashing around forums and blogs - something that needs to change.<!-- more -->
+There's a huge debate stirring around the internet about the capabilities of HTML5 and it's threat to Adobe Flash, Microsoft Silverlight and other rich internet application (RIA) technologies.  The amount of support behind HTML5 is encouraging and great to see, as it will only help it's adoption by both browsers and users, however it is important to understand it's capabilities and limitations.  As the hype builds up, so does the flash-bashing around forums and blogs - something that needs to change.
 
 
 
@@ -42,16 +42,16 @@ Let's face it, Flash is everywhere these days.  From streaming video and casual 
 
 
 
-	
+
   * [Complex 3d animation](http://blog.papervision3d.org/) * see edit after conclusion
 
-	
+
   * [Physics](http://www.box2d.org/) and [Particle Dynamics](http://flintparticles.org/examples)
 
-	
+
   * [XML Socket Connections](http://www.kirupa.com/developer/flash8/php5sockets_flash8.htm)
 
-	
+
   * [3rd Party Components](http://ntt.cc/2009/02/13/over-18-great-third-party-tools-for-adobe-flash-2.html) (many commercial)
 
 
@@ -70,22 +70,22 @@ It seems to me that the majority of users with complaints about Flash are users 
 
 
 
-	
+
   * Slow load times
 
-	
+
   * High CPU usage
 
-	
+
   * Poor design and/or usability
 
-	
+
   * Lack of SEO
 
-	
+
   * Plugin Dependency
 
-	
+
   * etc.
 
 

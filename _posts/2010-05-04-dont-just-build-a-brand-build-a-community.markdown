@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-05-04 15:56:48+00:00
 layout: post
@@ -14,26 +14,26 @@ tags:
 - marketing
 ---
 
-Over the past few years, several new web startups have launched and quickly gained momentum, and there's one thing they have in common: they don't just build a brand, they build a community.<!-- more -->
+Over the past few years, several new web startups have launched and quickly gained momentum, and there's one thing they have in common: they don't just build a brand, they build a community.
 
 
 
 ## Brand vs Community
 
 
-![Pepsi Logo](http://devgrow.com/wp-content/uploads/2010/05/brandvscommunity-pepsi.gif)In simple terms, a brand is any company's identity, defined by a name, sign, symbol, design or combination of these things.  Strong brands are able to connect with customers, evoking feelings like trust, reliability and satisfaction.  You may get thirsty when you see the Pepsi symbol, or get hungry when you see those yellow arches - branding is not only about recognition, but also about creating a psychological link (almost Pavlovian) to your products.
+![Pepsi Logo](http://devgrow.s3.amazonaws.com/assets/images/brandvscommunity-pepsi.gif)In simple terms, a brand is any company's identity, defined by a name, sign, symbol, design or combination of these things.  Strong brands are able to connect with customers, evoking feelings like trust, reliability and satisfaction.  You may get thirsty when you see the Pepsi symbol, or get hungry when you see those yellow arches - branding is not only about recognition, but also about creating a psychological link (almost Pavlovian) to your products.
 
 While good branding can help you market and establish your company, building a community can help establish your brand both directly and indirectly to your users.  A good community, in my opinion, should do the following:
 
 
 
-	
+
   1. Connect your business to your customers
 
-	
+
   2. Connect your customers to other customers
 
-	
+
   3. Connect your business to new customers by leveraging existing customers
 
 
@@ -53,13 +53,13 @@ Blogging is probably the easiest and fastest way to connect your business with c
 
 
 
-	
+
   * [Signal vs Noise](http://37signals.com/svn) - The guys at [37signals](http://37signals.com/) know all to well the power of creating a community through blogging - they have a loyal following of 118k RSS readers to promote new products, updates and news.
 
-	
+
   * Peldi of [Balsamiq](http://balsamiq.com/blog) and [Patrick McKenzie](http://www.kalzumeus.com/) of [BingoCardCreator](http://www.bingocardcreator.com/blog-images/bcc-blog-logo.jpg) have also built a strong following by blogging transparently about their business practices and earnings.
 
-	
+
   * Paul Graham of [YCombinator](http://ycombinator.com/) has managed not only to inspire young entrepreneurs but also build a following by writing insightful [essays](http://paulgraham.com/articles.html) on startups
 
 
@@ -73,13 +73,13 @@ A forum can be a great way to give customers and visitors a reason to go back to
 
 
 
-	
+
   * [WordPress](http://wordpress.org/) - The open source publishing platform has a highly active [support forum](http://wordpress.org/support/) powered mainly by users.
 
-	
+
   * Gaming sites like [Kongregate](http://kongregate.com/) and [Nonoba](http://nonoba.com/) have busy forums that improve user retention by providing users yet another way of participating on the site.
 
-	
+
   * Even social networks like MySpace use [forums](http://forums.myspace.com/) to encourage user interaction.
 
 
@@ -93,13 +93,13 @@ Let's face it - social networks are getting increasingly popular and many contin
 
 
 
-	
+
   * Create a [Facebook](http://facebook.com/) group or fan page, invite users to it and update it periodically with news your users may find interesting.  Reply to comments left on your wall to keep users engaged.  Several companies have also started using Facebook to promote giveaways and competitions, with many accumulating hundreds of thousands of users.
 
-	
+
   * [Twitter](http://twitter.com/) can be just as powerful - creating an account takes minutes yet the results can be profound.  Conan O'Brien is proof of the power of Twitter followers - one of his tweets l[ed to the instant celebrity](http://www.popeater.com/2010/03/08/sarah-killen-conan-obrien-twitter/) of a random user.  Twitter has enabled brands and celebrities alike to connect and interact with users directly.
 
-	
+
   * Social linking sites like [Digg](http://digg.com/), [Reddit](http://reddit.com/) and [StumbleUpon](http://stumbleupon.com/) provide buttons that can be easily implemented onto any website and allow your customers to share their experiences with their social circles, bringing in additional users and potential customers.
 
 

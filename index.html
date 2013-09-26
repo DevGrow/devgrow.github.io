@@ -2,48 +2,67 @@
 layout: default
 title: Solar Theme
 ---
+{% if paginator.page == 1 %}
+  <section class="latest-post">
+    {% assign page = site.posts.first %}
+    {% assign content = page.excerpt %}
+    {% assign show_count = true %}
+    {% include post.html %}
+  </section>
+{% endif %}
 
-{% for post in paginator.posts %}
-
-  <article class="post">
-
-    {% if post.external-url %}
-      <h1>
-        <a href="{{ post.external-url }}">{{ post.title }}</a>
-        <a class="anchor" href="{{ post.url }}"><i class="icon-anchor"></i></a>
-      </h1>
-    {% else %}
-      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+<ul class="archived-posts">
+  {% for post in paginator.posts %}
+    {% if post != site.posts.first %}
+      {% if post.external-url %}
+        <li>
+          <a href="{{ post.external-url }}">{{ post.title }}</a>
+          <a class="anchor" href="{{ post.url }}"><i class="icon-anchor"></i></a>
+        </li>
+      {% else %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
     {% endif %}
-
-    <div class="post-content">{{ post.content }}</div>
-
-  </article>
-
-{% endfor %}
-
-
+  {% endfor %}
+</ul>
 
 {% if paginator.total_pages > 1 %}
-  <div class="postnavigation">
+  <div class="pagination">
 
     {% if paginator.previous_page %}
       {% if paginator.page == 2 %}
-        <a class="prev left" href="/">&larr; Newer</a>
+        <a class="prev left" href="/">&larr; Previous</a>
       {% else %}
-        <a class="prev left" href="/page{{paginator.previous_page}}/">&larr; Newer</a>
+        <a class="prev left" href="/{{paginator.previous_page}}/">&larr; Previous</a>
       {% endif %}
     {% else %}
-      <span class="nope left">&larr; Newer</span>
+      <span class="disabled left">&larr; Previous</span>
     {% endif %}
+
+    <span class="bullet">&bull;</span>
 
     <span class="pages">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
 
+    <span class="bullet">&bull;</span>
+
     {% if paginator.next_page %}
-      <a class="next right" href="/page{{paginator.next_page}}/">Older &rarr;</a>
+      <a class="next right" href="/{{paginator.next_page}}/">Next &rarr;</a>
     {% else %}
-      <span class="nope right">Older &rarr;</span>
+      <span class="disabled right">Next &rarr;</span>
     {% endif %}
 
   </div>
 {% endif %}
+
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'devgrow'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>

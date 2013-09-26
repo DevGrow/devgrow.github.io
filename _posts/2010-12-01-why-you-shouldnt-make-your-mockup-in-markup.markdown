@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-12-01 00:08:14+00:00
 layout: post
@@ -17,9 +17,9 @@ tags:
 - web design
 ---
 
-A few days ago on [HackerNews](http://news.ycombinator.com/), one of the top articles on the front page was entitled [Make Your Mockup in Markup](http://24ways.org/2009/make-your-mockup-in-markup).  As someone who makes a living by making websites for various clients, I couldn't help but cringe at the thought of skipping what I consider to be an integral part of web design: the Photoshop mockup.<!-- more -->
+A few days ago on [HackerNews](http://news.ycombinator.com/), one of the top articles on the front page was entitled [Make Your Mockup in Markup](http://24ways.org/2009/make-your-mockup-in-markup).  As someone who makes a living by making websites for various clients, I couldn't help but cringe at the thought of skipping what I consider to be an integral part of web design: the Photoshop mockup.
 
-![](http://devgrow.com/wp-content/uploads/2010/11/batoulapps.gif)
+![](http://devgrow.s3.amazonaws.com/assets/images/batoulapps.gif)
 
 
 
@@ -43,13 +43,13 @@ When you make a website, you cater to several different people, including:
 
 
 
-	
+
   * The client your are designing for (aka the person paying you)
 
-	
+
   * The client's existing customers (aka the people paying the client)
 
-	
+
   * The target market of the website / prospective customers (aka the people that may eventually be paying the client)
 
 

@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-04-02 20:38:16+00:00
 layout: post
@@ -13,7 +13,7 @@ tags:
 - research
 ---
 
-Right now, I'm working on a new business idea for an over-saturated market that has multiple industry leaders sitting on (nearly) untouchable thrones.  That's right, I'm building my own premium themes shop, a one-stop site to buy WordPress templates that make running a professional-looking website very easy.<!-- more -->  If you're not familiar with the premium themes market - specifically WordPress themes - I'll do my best to explain why this overcrowded market is still worth pursuing (at your own risk).
+Right now, I'm working on a new business idea for an over-saturated market that has multiple industry leaders sitting on (nearly) untouchable thrones.  That's right, I'm building my own premium themes shop, a one-stop site to buy WordPress templates that make running a professional-looking website very easy.  If you're not familiar with the premium themes market - specifically WordPress themes - I'll do my best to explain why this overcrowded market is still worth pursuing (at your own risk).
 
 
 
@@ -24,37 +24,37 @@ The premium WordPress themes market is a relatively new one, with most of the bi
 
 
 
-	
+
   * [WooThemes](http://www.woothemes.com/) - Industry leader, started summer 2008, 250k+ uniques per month
 
-	
+
   * [StudioPress](http://www.studiopress.com/), [iThemes](http://ithemes.com) - Sites with comparable traffic (minimum of 120k+ uniques per month, according to compete)
 
-	
+
   * [Templatic](http://templatic.com/), [WPZoom](http://www.wpzoom.com/), etc. - Sites with 60-70k+ unique visitors per month
 
-	
+
   * [OrganicThemes](http://www.organicthemes.com/), [UpThemes](http://www.upthemes.com/) - Sites that are less than 2 months old
 
 
 If typical e-commerce conversion rates of 1-2% hold true to the premium themes market, the traffic stats alone should be convince you enough that this is legitimate market to pursue.  As stated above, WooThemes has openly stated their revenue numbers but I've been able to gather the following stats as well from sites selling on Flippa:
 
-	
+
   * SiteAlexa RankRevenue
 
-	
+
   * [WooThemes](http://www.woothemes.com/)1,802[$2mil/year](http://mixergy.com/woothemes-adriaan-pienaar/)
 
-	
+
   * [WPNow](http://www.wpnow.com/)22,400[$4,000/month](http://flippa.com/auctions/80340/WPNow-Com-4k-RevMonth-3-5k-ProfitMonth-Going-Cheap)
 
-	
+
   * [ThemeWars](http://www.themewars.com)45,585[$2000/month](http://flippa.com/auctions/87526/WordPress-Theme-Membership-Site--PR-5--owned-by-Unique-Blog-Designs)
 
-	
+
   * [Zidalgo](http://flippa.com/auctions/80598/site)97,101[$2300/month](http://flippa.com/auctions/80598/Premium-Wordpress-Themes-Market-ZIDALGO-COM--High-revenue-and-self-sustaining)
 
-	
+
   * [ThemeGalaxy](http://themegalaxy.net)217,850[$1000/month](http://flippa.com/auctions/76033/Established-WordPress-Premium-Theme-Store)
 
 
@@ -78,16 +78,16 @@ There are a few reasons I have decided to work on a premium themes shop, namely:
 
 
 
-	
+
   1. **Client Demand** - several of my repeat clients have requested a more streamlined, cheaper solution to getting their website up
 
-	
+
   2. **Proven Market** - After months of research, I've found that selling premium themes can be very profitable granted certain standards are met
 
-	
+
   3. **Passive Income** - Selling digital goods online is an incredible opportunity to generate passive income (i.e. make money while you sleep)
 
-	
+
   4. **Backlog of Themes** - I have several unreleased and unused themes, remnants of past projects
 
 
@@ -104,13 +104,13 @@ If you do take the plunge and build your "yet another" product, be sure you:
 
 
 
-	
+
   * Make something better than most of the competitors
 
-	
+
   * Offer more at a competitive price
 
-	
+
   * Have a strong marketing plan
 
 

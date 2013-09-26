@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2011-11-27 23:47:10+00:00
 layout: post
@@ -17,7 +17,7 @@ tags:
 - work
 ---
 
-**And we're back!**  First off, apologies for the dry spell in new blog posts over the past 3 months - I've been incredibly busy with a new job, moving to the Bay area, family/personal issues and a buildup of client work (all at once!).  Thankfully things have settled down quite a bit and I should have some time each week to dedicate to DevGrow and my other pet projects.<!-- more -->
+**And we're back!**  First off, apologies for the dry spell in new blog posts over the past 3 months - I've been incredibly busy with a new job, moving to the Bay area, family/personal issues and a buildup of client work (all at once!).  Thankfully things have settled down quite a bit and I should have some time each week to dedicate to DevGrow and my other pet projects.
 
 
 

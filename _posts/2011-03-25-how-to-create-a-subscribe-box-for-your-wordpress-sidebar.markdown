@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2011-03-25 18:53:56+00:00
 layout: post
@@ -18,7 +18,7 @@ tags:
 - WordPress
 ---
 
-A few users have asked me how I've created the Subscribe box in the sidebar and some have even called for a WordPress plugin that helps automate it.  In reality, it's just simple HTML/CSS paired with the [Feedburner subscribe code](http://feedburner.google.com/fb/a/emailsyndication) and can be replicated very easily.  Let's take a look at the code used to create it:<!-- more -->
+A few users have asked me how I've created the Subscribe box in the sidebar and some have even called for a WordPress plugin that helps automate it.  In reality, it's just simple HTML/CSS paired with the [Feedburner subscribe code](http://feedburner.google.com/fb/a/emailsyndication) and can be replicated very easily.  Let's take a look at the code used to create it:
 
 
 
@@ -26,7 +26,7 @@ A few users have asked me how I've created the Subscribe box in the sidebar and 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2011/03/subscribe-big.gif)](http://demos.devgrow.com/subscribe/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/subscribe-big.gif)](http://demos.devgrow.com/subscribe/)
 
 
 
@@ -38,35 +38,35 @@ A few users have asked me how I've created the Subscribe box in the sidebar and 
 
 
 
-	
 
 
-		
+
+
   * [RSS](http://feeds.feedburner.com/devgrow)
 
-		
+
   * [Facebook](http://www.facebook.com/DevGrow)
 
-		
+
   * [Twitter](http://twitter.com/ThinkDevGrow)
 
-	
-	
+
+
 
 ### Subscribe
 
 
-	
+
 
 Join over 2,800 readers and get the latest posts delivered straight to your inbox.
 
 
-	
-		
-		
-		
-		
-	
+
+
+
+
+
+
 
 
 

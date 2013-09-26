@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2011-05-24 16:18:59+00:00
 layout: post
@@ -19,7 +19,7 @@ tags:
 ---
 
 So it turns out you guys really like Notepad++.  It was the clear leader of our last poll, with over 31% of the total votes.  What surprised me, however, was that Dreamweaver was second in popularity, followed by Eclipse.
-<!-- more -->
+
 
 
 ##### Top 5 Code Editors Used by DevGrow Readers:
@@ -28,19 +28,19 @@ So it turns out you guys really like Notepad++.  It was the clear leader of our 
 
 
 
-	
+
   1. [Notepad++](http://notepad-plus-plus.org/)
 
-	
+
   2. [Dreamweaver](http://www.adobe.com/products/dreamweaver.html)
 
-	
+
   3. [Eclipse](http://www.eclipse.org/)
 
-	
+
   4. [NetBeans](http://www.netbeans.org/)
 
-	
+
   5. [Textmate](http://macromates.com/)
 
 
@@ -49,18 +49,18 @@ So it turns out you guys really like Notepad++.  It was the clear leader of our 
 ### Dreamweaver... what the?!
 
 
-![](http://devgrow.com/wp-content/uploads/2011/05/code-editors-big.png)
+![](http://devgrow.s3.amazonaws.com/assets/images/code-editors-big.png)
 I can understand the love for Notepad++, I use it daily as my preferred coding editor, but are that many people still using Dreamweaver?  I remember using Dreamweaver in my earlier days of web development but quickly outgrew it as I moved on to what I thought was better software.  I decided to take a look at Dreamweaver again and was surprised to find that it's come a long way since the Dreamweaver MX days - it has been updated to include a lot of [modern and useful features](http://www.adobe.com/products/dreamweaver/features.html), like:
 
 
 
-	
+
   * **Multiscreen Preview Panel** - Lets you preview in multiple different resolutions (web, iPhone, tablet, etc.) and browser engines
 
-	
+
   * **jQuery Mobile Integration** - You can start a new project using jQuery Mobile that lays out a skeleton framework, which means you can make a mobile app in literally minutes
 
-	
+
   * **CSS3/HTML5 Support** - It supports cool effects like CSS3 transitions and HTML5 goodies
 
 

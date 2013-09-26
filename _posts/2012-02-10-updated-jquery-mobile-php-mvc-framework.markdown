@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2012-02-10 04:50:56+00:00
 layout: post
@@ -19,53 +19,24 @@ tags:
 ---
 
 I've just spent the past couple of days rewriting a lot of the [jQuery Mobile PHP MVC Framework](https://github.com/mdolon/jQuery-Mobile-PHP-MVC).  A complete list of updates is available after the break, so check it out and let me know if you have any feedback!
-<!-- more -->
 
+<div class="download">
+  <a href="https://github.com/mdolon/jQuery-Mobile-PHP-MVC" class="primary">Download at Github</a>
+  <a href="https://github.com/mdolon/jQuery-Mobile-PHP-MVC" class="secondary">Preview</a>
+</div>
 
-
-
-    [Download at Github](https://github.com/mdolon/jQuery-Mobile-PHP-MVC)
-
-
-
-
-[![](http://devgrow.com/wp-content/uploads/2011/01/jquery-mobile-mvc.gif)](https://github.com/mdolon/jQuery-Mobile-PHP-MVC)
-
+[![](http://devgrow.s3.amazonaws.com/assets/images/jquery-mobile-mvc.gif)](https://github.com/mdolon/jQuery-Mobile-PHP-MVC)
 
 #### Updates:
 
-
-
-
-
-
-	
   * Overall code base simplified and cleaned up, unused functions removed
-
-	
   * Support for PHP PDO
-
-	
   * Now uses a simple SQLite database with a single table for the base application
-
-	
   * Now uses a smarter, more effective PHP router class (thanks to [Dan Sosedoff](http://blog.sosedoff.com/2009/09/20/rails-like-php-url-router/))
-
-	
   * All of the code is now thoroughly commented
-
-	
   * You no longer have to specify the base directory, it is automatically directed
-
-	
   * Fixed bug related to page redirections
-
-	
   * Fixed bug that caused buttons to show up improperly
-
-	
   * Fixed bug that prevented 'Back' button from appearing
-
-
 
 Of course, there is always room for improvement so any and all feedback is appreciated.  There are certainly a few bad programming practices, so if more experienced coders could help point them out I will gladly fix them up!

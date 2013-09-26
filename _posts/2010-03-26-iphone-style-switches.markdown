@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-03-26 18:29:42+00:00
 layout: post
@@ -19,11 +19,11 @@ tags:
 - web design
 ---
 
-For my latest project, I created a great interface for an administration panel, complete with great looking forms and buttons.  The one thing that stuck out like a sore thumb, however, were the ugly radio buttons and checkboxes I had to use repeatedly throughout the panel, so I decided to fix them.<!-- more -->  I found [a](http://blog.pengoworks.com/index.cfm/2009/9/3/Create-iPhonestyle-buttons-with-the-iButton-jQuery-Plugin) [few](http://tdreyno.github.com/iphone-style-checkboxes/) [plugins](http://awardwinningfjords.com/2009/06/16/iphone-style-checkboxes.html) that achieved what I wanted, however they were all pretty hefty in file size.  My version doesn't look _as_ cool but makes up for it in file size, weighing less than 3kb and using only one image.
+For my latest project, I created a great interface for an administration panel, complete with great looking forms and buttons.  The one thing that stuck out like a sore thumb, however, were the ugly radio buttons and checkboxes I had to use repeatedly throughout the panel, so I decided to fix them.  I found [a](http://blog.pengoworks.com/index.cfm/2009/9/3/Create-iPhonestyle-buttons-with-the-iButton-jQuery-Plugin) [few](http://tdreyno.github.com/iphone-style-checkboxes/) [plugins](http://awardwinningfjords.com/2009/06/16/iphone-style-checkboxes.html) that achieved what I wanted, however they were all pretty hefty in file size.  My version doesn't look _as_ cool but makes up for it in file size, weighing less than 3kb and using only one image.
 
 
 
-[Download Files Now](http://devgrow.com/wp-content/uploads/2010/03/iphone-style-switches.zip)
+[Download Files Now](http://devgrow.s3.amazonaws.com/assets/images/iphone-style-switches.zip)
 
 
 
@@ -41,7 +41,7 @@ This is in an iframe, however you can also [view the page](http://devgrow.com/ex
 #### Prerequisites
 
 
-You need just two things for this to work correctly: [JQuery 1.3.2+](http://jquery.com/) and the [switch.gif](http://devgrow.com/wp-content/uploads/2010/03/switch.gif) image file used for the backgrounds (both included in the zip file).  After you have those two files, follow the steps below:
+You need just two things for this to work correctly: [JQuery 1.3.2+](http://jquery.com/) and the [switch.gif](http://devgrow.s3.amazonaws.com/assets/images/switch.gif) image file used for the backgrounds (both included in the zip file).  After you have those two files, follow the steps below:
 
 
 
@@ -52,8 +52,8 @@ You need just two things for this to work correctly: [JQuery 1.3.2+](http://jque
 
 
 
-	
-	
+
+
 	Enable
 	Disable
 
@@ -64,7 +64,7 @@ You need just two things for this to work correctly: [JQuery 1.3.2+](http://jque
 
 	On
 	Off
-	
+
 
 
 

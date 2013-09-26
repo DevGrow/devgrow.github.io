@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-11-04 16:48:54+00:00
 layout: post
@@ -17,12 +17,12 @@ tags:
 ---
 
 When I last wrote about my favorite new plugins in July, there were approximately 10,500 plugins in the official [WordPress Plugin Directory](http://wordpress.org/extend/plugins/).  Four months later, that number has reached nearly 12,000!  The following is a list of the best I've found from these new plugins, be sure to check them out:
-<!-- more -->
 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/publish-confirmation.gif)](http://wordpress.org/extend/plugins/publish-confirmation/)
+
+[![](http://devgrow.s3.amazonaws.com/assets/images/publish-confirmation.gif)](http://wordpress.org/extend/plugins/publish-confirmation/)
 
 
 #### [Publish Confirmation](http://wordpress.org/extend/plugins/publish-confirmation/) by [BloggingBookShelf](http://www.bloggingbookshelf.com/wordpress/publish-confirmation-plugin/)
@@ -33,7 +33,7 @@ Have you ever accidentally published a post before it was ready? Yeah. It sucks.
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/gravatar-hovercards.gif)](http://ottopress.com/2010/gravatar-hovercards/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/gravatar-hovercards.gif)](http://ottopress.com/2010/gravatar-hovercards/)
 
 
 #### [Gravatar Hovercards](http://ottopress.com/2010/gravatar-hovercards/)  by [Otto](http://ottopress.com/)
@@ -44,7 +44,7 @@ So this is one isn't an official plugin and thus isn't in the WordPress plugin d
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/nnd-facebook-gravatar.gif)](http://wordpress.org/extend/plugins/nnd-facebook-profile-for-gravatar/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/nnd-facebook-gravatar.gif)](http://wordpress.org/extend/plugins/nnd-facebook-profile-for-gravatar/)
 
 
 #### [NND Facebook Gravatar Grabber](http://wordpress.org/extend/plugins/nnd-facebook-profile-for-gravatar/) by [NerdNextDoor](http://profiles.wordpress.org/users/NerdNextDoor/)
@@ -55,7 +55,7 @@ If a user or commenter has a link to their Facebook Profile Page as their URL li
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/visitor-analytics.gif)](http://wordpress.org/extend/plugins/visitor-analytics/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/visitor-analytics.gif)](http://wordpress.org/extend/plugins/visitor-analytics/)
 
 
 #### [Visitor Analytics](http://wordpress.org/extend/plugins/basic-authentication/) by [Suny Tse](http://ziming.org/dev/visitor-analytics)
@@ -66,7 +66,7 @@ This plugin provides pretty detailed information on your latest visitors, includ
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/diagnosis.gif)](http://wordpress.org/extend/plugins/diagnosis/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/diagnosis.gif)](http://wordpress.org/extend/plugins/diagnosis/)
 
 
 #### [Diagnosis](http://wordpress.org/extend/plugins/diagnosis/) by [GamajoTech](http://profiles.wordpress.org/users/GamajoTech/)
@@ -77,7 +77,7 @@ Diagnosis adds a subpage to the dashboard where the main administrator of the Wo
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/pronamic-page-widget.gif)](http://wordpress.org/extend/plugins/pronamic-page-widget/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/pronamic-page-widget.gif)](http://wordpress.org/extend/plugins/pronamic-page-widget/)
 
 
 #### [Pronamic Page Widget](http://wordpress.org/extend/plugins/pronamic-page-widget/) by [pronamic](http://profiles.wordpress.org/users/pronamic/), [remcotolsma](http://profiles.wordpress.org/users/remcotolsma/)
@@ -88,7 +88,7 @@ This plugin makes it easy to add pages as widgets to your sidebars.  Developers 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/wordpress-firewall-2.gif)](http://wordpress.org/extend/plugins/wordpress-firewall-2/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/wordpress-firewall-2.gif)](http://wordpress.org/extend/plugins/wordpress-firewall-2/)
 
 
 #### [WordPress Firewall 2](http://wordpress.org/extend/plugins/wordpress-firewall-2/) by [Matthew Pavkov](http://matthewpavkov.com/wordpress-plugins/)
@@ -99,7 +99,7 @@ This WordPress plugin investigates web requests with simple, WordPress-specific 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/mystique-extra-nav-icons.gif)](http://wordpress.org/extend/plugins/mystique-extra-nav-icons/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/mystique-extra-nav-icons.gif)](http://wordpress.org/extend/plugins/mystique-extra-nav-icons/)
 
 
 #### [Mystique Extra Nav Icons](http://wordpress.org/extend/plugins/mystique-extra-nav-icons/) by [frasten](http://polpoinodroidi.com/)
@@ -110,7 +110,7 @@ Adds a number of social icons (customizable) above your navigation bar that slid
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/anyfeed-slideshow.gif)](http://wordpress.org/extend/plugins/anyfeed-slideshow/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/anyfeed-slideshow.gif)](http://wordpress.org/extend/plugins/anyfeed-slideshow/)
 
 
 #### [Anyfeed Slideshow](http://wordpress.org/extend/plugins/anyfeed-slideshow/) by [Soleil Golden](http://tixen.net/blog/)
@@ -121,7 +121,7 @@ Anyfeed Slideshow is a plugin that adds a slideshow widget to your library. This
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/allow-php.gif)](http://wordpress.org/extend/plugins/allow-php-in-posts-and-pages/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/allow-php.gif)](http://wordpress.org/extend/plugins/allow-php-in-posts-and-pages/)
 
 
 #### [Allow PHP in Posts and Pages](http://wordpress.org/extend/plugins/allow-php-in-posts-and-pages/) by [Hit Reach](http://profiles.wordpress.org/users/Hit+Reach/)
@@ -132,7 +132,7 @@ Allow PHP in posts and pages adds the functionality to include PHP in wordpress 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/asteroids.gif)](http://wordpress.org/extend/plugins/asteroids-widget/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/asteroids.gif)](http://wordpress.org/extend/plugins/asteroids-widget/)
 
 
 #### [Asteroids Widget](http://wordpress.org/extend/plugins/asteroids-widget/) by [Electric Tree House](http://electrictreehouse.com/)
@@ -143,7 +143,7 @@ Turn your site into the game of Asteroids. Click to start and you can destroy th
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/contactme.gif)](http://wordpress.org/extend/plugins/contactme/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/contactme.gif)](http://wordpress.org/extend/plugins/contactme/)
 
 
 #### [Contact Form](http://wordpress.org/extend/plugins/contactme/) by [ContactMe.com](http://contactme.com/)
@@ -154,7 +154,7 @@ Add the free, eye-catching ContactMe button and contact form to your blog to tur
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/cincopa.gif)](http://wordpress.org/extend/plugins/cincopa-video-slideshow-photo-gallery-podcast-plugin/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/cincopa.gif)](http://wordpress.org/extend/plugins/cincopa-video-slideshow-photo-gallery-podcast-plugin/)
 
 
 #### [Post video players slideshow and photo galleries](http://wordpress.org/extend/plugins/cincopa-video-slideshow-photo-gallery-podcast-plugin/) by [Cincopa](http://www.cincopa.com/)
@@ -165,7 +165,7 @@ Yes, that's really the name of the plugin.  Despite the ridiculously long name, 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/optiontree.gif)](http://wordpress.org/extend/plugins/option-tree/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/optiontree.gif)](http://wordpress.org/extend/plugins/option-tree/)
 
 
 #### [Option Tree](http://wordpress.org/extend/plugins/option-tree/) by [Valen Designs](http://www.valendesigns.com/)
@@ -176,7 +176,7 @@ With OptionTree you can create as many Theme Options as your project requires an
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/postviaemail.gif)](http://wordpress.org/extend/plugins/postviaemail/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/postviaemail.gif)](http://wordpress.org/extend/plugins/postviaemail/)
 
 
 #### [Post Via Email](http://wordpress.org/extend/plugins/postviaemail/) by [jonefox](http://profiles.wordpress.org/users/jonefox/)

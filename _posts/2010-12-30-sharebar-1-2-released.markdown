@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-12-30 23:11:30+00:00
 layout: post
@@ -16,8 +16,8 @@ tags:
 ---
 
 I've just finished an update to the Sharebar WordPress plugin that adds color selectors for the vertical widget, new [ShareThis](http://www.sharethis.com/) buttons and a switch to the Facebook Like (from Facebook Share) button.  I had planned to have AJAX loading of buttons finished with this release however it's proving to be a bit more difficult than I originally expected.
-<!-- more -->
-![](http://devgrow.com/wp-content/uploads/2010/12/v1.2.gif)
+
+![](http://devgrow.s3.amazonaws.com/assets/images/v1.2.gif)
 
 
 

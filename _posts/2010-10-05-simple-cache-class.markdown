@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-10-05 15:45:35+00:00
 layout: post
@@ -20,7 +20,7 @@ tags:
 - web development
 ---
 
-Recently for a small project, I turned one of my previous [WordPress cache experiments](http://www.hongkiat.com/blog/display-wordpress-sidebar-on-other-non-wp-sites/) into a simple, reusable PHP class that you can throw into any project for quick caching.  It's released under MIT license so feel free to use and modify it however you'd like!<!-- more -->
+Recently for a small project, I turned one of my previous [WordPress cache experiments](http://www.hongkiat.com/blog/display-wordpress-sidebar-on-other-non-wp-sites/) into a simple, reusable PHP class that you can throw into any project for quick caching.  It's released under MIT license so feel free to use and modify it however you'd like!
 
 
 ## Download

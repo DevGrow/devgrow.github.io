@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-02-15 03:57:06+00:00
 layout: post
@@ -12,23 +12,23 @@ tags:
 - devgrow
 ---
 
-Welcome to the all new **DevGrow**.  What first started out as a experimental social network for entrepreneurs and investors and ended up as a blog for the same audience, we are back to focus on what we know best - the design, development and growth of your website. <!-- more -->Whether it's a new blog about the iPad or the next Farmville, our goal is to help you better understand and appreciate the web by providing resources on:
+Welcome to the all new **DevGrow**.  What first started out as a experimental social network for entrepreneurs and investors and ended up as a blog for the same audience, we are back to focus on what we know best - the design, development and growth of your website. Whether it's a new blog about the iPad or the next Farmville, our goal is to help you better understand and appreciate the web by providing resources on:
 
 
 
-	
+
   * Graphic design
 
-	
+
   * HTML and CSS tutorials
 
-	
+
   * Web design and creative inspiration
 
-	
+
   * Icon packs and other freebies
 
-	
+
   * Tips on freelancing and creative direction
 
 

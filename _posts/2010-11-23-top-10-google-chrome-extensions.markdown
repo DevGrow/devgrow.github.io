@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-11-23 23:35:04+00:00
 layout: post
@@ -18,7 +18,7 @@ tags:
 - web browsers
 ---
 
-What can I say, I've been in love with [Google Chrome](http://www.google.com/chrome/intl/en/landing_chrome.html?hl=en) since they day it was released.  I resisted using it until extensions were added, as I was highly dependent on my Firefox plugins as a web developer.  As Chrome gets more and more popular, tons of great extensions are being developed that have made it one of the (if not the) best browsers around.<!-- more -->
+What can I say, I've been in love with [Google Chrome](http://www.google.com/chrome/intl/en/landing_chrome.html?hl=en) since they day it was released.  I resisted using it until extensions were added, as I was highly dependent on my Firefox plugins as a web developer.  As Chrome gets more and more popular, tons of great extensions are being developed that have made it one of the (if not the) best browsers around.
 
 
 
@@ -30,7 +30,7 @@ I'm always looking for ways to increase productivity and improve my overall expe
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/stayfocused.gif)](https://chrome.google.com/extensions/detail/laankejkbhbdhmipfmgcngdelahlfoji)
+[![](http://devgrow.s3.amazonaws.com/assets/images/stayfocused.gif)](https://chrome.google.com/extensions/detail/laankejkbhbdhmipfmgcngdelahlfoji)
 
 
 #### 1. [StayFocusd](https://chrome.google.com/extensions/detail/laankejkbhbdhmipfmgcngdelahlfoji)
@@ -44,7 +44,7 @@ This extension is **highly recommended**. StayFocusd is a productivity extension
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/eyedropper.gif)](https://chrome.google.com/extensions/detail/hmdcmlfkchdmnmnmheododdhjedfccka)
+[![](http://devgrow.s3.amazonaws.com/assets/images/eyedropper.gif)](https://chrome.google.com/extensions/detail/hmdcmlfkchdmnmnmheododdhjedfccka)
 
 
 #### 2. [Eye Dropper](https://chrome.google.com/extensions/detail/hmdcmlfkchdmnmnmheododdhjedfccka)
@@ -55,7 +55,7 @@ Eye Dropper is extension for Google Chrome and Chromium that allows you to pick 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/seo-site-tools.gif)](https://chrome.google.com/extensions/detail/diahigjngdnkdgajdbpjdeomopbpkjjc)
+[![](http://devgrow.s3.amazonaws.com/assets/images/seo-site-tools.gif)](https://chrome.google.com/extensions/detail/diahigjngdnkdgajdbpjdeomopbpkjjc)
 
 
 #### 3. [SEO Site Tools](https://chrome.google.com/extensions/detail/diahigjngdnkdgajdbpjdeomopbpkjjc)
@@ -68,7 +68,7 @@ SEO Site Tools provides extensive information on the SEO and ranking of the site
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/css-reloader.gif)](https://chrome.google.com/extensions/detail/dnfpcpfijpdhabaoieccoclghgplmpbd)
+[![](http://devgrow.s3.amazonaws.com/assets/images/css-reloader.gif)](https://chrome.google.com/extensions/detail/dnfpcpfijpdhabaoieccoclghgplmpbd)
 
 
 #### 4. [CSS Reloader](https://chrome.google.com/extensions/detail/dnfpcpfijpdhabaoieccoclghgplmpbd)
@@ -79,7 +79,7 @@ CSS Reloader is an extension that allows you to reload all the CSS of any site w
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/pendule.gif)](https://chrome.google.com/extensions/detail/gbkffbkamcejhkcaocmkdeiiccpmjfdi)
+[![](http://devgrow.s3.amazonaws.com/assets/images/pendule.gif)](https://chrome.google.com/extensions/detail/gbkffbkamcejhkcaocmkdeiiccpmjfdi)
 
 
 #### 5. [Pendule](https://chrome.google.com/extensions/detail/gbkffbkamcejhkcaocmkdeiiccpmjfdi#)
@@ -90,7 +90,7 @@ Pendule is an advanced set of web developer tools that allows you to easily view
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/annotate.gif)](https://chrome.google.com/extensions/detail/alelhddbbhepgpmgidjdcjakblofbmce)
+[![](http://devgrow.s3.amazonaws.com/assets/images/annotate.gif)](https://chrome.google.com/extensions/detail/alelhddbbhepgpmgidjdcjakblofbmce)
 
 
 #### 6. [Awesome Screenshot](https://chrome.google.com/extensions/detail/alelhddbbhepgpmgidjdcjakblofbmce)
@@ -103,7 +103,7 @@ Awesome Screenshot lets you capture the whole webpage or any portion of it, anno
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/stylebot.gif)](https://chrome.google.com/extensions/detail/oiaejidbmkiecgbjeifoejpgmdaleoha)
+[![](http://devgrow.s3.amazonaws.com/assets/images/stylebot.gif)](https://chrome.google.com/extensions/detail/oiaejidbmkiecgbjeifoejpgmdaleoha)
 
 
 #### 7. [Stylebot](https://chrome.google.com/extensions/detail/oiaejidbmkiecgbjeifoejpgmdaleoha)
@@ -114,7 +114,7 @@ Stylebot is a Chrome extension that aims to simplify customizing the web, making
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/measureit.gif)](https://chrome.google.com/extensions/detail/aonjhmdcgbgikgjapjckfkefpphjpgma)
+[![](http://devgrow.s3.amazonaws.com/assets/images/measureit.gif)](https://chrome.google.com/extensions/detail/aonjhmdcgbgikgjapjckfkefpphjpgma)
 
 
 #### 8. [MeasureIt!](https://chrome.google.com/extensions/detail/aonjhmdcgbgikgjapjckfkefpphjpgma)
@@ -125,7 +125,7 @@ As the name of the extension suggests, MeasureIt! provides a display ruler that 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/ultimate-flags.gif)](https://chrome.google.com/extensions/detail/dbpojpfdiliekbbiplijcphappgcgjfn)
+[![](http://devgrow.s3.amazonaws.com/assets/images/ultimate-flags.gif)](https://chrome.google.com/extensions/detail/dbpojpfdiliekbbiplijcphappgcgjfn)
 
 
 #### 9. [Ultimate Chrome Flag](https://chrome.google.com/extensions/detail/dbpojpfdiliekbbiplijcphappgcgjfn)
@@ -136,7 +136,7 @@ This extension shows a country or region flag indicating the location of the web
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/speed-tracer.gif)](https://chrome.google.com/extensions/detail/ognampngfcbddbfemdapefohjiobgbdl)
+[![](http://devgrow.s3.amazonaws.com/assets/images/speed-tracer.gif)](https://chrome.google.com/extensions/detail/ognampngfcbddbfemdapefohjiobgbdl)
 
 
 #### 10. [Speed Tracer](https://chrome.google.com/extensions/detail/ognampngfcbddbfemdapefohjiobgbdl)
@@ -156,7 +156,7 @@ Speed Tracer is a tool to help you identify and fix performance problems in your
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/web-developer.gif)](https://chrome.google.com/extensions/detail/bfbameneiokkgbdmiekhjnmfkcnldhhm)
+[![](http://devgrow.s3.amazonaws.com/assets/images/web-developer.gif)](https://chrome.google.com/extensions/detail/bfbameneiokkgbdmiekhjnmfkcnldhhm)
 
 
 #### 11. [Web Developer](https://chrome.google.com/extensions/detail/bfbameneiokkgbdmiekhjnmfkcnldhhm)
@@ -167,7 +167,7 @@ Similar to Pendule, the Web Developer extension adds a toolbar button to the bro
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/11/firebug-lite.gif)](https://chrome.google.com/extensions/detail/bmagokdooijbeehmkpknfglimnifench)
+[![](http://devgrow.s3.amazonaws.com/assets/images/firebug-lite.gif)](https://chrome.google.com/extensions/detail/bmagokdooijbeehmkpknfglimnifench)
 
 
 #### 12. [Firebug Lite](https://chrome.google.com/extensions/detail/bmagokdooijbeehmkpknfglimnifench)

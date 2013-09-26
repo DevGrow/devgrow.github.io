@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2011-01-14 20:06:20+00:00
 layout: post
@@ -20,7 +20,7 @@ tags:
 - ways to make money
 ---
 
-There is an interesting discussion brewing over at [HackerNews](http://news.ycombinator.com/item?id=2103955) on whether it's worthy to pursue a remarkable, "world-changing" idea that you think will never make any money.  Having worked seriously on at least one non-profit project over the past few years, I've gone through the same thought process before and ultimately realized that if your idea is really that much of a game changer, there's always a way to make money.<!-- more -->
+There is an interesting discussion brewing over at [HackerNews](http://news.ycombinator.com/item?id=2103955) on whether it's worthy to pursue a remarkable, "world-changing" idea that you think will never make any money.  Having worked seriously on at least one non-profit project over the past few years, I've gone through the same thought process before and ultimately realized that if your idea is really that much of a game changer, there's always a way to make money.
 
 
 
@@ -36,13 +36,13 @@ So you can offset the costs associated with it, but how do you profit off of thi
 
 
 
-	
+
   * **Write a book** - Whether it's about your experiences starting the project, how you came up with the idea, what it means for the world, etc., there's always something to write about that the people you've impacted will enjoy reading (and purchasing)
 
-	
+
   * **Speaking engagements** - Many speaking gigs offer money, so there is the very real potential of being paid to talk about how your idea has had an impact on the world
 
-	
+
   * **Marketability** - In the event that you become somewhat popular or have direct influence over a lot of people, any new project you start will automatically garner a lot of public attention (more eyes/visits = more conversions = more $$$)
 
 
@@ -57,7 +57,7 @@ All of these points are besides the fact that you will improve the lives of othe
 
 
 
-> 
+>
 ... Serve humanity and humanity will serve you. A journey of a thousand miles starts with one step. Good speed, and do not listen to the naysayers. I have set out on an amazing journey myself, and the more I depanded from the universe - by giving away what I had to give of my talent- the more I got back. Not that you should go hungry. You can manage in balance.
 
 

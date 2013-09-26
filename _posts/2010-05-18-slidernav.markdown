@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: false
 date: 2010-05-18 00:24:42+00:00
 layout: post
@@ -21,7 +21,7 @@ tags:
 - WordPress
 ---
 
-This effect is actually from [Techi.com](http://techi.com/), a new blog launched by the guys at [WebDesignerDepot](http://webdesignerdepot.com/), where they use it to display their popular tags in the sidebar.  I wanted to see how easy (or hard) it was to recreate using JQuery and CSS, and it turns out that it's pretty simple to do.  I've packed it into a neat little plugin so you hopefully you can make some use of it!<!-- more -->
+This effect is actually from [Techi.com](http://techi.com/), a new blog launched by the guys at [WebDesignerDepot](http://webdesignerdepot.com/), where they use it to display their popular tags in the sidebar.  I wanted to see how easy (or hard) it was to recreate using JQuery and CSS, and it turns out that it's pretty simple to do.  I've packed it into a neat little plugin so you hopefully you can make some use of it!
 
 
 **Updated May 25:** I've just added a new option that displays arrows above and below the SliderNav object.  This is used to navigate longer sections for users that do not have a mouse wheel (or those who are on a mobile browser).
@@ -58,63 +58,63 @@ After you've done that, create the section content in HTML using the following s
 
 
 
-    
 
 
-        
 
 
-            
+
+
+
   * A
-                
-                    
+
+
     * [Adam](/)
 
-                    
+
     * [Alex](/)
 
-                    
+
     * [Ali](/)
 
-                    
+
     * [Apple](/)
 
-                    
+
     * [Arthur](/)
 
-                    
+
     * [Ashley](/)
 
-                
-            
 
-            
+
+
+
   * B
-                
-                    
+
+
     * [Barry](/)
 
-                    
+
     * [Becky](/)
 
-                    
+
     * [Biff](/)
 
-                    
+
     * [Billy](/)
 
-                    
+
     * [Bozarking](/)
 
-                    
+
     * [Bryan](/)
 
-                
-            
+
+
 
             etc...
-        
-    
+
+
 
 
 

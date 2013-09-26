@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-07-28 21:21:33+00:00
 layout: post
@@ -15,12 +15,12 @@ tags:
 - WordPress
 ---
 
-The real beauty of WordPress is the immense community of developers behind it.  Several plugins are created and added to the [official plugin directory](http://wordpress.org/extend/plugins/) every single day, which now catalogs nearly 10,500 in all!  It's always interesting to check out the newest plugins on WordPress to see what people are up to, and these are among my favorites:<!-- more -->
+The real beauty of WordPress is the immense community of developers behind it.  Several plugins are created and added to the [official plugin directory](http://wordpress.org/extend/plugins/) every single day, which now catalogs nearly 10,500 in all!  It's always interesting to check out the newest plugins on WordPress to see what people are up to, and these are among my favorites:
 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/atd-comments.gif)](http://wordpress.org/extend/plugins/atd-for-comments/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/atd-comments.gif)](http://wordpress.org/extend/plugins/atd-for-comments/)
 
 
 #### [After The Deadline For Comments](http://wordpress.org/extend/plugins/atd-for-comments/) by [Otto](http://ottodestruct.com/)
@@ -31,7 +31,7 @@ If you're not using it, I highly recommend the After the Deadline plugin, which 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/dukapress.gif)](http://dukapress.org/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/dukapress.gif)](http://dukapress.org/)
 
 
 #### [DukaPress](http://wordpress.org/extend/plugins/dukapress/)  by [DukaPress.org](http://dukapress.org/)
@@ -42,7 +42,7 @@ DukaPress is open source software that can be used to build online shops quickly
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/page-template-thumbs.gif)](http://wordpress.org/extend/plugins/page-template-thumbnails/screenshots/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/page-template-thumbs.gif)](http://wordpress.org/extend/plugins/page-template-thumbnails/screenshots/)
 
 
 #### [Page Template Thumbnails](http://wordpress.org/extend/plugins/page-template-thumbnails/screenshots/) by [C. Tullos](http://illumifi.net/)
@@ -53,7 +53,7 @@ This plugin creates a thumbnail list of the available page templates.  Clicking 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/basic-authentication.gif)](http://wordpress.org/extend/plugins/basic-authentication/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/basic-authentication.gif)](http://wordpress.org/extend/plugins/basic-authentication/)
 
 
 #### [Basic Authentication](http://wordpress.org/extend/plugins/basic-authentication/) by [Klaas Cuvelier](http://www.cuvedev.net/)
@@ -64,7 +64,7 @@ With this plugin, you can ask users to authenticate before they can see your Wor
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/top-contributors.gif)](http://wordpress.org/extend/plugins/top-contributors/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/top-contributors.gif)](http://wordpress.org/extend/plugins/top-contributors/)
 
 
 #### [Top Contributors](http://wordpress.org/extend/plugins/top-contributors/) by [Robin Dalton](http://justmyecho.com/)
@@ -75,7 +75,7 @@ Give your loyal visitors and contributors some recognition by adding a list of y
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/auto-tweet.gif)](http://wordpress.org/extend/plugins/autotwitter/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/auto-tweet.gif)](http://wordpress.org/extend/plugins/autotwitter/)
 
 
 #### [Auto Twitter](http://wordpress.org/extend/plugins/autotwitter/) by [Unreal Media](http://www.unrealmediallc.com/)
@@ -86,7 +86,7 @@ Auto Twitter is a wordpress plugin that automatically tweets each new blog post 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/wp-issue.gif)](http://wordpress.org/extend/plugins/wp-issuetracker/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/wp-issue.gif)](http://wordpress.org/extend/plugins/wp-issuetracker/)
 
 
 #### [WP-IssueTracker](http://wordpress.org/extend/plugins/wp-issuetracker/) by [Mahmoud Sakr](http://sakr.me/)
@@ -97,7 +97,7 @@ WP-IssueTracker is a full (yet basic) issue tracking system powered by WordPress
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/wp-invoice.gif)](http://wordpress.org/extend/plugins/wordpress3-invoice/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/wp-invoice.gif)](http://wordpress.org/extend/plugins/wordpress3-invoice/)
 
 
 #### [WordPress 3 Invoices](http://wordpress.org/extend/plugins/wordpress3-invoice/) by [Elliot Condon](http://www.elliotcondon.com/)
@@ -108,7 +108,7 @@ This plugin lets you generate great looking invoices directly from your WordPres
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/wp-imagehost.gif)](http://wordpress.org/extend/plugins/wp-imagehost/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/wp-imagehost.gif)](http://wordpress.org/extend/plugins/wp-imagehost/)
 
 
 #### [WP ImageHost](http://wordpress.org/extend/plugins/wp-imagehost/) by [Hauke Leweling](http://www.milchrausch.de/)
@@ -119,7 +119,7 @@ The WordPress Plugin WP ImageHost is a simple and easy to configurable plugin to
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/register-login.gif)](http://wordpress.org/extend/plugins/registration-login/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/register-login.gif)](http://wordpress.org/extend/plugins/registration-login/)
 
 
 #### [Registration-Login](http://wordpress.org/extend/plugins/registration-login/) by [Md. Jamal Hossain Khan](http://wordpress.org/extend/plugins/registration-login/)
@@ -130,7 +130,7 @@ Add a JavaScript loaded widget to your WordPress theme so user can login, regist
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/wordpress2.gif)](http://wordpress.org/extend/plugins/remove-wordpress-to-wordpress-filter/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/wordpress2.gif)](http://wordpress.org/extend/plugins/remove-wordpress-to-wordpress-filter/)
 
 
 #### [Remove Wordpress to WordPress](http://wordpress.org/extend/plugins/remove-wordpress-to-wordpress-filter/) by [Tom Lany](http://tomlany.net/)
@@ -141,7 +141,7 @@ WordPress introduced a new filter called `capital_P_dangit` that changes all ins
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/tab.gif)](http://wordpress.org/extend/plugins/tabs-in-post-editor/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/tab.gif)](http://wordpress.org/extend/plugins/tabs-in-post-editor/)
 
 
 #### [Tabs in Post Editor](http://wordpress.org/extend/plugins/tabs-in-post-editor/) by [Aaron Harun](http://aahacreative.com/)
@@ -152,7 +152,7 @@ This simple plugin allows you to use the tab-key inside the post editor to inden
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/wp-index.gif)](http://wordpress.org/extend/plugins/index-press/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/wp-index.gif)](http://wordpress.org/extend/plugins/index-press/)
 
 
 #### [Index Press](http://wordpress.org/extend/plugins/index-press/) by [GrandSlambert](http://wordpress.grandslambert.com/)
@@ -163,7 +163,7 @@ Provides a standard index of content in your site using a short code. Sorts resu
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/wp-chat.gif)](http://wordpress.org/extend/plugins/wp-chat/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/wp-chat.gif)](http://wordpress.org/extend/plugins/wp-chat/)
 
 
 #### [WP Chat](http://wordpress.org/extend/plugins/wp-chat/) by [Abhinav Singh](http://abhinavsingh.com/blog)
@@ -174,7 +174,7 @@ WP Chat plugin embeds Jaxl IM (Instant Messenger for the web) for wordpress blog
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/bm-shots.gif)](http://www.binarymoon.co.uk/projects/bm-shots-automated-screenshots-website/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/bm-shots.gif)](http://www.binarymoon.co.uk/projects/bm-shots-automated-screenshots-website/)
 
 
 #### [BM Shots](http://www.binarymoon.co.uk/projects/bm-shots-automated-screenshots-website/) by [BinaryMoon](http://www.binarymoon.co.uk/)

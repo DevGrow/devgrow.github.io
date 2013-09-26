@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-03-10 05:14:42+00:00
 layout: post
@@ -13,7 +13,7 @@ tags:
 - thoughts
 ---
 
-A new and exciting opportunity was announced today and it's certainly worth sharing.  Google [has unveiled](http://googleblog.blogspot.com/2010/03/open-for-business-google-apps.html) a new marketplace for Google Apps, appropriately named (you guessed it) the [Google Apps Marketplace](http://google.com/appsmarketplace).  There are more than 2 million businesses with over 25 million users currently using Google Apps, many of whom are willing to spend money for a useful app, as they're already paying Google for using the base service.<!-- more -->
+A new and exciting opportunity was announced today and it's certainly worth sharing.  Google [has unveiled](http://googleblog.blogspot.com/2010/03/open-for-business-google-apps.html) a new marketplace for Google Apps, appropriately named (you guessed it) the [Google Apps Marketplace](http://google.com/appsmarketplace).  There are more than 2 million businesses with over 25 million users currently using Google Apps, many of whom are willing to spend money for a useful app, as they're already paying Google for using the base service.
 
 
 

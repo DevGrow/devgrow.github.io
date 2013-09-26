@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-04-18 16:44:59+00:00
 layout: post
@@ -14,7 +14,7 @@ tags:
 - success
 ---
 
-It's easy to get lost in the details, finances or prospects of an online project and overlook the time-tested trick to building a successful business: creating value for the end user.  This post is to serve as a reminder (for myself more than anyone else) on this simple and obvious concept.<!-- more -->
+It's easy to get lost in the details, finances or prospects of an online project and overlook the time-tested trick to building a successful business: creating value for the end user.  This post is to serve as a reminder (for myself more than anyone else) on this simple and obvious concept.
 
 
 
@@ -25,16 +25,16 @@ Value is the draw behind your product, the reason it will sell or attract users.
 
 
 
-	
+
   * Does your product address a specific need, be it yours or someone else's?
 
-	
+
   * Does your product satisfy the end user?
 
-	
+
   * Is your product something worth the time, money and/or attention of the end user?
 
-	
+
   * Is your product something you can be proud of?
 
 

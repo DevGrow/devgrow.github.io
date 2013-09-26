@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-11-08 16:49:31+00:00
 layout: post
@@ -19,27 +19,27 @@ tags:
 - WordPress
 ---
 
-In last month's poll, I asked the question "What CMS is best for maintaining a static website?"  Let's take a look at the responses and what they mean (and why I disagree with the majority here).<!-- more -->
+In last month's poll, I asked the question "What CMS is best for maintaining a static website?"  Let's take a look at the responses and what they mean (and why I disagree with the majority here).
 
 
 
 
-	
+
   1. **WordPress - 76%**
 
-	
+
   2. Custom CMS - 18%
 
-	
+
   3. Drupal - 8%
 
-	
+
   4. FrogCMS - 0%
 
 
 
 It turns out the vast majority of readers feel that WordPress is best suited for maintaining a static website.  As a web developer with many clients that frequently demand static websites, I actually have to disagree with this notion.  WordPress may be the best CMS for many sites, however it is packed with features and options that you probably don't need on a simple, static website.  It's simply overkill for simple sites and contains features which may end up confusing your client rather than helping them maintain their site.
-![](http://devgrow.com/wp-content/uploads/2010/11/kiss.jpg)
+![](http://devgrow.s3.amazonaws.com/assets/images/kiss.jpg)
 
 
 ### Always Apply KISS
@@ -51,13 +51,13 @@ If you're one of the few who doesn't know what KISS is, it is an acronym for _Ke
 
 
 
-	
+
   * Content Editing via Authentication
 
-	
+
   * Possibly uploading images and rich media
 
-	
+
   * Minimal (if any) DB interaction
 
 
@@ -79,7 +79,7 @@ For the minimal features listed above, it's often easier to just code a simple, 
 ### The Other Options
 
 
-![](http://devgrow.com/wp-content/uploads/2010/11/drupal-frog.jpg)
+![](http://devgrow.s3.amazonaws.com/assets/images/drupal-frog.jpg)
 Two of the other options were [Drupal](http://drupal.org/) and [FrogCMS](http://www.madebyfrog.com/).  Drupal is definitely overkill for any simple, static website.  FrogCMS, on the other hand, is probably a little more complex than a custom CMS you code but is still very bare-bones.  If you haven't heard of it, be sure to check out their site and the [administration demo](http://www.opensourcecms.com/demo/2/28/Frog).  It may even be worthwhile to start with FrogCMS and strip down all the excess features you don't need to get to your ideal custom CMS.
 
 
@@ -87,7 +87,7 @@ Two of the other options were [Drupal](http://drupal.org/) and [FrogCMS](http://
 ### Your Thoughts and New Poll
 
 
-![](http://devgrow.com/wp-content/uploads/2010/11/internet-explorer.jpg)
+![](http://devgrow.s3.amazonaws.com/assets/images/internet-explorer.jpg)
 If you're one of the people who picked WordPress, what are your thoughts on what I've said so far?  Do you agree or disagree with the notion that WordPress is probably overkill for many static websites?  Voice your thoughts in the comments!
 
 Also, take a look at this month's poll in the right hand column: **What is the lowest version of Internet Explorer your websites support?**

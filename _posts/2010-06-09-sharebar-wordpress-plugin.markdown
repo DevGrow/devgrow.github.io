@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: false
 date: 2010-06-09 20:50:14+00:00
 layout: post
@@ -16,7 +16,7 @@ tags:
 ---
 
 
-	
+
   * [Tweet](http://twitter.com/share)
   * [Share](http://www.facebook.com/sharer.php)
   * [](http://www.google.com/buzz/post)
@@ -25,7 +25,7 @@ tags:
 
 
 
-	
+
   * [Tweet](http://twitter.com/share)
   * [Share](http://www.facebook.com/sharer.php)
   * [](http://www.google.com/buzz/post)
@@ -46,7 +46,7 @@ tags:
 
 
 
-My first ever WordPress plugin!  **Sharebar** adds a dynamic and fully customizable vertical box to the left of a blog post that contains links/buttons to popular social networking sites.  For wide blogs, a vertical bar with popular sharing icons appears on the left of your post.  If the page is resized, the vertical bar disappears and a horizontal sharebar appears under the post title.<!-- more -->
+My first ever WordPress plugin!  **Sharebar** adds a dynamic and fully customizable vertical box to the left of a blog post that contains links/buttons to popular social networking sites.  For wide blogs, a vertical bar with popular sharing icons appears on the left of your post.  If the page is resized, the vertical bar disappears and a horizontal sharebar appears under the post title.
 
 This Sharebar isn't a new idea at all, in fact the plugin is meant to mimic [Mashable's bar](http://mashable.com/2010/06/08/feather-report/) almost exactly.  I most recently saw the effect on [Inc. Magazine](http://www.inc.com/) and after trying to find a plugin for it without success, I decided to make one myself.  As with all of my plugins, I tried to keep things simple but customizable, so some effects were sacrificed for performance gains.
 
@@ -76,10 +76,10 @@ WordPress makes the process pretty painless: download the plugin, upload it to y
 
 You can change nearly everything about the plugin from the Sharebar settings page (in the WordPress admin under Settings).  The main page displays all of the active plugins - from here you can change their order, edit the button code or delete them.  You can also add new buttons or reset them to the default configuration, which features TweetMeme, Facebook, Google Buzz, Digg and a standard e-mail button.
 
-![](http://devgrow.com/wp-content/uploads/2010/06/settings1.png)
+![](http://devgrow.s3.amazonaws.com/assets/images/settings1.png)
 The Settings page allows you to disable the plugin from automatically adding the sharebars - this is useful if you'd like to position them somewhere other than before the post content.  You might need to do this if your template or theme uses the overflow CSS position, as that may sometimes prevent the Sharebar from being visible outside of it's container element.  You can also disable the horizontal share bar that appears beneath the post title, change the location of the main vertical Sharebar (left or right) or adjust the offset/margin of the Sharebar element.
 
-![](http://devgrow.com/wp-content/uploads/2010/06/settings2.png)
+![](http://devgrow.s3.amazonaws.com/assets/images/settings2.png)
 Lastly, you can also change the way the Sharebar element itself looks by modifying the CSS file found in the plugin folder.  The design of the bar is meant to generic, feel free to customize it to fit your needs.
 
 

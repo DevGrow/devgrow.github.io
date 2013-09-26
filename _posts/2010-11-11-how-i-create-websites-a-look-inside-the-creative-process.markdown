@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-11-11 21:54:08+00:00
 layout: post
@@ -17,7 +17,7 @@ tags:
 - redesign
 ---
 
-Last week, a friend of mine who recently started freelancing asked me to elaborate on my personal web design process.  I've been doing client work for years and now have essentially a standard routine when working on a new project.  It goes something like this:<!-- more -->
+Last week, a friend of mine who recently started freelancing asked me to elaborate on my personal web design process.  I've been doing client work for years and now have essentially a standard routine when working on a new project.  It goes something like this:
 
 
 
@@ -39,58 +39,58 @@ After I have a thorough understanding of the project, the target market and what
 
 
 
-	
+
   * Homepage
-		
-			
+
+
     * Login Box
 
-			
+
     * Top 5 News (blog posts)
 
-			
+
     * Top 5 Discussions (from Newsboard)
 
-			
+
     * Newsboard (latest posts)
 
-		
-	
 
-	
+
+
+
   * Profile Page
-		
-			
+
+
     * User Info [name, bio, DOB, gender, joined date, #posts]
 
-			
+
     * Profile pic
 
-			
+
     * Commenting/Wall
 
-			
+
     * Friends
 
-		
-	
 
-	
+
+
+
   * Every Page
-		
-			
+
+
     * Header + Footer + Nav
 
-			
+
     * Left Nav with icon links
 
-			
+
     * Top leaderboard ad
 
-		
-	
 
-	
+
+
+
   * Etc..
 
 
@@ -104,7 +104,7 @@ This kind of list doesn't have to be that in-depth, it's used just to help you f
 
 
 Using the list of features and elements I need, I take out a sheet of paper and create a rough sketch of the each of the main sections of the website.  The sketches don't have to be polished or too accurate, they are just meant to provide direction for element positioning.  If at all possible, I will sit with my client and do it together with them, as this helps eliminate many future iterations in the actual mockup phase of the design.  Here's a sketch a client and I created for a project a few months ago:
-![](http://devgrow.com/wp-content/uploads/2010/11/sketch.jpg)
+![](http://devgrow.s3.amazonaws.com/assets/images/sketch.jpg)
 In fact, this sketch was mainly done by the client himself, laying out where he wanted certain elements to be in relation to each other.  Most clients will not have this much foresight on content placement and you will likely end up having to do the bulk of it yourself.  If you come to an understanding on this sketch with your client you can focus on polishing the real mockup rather than worrying about placement.
 
 
@@ -116,9 +116,9 @@ In fact, this sketch was mainly done by the client himself, laying out where he 
 Once the paper sketch is done, I open up Photoshop and create a complete mockup.  When I say complete mockup, I mean I reproduce the main pages of the website (homepage, generic page, forum page, etc.) in it's entirety, with correct fonts, stylings, features, content placement, etc.  It not only helps me visualize what I will be coding but also keeps the design process somewhat relaxed and enjoyable, at least for me.  I use tons of guides to help get the dimensions of elements correct and also try to keep everything organized into multiple folders.  Sometimes I will have multiple pages in one PSD (under multiple hidden folders), sometimes I split them up into separate PSDs - it all depends on how many elements are being reused throughout the site.
 
 After creating the initial mockup, I send it to the client for review and then implement his suggested changes.  This process repeats several times until we're both satisfied with the end result.  Here are a few of the mockups for the project from the sketch above:
-![](http://devgrow.com/wp-content/uploads/2010/11/reiterate.jpg)
+![](http://devgrow.s3.amazonaws.com/assets/images/reiterate.jpg)
 I skipped a few in the image above but there were more than 10 different variations and iterations of the mockup, with the final product looking more like this:
-![](http://devgrow.com/wp-content/uploads/2010/11/final.jpg)
+![](http://devgrow.s3.amazonaws.com/assets/images/final.jpg)
 
 
 ### 5. HTML/CSS/JS
@@ -130,31 +130,31 @@ From the mockups, I open up Notepad++ if I'm on my Windows 7 desktop or Textmate
 
 
 
-	
+
   * css
-		
-			
+
+
     * reset.css
 
-			
+
     * main.css
 
-		
-	
 
-	
+
+
+
   * images
 
-	
+
   * js
-		
-			
+
+
     * functions.js
 
-		
-	
 
-	
+
+
+
   * index.html
 
 
@@ -177,22 +177,22 @@ In terms of converting the Photoshop mockup to HTML, I usually work in this orde
 
 
 
-	
+
   1. Main background
 
-	
+
   2. Body wraps to center main content if needed
 
-	
+
   3. Header and/or top navigation, then logo and main navigation bar
 
-	
+
   4. Sidebar block (in HTML before content block, has float property assigned)
 
-	
+
   5. Content block (after sidebar, no float and with padding equal to sidebar width + margin)
 
-	
+
   6. Footer
 
 
@@ -202,58 +202,58 @@ I try to finalize each element as I progress down the page, adding the necessary
 Here are the files I delivered to the client for the project we've been following:
 
 
-	
+
   * css
-		
-			
+
+
     * [framework.css](http://cdn.devgrow.com/examples/ewrestlingnews/css/framework.css)
 
-			
+
     * [tipsy.css](http://cdn.devgrow.com/examples/ewrestlingnews/tipsy.css)
 
-		
-	
 
-	
+
+
+
   * images
-		
-			
+
+
     * Multiple images...
 
-		
-	
 
-	
+
+
+
   * js
-		
-			
+
+
     * [functions.js](http://cdn.devgrow.com/examples/ewrestlingnews/js/functions.js)
 
-			
+
     * [jquery.js](http://cdn.devgrow.com/examples/ewrestlingnews/js/jquery.js)
 
-			
+
     * [jquery.tipsy.js](http://cdn.devgrow.com/examples/ewrestlingnews/js/jquery.tipsy.js)
 
-		
-	
 
-	
+
+
+
   * [elements.html](http://cdn.devgrow.com/examples/ewrestlingnews/elements.html)
 
-	
+
   * [index.html](http://cdn.devgrow.com/examples/ewrestlingnews/index.html)
 
-	
+
   * [just-top.html](http://cdn.devgrow.com/examples/ewrestlingnews/just-top.html)
 
-	
+
   * [page.html](http://cdn.devgrow.com/examples/ewrestlingnews/page.html)
 
-	
+
   * [page2.html](http://cdn.devgrow.com/examples/ewrestlingnews/page2.html)
 
-	
+
   * [page3.html](http://cdn.devgrow.com/examples/ewrestlingnews/page3.html)
 
 

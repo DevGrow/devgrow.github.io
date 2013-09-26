@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-05-30 20:27:25+00:00
 layout: post
@@ -29,35 +29,35 @@ This page actually has the plugin enabled - you can see it in action on the foll
 
 
 
-	
+
   * Test Parent
-		
-			
+
+
     * Test Child
 
-			
+
     * Test Child 2
 
-		
-	
+
+
   * Test Parent 2 (childless)
 
-	
+
   * Test Parent 3
-		
-			
+
+
     * Test Child
-				
-					
+
+
       * Child Level 3
 
-				
-			
 
-			
+
+
+
     * Test Child 2
 
-		
+
 
 
 
@@ -89,25 +89,25 @@ While I did try to keep the plugin lightweight, I also wanted to make it somewha
 
 
 
-		
+
   * **defaulthide** - hide all children by default (default: true)
 
-		
+
   * **symbolhide** - symbol to hide child elements (default: -)
 
-		
+
   * **symbolshow** - symbol to show child elements (default: +)
 
-		
+
   * **imagehide** - image to hide child elements (default: null)
 
-		
+
   * **imageshow** - image to show child elements (default: null)
 
-		
+
   * **xoffset** - amount pixels to move symbol/image horizontally (default: -15)
 
-		
+
   * **yoffset** - amount pixels to move symbol/image vertically (default: 0)
 
 

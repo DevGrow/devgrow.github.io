@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-12-13 19:57:47+00:00
 layout: post
@@ -17,7 +17,7 @@ tags:
 - web design
 ---
 
-While working on the new theme for this site, I realized that the various social media buttons I use were making the entire page load considerably slower.  As soon as the browser hit that region of the page (the end of each post), everything would stop until those pesky buttons were loaded.  Using a little bit of jQuery, however, it's possible to get around this and load these heavier elements after the rest of the page has finished loading.<!-- more -->
+While working on the new theme for this site, I realized that the various social media buttons I use were making the entire page load considerably slower.  As soon as the browser hit that region of the page (the end of each post), everything would stop until those pesky buttons were loaded.  Using a little bit of jQuery, however, it's possible to get around this and load these heavier elements after the rest of the page has finished loading.
 
 
 
@@ -57,8 +57,8 @@ The `share.php` simply contains all of your dynamic button code.  Here's what mi
 
 
 
-	
-	
+
+
 
 
 

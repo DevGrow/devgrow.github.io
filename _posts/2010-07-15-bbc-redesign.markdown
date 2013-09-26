@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-07-15 01:21:39+00:00
 layout: post
@@ -12,7 +12,7 @@ tags:
 - bbc redesign design web-design usability
 ---
 
-If you haven't been to the [BBC News](http://www.bbc.co.uk/news/) page lately, check it out!  They've completely revamped the site, changing the header, typography and element positioning among other things.  While I like the changes overall, I would have done a few things slightly differently to make the site more user friendly.<!-- more -->
+If you haven't been to the [BBC News](http://www.bbc.co.uk/news/) page lately, check it out!  They've completely revamped the site, changing the header, typography and element positioning among other things.  While I like the changes overall, I would have done a few things slightly differently to make the site more user friendly.
 
 
 
@@ -25,13 +25,13 @@ The overall layout of the header is perfect - I have only a few minor color and 
 ##### Current:
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/bbc-current-header-small.jpg)](http://devgrow.com/wp-content/uploads/2010/07/bbc-current-header.jpg)
+[![](http://devgrow.s3.amazonaws.com/assets/images/bbc-current-header-small.jpg)](http://devgrow.s3.amazonaws.com/assets/images/bbc-current-header.jpg)
 
 
 ##### My Version:
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/bbc-my-header-small.jpg)](http://devgrow.com/wp-content/uploads/2010/07/bbc-my-header.jpg)
+[![](http://devgrow.s3.amazonaws.com/assets/images/bbc-my-header-small.jpg)](http://devgrow.s3.amazonaws.com/assets/images/bbc-my-header.jpg)
 
 
 ### Differences
@@ -50,13 +50,13 @@ Like the header, most of the content is placed pretty well - my only gripe was w
 ##### Current:
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/bbc-current-small.jpg)](http://devgrow.com/wp-content/uploads/2010/07/bbc-current.jpg)
+[![](http://devgrow.s3.amazonaws.com/assets/images/bbc-current-small.jpg)](http://devgrow.s3.amazonaws.com/assets/images/bbc-current.jpg)
 
 
 ##### My Version:
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/bbc-small.jpg)](http://devgrow.com/wp-content/uploads/2010/07/bbc.jpg)
+[![](http://devgrow.s3.amazonaws.com/assets/images/bbc-small.jpg)](http://devgrow.s3.amazonaws.com/assets/images/bbc.jpg)
 
 
 ### Differences
@@ -75,13 +75,13 @@ Like the main homepage, the article page feels like it could use a little tweaki
 ##### Current:
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/bbc-current-page-small.jpg)](http://devgrow.com/wp-content/uploads/2010/07/bbc-current-page.jpg)
+[![](http://devgrow.s3.amazonaws.com/assets/images/bbc-current-page-small.jpg)](http://devgrow.s3.amazonaws.com/assets/images/bbc-current-page.jpg)
 
 
 ##### My Version:
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/07/bbc-page-small.jpg)](http://devgrow.com/wp-content/uploads/2010/07/bbc-page.jpg)
+[![](http://devgrow.s3.amazonaws.com/assets/images/bbc-page-small.jpg)](http://devgrow.s3.amazonaws.com/assets/images/bbc-page.jpg)
 
 
 ### Differences

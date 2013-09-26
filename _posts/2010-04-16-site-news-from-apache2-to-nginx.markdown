@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-04-16 04:10:20+00:00
 layout: post
@@ -14,7 +14,7 @@ tags:
 - WordPress
 ---
 
-If you've been to the site today then you've probably noticed that it was down intermittently throughout the evening.  One of our articles was featured on [Smashing Magazine](http://www.smashingmagazine.com/)'s Twitter stream (sweet!) and I'm sad to say the site crumbled under the traffic spike.  I've made a few changes that will hopefully make the site more resistant to bumps in traffic.<!-- more -->
+If you've been to the site today then you've probably noticed that it was down intermittently throughout the evening.  One of our articles was featured on [Smashing Magazine](http://www.smashingmagazine.com/)'s Twitter stream (sweet!) and I'm sad to say the site crumbled under the traffic spike.  I've made a few changes that will hopefully make the site more resistant to bumps in traffic.
 
 
 

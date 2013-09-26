@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2011-04-15 01:00:17+00:00
 layout: post
@@ -19,7 +19,7 @@ tags:
 ---
 
 One of the most important characteristics you'll find in successful individuals (especially entrepreneurs) is belief in themselves. It’s no secret, many [athletes use it to give them an edge](http://swimming.about.com/od/swimmingmindtrainingtips/qt/believe_success.htm) to beat competitors and current billionaires have used it in the lowest moments of their lives as motivation to keep going. A lot of us know the importance of this important trait yet fail to make use of it in our daily lives.
-<!-- more -->
+
 
 
 ### Yes, you can be successful too.
@@ -27,8 +27,6 @@ One of the most important characteristics you'll find in successful individuals 
 
 
 Too many times have I seen friends and colleagues with high aspirations get shot down because of the supposed rareness of success in their respective industries, the volatile nature of the economy or a host of other ‘potential’ reasons. While I admit that many of them are probably not cut out to be famous athletes or business moguls, constantly hearing that they don’t have a chance at all kills any aspiration they might have to begin with.
-
-![](http://www.e-cookbooks.net/mousepad/belief.jpg)
 
 Belief in oneself plays a key role in motivating people to work harder at whatever they’re pursuing. For an entrepreneur, the idea that success may not be that far-fetched can often provide that extra push to actually succeeding. I often get asked, "how many Bill Gates' are out there for every person that tries and fails?" (substitute Bill for any other successful businessman) Well, if Bill Gates can do it, why can’t I? Or anyone else for that matter? The truth is that you can - anyone can - if they want it enough to do something about it. Googling [‘rags-to-riches’](http://www.google.com/search?hl=en&q=rags+to+riches&btnG=Google+Search&aq=f&oq=) is evidence enough that people can overcome some of the hardest situations to reach success.
 

@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-08-17 18:41:52+00:00
 layout: post
@@ -16,7 +16,7 @@ tags:
 - wordpress plugins
 ---
 
-Facebook, the second largest site on the internet, [reports](http://www.facebook.com/press/info.php?statistics) that over 30% of it's active users access the site from their mobile devices, and that mobile users are twice as active as non-mobile users.  As cell phones become more and more prevalent in our digital society, the need for a mobile-friendly website is a must for many businesses.<!-- more -->
+Facebook, the second largest site on the internet, [reports](http://www.facebook.com/press/info.php?statistics) that over 30% of it's active users access the site from their mobile devices, and that mobile users are twice as active as non-mobile users.  As cell phones become more and more prevalent in our digital society, the need for a mobile-friendly website is a must for many businesses.
 
 
 
@@ -32,16 +32,16 @@ That said, the majority of websites can probably still get by without a mobile v
 
 
 
-	
+
   * at least 5-10% of the visitors are coming from mobile devices
 
-	
+
   * you sell a product that users might buy when they're on the go (tickets, music, games, etc)
 
-	
+
   * your site is powered by user generated content (why not let them produce content from anywhere?)
 
-	
+
   * your site relates to the mobile industry in any way, shape or form
 
 
@@ -61,7 +61,7 @@ Fortunately for web developers, there are a lot of tools and technologies availa
 
 
 If you're interested in creating a custom, interactive mobile application for your users, there are a few options to consider.  Rich applications are more than just custom stylesheets, they offer a whole new level of interactivity and make use of asynchronous technology to make the overall experience seamless for the user.  Good examples of this are the [Facebook app](http://touch.facebook.com/) and [West Virginia University's mobile page](http://m.wvu.edu/).  The latter makes use of [jQTouch](http://www.jqtouch.com/), a highly extensible [jQuery](http://www.jquery.com/) plugin that makes developing asynchronous mobile applications much easier than it should be.
-[![](http://devgrow.com/wp-content/uploads/2010/08/mobile-dev-jqt.jpg)](http://jqtouch.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/mobile-dev-jqt.jpg)](http://jqtouch.com/)
 The jQuery team also recently [announced](http://jquerymobile.com/2010/08/announcing-the-jquery-mobile-project/) [jQuery Mobile](http://jquerymobile.com/), their own framework for developing rich mobile applications that are compatible with the majority of mobile web browsers and devices.  This project has stirred a lot of excitement and controversy, as the fate of jQTouch and similar competitors will most likely be impacted by this official plugin.  For developers, it's probably a safe bet to stick with jQTouch for now, as jQuery Mobile isn't scheduled for release until late 2010.  Even after it's initial release, it's probably wiser to wait a few months until a fully stable version is released and all the major bugs are ironed out.
 
 
@@ -73,16 +73,16 @@ There are several plugins and extensions that can make it easy to create mobile 
 
 
 
-	
+
   * [WordPress Mobile Edition](http://wordpress.org/extend/plugins/wordpress-mobile-edition/)
 
-	
+
   * [Mobilize by Mippin wordpress plugin](http://wordpress.org/extend/plugins/mobilize-by-mippin-wordpress-plugin/)
 
-	
+
   * [WordPress Mobile Pack](http://wordpress.org/extend/plugins/wordpress-mobile-pack/)
 
-	
+
   * [WordPress Mobile Admin](http://wordpress.org/extend/plugins/wordpress-mobile-admin/)
 
 
@@ -103,16 +103,16 @@ For most websites, a mobile version can be as simple as a custom stylesheet or a
 
 
 
-	
+
   * [Introduction to W3C's Mobile Web Best Practices](http://www.w3.org/2009/03/mobitrain_course_description.html)
 
-	
+
   * [Mobile 1: Introduction to the mobile web by Opera](http://dev.opera.com/articles/view/introduction-to-the-mobile-web/)
 
-	
+
   * [Mobile Web Design: Is it Worth It?](http://sixrevisions.com/web-development/mobile-web-design-is-it-worth-it/)
 
-	
+
   * [A Beginner's Guide to Mobile Web Development](http://mobiforge.com/starting/story/a-beginners-guide-mobile-web-development)
 
 

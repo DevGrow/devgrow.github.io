@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2010-08-31 02:20:39+00:00
 layout: post
@@ -15,7 +15,7 @@ tags:
 - serp
 ---
 
-As SEO becomes an increasingly important part of web development, it's important to make sure your website conforms to the correct standards to help improve your search ranking.  This is an area where you should be willing to spend some money, as the results are often well worth it in terms of increased traffic and customer conversions.<!-- more -->
+As SEO becomes an increasingly important part of web development, it's important to make sure your website conforms to the correct standards to help improve your search ranking.  This is an area where you should be willing to spend some money, as the results are often well worth it in terms of increased traffic and customer conversions.
 
 There are a lot of tools out there to help you identify your SEO strengths and weaknesses, from services that monitor your keyword rankings on popular search engines (SERP, or Search Engine Results Page) to more complete, premium solutions that tell you exactly what you should change to make your site rank better.
 
@@ -23,7 +23,7 @@ There are a lot of tools out there to help you identify your SEO strengths and w
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/08/diyseo.gif)](http://diyseo.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/diyseo.gif)](http://diyseo.com/)
 
 ##### [DIYSEO](http://www.diyseo.com/)
 
@@ -34,7 +34,7 @@ DIYSEO claims to be a "web-based solution for small businesses to get search eng
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/08/ginzametrics.gif)](http://ginzametrics.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/ginzametrics.gif)](http://ginzametrics.com/)
 
 ##### [GinzaMetrics](http://ginzametrics.com/)
 
@@ -45,7 +45,7 @@ GinzaMetrics is a new [YC](http://www.ycombinator.com/)-backed company that allo
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/08/sheerseo.gif)](http://sheerseo.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/sheerseo.gif)](http://sheerseo.com/)
 
 ##### [SheerSEO](http://www.sheerseo.com/)
 
@@ -56,7 +56,7 @@ SheerSEO is an SEO software to track and analyze your SEO campaign that also hel
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/08/seorankmonitor.gif)](http://seorankmonitor.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/seorankmonitor.gif)](http://seorankmonitor.com/)
 
 ##### [SEO Rank Monitor](http://seorankmonitor.com/)
 
@@ -67,7 +67,7 @@ SEO Rank Monitor is all about tracking keywords - how your website ranks for mul
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/08/authoritylabs.gif)](http://authoritylabs.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/authoritylabs.gif)](http://authoritylabs.com/)
 
 ##### [AuthorityLabs](http://authoritylabs.com/)
 
@@ -78,7 +78,7 @@ Another SERP/keyword monitoring service similar to SEO Rank Monitor but even sim
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/08/semrush.gif)](http://semrush.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/semrush.gif)](http://semrush.com/)
 
 ##### [SEMRush](http://www.semrush.com/)
 
@@ -89,7 +89,7 @@ I've been playing with this site for the past couple of days but I'm already a f
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/08/raventools.gif)](http://raventools.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/raventools.gif)](http://raventools.com/)
 
 ##### [Raven](http://raventools.com/)
 
@@ -100,7 +100,7 @@ Raven Tools is another full-fledged SEO service that helps you monitor keywords,
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/08/seomoztools.gif)](http://seomoz.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/seomoztools.gif)](http://seomoz.com/)
 
 ##### [SEOMoz Tools](http://www.seomoz.org/tools)
 
@@ -111,7 +111,7 @@ The guys (and gals) at SEOMoz have created a number of free and paid tools that 
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/08/seorush.gif)](http://seorush.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/seorush.gif)](http://seorush.com/)
 
 ##### [SEORush](http://www.seorush.com/)
 
@@ -122,7 +122,7 @@ SEORush provides a quick overview of how well your site is indexed, traffic rank
 
 
 
-[![](http://devgrow.com/wp-content/uploads/2010/08/keywordenvy.gif)](http://keywordenvy.com/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/keywordenvy.gif)](http://keywordenvy.com/)
 
 ##### [KeywordEnvy](http://www.keywordenvy.com/)
 

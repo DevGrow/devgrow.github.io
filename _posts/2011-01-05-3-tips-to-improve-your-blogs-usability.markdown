@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2011-01-05 01:34:37+00:00
 layout: post
@@ -15,22 +15,22 @@ tags:
 - web design
 ---
 
-Usability can be defined as the overall user-friendliness and ease of use of your website or product.  Having a usable blog means less frustration for your readers, which in turn improves their overall experience, user retention and conversions.  Just a few small changes to your blog can have a meaningful impact on usability.<!-- more -->
+Usability can be defined as the overall user-friendliness and ease of use of your website or product.  Having a usable blog means less frustration for your readers, which in turn improves their overall experience, user retention and conversions.  Just a few small changes to your blog can have a meaningful impact on usability.
 
 In order to better understand these suggestions, you should try to see your blog from the perspective of a completely average visitor.  Try to imagine what your readers see and answer these basic questions:
 
 
 
-	
+
   * Why do your visitors go to your blog in the first place?
 
-	
+
   * Can you view the actual content of your blog without feeling distracted?
 
-	
+
   * Take a step back from your screen.  Does your blog look/feel overwhelming in terms of information being presented?
 
-	
+
   * Is reading a post on your blog an enjoyable experience that you'd be willing to repeat?
 
 
@@ -47,7 +47,7 @@ We live in a world of information and sensory overload.  Everywhere you go you a
 
 Because we are used to seeing so much information on most websites, it can be pretty difficult to remove things from your own blog.  Remember to think of it in terms of your reader - what do they want to see?  Take a look at the following screenshot, which shows the DevGrow header before and after the current redesign:
 
-![](http://devgrow.com/wp-content/uploads/2011/01/before-after.gif)
+![](http://devgrow.s3.amazonaws.com/assets/images/before-after.gif)
 
 If the image is hard to follow, currently the [discussion forums](http://devgrow.com/discuss) part of the site is still using the old header - compare that to the header on this post to get an idea of what has changed.
 
@@ -65,19 +65,19 @@ The following are a list of resources that discuss typography and it's usage on 
 
 
 
-	
+
   * [A List Apart: Articles on Web Typography](http://www.alistapart.com/articles/on-web-typography/)
 
-	
+
   * [An Introduction to Web Typography](http://www.yourhtmlsource.com/text/webtypography.html)
 
-	
+
   * [Web Typography Guide](http://www.motive.co.nz/guides/typography/webfonts.php)
 
-	
+
   * [Web Typography Tutorial – Lesson 1](http://www.webmonkey.com/2010/02/web_typography_tutorial_-_lesson_1/)
 
-	
+
   * [Google Font Previewer](http://code.google.com/webfonts/preview#font-family=Allan) and [Google Font Directory](http://code.google.com/webfonts)
 
 
@@ -92,13 +92,13 @@ Effective use of white space can also help improve usability, as it can increase
 
 
 
-	
+
   * Increase the content margins/paddings to give your post a greater degree of separation from your sidebar and/or navigation
 
-	
+
   * Increase your paragraph line-height property, which both increases legibility and gives the feeling of added white space
 
-	
+
   * Increase the spacings between your posts, comments, lists and other elements
 
 
@@ -107,13 +107,13 @@ Obviously, all adjustments to your margins and padding should be done with moder
 
 The following sites make great use of white space in their designs that forces the reader to focus in on content:
 
-[caption id="attachment_2172" align="floating" width="600" caption="A Way Back"][![](http://devgrow.com/wp-content/uploads/2011/01/awayback.gif)](http://www.awayback.com/)[/caption]
+[caption id="attachment_2172" align="floating" width="600" caption="A Way Back"][![](http://devgrow.s3.amazonaws.com/assets/images/awayback.gif)](http://www.awayback.com/)[/caption]
 
-[caption id="attachment_2175" align="floating" width="600" caption="Web Design Ledger"][![](http://devgrow.com/wp-content/uploads/2011/01/webdesignledger.gif)](http://www.webdesignledger.com/)[/caption]
+[caption id="attachment_2175" align="floating" width="600" caption="Web Design Ledger"][![](http://devgrow.s3.amazonaws.com/assets/images/webdesignledger.gif)](http://www.webdesignledger.com/)[/caption]
 
-[caption id="attachment_2174" align="floating" width="600" caption="Usability Post"][![](http://devgrow.com/wp-content/uploads/2011/01/usabilitypost.gif)](http://usabilitypost.com/)[/caption]
+[caption id="attachment_2174" align="floating" width="600" caption="Usability Post"][![](http://devgrow.s3.amazonaws.com/assets/images/usabilitypost.gif)](http://usabilitypost.com/)[/caption]
 
-[caption id="attachment_2173" align="floating" width="600" caption="Bearded Studio Blog"][![](http://devgrow.com/wp-content/uploads/2011/01/bearded.gif)](http://www.bearded.com/blog)[/caption]
+[caption id="attachment_2173" align="floating" width="600" caption="Bearded Studio Blog"][![](http://devgrow.s3.amazonaws.com/assets/images/bearded.gif)](http://www.bearded.com/blog)[/caption]
 
 
 

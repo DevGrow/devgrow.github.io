@@ -1,5 +1,5 @@
 ---
-author: admin
+author: Monji Dolon
 comments: true
 date: 2011-04-01 18:37:36+00:00
 layout: post
@@ -16,7 +16,7 @@ tags:
 - success
 ---
 
-What is the difference between passion and obsession? For starters, an obsession is usually an act that you are always (and sometimes uncontrollably) preoccupied with. A passion, on the other hand, is a strong love that can be the pathway to a healthy relationship or to a harmful obsession.<!-- more -->
+What is the difference between passion and obsession? For starters, an obsession is usually an act that you are always (and sometimes uncontrollably) preoccupied with. A passion, on the other hand, is a strong love that can be the pathway to a healthy relationship or to a harmful obsession.
 
 It seems that more and more entrepreneurs these days are falling into that first category of obsessing over there work, an act that is detrimentally affecting both their project and social life. While it may have started as a healthy, passionate drive, several factors are now pushing them towards an unhealthy obsession that can often lead to failure instead of success.
 
@@ -42,19 +42,19 @@ So, to wrap things up, if you’re starting to feel overwhelmed with work, try t
 
 
 
-	
+
   * Take a break! Spend time with your family or just go outside and get some fresh air.
 
-	
+
   * Set milestones and reward yourself for completing them.
 
-	
+
   * Talk out your issues with someone else - they don’t have to be tech-minded at all!
 
-	
+
   * Limit yourself - do not take on more than you can handle at once.
 
-	
+
   * **BREATHE!!** Step back and take another look at your end goals. Realize that success is not immediate!
 
 
