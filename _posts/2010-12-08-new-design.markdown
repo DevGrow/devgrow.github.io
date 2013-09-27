@@ -25,11 +25,7 @@ The design is still a work in progress and the discussion forum is still on the 
 
 **Edit:** To show you guys that [I do eat my own dog food](http://devgrow.com/why-you-shouldnt-make-your-mockup-in-markup/), I'm making available the PSD I created before constructing this new WordPress theme.  You can **[download the file](http://devgrow.com/examples/dev5.zip)** and see for yourself why making a mockup in Photoshop can be useful (and how close I try to stick to the PSD when developing).
 
-
-
 ## Last Month's Results
-
-
 
 ![](http://devgrow.s3.amazonaws.com/assets/images/poll2-results.gif)In November, I wanted to get an idea of what version of Internet Explorer people were still developing for.  As it turns out, the majority of you said that the lowest version of IE your websites currently support is **IE7 (33%)**.  A significant amount also said they may support IE but don't really care, which is much more interesting in my opinion.  Are many web developers completely forgoing IE compatibility checks these days?  My sample size is still very small so it's hard to tell but it would be very interesting to see a more thorough survey done on a bigger website.
 
@@ -37,11 +33,9 @@ Honestly, I was surprised that IE7 was the top voted result and that IE6 was sti
 
 Are most of you using tools like the [IETester](http://www.my-debugbar.com/wiki/IETester/HomePage) to do your Internet Explorer compatibility checks?
 
-
+---
 
 ## New Poll for December
-
-
 
 As I continue to get a few more freelance projects, I'm curious as to what my fellow web developers are charging for a simple WordPress-powered website (essentially a custom theme, with a few extras).  For example, my latest project involves designing and developing a website for a family dentist - I plan on using WordPress as the backend and will utilize a few plugins and custom hacks to get the end result my client wants.  **How much do you guys charge for something like this?**  I'll post details on how much I'm getting paid for my work next month, when we analyze the results.
 

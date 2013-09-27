@@ -2,4 +2,16 @@
 layout: default
 ---
 {% include post.html %}
+<ul class="post-nav">
+  {% if page.next %}
+  <li class="page-nav-item">
+      <a rel="next" href="{{ page.next.url }}"><strong>Next:</strong> {{ page.next.title }}</a>
+  </li>
+  {% endif %}
+  {% if page.previous %}
+  <li class="page-nav-item">
+      <a rel="prev" href="{{ page.previous.url }}"><strong>Previous:</strong> {{ page.previous.title }}</a>
+  </li>
+  {% endif %}
+</ul>
 {% include comments.html %}

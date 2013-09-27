@@ -15,17 +15,15 @@ tags:
 - tips
 ---
 
-__One of my clients recently asked for an image slideshow on his blog to showcase his photography.  When I asked him how he wanted it to be, he was insistent on using a Flash slideshow over JavaScript.  It turns out that although the Flash gallery was far less useful for him, as he couldn't view it on the iPhone or iPad, he preferred it anyways because it prevented people from right-clicking on his images and saving them to their hard drives.
+One of my clients recently asked for an image slideshow on his blog to showcase his photography.  When I asked him how he wanted it to be, he was insistent on using a Flash slideshow over JavaScript.  It turns out that although the Flash gallery was far less useful for him, as he couldn't view it on the iPhone or iPad, he preferred it anyways because it prevented people from right-clicking on his images and saving them to their hard drives.
 
 I spent a good bit of time attempting to explain to him that while people couldn't right-click, they could still easily rip the photos using the Print Screen button or using any screen capture tool.  My suggestion was to simply watermark the images, however he was insistent on having no context-menus show up on right-click.  Ultimately, I ended up using a bit of jQuery to disable all context-menus in any images on the site, which allowed him to use the more compatible JS slideshows:
 
-`
+{% highlight javascript linenos=table %}
 $('img').bind("contextmenu", function(e){ return false; })
-`
+{% endhighlight %}
 
 That should do the trick!  While I still don't think it's the best solution, if you run into the need to disable context menus for any element, feel free to use the snippet above (replace the img with anything else).
-
-
 
 ### Edit: Compatibility and Demo
 
@@ -34,14 +32,11 @@ Someone mentioned it doesn't work in Firefox in the comments - I've tested the c
 
 Feel free to view the source of the demo to see how the exact implementation.  Also, keep in mind that this is certainly not a fool-proof solution (not even a great one) at preventing image theft.  It's useful in deterring the subset of people who are less tech-savvy and are likely to give up after being unable to right-click.
 
-
-[Live Example](http://devgrow.com/examples/nocontext.html)
-
-
-
+<div class="download top">
+  <a href="http://devgrow.com/examples/nocontext.html" class="secondary">Live Example</a>
+</div>
 
 ### Edit 2: I am not suggesting this!
-
 
 A number of comments make the assumption that I am recommending this technique for preventing image theft.  Let me be clear: I am not endorsing this technique for that purpose.  There are many ways around it and I made that clear to my client.
 

@@ -29,11 +29,9 @@ Thankfully, [Linode](http://devgrow.com/go/linode.com) was the second most popul
 
 **Have some more insight into the hosts I listed out?  Provide your feedback in the comments!**
 
-
+---
 
 ### New Poll: What Code Editor Do You Use?
-
-
 
 I'm curious as to what code editor you guys use on a daily basis.  Also, what do you use it for - programming or CSS/HTML?  I wish there was a way I could get more info directly in the poll itself but additional details will have to wait until I post the results.
 

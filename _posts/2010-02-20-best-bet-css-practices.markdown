@@ -21,9 +21,9 @@ CSS is powerful in styling HTML documents and making things look the way you wan
 ### Organizing Your Files
 
 
-Your file structure can largely depend on the number of documents you will be dealing with and how well you want to organize them.  For a small site, having a single **style.css** file in the root directory can suffice.  For a larger site that requires complex styling, especially blogs such as [Jason Santa Maria](http://jasonsantamaria.com/) and [Dustin Curtis](http://dustincurtis.com/), it can be very helpful to split up your CSS into multiple files.  This can help increase load times by allowing you to load only the CSS that you will use on a single page but make life easier for you, giving you the ability to quickly find relevant styles and easily make changes.
+Your file structure can largely depend on the number of documents you will be dealing with and how well you want to organize them. For a small site, having a single **style.css** file in the root directory can suffice. For a larger site that requires complex styling, especially blogs such as [Jason Santa Maria](http://jasonsantamaria.com/) and [Dustin Curtis](http://dustincurtis.com/), it can be very helpful to split up your CSS into multiple files. This can help increase load times by allowing you to load only the CSS that you will use on a single page but make life easier for you, giving you the ability to quickly find relevant styles and easily make changes.
 
-Pick a directory and file structure you're comfortable with, and one that gives you options.  My preferred structure is:
+Pick a directory and file structure you're comfortable with, and one that gives you options. My preferred structure is:
 
   * css
     * reset.css
@@ -40,7 +40,7 @@ There are obviously many ways to go about structuring your files, just try to ma
 
 ### The Reset
 
-Resetting your CSS should be the first thing you do when styling your website.  Doing this puts you on a level playing field with all browsers, removing all unnecessary margins, padding and default styling.  You can reset the common styles yourself or save time by using an existing reset file, such as:
+Resetting your CSS should be the first thing you do when styling your website. Doing this puts you on a level playing field with all browsers, removing all unnecessary margins, padding and default styling. You can reset the common styles yourself or save time by using an existing reset file, such as:
 
   * [Yahoo! UI CSS Reset](http://developer.yahoo.com/yui/reset/)
   * [Meyer's CSS Reset Reloaded](http://meyerweb.com/eric/tools/css/reset/)
@@ -51,7 +51,7 @@ A best bet is to start with one of the existing CSS resets and add your own base
 
 ### Formatting Your Code
 
-Like with any other form of coding, semantics and proper formatting can go a long way in providing organization and increased readability.  This is especially important with CSS, where you will often find yourself returning to your code to make small adjustments and corrections as you tweak your design.  A great resource that lists most of the many ways to format CSS can be found at [CSSTricks.com](http://css-tricks.com/different-ways-to-format-css/).  I found myself agreeing with the author, Chris Coyer, in using single-line format with indenting for longer CSS stylesheets and more descriptive, multi-line format with indenting for shorter stylesheets.
+Like with any other form of coding, semantics and proper formatting can go a long way in providing organization and increased readability. This is especially important with CSS, where you will often find yourself returning to your code to make small adjustments and corrections as you tweak your design. A great resource that lists most of the many ways to format CSS can be found at [CSSTricks.com](http://css-tricks.com/different-ways-to-format-css/). I found myself agreeing with the author, Chris Coyer, in using single-line format with indenting for longer CSS stylesheets and more descriptive, multi-line format with indenting for shorter stylesheets.
 
 An example of the **single-line format with indenting**:
 
@@ -121,7 +121,7 @@ This one is a no-brainer for most developers, however many designers seem to ove
 
 ### Loading Your Styles
 
-The CSS styles you write can be stored in an individual file or embedded in the HTML itself.  The best bet practice is certainly to load an external stylesheet that has all of your styles within it, allowing you to reuse the same stylesheet in multiple documents.  This reduces code redundancy and allows you to change a style and see it reflected in all documents that load that particular stylesheet.
+The CSS styles you write can be stored in an individual file or embedded in the HTML itself. The best bet practice is certainly to load an external stylesheet that has all of your styles within it, allowing you to reuse the same stylesheet in multiple documents. This reduces code redundancy and allows you to change a style and see it reflected in all documents that load that particular stylesheet.
 
 You can load a **single stylesheet** by linking to the file in your HTML header:
 

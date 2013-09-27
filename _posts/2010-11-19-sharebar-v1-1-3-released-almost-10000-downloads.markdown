@@ -17,29 +17,20 @@ tags:
 
 I've just updated Sharebar to version 1.1.3, which adds support for disabling the Sharebar widget on individual posts and pages.  After you update the plugin, a new option panel should appear in your post and page editing screens at the bottom of the right sidebar - just check that option to disable Sharebar for that post!
 
-
-
-### Nearing 10k Downloads
-
-
-Sharebar is my first ever WordPress plugin and it's amazing to see that it has been installed almost 10,000 times!  I'm very curious as to which sites are using the plugin, especially any big ones.  If you know of a big blog that uses Sharebar, please let me know in the comments so I can check it out!
-
-
-
 ### Download
-
 
 You can view the [plugin details](http://wordpress.org/extend/plugins/sharebar/) at [WordPress.org](http://www.wordpress.org/) or [view a simple demo](http://devgrow.com/plugins/sharebar/).
 
+<div class="download top">
+  <a href="http://downloads.wordpress.org/plugin/sharebar.zip" class="primary">Download</a>
+  <a href="http://devgrow.com/plugins/sharebar/" class="secondary">Preview</a>
+</div>
 
-[View Demo](http://devgrow.com/plugins/sharebar/)[Sharebar WordPress Plugin (zip)](http://downloads.wordpress.org/plugin/sharebar.zip)
+### Nearing 10k Downloads
 
-
-
-
+Sharebar is my first ever WordPress plugin and it's amazing to see that it has been installed almost 10,000 times!  I'm very curious as to which sites are using the plugin, especially any big ones.  If you know of a big blog that uses Sharebar, please let me know in the comments so I can check it out!
 
 ### New Plugins Coming
-
 
 I have some ideas for a few new WordPress plugins that I hope to start coding soon.  If you have suggestions for a plugin, feel free to post them in the comments or [e-mail me directly](http://devgrow.com/contact).
 

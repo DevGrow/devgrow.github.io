@@ -17,13 +17,13 @@ tags:
 - startups
 ---
 
-Jason Calcanis provided some really useful tips a while back about [how to save money when running a startup](http://calacanis.com/2008/03/07/how-to-save-money-running-a-startup-17-really-good-tips/). While they’re great tips, a lot of them don’t apply to budding entrepreneurs who are simply trying to save money during the actual “startup” part (buy an expresso meeting for _how much_?).
+Jason Calcanis provided some really useful tips a while back about[how to save money when running a startup](http://calacanis.com/2008/03/07/how-to-save-money-running-a-startup-17-really-good-tips/). While they’re great tips, a lot of them don’t apply to budding entrepreneurs who are simply trying to save money during the actual “startup” part (buy an expresso meeting for_how much_?).
 
 Here are some tips to help you save money when starting a new business:
 
 #### 1. Don’t get an office (until you really need one)
 
-Small startups can usually get by with online communication and phone calls, but if you need an occasional meeting room try to rent one or use public spaces (coffee shops and university libraries). Group conference rooms are sometimes available for rent in corporate buildings. Conduct small meetings in virtual conference rooms such as [Campfire](http://www.campfirenow.com/signup) (free to cheap) or [Tangler](http://www.tangler.com/) (free) for everything else.
+Small startups can usually get by with online communication and phone calls, but if you need an occasional meeting room try to rent one or use public spaces (coffee shops and university libraries). Group conference rooms are sometimes available for rent in corporate buildings. Conduct small meetings in virtual conference rooms such as[Campfire](http://www.campfirenow.com/signup) (free to cheap) or[Tangler](http://www.tangler.com/) (free) for everything else.
 
 #### 2. Share living space
 
@@ -35,7 +35,7 @@ We were able to save $2,000 when we decided to bring in sponsors for our adverti
 
 #### 4. Invest in at least 1 nice LCD per person
 
-When I first hooked up my old 13″ Macbook to a 24″ LCD, I saw my productivity increase at least two-fold. You not only get more screen real estate to work with, it just feels better working on a larger screen. Throw in a wireless keyboard and mouse and you have a solid workstation AND laptop for a cheap price.
+When I first hooked up my old 13″ Macbook to a 24″ LCD, I saw my productivity increase at least two-fold. You not only get more screen real estate to work with, it justfeelsbetter working on a larger screen. Throw in a wireless keyboard and mouse and you have a solid workstation AND laptop for a cheap price.
 
 #### 5. Buy a decent chair but Areons can wait
 

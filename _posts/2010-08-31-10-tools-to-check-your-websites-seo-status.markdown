@@ -19,10 +19,6 @@ As SEO becomes an increasingly important part of web development, it's important
 
 There are a lot of tools out there to help you identify your SEO strengths and weaknesses, from services that monitor your keyword rankings on popular search engines (SERP, or Search Engine Results Page) to more complete, premium solutions that tell you exactly what you should change to make your site rank better.
 
-
-
-
-
 [![](http://devgrow.s3.amazonaws.com/assets/images/diyseo.gif)](http://diyseo.com/)
 
 ##### [DIYSEO](http://www.diyseo.com/)

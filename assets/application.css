@@ -484,6 +484,12 @@ hr {
   -moz-box-shadow: 0 1px 5px rgba(0, 0, 1, 0.3), inset 0 0 18px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 5px rgba(0, 0, 1, 0.3), inset 0 0 18px rgba(0, 0, 0, 0.1);
   margin-left: -8px; }
+  .post .post-content img.image-left {
+    float: left;
+    margin: 10px 20px 5px 0; }
+  .post .post-content img.image-right {
+    float: left;
+    margin: 10px 0 5px 20px; }
 .post .post-content .author, .post .post-content .note, .post .post-content .download {
   width: 100%;
   padding: 15px;
@@ -502,6 +508,8 @@ hr {
       .post .post-content .author .content .avatar img, .post .post-content .note .content .avatar img, .post .post-content .download .content .avatar img {
         margin: 0;
         max-width: 80px; }
+  .post .post-content .author.top, .post .post-content .note.top, .post .post-content .download.top {
+    margin-bottom: 30px; }
   .post .post-content .author.download, .post .post-content .note.download, .post .post-content .download.download {
     text-align: center; }
     .post .post-content .author.download a.primary, .post .post-content .author.download a.secondary, .post .post-content .note.download a.primary, .post .post-content .note.download a.secondary, .post .post-content .download.download a.primary, .post .post-content .download.download a.secondary {
@@ -550,10 +558,21 @@ hr {
 .pagination a:visited {
   color: #333; }
 
+.post-nav {
+  width: 100%;
+  padding: 15px;
+  margin-left: -15px;
+  background: #555;
+  list-style-type: none;
+  font-size: 15px; }
+  .post-nav a, .post-nav a:visited {
+    color: #cfcfcf; }
+  .post-nav a:hover {
+    background: none;
+    color: #fff; }
+
 .comments {
-  margin-top: 30px;
-  padding-top: 30px;
-  border-top: 1px dotted #ddd; }
+  margin-top: 30px; }
 
 #footer {
   margin-top: 30px;

@@ -24,11 +24,11 @@ One of the most important characteristics you'll find in successful individuals 
 
 Too many times have I seen friends and colleagues with high aspirations get shot down because of the supposed rareness of success in their respective industries, the volatile nature of the economy or a host of other ‘potential’ reasons. While I admit that many of them are probably not cut out to be famous athletes or business moguls, constantly hearing that they don’t have a chance at all kills any aspiration they might have to begin with.
 
-Belief in oneself plays a key role in motivating people to work harder at whatever they’re pursuing. For an entrepreneur, the idea that success may not be that far-fetched can often provide that extra push to actually succeeding. I often get asked, "how many Bill Gates' are out there for every person that tries and fails?" (substitute Bill for any other successful businessman) Well, if Bill Gates can do it, why can’t I? Or anyone else for that matter? The truth is that you can - anyone can - if they want it enough to do something about it. Googling [‘rags-to-riches’](http://www.google.com/search?hl=en&q=rags+to+riches&btnG=Google+Search&aq=f&oq=) is evidence enough that people can overcome some of the hardest situations to reach success.
+Belief in oneself plays a key role in motivating people to work harder at whatever they’re pursuing. For an entrepreneur, the idea that success may not be that far-fetched can often provide that extra push to actually succeeding. I often get asked, "how many Bill Gates' are out there for every person that tries and fails?" (substitute Bill for any other successful businessman) Well, if Bill Gates can do it, why can’t I? Or anyone else for that matter? The truth is that you can - anyone can - if they want it enough to do something about it. Googling[‘rags-to-riches’](http://www.google.com/search?hl=en&q=rags+to+riches&btnG=Google+Search&aq=f&oq=) is evidence enough that people can overcome some of the hardest situations to reach success.
 
 ### Well, if Bill Gates can do it, why can't I? Or anyone else for that matter? The truth is that you can - anyone can - if they want it enough to do something about it.
 
-It’s easy to argue that there are a lot of external factors that led to their success and in truth there probably  were, however a big part of it was their confidence. They believed in themselves and used that motivation to push them to greater levels. It’s easy to fall into the realm of ‘wannabe’ entrepreneurs who spend their time talking things up and reading books but fall short when it comes time to act. They may end up stuck in the same story for years and years, unable to move forward because of a list of excuses. Whatever your excuse is, there is a way to get around it if you look hard enough.
+It’s easy to argue that there are a lot of external factors that led to their success and in truth there probably were, however a big part of it was their confidence. They believed in themselves and used that motivation to push them to greater levels. It’s easy to fall into the realm of ‘wannabe’ entrepreneurs who spend their time talking things up and reading books but fall short when it comes time to act. They may end up stuck in the same story for years and years, unable to move forward because of a list of excuses. Whatever your excuse is, there is a way to get around it if you look hard enough.
 
 It’s important to realize that while not everyone is equal in intellect, skill set or financial situation, success for the greater part is something that should be attainable with enough hard work and dedication. Failure is a part of the journey - learn from your mistakes and move on.
 
@@ -39,19 +39,19 @@ Believing in yourself and your company provides confidence not only to you but t
 **Some quotes to get you motivated from some influential people:**
 
 _The turning point, I think, was when I really realized that you can do it yourself. That you have to believe in you because sometimes that’s the only person that does believe in your success but you._
-**- [Tim Bixworth](http://www.forbes.com/2006/09/20/ent-manage_biz_06rich400_self_made_entrepreneurs_tim_blixseth.html), lumber tycoon**
+**-[Tim Bixworth](http://www.forbes.com/2006/09/20/ent-manage_biz_06rich400_self_made_entrepreneurs_tim_blixseth.html), lumber tycoon**
 
 _Whatever qualities the rich may have, they can be acquired by anyone with thetenacity to become rich. The key, I think, is confidence. Confidence and an unshakable belief it can be done and that you are the one to do it._
-**- [Felix Dennis](http://en.wikipedia.org/wiki/Felix_Dennis), MAXIM**[](http://en.wikipedia.org/wiki/Felix_Dennis)
+**-[Felix Dennis](http://en.wikipedia.org/wiki/Felix_Dennis), MAXIM**[](http://en.wikipedia.org/wiki/Felix_Dennis)
 
 _I believe in giving everything my best shot. I do not believe in holding back. I am very driven by the fact that we are destined with these opportunities._
-**- [Shailendra Singh](http://www.sequoiacapitaloperations.sg/people/shailendra-singh/), Sequoia Capital India**[](http://www.sequoiacapitaloperations.sg/people/shailendra-singh/)
+**-[Shailendra Singh](http://www.sequoiacapitaloperations.sg/people/shailendra-singh/), Sequoia Capital India**[](http://www.sequoiacapitaloperations.sg/people/shailendra-singh/)
 
 _Outstanding leaders go out of their way to boost the self-esteem of their personnel. If people believe in themselves, it’s amazing what they can accomplish._
-**- [Sam Walton](http://en.wikipedia.org/wiki/Sam_Walton), Wal-mart & Sam’s Club**
+**-[Sam Walton](http://en.wikipedia.org/wiki/Sam_Walton), Wal-mart & Sam’s Club**
 
 _Self-esteem is a huge piece of my work. You have to believe it’s possible and believe in yourself. Because after you’ve decided what you want, you have to believe it’s possible, and possible for you, not just for other people._
-**- [Jack Canfield](http://en.wikipedia.org/wiki/Jack_Canfield), Chicken Soup for the Soul**
+**-[Jack Canfield](http://en.wikipedia.org/wiki/Jack_Canfield), Chicken Soup for the Soul**
 
 <div class="note">
   <strong>Note:</strong> This is one of the original DevGrow article's from 2008 that was lost in transition.  This is the last of the oldies, moving on to new content next week.

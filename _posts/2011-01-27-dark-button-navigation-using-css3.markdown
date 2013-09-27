@@ -22,20 +22,16 @@ tags:
 
 I recently came across a great looking set of [navigational buttons](http://www.premiumpixels.com/dark-button-navigation-psd/) designed by Orman Clark of [Premium Pixels](http://www.premiumpixels.com/).  I'm a big fan of his design style and decided to whip together a quick CSS3/HTML version of the buttons.  Check out the demo and feel free to download the example zip file as well.
 
-
-
-[View Online Demo](http://demos.devgrow.com/dark-nav-buttons/)[Download Files (zip)](http://demos.devgrow.com/dark-nav-buttons/dark-nav-buttons.zip)
-
-
+<div class="download">
+  <a href="http://demos.devgrow.com/dark-nav-buttons/dark-nav-buttons.zip" class="primary">Download</a>
+  <a href="http://demos.devgrow.com/dark-nav-buttons/" class="secondary">Preview</a>
+</div>
 
 [![](http://devgrow.s3.amazonaws.com/assets/images/dark-nav-buttons-big.jpg)](http://demos.devgrow.com/dark-nav-buttons/)
 
-
-
 ### The CSS:
 
-
-`
+{% highlight css linenos=table %}
 /* Dark Button CSS */
 .button {
 	outline: 0;
@@ -154,63 +150,29 @@ I recently came across a great looking set of [navigational buttons](http://www.
 	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.2); /* Safari, Chrome */
 	box-shadow: 1px 1px 1px rgba(0,0,0,0.2); /* CSS3 */
 }
-`
-
-
+{% endhighlight %}
 
 ### The HTML:
 
-
-`
-
-
-
-
-  * [Home](/)
-
-
-  * [About](/)
-
-
-  * [Portfolio](/)
-
-
-  * [Blog](/)
-
-
-  *
-
-
-
-### Vertical Menu:
-
-
-
-
-
-
-  * [Home](/)
-
-
-  * [Our Studio](/)
-
-
-  * [Portfolio](/)
-
-
-  * [Our Team](/)
-
-
-  * [Get in Touch](/)
-
-
-`
-
-
+{% highlight html linenos=table %}
+<ul class="button-list">
+    <li><a href='/' class='button'>Home</a></li>
+    <li><a href='/' class='button'>About</a></li>
+    <li><a href='/' class='button'>Portfolio</a></li>
+    <li><a href='/' class='button'>Blog</a></li>
+    <li class="search"><input type="text" class="search-input" name="search" value="Search" onclick="$(this).val('');" /><input type="submit" class="search-submit" /></li>
+</ul>
+<h3>Vertical Menu:</h3>
+<ul class="vertical-list">
+    <li><a href='/' class='button'>Home</a></li>
+    <li><a href='/' class='button'>Our Studio</a></li>
+    <li><a href='/' class='button'>Portfolio</a></li>
+    <li><a href='/' class='button'>Our Team</a></li>
+    <li><a href='/' class='button'>Get in Touch</a></li>
+</ul>
+{% endhighlight %}
 
 ### About the Demo
-
-
 
 The only image used in the demo is for the textured background - all other gradients and effects are done with CSS3.  As a result, compatibility is limited to a handful of browsers, including Firefox, Chrome, Safari and possibly IE8.  It looks strange in IE7 and the gradients don't work in Opera, so I'd use caution if you're considering using these in a production environment.
 
