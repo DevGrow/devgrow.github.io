@@ -22,7 +22,6 @@ I've just spent the past couple of days rewriting a lot of the [jQuery Mobile PH
 
 <div class="download">
   <a href="https://github.com/mdolon/jQuery-Mobile-PHP-MVC" class="primary">Download at Github</a>
-  <a href="https://github.com/mdolon/jQuery-Mobile-PHP-MVC" class="secondary">Preview</a>
 </div>
 
 [![](http://devgrow.s3.amazonaws.com/assets/images/jquery-mobile-mvc.gif)](https://github.com/mdolon/jQuery-Mobile-PHP-MVC)

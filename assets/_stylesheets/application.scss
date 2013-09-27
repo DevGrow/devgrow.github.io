@@ -29,6 +29,9 @@ small {
 strong {
   font-weight: 600;
 }
+em {
+  font-style: italic;
+}
 ul, ol {
   padding-left: 20px;
   margin-bottom: 1.5em;
@@ -67,6 +70,13 @@ h6 { font-size: 14px;  line-height: 16px; }
 code, .code, .linenos {
     font: 0.75em "Monaco", Courier, Monospace;
     line-height: 1.5em;
+}
+hr {
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;  height: 1px;
+  background: none;  border-width: 0 0 1px;
+  border-bottom: 1px dotted #ddd;
 }
 
 // Page Layout
@@ -160,31 +170,10 @@ code, .code, .linenos {
       box-shadow: 0 1px 5px rgba(0,0,1,0.3),inset 0 0 18px rgba(0,0,0,0.1);
       margin-left: -8px;
     }
-    .download {
-      display: block;
-      a {
-        &.primary, &.secondary {
-          margin-right: 5px;
-          padding: 3px 8px;
-          font-size: 19px;
-        }
-        &.primary {
-          background: #888;
-          color: #fff;
-        }
-        &.secondary {
-          background: #bbb;
-          color: #fff;
-        }
-        &:hover {
-          background: #444;
-        }
-        &:active {
-          background: #222;
-        }
-      }
+    blockquote {
+
     }
-    .author {
+    .author, .note, .download {
       width: 100%;
       padding: 15px;
       margin-left: -15px;
@@ -202,6 +191,30 @@ code, .code, .linenos {
           img {
             margin: 0;
             max-width: 80px;
+          }
+        }
+      }
+      &.download {
+        text-align: center;
+        a {
+          &.primary, &.secondary {
+            margin: 0 5px;
+            padding: 3px 8px;
+            font-size: 19px;
+          }
+          &.primary {
+            background: #555;
+            color: #fff;
+          }
+          &.secondary {
+            background: #777;
+            color: #fff;
+          }
+          &:hover {
+            background: #444;
+          }
+          &:active {
+            background: #222;
           }
         }
       }

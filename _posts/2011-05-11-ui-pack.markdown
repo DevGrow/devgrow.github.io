@@ -21,12 +21,10 @@ tags:
 
 I've been running across several new UI PSD kits that cover a wide range of elements, everything from buttons to media players.  I wanted to take a shot at making my own with a few simple elements - feel free to use the following UI elements in any project you'd like.
 
-
 <div class="download">
-    [Preview](http://devgrow.s3.amazonaws.com/assets/images/ui-pack-preview.png)[Download PSD](http://demos.devgrow.com/ui-pack.zip)
+  <a href="http://devgrow.s3.amazonaws.com/assets/files/ui-pack.zip" class="primary">Download at Github</a>
+  <a href="http://devgrow.s3.amazonaws.com/assets/images/ui-pack-preview.png" class="secondary">Preview</a>
 </div>
-
-
 
 [![](http://devgrow.s3.amazonaws.com/assets/images/ui-pack-big.png)](http://devgrow.s3.amazonaws.com/assets/images/ui-pack-preview.png)
 
