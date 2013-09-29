@@ -20,7 +20,7 @@
         {% endif %}
       {% else %}
         &bull;
-        Published {{ page.date | date: "%B %d, %Y" }}
+        Published <time class="date updated" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
       {% endif %}
     </p>
   {% endif %}

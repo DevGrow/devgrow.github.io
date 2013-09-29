@@ -19,36 +19,34 @@ tags:
 
 The sweet looking buttons in this tutorial are created using only HTML and CSS3 - no JavaScript or images required!  The buttons are easy to make and are pretty extensible but don't take my word for it, check out the demo instead:
 
-
-
+<iframe width="600" height="170" src="http://devgrow.com/examples/css3buttons/embed.html" style="border:none;" frameborder="0" marginheight="0" marginwidth="0" style="margin: 30px 0 0;"></iframe>
 
 ## Download
 
-
 The zip file below contains the CSS and HTML to create all of the elements in the above example, as well as the image file used.
-[CSS3 Buttons (zip)](http://devgrow.com/examples/css3buttons/css3buttons.zip)[More Examples](http://devgrow.com/examples/css3buttons/)
 
-
+<div class="download top">
+  <a href="http://devgrow.com/examples/css3buttons/css3buttons.zip" class="primary">Download</a>
+  <a href="http://devgrow.com/examples/css3buttons/" class="secondary">Preview</a>
+</div>
 
 ## The Code
 
-
-To achieve the shadow and lighting effects we're going for, I'm using wrapping the actual link text in `` tags.  Some might think this is tedious or extra work but in my opinion the results are worth the effort.  You could also just write 1 line of JQuery code to automatically add the `` tags to your links, making life even easier.
-
-
+To achieve the shadow and lighting effects we're going for, I'm using wrapping the actual link text in `<span>` tags.  Some might think this is tedious or extra work but in my opinion the results are worth the effort.  You could also just write 1 line of JQuery code to automatically add the `<span>` tags to your links, making life even easier.
 
 ##### HTML
 
+{% highlight html linenos=table %}
+<a href='#' class='button blue'><span>Blue</span></a>
+{% endhighlight %}
 
-`Blue`
 The only things required are the button class and the span tag inside the anchor.  Change the color to whatever you set in the CSS or leave it blank to use the default color.
-
 
 ##### CSS
 
-
 The CSS is a bit more intense - it makes use of several CSS3 properties including [box shadows](http://www.css3.info/preview/box-shadow/), [text shadows](http://www.css3.info/preview/text-shadow/) and [background gradients](http://css-tricks.com/css3-gradients/):
-`
+
+{% highlight css linenos=table %}
 /* Overall Button Style */
 .button {
 	background: #777;
@@ -102,15 +100,13 @@ The CSS is a bit more intense - it makes use of several CSS3 properties includin
 .button.selected { background-color: #569334; }
 .button.large span { font-size: 16px;  padding: 6px 14px; }
 .button.small span { font-size: 11px;  padding: 4px 8px; }
-`
-
-
+{% endhighlight %}
 
 ## Improving Compatibility
 
-
 While the buttons work perfectly in the latest versions of Chrome, Safari and Firefox, any other browser will have difficulty with the CSS3 gradient property, which means the hover and active states of the button are hard to tell apart.  To fix this, we can add a fallback background image that is shown only to browsers that don't support the required CSS3 properties, like such:
-`
+
+{% highlight css linenos=table %}
 /* Button States */
 .button:hover {
 	background-image: url(button.png); /* fallback image */
@@ -128,13 +124,11 @@ While the buttons work perfectly in the latest versions of Chrome, Safari and Fi
 	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, transparent), color-stop(1, rgba(0, 0, 0, 0.2)));
 	background-image: -moz-linear-gradient(bottom, transparent, rgba(0, 0, 0, 0.2));
 	}
-`
+{% endhighlight %}
+
 I've included the **button.png** gradient image in the downloadable zip file so feel free to use that if you'd like.
 
-
-
 ## Taking it Further
-
 
 I've seen the articles by [Zurb](http://www.zurb.com/) on [CSS3 buttons](http://www.zurb.com/blog_uploads/0000/0617/buttons-03.html), however I thought I'd try taking a slightly different approach in mine.  I also like the way these behave on the active and hover states better than the Zurb examples.  While I like the way these buttons look in most browsers, they still look a little weird in IE, as the top-border renders as a solid white bar.  The next step will be to explore options that will allow it to degrade even more gracefully in older browsers, perhaps using another image overlay for the top border itself.
 

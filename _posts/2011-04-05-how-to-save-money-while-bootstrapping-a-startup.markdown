@@ -17,9 +17,7 @@ tags:
 - startups
 ---
 
-Jason Calcanis provided some really useful tips a while back about[how to save money when running a startup](http://calacanis.com/2008/03/07/how-to-save-money-running-a-startup-17-really-good-tips/). While they’re great tips, a lot of them don’t apply to budding entrepreneurs who are simply trying to save money during the actual “startup” part (buy an expresso meeting for_how much_?).
-
-Here are some tips to help you save money when starting a new business:
+Jason Calcanis provided some really useful tips a while back about [how to save money when running a startup](http://calacanis.com/2008/03/07/how-to-save-money-running-a-startup-17-really-good-tips/). While they’re great tips, a lot of them don’t apply to budding entrepreneurs who are simply trying to save money during the actual “startup” part (buy an expresso meeting for _how much_?).  Here are some of my tips to help you save money when starting a new business:
 
 #### 1. Don’t get an office (until you really need one)
 
