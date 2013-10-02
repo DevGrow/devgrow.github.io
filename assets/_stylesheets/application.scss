@@ -195,10 +195,7 @@ hr {
         max-width: 100px;
       }
     }
-    blockquote {
-
-    }
-    .author, .note, .download {
+    .author, .note, .download, blockquote {
       width: 100%;
       padding: 15px;
       margin-left: -15px;
@@ -243,6 +240,14 @@ hr {
             background: #222;
           }
         }
+      }
+      &.small {
+        font-size: 0.85em;
+      }
+    }
+    blockquote {
+      p {
+        margin-bottom: 0;
       }
     }
   }

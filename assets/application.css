@@ -386,41 +386,45 @@ hr {
     margin: 10px 0 5px 20px; }
   .post .post-content img.small {
     max-width: 100px; }
-.post .post-content .author, .post .post-content .note, .post .post-content .download {
+.post .post-content .author, .post .post-content .note, .post .post-content .download, .post .post-content blockquote {
   width: 100%;
   padding: 15px;
   margin-left: -15px;
   margin-bottom: 30px;
   background: #fafafa; }
-  .post .post-content .author h3, .post .post-content .note h3, .post .post-content .download h3 {
+  .post .post-content .author h3, .post .post-content .note h3, .post .post-content .download h3, .post .post-content blockquote h3 {
     margin-bottom: 0.5em; }
-  .post .post-content .author .content, .post .post-content .note .content, .post .post-content .download .content {
+  .post .post-content .author .content, .post .post-content .note .content, .post .post-content .download .content, .post .post-content blockquote .content {
     position: relative;
     padding-right: 115px;
     font-size: 0.8em; }
-    .post .post-content .author .content .avatar, .post .post-content .note .content .avatar, .post .post-content .download .content .avatar {
+    .post .post-content .author .content .avatar, .post .post-content .note .content .avatar, .post .post-content .download .content .avatar, .post .post-content blockquote .content .avatar {
       position: absolute;
       top: 2px;
       right: 0; }
-      .post .post-content .author .content .avatar img, .post .post-content .note .content .avatar img, .post .post-content .download .content .avatar img {
+      .post .post-content .author .content .avatar img, .post .post-content .note .content .avatar img, .post .post-content .download .content .avatar img, .post .post-content blockquote .content .avatar img {
         margin: 0;
         max-width: 80px; }
-  .post .post-content .author.download, .post .post-content .note.download, .post .post-content .download.download {
+  .post .post-content .author.download, .post .post-content .note.download, .post .post-content .download.download, .post .post-content blockquote.download {
     text-align: center; }
-    .post .post-content .author.download a.primary, .post .post-content .author.download a.secondary, .post .post-content .note.download a.primary, .post .post-content .note.download a.secondary, .post .post-content .download.download a.primary, .post .post-content .download.download a.secondary {
+    .post .post-content .author.download a.primary, .post .post-content .author.download a.secondary, .post .post-content .note.download a.primary, .post .post-content .note.download a.secondary, .post .post-content .download.download a.primary, .post .post-content .download.download a.secondary, .post .post-content blockquote.download a.primary, .post .post-content blockquote.download a.secondary {
       margin: 0 5px;
       padding: 3px 8px;
       font-size: 1.2em; }
-    .post .post-content .author.download a.primary, .post .post-content .note.download a.primary, .post .post-content .download.download a.primary {
+    .post .post-content .author.download a.primary, .post .post-content .note.download a.primary, .post .post-content .download.download a.primary, .post .post-content blockquote.download a.primary {
       background: #555;
       color: #fff; }
-    .post .post-content .author.download a.secondary, .post .post-content .note.download a.secondary, .post .post-content .download.download a.secondary {
+    .post .post-content .author.download a.secondary, .post .post-content .note.download a.secondary, .post .post-content .download.download a.secondary, .post .post-content blockquote.download a.secondary {
       background: #777;
       color: #fff; }
-    .post .post-content .author.download a:hover, .post .post-content .note.download a:hover, .post .post-content .download.download a:hover {
+    .post .post-content .author.download a:hover, .post .post-content .note.download a:hover, .post .post-content .download.download a:hover, .post .post-content blockquote.download a:hover {
       background: #444; }
-    .post .post-content .author.download a:active, .post .post-content .note.download a:active, .post .post-content .download.download a:active {
+    .post .post-content .author.download a:active, .post .post-content .note.download a:active, .post .post-content .download.download a:active, .post .post-content blockquote.download a:active {
       background: #222; }
+  .post .post-content .author.small, .post .post-content .note.small, .post .post-content .download.small, .post .post-content blockquote.small {
+    font-size: 0.85em; }
+.post .post-content blockquote p {
+  margin-bottom: 0; }
 
 .latest-post {
   padding-bottom: 10px;

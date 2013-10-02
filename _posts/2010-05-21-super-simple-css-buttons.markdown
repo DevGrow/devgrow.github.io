@@ -19,42 +19,32 @@ tags:
 
 While playing around with a few button designs for my latest project, I came up with a simple CSS-only button system that is both lightweight and compatible with nearly all major browsers.  Check it out and let me know what you think!
 
-
-
-## Examples
-
-
-
-
-
 ## Download
-
 
 The zip file below contains the CSS and HTML to create all of the elements in the above example, as well as the image file used.
 
-
-[Simple CSS Buttons (zip)](http://devgrow.com/examples/cssbuttons/cssbuttons.zip)[Examples](http://devgrow.com/examples/cssbuttons/)
-
-
+<div class="download">
+  <a href="http://devgrow.com/examples/cssbuttons/cssbuttons.zip" class="primary">Download</a>
+  <a href="http://devgrow.com/examples/cssbuttons/" class="secondary">Preview</a>
+</div>
 
 
 ## The HTML
 
-
 I wanted to keep it dead simple to use, enough so that a single class could be added to any element to create a button.  The HTML I used in the example is as follows:
-`
-[Google](http://google.com/)
-[Bing](http://bing.com/)
-[DevGrow](http://devgrow.com/)
-`
 
+{% highlight html linenos=table %}
+<a href='http://google.com/' class='button'>Google</a>
+<a href='http://bing.com/' class='button red'>Bing</a>
+<a href='http://devgrow.com/' class='button large green'>DevGrow</a>
+{% endhighlight %}
 
 
 ## The CSS
 
-
 In order to add a subtle gradient effect, I decided to use a single [image file](http://devgrow.com/examples/cssbuttons/button.png).  If you really want, you can leave that out and the buttons should still work fine.  To give you an idea of how it can be customized, I created styles for 7 additional colors and 3 different sizes.
-`
+
+{% highlight css linenos=table %}
 .button {
 	padding: 5px 10px;
 	display: inline;
@@ -90,13 +80,12 @@ In order to add a subtle gradient effect, I decided to use a single [image file]
 .button.large { font-size: 125%; padding: 7px 12px; }
 .button.large:hover { background-position: 0 -35px; }
 .button.large:active { padding: 8px 12px 6px; background-position: 0 top; }
-`
+{% endhighlight %}
+
 The CSS is pretty self-explanatory, however an interesting point is that I change the padding in the active state (_.button:active_) while shifting the element up by 1 pixel - this creates a pseudo-3D effect of physically pushing down on it.
 
 
-
 ## Compatibility and Final Remarks
-
 
 While the buttons themselves do work on all major browsers (FF, Safari, Opera, Chrome, IE7+), certain effects may not be available on all browsers.  For instance, IE and Opera will not render rounded corners.
 
