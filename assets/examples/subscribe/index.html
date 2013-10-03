@@ -1,0 +1,129 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="devgrow.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<title>Dark Navigation Buttons</title>
+<style>
+	/* The following styles are used only for this page - the actual plugin styles are in slidernav.css */
+	* { margin: 0; padding: 0; }
+	body { background: #f3f3f3; text-align: left; }
+	#content { padding: 40px 20px; font-family: "Helvetica Neue", Helvetica, Arial; font-size: 12px; line-height: 18px; color: #555; width: 600px; }
+	a { text-decoration: none; color: #24618c; }
+	a:hover { color: #438abb; }
+	h2, h3 { margin: 0 0 20px; color: #000; }
+	h2 { font-size: 28px; line-height: 32px; }
+	h3 { font-size: 22px; line-height: 26px; }
+	pre { background: #fff; width: 460px; padding: 10px 20px; border-left: 5px solid #ccc; margin: 0 0 20px; }
+	p { font-size: 18px; line-height: 24px; margin: 0 0 30px; }
+	input { margin: 0; padding: 0; }
+	
+	#sidebar { width: 300px; padding: 30px 0 0 130px; }
+	
+	.widget {
+		margin-bottom: 40px;
+		overflow: hidden;
+		}
+	.widget h3 {
+		font-size: 22px;
+		margin: 0 0 15px;
+		}
+	.widget.subscribe h3 {
+		font-size: 20px;
+		font-weight: 600;
+		color: #4a7aa3;
+		}
+	.subscribe {
+		background: #f0f8ff;
+		padding: 13px;
+		border: 2px solid #d5e7ee;
+		}
+	.subscribe form {
+		margin: 15px 0 0;
+		}
+	.subscribe input.textfield {
+		border: 2px solid #e4e9ef;
+		}
+	.subscribe input {
+		font-size: 13px;
+		padding: 4px;
+		}
+	.subscribe input.submit.button {
+		font-size: 13px;
+		border: 2px solid #3C6F8F;
+		background: #3675A5;
+		padding: 3px 5px;
+		color: white;
+		cursor: pointer;
+		font-size: 15px;
+		font-weight: 700;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		}
+	.subscribe input.submit.button:hover {
+		background: #488abc;
+		}
+	.subscribe p {
+		color: #385c7c;
+		font-size: 13px;
+		line-height: 20px;
+		margin: 0 0 5px;
+		}
+	.social {
+		float: right;
+		}
+	.social li {
+		float: left;
+		margin: 0 0 0 5px;
+		}
+	.social li a {
+		background: url(icons.gif) no-repeat;
+		display: block;
+		height: 26px;
+		text-indent: -999em;
+		width: 26px;
+		}
+	.social li a.facebook {
+		background-position: 0 -30px;
+		}
+	.social li a.rss {
+		background-position: 0 0;
+		}
+	.social li a.twitter {
+		background-position: 0 -59px;
+		}
+	.social li a:hover {
+		position: relative;
+		top: -1px;
+		}
+</style>
+</head>
+<body>
+<div id="header">
+	<div id="logo"><h1><a href="http://devgrow.com/" class="tip-s" title="Design. Develop. Grow."><span>Dev</span><em>/</em><strong>Grow</strong></a></h1></div>
+	<a href="http://devgrow.com/dark-button-navigation-using-css3" class="return">&laquo; Return to Article</a>
+</div>
+<div id="content">
+	<h2>Subscribe Widget for WordPress Sidebar</h2>
+	<p>The following is a simple Subscribe widget for your WordPress sidebar that uses <a href="http://feedburner.google.com/fb/a/emailsyndication">Feedburner's e-mail subscribe form</a> and pretty straightforward HTML/CSS.</p>
+	<div id="sidebar">
+		<div class="widget subscribe">
+			<ul class="social">
+				<li><a href="http://feeds.feedburner.com/devgrow" class="rss">RSS</a></li>
+				<li><a href="http://www.facebook.com/DevGrow" class="facebook">Facebook</a></li>
+				<li><a href="http://twitter.com/ThinkDevGrow" class="twitter">Twitter</a></li>
+			</ul>
+			<h3>Subscribe</h3>
+			<p>Join over 2,800 readers and get the latest posts delivered straight to your inbox.</p>
+			<form id="feedburner-subscribe" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=[YourAccount]', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+				<input type="text" name="email" value="E-mail Address" class="left textfield" />
+				<input type="hidden" value="[YourAccount]" name="uri"/>
+				<input type="hidden" name="loc" value="en_US"/>
+				<input type="submit" value="Subscribe" class="right button submit" />
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>

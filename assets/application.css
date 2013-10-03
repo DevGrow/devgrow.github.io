@@ -487,13 +487,37 @@ hr {
 .comments {
   margin-top: 30px; }
 
+.contributors, .projects {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+  .contributors li, .projects li {
+    position: relative;
+    padding: 5px 0 30px 180px; }
+    .contributors li img, .projects li img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 0 !important;
+      margin: 0 !important;
+      width: 140px;
+      height: 140px;
+      border-radius: 140px;
+      -moz-border-radius: 140px;
+      -webkit-border-radius: 140px;
+      -webkit-box-shadow: none !important;
+      -moz-box-shadow: none !important;
+      box-shadow: none !important; }
+    .contributors li h4, .projects li h4 {
+      margin-bottom: 0.3em; }
+
 #footer {
   margin-top: 30px;
   padding-top: 15px;
   border-top: 1px dotted #ddd; }
   #footer .top {
     float: right;
-    color: #aaa; }
+    color: #ccc; }
     #footer .top:hover {
       background: #fff;
       color: #666; }

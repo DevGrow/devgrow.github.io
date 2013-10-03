@@ -107,20 +107,20 @@ I try to finalize each element as I progress down the page, adding the necessary
 Here are the files I delivered to the client for the project we've been following:
 
   * css
-    * [framework.css](http://cdn.devgrow.com/examples/ewrestlingnews/css/framework.css)
-    * [tipsy.css](http://cdn.devgrow.com/examples/ewrestlingnews/tipsy.css)
+    * [framework.css](http://demos.devgrow.com/ewrestlingnews/css/framework.css)
+    * [tipsy.css](http://demos.devgrow.com/ewrestlingnews/tipsy.css)
   * images
     * Multiple images...
   * js
-    * [functions.js](http://cdn.devgrow.com/examples/ewrestlingnews/js/functions.js)
-    * [jquery.js](http://cdn.devgrow.com/examples/ewrestlingnews/js/jquery.js)
-    * [jquery.tipsy.js](http://cdn.devgrow.com/examples/ewrestlingnews/js/jquery.tipsy.js)
-  * [elements.html](http://cdn.devgrow.com/examples/ewrestlingnews/elements.html)
-  * [index.html](http://cdn.devgrow.com/examples/ewrestlingnews/index.html)
-  * [just-top.html](http://cdn.devgrow.com/examples/ewrestlingnews/just-top.html)
-  * [page.html](http://cdn.devgrow.com/examples/ewrestlingnews/page.html)
-  * [page2.html](http://cdn.devgrow.com/examples/ewrestlingnews/page2.html)
-  * [page3.html](http://cdn.devgrow.com/examples/ewrestlingnews/page3.html)
+    * [functions.js](http://demos.devgrow.com/ewrestlingnews/js/functions.js)
+    * [jquery.js](http://demos.devgrow.com/ewrestlingnews/js/jquery.js)
+    * [jquery.tipsy.js](http://demos.devgrow.com/ewrestlingnews/js/jquery.tipsy.js)
+  * [elements.html](http://demos.devgrow.com/ewrestlingnews/elements.html)
+  * [index.html](http://demos.devgrow.com/ewrestlingnews/index.html)
+  * [just-top.html](http://demos.devgrow.com/ewrestlingnews/just-top.html)
+  * [page.html](http://demos.devgrow.com/ewrestlingnews/page.html)
+  * [page2.html](http://demos.devgrow.com/ewrestlingnews/page2.html)
+  * [page3.html](http://demos.devgrow.com/ewrestlingnews/page3.html)
 
 ### 6. Backend Development
 

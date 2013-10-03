@@ -24,8 +24,8 @@ A honey pot trap involves creating a form with an extra field that is hidden to 
 
 Here is an example of a simple contact form that uses the honey pot spam prevention method:
 <div class="download">
-  <a href="http://devgrow.com/examples/honeypot/honeypot.zip" class="primary">Download</a>
-  <a href="http://devgrow.com/examples/honeypot/" class="secondary">Preview</a>
+  <a href="http://demos.devgrow.com/honeypot/honeypot.zip" class="primary">Download</a>
+  <a href="http://demos.devgrow.com/honeypot/" class="secondary">Preview</a>
 </div>
 
 ### The HTML:

@@ -33,7 +33,7 @@ Someone mentioned it doesn't work in Firefox in the comments - I've tested the c
 Feel free to view the source of the demo to see how the exact implementation.  Also, keep in mind that this is certainly not a fool-proof solution (not even a great one) at preventing image theft.  It's useful in deterring the subset of people who are less tech-savvy and are likely to give up after being unable to right-click.
 
 <div class="download top">
-  <a href="http://devgrow.com/examples/nocontext.html" class="secondary">Live Example</a>
+  <a href="http://demos.devgrow.com/nocontext/" class="secondary">Live Example</a>
 </div>
 
 ### Edit 2: I am not suggesting this!

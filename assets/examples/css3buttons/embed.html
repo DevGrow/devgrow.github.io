@@ -1,0 +1,100 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Stylish CSS3 Buttons</title>
+<script type="text/javascript" src="jquery-1.4.2.js"></script>
+<script type="text/javascript">
+	// This is to make the buttons do nothing when clicked on
+	$(document).ready(function(){
+		$('.button').click(function(){ return false; });
+	});
+</script>
+<style>
+	/* The following styles are used only for this page - the actual plugin styles are in slidernav.css */
+	* { margin: 0; padding: 0; }
+	body { padding: 0; background: #fff; font-family: Verdana, Arial; font-size: 12px; line-height: 18px; }
+	a { text-decoration: none; }
+	h2, h3 { margin: 0 0 20px; text-shadow: 2px 2px #fff; }
+	h2 { font-size: 28px; }
+	h3 { font-size: 18px; }
+	pre { background: #fff; width: 460px; padding: 10px 20px; border-left: 5px solid #ccc; margin: 0 0 20px; }
+	p { width: 500px; font-size: 18px; line-height: 24px; margin: 0 0 30px; }
+	input { margin: 0; padding: 0; }
+
+/* Overall Button Style */
+.button {
+	background: #777;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	display: inline-block;
+	overflow: hidden;
+	padding: 1px;
+	vertical-align: middle;
+	}
+.button span {
+	border-top: 1px solid rgba(255, 255, 255, 0.25);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+	display: block;
+	font: bold 12px 'Arial', sans-serif;
+	padding: 6px 12px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+	}
+	
+/* Button States */
+.button:hover {
+	background-image: url(button.png); /* fallback image */
+	background-position: top;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, transparent), color-stop(1, rgba(0, 0, 0, 0.1)));
+	background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.1));
+	text-decoration: none;
+	}
+.button:active {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background-image: url(button.png); /* fallback image */
+	background-position: bottom;
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, transparent), color-stop(1, rgba(0, 0, 0, 0.2)));
+	background-image: -moz-linear-gradient(bottom, transparent, rgba(0, 0, 0, 0.2));
+	}
+.button:active span {
+	border-top-color: rgba(0, 0, 0, 0.2);
+	}
+	
+/* Colors and Sizes */
+.button.black { background-color: #252a2a; }
+.button.blue { background-color: #3792c6; }
+.button.red { background-color: #cc2222; }
+.button.green { background-color: #69a846; }
+.button.brown { background-color: #b6761a; }
+.button.selected { background-color: #569334; }
+.button.large span { font-size: 16px;  padding: 6px 14px; }
+.button.small span { font-size: 11px;  padding: 4px 8px; }
+
+</style>
+</head>
+<body>
+<h3>Links / Anchors:</h3>
+<a href='#' class='button'><span>Default</span></a>
+<a href='#' class='button black'><span>Black</span></a>
+<a href='#' class='button blue'><span>Blue</span></a>
+<a href='#' class='button red'><span>Red</span></a>
+<a href='#' class='button green'><span>Green</span></a>
+<a href='#' class='button brown'><span>Brown</span></a>
+<br />
+<br />
+<h3>Sizes:</h3>
+<a href='#' class='button small'><span>Small</span></a>
+<a href='#' class='button'><span>Default (Medium)</span></a>
+<a href='#' class='button large blue'><span>Large</span></a>
+</body>
+</html>

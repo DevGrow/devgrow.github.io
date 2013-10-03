@@ -17,7 +17,7 @@ tags:
 - threaded
 ---
 <div class="note">
-  <strong>Note:</strong> The plugin is no longer enabled in the comments section of this page.  All commenting has been moved to Disqus.  To test out the plugin, please view the <a href="http://devgrow.com/plugins/jcollapsible">example page</a>.
+  <strong>Note:</strong> The plugin is no longer enabled in the comments section of this page.  All commenting has been moved to Disqus.  To test out the plugin, please view the <a href="http://demos.devgrow.com/jcollapsible">example page</a>.
 </div>
 
 **jCollapisble** is a JQuery plugin that takes any nested list (OL or UL that have children) and coverts it into collapsible threads.  This is especially useful to create simple threaded comments on a blog or forum without having to modify the backend code.  I've tried to keep the plugin as simple and bare-bones as possible, so right now there are no fancy slide or fade effects.  The only thing required is the plugin JS file itself - CSS and images are completely optional.
@@ -26,11 +26,11 @@ The plugin has been tested (and works fine) on Firefox 3, Chrome 5, IE7+, Safari
 
 ## Download
 
-You can download the [full source](http://devgrow.com/plugins/jcollapsible/jCollapsible.js), [minified version](http://devgrow.com/plugins/jcollapsible/jCollapsible.min.js)  or [view the example online](http://devgrow.com/plugins/jcollapsible).
+You can download the [full source](http://demos.devgrow.com/jcollapsible/jCollapsible.js), [minified version](http://demos.devgrow.com/jcollapsible/jCollapsible.min.js)  or [view the example online](http://demos.devgrow.com/jcollapsible).
 
 <div class="download">
-  <a href="http://devgrow.com/plugins/jcollapsible/jcollapsible.zip" class="primary">Download</a>
-  <a href="http://devgrow.com/plugins/jcollapsible" class="secondary">Preview</a>
+  <a href="http://devgrow.s3.amazonaws.com/assets/files/jcollapsible.zip" class="primary">Download</a>
+  <a href="http://demos.devgrow.com/jcollapible" class="secondary">Preview</a>
 </div>
 
 

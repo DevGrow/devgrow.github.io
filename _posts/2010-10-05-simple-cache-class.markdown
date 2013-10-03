@@ -27,7 +27,7 @@ Recently for a small project, I turned one of my previous [WordPress cache exper
 The following zip file contains the PHP class and license information.
 
 <div class="download">
-  <a href="http://devgrow.com/examples/SimpleCache.zip" class="primary">Download</a>
+  <a href="http://demos.devgrow.com/SimpleCache.zip" class="primary">Download</a>
 </div>
 
 

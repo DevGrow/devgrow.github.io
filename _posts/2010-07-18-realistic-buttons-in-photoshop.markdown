@@ -100,7 +100,7 @@ As you can see, I also made some darker colored buttons.  For the text on those,
 The complete PSD is available under the [Creative Commons License](http://creativecommons.org/licenses/by/3.0/us/), feel free to download and share as you please:
 
 <div class="download">
-  <a href="http://devgrow.com/examples/buttons.zip" class="primary">Download</a>
+  <a href="http://demos.devgrow.com/buttons.zip" class="primary">Download</a>
 </div>
 
 ### Conclusion

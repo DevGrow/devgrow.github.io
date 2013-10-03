@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>Test</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript">
+	  $(document).ready(function() {
+		$('img').bind("contextmenu", function(e){ return false; })
+	  });
+	</script>
+</head>
+<body>
+<h2>Disable Right-Click Context Menu</h2>
+<h4>Code:</h4>
+<code>$('img').bind("contextmenu", function(e){ return false; })</code>
+<h4>Produces:</h4>
+<img src="einstein.jpg" />
+</body>
+</html>

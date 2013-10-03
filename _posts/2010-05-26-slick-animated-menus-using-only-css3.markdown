@@ -25,8 +25,8 @@ I'm always looking for ways to create neat looking effects with minimal code, so
 The zip file below contains the CSS and HTML to create all of the elements in the above example, as well as the image file used.
 
 <div class="download">
-  <a href="http://devgrow.com/examples/slickmenus/slickmenus.zip" class="primary">Download</a>
-  <a href="http://devgrow.com/examples/slickmenus/" class="secondary">Preview</a>
+  <a href="http://demos.devgrow.com/slickmenus/slickmenus.zip" class="primary">Download</a>
+  <a href="http://demos.devgrow.com/slickmenus/" class="secondary">Preview</a>
 </div>
 
 

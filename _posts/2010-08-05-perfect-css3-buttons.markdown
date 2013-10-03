@@ -19,15 +19,15 @@ tags:
 
 The sweet looking buttons in this tutorial are created using only HTML and CSS3 - no JavaScript or images required!  The buttons are easy to make and are pretty extensible but don't take my word for it, check out the demo instead:
 
-<iframe width="600" height="170" src="http://devgrow.com/examples/css3buttons/embed.html" style="border:none;" frameborder="0" marginheight="0" marginwidth="0" style="margin: 30px 0 0;"></iframe>
+<iframe width="600" height="170" src="http://demos.devgrow.com/css3buttons/embed.html" style="border:none;" frameborder="0" marginheight="0" marginwidth="0" style="margin: 30px 0 0;"></iframe>
 
 ## Download
 
 The zip file below contains the CSS and HTML to create all of the elements in the above example, as well as the image file used.
 
 <div class="download top">
-  <a href="http://devgrow.com/examples/css3buttons/css3buttons.zip" class="primary">Download</a>
-  <a href="http://devgrow.com/examples/css3buttons/" class="secondary">Preview</a>
+  <a href="http://demos.devgrow.com/css3buttons/css3buttons.zip" class="primary">Download</a>
+  <a href="http://demos.devgrow.com/css3buttons/" class="secondary">Preview</a>
 </div>
 
 ## The Code

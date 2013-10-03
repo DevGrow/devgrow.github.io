@@ -24,11 +24,11 @@ This past weekend, John Resig (creator of jQuery) announced the release of the a
 ## Download
 
 <div class="download">
-  <a href="http://devgrow.com/examples/jquerymobile/jquerymobile.zip" class="primary">Download</a>
-  <a href="http://devgrow.com/examples/jquerymobile/" class="secondary">Preview</a>
+  <a href="http://demos.devgrow.com/jquerymobile/jquerymobile.zip" class="primary">Download</a>
+  <a href="http://demos.devgrow.com/jquerymobile/" class="secondary">Preview</a>
 </div>
 
-[![](http://devgrow.s3.amazonaws.com/assets/images/mobile-dev2-screenshot.png)](http://devgrow.com/examples/jquerymobile/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/mobile-dev2-screenshot.png)](http://demos.devgrow.com/jquerymobile/)
 
 ## How to Use jQuery Mobile
 

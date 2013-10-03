@@ -23,15 +23,15 @@ For my latest project, I created a great interface for an administration panel, 
 
 <div class="download">
   <a href="http://devgrow.s3.amazonaws.com/assets/images/iphone-style-switches.zip" class="primary">Download</a>
-  <a href="http://devgrow.com/examples/switch.html" class="secondary">Preview</a>
+  <a href="http://demos.devgrow.com/switch/index.html" class="secondary">Preview</a>
 </div>
 
 
 #### The Effect in Action:
 
-<iframe width="400" height="100" src="http://devgrow.com/examples/switch.html" style="border:none; margin: 15px 0 5px 150px;"></iframe>
+<iframe width="400" height="100" src="http://demos.devgrow.com/switch/index.html" style="border:none; margin: 15px 0 5px 150px;"></iframe>
 
-This is in an iframe, however you can also [view the page](http://devgrow.com/examples/switch.html) itself.  In my example, I left the actual input fields visible, in a real world use you should hide them using CSS.  Feel free to reuse the source code, or follow the steps below:
+This is in an iframe, however you can also [view the page](http://demos.devgrow.com/switch/index.html) itself.  In my example, I left the actual input fields visible, in a real world use you should hide them using CSS.  Feel free to reuse the source code, or follow the steps below:
 
 
 #### Prerequisites

@@ -19,11 +19,10 @@ I've just finished an update to the Sharebar WordPress plugin that adds color se
 
 ### Download
 
-You can view the [plugin details](http://wordpress.org/extend/plugins/sharebar/) at [WordPress.org](http://www.wordpress.org/) or [view a simple demo](http://devgrow.com/plugins/sharebar/).
+You can view the [plugin details](http://wordpress.org/extend/plugins/sharebar/) at [WordPress.org](http://www.wordpress.org/).
 
 <div class="download">
   <a href="http://downloads.wordpress.org/plugin/sharebar.zip" class="primary">Download</a>
-  <a href="http://devgrow.com/plugins/sharebar/" class="secondary">Preview</a>
 </div>
 
 ![](http://devgrow.s3.amazonaws.com/assets/images/v1.2.gif)

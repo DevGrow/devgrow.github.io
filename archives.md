@@ -7,6 +7,8 @@ sitemap:
   changefreq: weekly
 ---
 
+These are all of the articles on DevGrow.  Search using `cmd+f` or `ctrl+f`.
+
 <ul class="archived-posts">
 {% for post in site.posts %}
   {% if post.external-url %}

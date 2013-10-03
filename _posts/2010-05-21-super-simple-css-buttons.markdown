@@ -24,8 +24,8 @@ While playing around with a few button designs for my latest project, I came up 
 The zip file below contains the CSS and HTML to create all of the elements in the above example, as well as the image file used.
 
 <div class="download">
-  <a href="http://devgrow.com/examples/cssbuttons/cssbuttons.zip" class="primary">Download</a>
-  <a href="http://devgrow.com/examples/cssbuttons/" class="secondary">Preview</a>
+  <a href="http://demos.devgrow.com/cssbuttons/cssbuttons.zip" class="primary">Download</a>
+  <a href="http://demos.devgrow.com/cssbuttons/" class="secondary">Preview</a>
 </div>
 
 
@@ -42,7 +42,7 @@ I wanted to keep it dead simple to use, enough so that a single class could be a
 
 ## The CSS
 
-In order to add a subtle gradient effect, I decided to use a single [image file](http://devgrow.com/examples/cssbuttons/button.png).  If you really want, you can leave that out and the buttons should still work fine.  To give you an idea of how it can be customized, I created styles for 7 additional colors and 3 different sizes.
+In order to add a subtle gradient effect, I decided to use a single [image file](http://demos.devgrow.com/cssbuttons/button.png).  If you really want, you can leave that out and the buttons should still work fine.  To give you an idea of how it can be customized, I created styles for 7 additional colors and 3 different sizes.
 
 {% highlight css linenos=table %}
 .button {

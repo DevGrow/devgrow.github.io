@@ -322,6 +322,30 @@ hr {
   margin-top: 30px;
 }
 
+.contributors, .projects {
+  list-style-type: none;
+  padding: 0;  margin: 0;
+  li {
+    position: relative;
+    padding: 5px 0 30px 180px;
+    img {
+      position: absolute;
+      top: 0;  left: 0;
+      padding: 0 !important;  margin: 0 !important;
+      width: 140px;  height: 140px;
+      border-radius: 140px;
+      -moz-border-radius: 140px;
+      -webkit-border-radius: 140px;
+      -webkit-box-shadow: none !important;
+      -moz-box-shadow: none !important;
+      box-shadow: none !important;
+    }
+    h4 {
+      margin-bottom: 0.3em;
+    }
+  }
+}
+
 // Footer
 #footer {
   margin-top: 30px;
@@ -329,7 +353,7 @@ hr {
   border-top: 1px dotted #ddd;
   .top {
     float: right;
-    color: #aaa;
+    color: #ccc;
     &:hover {
       background: #fff;
       color: #666;

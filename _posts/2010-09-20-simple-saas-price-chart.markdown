@@ -29,11 +29,11 @@ As I've mentioned before, I'm working on a premium WordPress themes site at the 
 The zip file below contains the CSS and HTML to create all of the elements in the above example, as well as the icon images used.
 
 <div class="download">
-  <a href="http://devgrow.com/examples/pricechart/pricechart.zip" class="primary">Download</a>
-  <a href="http://devgrow.com/examples/pricechart/" class="secondary">Preview</a>
+  <a href="http://demos.devgrow.com/pricechart/pricechart.zip" class="primary">Download</a>
+  <a href="http://demos.devgrow.com/pricechart/" class="secondary">Preview</a>
 </div>
 
-[![](http://devgrow.s3.amazonaws.com/assets/images/saas-pricechart.gif)](http://devgrow.com/examples/pricechart/)
+[![](http://devgrow.s3.amazonaws.com/assets/images/saas-pricechart.gif)](http://demos.devgrow.com/pricechart/)
 
 To create the price chart/table, I opted to use unordered lists over tables as it makes life easier when you want to change things around later on.  It's also fully valid code (W3C - XHTML 1.0 strict) and looks the same/correct in the latest versions of Firefox, Chrome, Safari, Opera and IE8+.  I haven't tested it in IE6 or IE7 but it _should_ look correct, can someone verify that for me in the comments?
 

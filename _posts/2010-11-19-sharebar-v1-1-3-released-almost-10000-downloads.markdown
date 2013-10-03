@@ -19,11 +19,10 @@ I've just updated Sharebar to version 1.1.3, which adds support for disabling th
 
 ### Download
 
-You can view the [plugin details](http://wordpress.org/extend/plugins/sharebar/) at [WordPress.org](http://www.wordpress.org/) or [view a simple demo](http://devgrow.com/plugins/sharebar/).
+You can view the [plugin details](http://wordpress.org/extend/plugins/sharebar/) at [WordPress.org](http://www.wordpress.org/).
 
 <div class="download top">
   <a href="http://downloads.wordpress.org/plugin/sharebar.zip" class="primary">Download</a>
-  <a href="http://devgrow.com/plugins/sharebar/" class="secondary">Preview</a>
 </div>
 
 ### Nearing 10k Downloads

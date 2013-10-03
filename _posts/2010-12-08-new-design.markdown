@@ -23,7 +23,7 @@ If you're reading this from an RSS reader, come check out the new design live on
 
 The design is still a work in progress and the discussion forum is still on the old theme, so bear with me while I fix that and patch things up.  Among the various new changes, the site now uses [Google Font Directory](http://code.google.com/webfonts)'s [Droid Serif](http://code.google.com/webfonts/family?family=Droid+Sans&subset=latin) font and it's the first time I've used any such service for font rendering.  I do like this font though and think it's excellent for overall readability.
 
-**Edit:** To show you guys that [I do eat my own dog food](http://devgrow.com/why-you-shouldnt-make-your-mockup-in-markup/), I'm making available the PSD I created before constructing this new WordPress theme.  You can **[download the file](http://devgrow.com/examples/dev5.zip)** and see for yourself why making a mockup in Photoshop can be useful (and how close I try to stick to the PSD when developing).
+**Edit:** To show you guys that [I do eat my own dog food](http://devgrow.com/why-you-shouldnt-make-your-mockup-in-markup/), I'm making available the PSD I created before constructing this new WordPress theme.  You can **[download the file](http://demos.devgrow.com/dev5.zip)** and see for yourself why making a mockup in Photoshop can be useful (and how close I try to stick to the PSD when developing).
 
 ## Last Month's Results
 

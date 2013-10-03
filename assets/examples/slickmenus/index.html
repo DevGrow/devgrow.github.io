@@ -1,0 +1,200 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Super Simple CSS Buttons</title>
+<style>
+	/* The following styles are used only for this page - the actual plugin styles are in slidernav.css */
+	* { margin: 0; padding: 0; }
+	body { background: #eee; font-family: Verdana, Arial; font-size: 12px; }
+	a { text-decoration: none; }
+	h2, h3 { margin: 0 0 20px; text-shadow: 2px 2px #fff; }
+	h2 { font-size: 28px; }
+	h3 { font-size: 22px; }
+	pre { background: #fff; padding: 10px 20px; border-left: 5px solid #ccc; margin: 0 0 20px; }
+	p { font-size: 18px; line-height: 24px; margin: 0 0 30px; }
+	input { margin: 0; padding: 0; }
+	.content { padding: 40px; width: 500px; }
+	.devgrow { background: #fff; border-bottom: 2px solid #ccc; padding: 10px 40px; overflow: hidden; }
+	.devgrow h1 { float: left; margin: 0; font-size: 18px;}
+	.devgrow a { float: right; }
+	
+	/* Example 1 Menu CSS: */
+	.nav { list-style: none; }
+	.nav li { float: left; }
+	.nav a {
+		position: relative;
+		display: block;
+		padding: 4px 8px;
+		border-bottom: 2px solid #ccc;
+		background: #f4f4f4;
+		color: #999;
+		-webkit-transition: all 200ms ease-out;
+		-moz-transition: all 200ms ease-out;
+		-o-transition: all 200ms ease-out;
+		transition: all 200ms ease-out;
+		}
+	.nav a:hover {
+		color: #000;
+		background: #fff;
+		border-color: #000;
+		padding: 8px;
+		top: -4px;
+		}
+	.nav .selected a, .nav .selected a:hover {
+		background: #444;
+		color: #fff;
+		border-color: #000;
+		}
+	
+	/* Example 2 Menu CSS: */
+	.nav2 { list-style: none; }
+	.nav2 li { float: left; position: relative; }
+	.nav2 a {
+		display: block;
+		float: left;
+		border: none;
+		position: relative;
+		height: 22px;
+		overflow: hidden;
+		}
+	.nav2 a strong, .nav2 a em {
+		cursor: pointer;
+		padding: 4px 8px;
+		font-weight: bold;
+		font-style: normal;
+		display: block;
+		-webkit-transition: all 200ms ease-out;
+		-moz-transition: all 200ms ease-out;
+		-o-transition: all 200ms ease-out;
+		transition: all 200ms ease-out;
+		}
+	.nav2 a strong {
+		position: relative;
+		top: 0;
+		left: 0;
+		color: #000;
+		background: #fff;
+		}
+	.nav2 em {
+		position: absolute;
+		top: 100%;
+		background: #000;
+		color: #fff;
+		}
+	.nav2 a:hover strong {
+		top: -100%;
+		}
+	.nav2 a:hover em {
+		top: 0;
+		}
+		
+</style>
+</head>
+<body>
+
+<div class="devgrow">
+	<h1>DevGrow.com Tutorial</h1>
+	<a href="http://devgrow.com/slick-animated-menus-using-only-css3">Back to Tutorial &raquo;</a>
+	<div style="clear:both;"></div><!-- for IE :( -->
+</div>
+
+<div class="content">
+	<h2>Simple Animated Menu Using CSS3</h2>
+	<p>This is a very simple method of creating the traditional horizontal menu that utilizes CSS3 tranisition effects.  It should work on the latest versions of Firefox, Chrome, Opera and Safari but will degrade nicely for browsers that do not support CSS3 (I'm looking at you IE!).</p>
+	<h3>Example 1</h3>
+	<ul class="nav">
+		<li class="selected"><a href="/">Home</a></li>
+		<li><a href="/">About Us</a></li>
+		<li><a href="/">Portfolio</a></li>
+		<li><a href="/">Services</a></li>
+	</ul>
+	<br /><br />
+	<br /><br />
+	<div style="clear:both;"></div>
+	<h3>Example 2</h3>
+<ul class="nav2">
+	<li><a href="/"><strong>Home</strong><em>Home</em></a></li>
+	<li><a href="/"><strong>About Us</strong><em>About Us</em></a></li>
+	<li><a href="/"><strong>Portfolio</strong><em>Portfolio</em></a></li>
+	<li><a href="/"><strong>Services</strong><em>Services</em></a></li>
+</ul>
+	<br /><br />
+	<br /><br />
+	<div style="clear:both;"></div>
+	<h3>Example 1 Code</h3>
+	<pre><code>
+.nav { list-style: none; }
+.nav li { float: left; }
+.nav a {
+	position: relative;
+	display: block;
+	padding: 4px 8px;
+	border-bottom: 2px solid #ccc;
+	background: #f4f4f4;
+	color: #999;
+	-webkit-transition: all 200ms ease-out;
+	-moz-transition: all 200ms ease-out;
+	-o-transition: all 200ms ease-out;
+	transition: all 200ms ease-out;
+	}
+.nav a:hover {
+	color: #000;
+	background: #fff;
+	border-color: #000;
+	padding: 8px;
+	top: -4px;
+	}
+.nav .selected a, .nav .selected a:hover {
+	background: #444;
+	color: #fff;
+	border-color: #000;
+	}
+	</code></pre>
+	<h3>Example 2 Code</h3>
+	<pre><code>
+.nav2 { list-style: none; }
+.nav2 li { float: left; position: relative; }
+.nav2 a {
+	display: block;
+	float: left;
+	border: none;
+	position: relative;
+	height: 22px;
+	overflow: hidden;
+	}
+.nav2 a strong, .nav2 a em {
+	cursor: pointer;
+	padding: 4px 8px;
+	font-weight: bold;
+	font-style: normal;
+	display: block;
+	-webkit-transition: all 200ms ease-out;
+	-moz-transition: all 200ms ease-out;
+	-o-transition: all 200ms ease-out;
+	transition: all 200ms ease-out;
+	}
+.nav2 a strong {
+	position: relative;
+	top: 0;
+	left: 0;
+	color: #000;
+	background: #fff;
+	}
+.nav2 em {
+	position: absolute;
+	top: 100%;
+	background: #000;
+	color: #fff;
+	}
+.nav2 a:hover strong {
+	top: -100%;
+	}
+.nav2 a:hover em {
+	top: 0;
+	}
+	</code></pre>
+</div>
+
+</body>
+</html>

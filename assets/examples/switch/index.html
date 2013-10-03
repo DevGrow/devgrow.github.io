@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<title>Switch Example</title>
+
+<link rel="alternate" type="application/rss+xml" href="http://SITEURL" title="SITE TITLE" />
+<meta name="description" content="DESCRIPTION" />
+<meta name="keywords" content="KEYWORDS" />
+
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js" charset="utf-8"></script>
+<script type="text/javascript">
+$(document).ready( function(){
+	$(".cb-enable").click(function(){
+		var parent = $(this).parents('.switch');
+		$('.cb-disable',parent).removeClass('selected');
+		$(this).addClass('selected');
+		$('.checkbox',parent).attr('checked', true);
+	});
+	$(".cb-disable").click(function(){
+		var parent = $(this).parents('.switch');
+		$('.cb-enable',parent).removeClass('selected');
+		$(this).addClass('selected');
+		$('.checkbox',parent).attr('checked', false);
+	});
+});
+</script>
+
+<style type="text/css">
+	* { margin: 0; padding: 0: }
+	body { font-family: Arial, Sans-serif; }
+	.field { width: 100%; float: left; margin: 0 0 20px; }
+	.field input { margin: 0 0 0 20px; }
+
+	/* Used for the Switch effect: */
+	.cb-enable, .cb-disable, .cb-enable span, .cb-disable span { background: url(switch.gif) repeat-x; display: block; float: left; }
+	.cb-enable span, .cb-disable span { line-height: 30px; display: block; background-repeat: no-repeat; font-weight: bold; }
+	.cb-enable span { background-position: left -90px; padding: 0 10px; }
+	.cb-disable span { background-position: right -180px;padding: 0 10px; }
+	.cb-disable.selected { background-position: 0 -30px; }
+	.cb-disable.selected span { background-position: right -210px; color: #fff; }
+	.cb-enable.selected { background-position: 0 -60px; }
+	.cb-enable.selected span { background-position: left -150px; color: #fff; }
+	.switch label { cursor: pointer; }
+</style>
+
+</head>
+<body>
+	<p class="field switch">
+		<input type="radio" id="radio1" name="field"  checked />enable
+		<input type="radio" id="radio2" name="field" />disable
+		<label for="radio1" class="cb-enable selected"><span>Enable</span></label>
+		<label for="radio2" class="cb-disable"><span>Disable</span></label>
+	</p>
+	<p class="field switch">
+		<label class="cb-enable"><span>On</span></label>
+		<label class="cb-disable selected"><span>Off</span></label>
+		<input type="checkbox" id="checkbox" class="checkbox" name="field2" /> Checkbox
+	</p>
+</body>
+</html>

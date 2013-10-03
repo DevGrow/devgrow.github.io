@@ -23,14 +23,14 @@ I finally got around to redesigning my client invoice template and I've decided 
 
 ## Invoice Preview
 
-[![](http://devgrow.s3.amazonaws.com/assets/images/invoice.jpg)](http://devgrow.com/files/invoice.pdf)
+[![](http://devgrow.s3.amazonaws.com/assets/files/invoice.pdf)](http://devgrow.com/files/invoice.pdf)
 
 ## Download
 
 The following is a PSD organized into multiple layers and folders.  Use the invoice template however you'd like, feel free to change it and redistribute it as you see fit!
 
 <div class="download top">
-  <a href="http://devgrow.com/files/invoice.zip" class="primary">Download</a>
+  <a href="http://devgrow.s3.amazonaws.com/assets/files/invoice.zip" class="primary">Download</a>
 </div>
 
 ### Feedback

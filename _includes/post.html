@@ -19,8 +19,10 @@
           <a href="{{ page.url }}#disqus_thread">Comments</a>
         {% endif %}
       {% else %}
-        &bull;
-        Published <time class="date updated" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+        {% if page.date %}
+          &bull;
+          Published <time class="date updated" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+        {% endif %}
       {% endif %}
     </p>
   {% endif %}

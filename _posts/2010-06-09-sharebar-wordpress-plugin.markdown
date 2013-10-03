@@ -22,11 +22,10 @@ This Sharebar isn't a new idea at all, in fact the plugin is meant to mimic [Mas
 
 ## Download
 
-You can view the [plugin details](http://wordpress.org/extend/plugins/sharebar/) at [WordPress.org](http://www.wordpress.org/) or [view a simple demo](http://devgrow.com/plugins/sharebar/).
+You can view the [plugin details](http://wordpress.org/extend/plugins/sharebar/) at [WordPress.org](http://www.wordpress.org/).
 
 <div class="download">
   <a href="http://wordpress.org/extend/plugins/sharebar/" class="primary">Download</a>
-  <a href="http://devgrow.com/plugins/sharebar/" class="secondary">Preview</a>
 </div>
 
 

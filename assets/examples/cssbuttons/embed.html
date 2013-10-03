@@ -1,0 +1,85 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Super Simple CSS Buttons</title>
+<script type="text/javascript" src="jquery-1.4.2.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.button').click(function(){ return false; });
+	});
+</script>
+<style>
+	/* The following styles are used only for this page - the actual plugin styles are in slidernav.css */
+	* { margin: 0; padding: 0; }
+	body { font-family: Arial; font-size: 12px; line-height: 18px; }
+	a { text-decoration: none; }
+	h2, h3 { margin: 0 0 20px; text-shadow: 2px 2px #fff; }
+	h2 { font-size: 28px; }
+	h3 { font-size: 20px; }
+	pre { background: #fff; width: 460px; padding: 10px 20px; border-left: 5px solid #ccc; margin: 0 0 20px; }
+	p { width: 500px; font-size: 18px; line-height: 24px; margin: 0 0 30px; }
+	input { margin: 0; padding: 0; }
+	
+	.button {
+		padding: 5px 10px;
+		display: inline;
+		background: #777 url(button.png) repeat-x bottom;
+		border: none;
+		color: #fff;
+		cursor: pointer;
+		font-weight: bold;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		text-shadow: 1px 1px #666;
+		}
+	.button:hover {
+		background-position: 0 center;
+		}
+	.button:active {
+		background-position: 0 top;
+		position: relative;
+		top: 1px;
+		padding: 6px 10px 4px;
+		}
+	.button.red { background-color: #e50000; }
+	.button.purple { background-color: #9400bf; }
+	.button.green { background-color: #58aa00; }
+	.button.orange { background-color: #ff9c00; }
+	.button.blue { background-color: #2c6da0; }
+	.button.black { background-color: #333; }
+	.button.white { background-color: #fff; color: #000; text-shadow: 1px 1px #fff; }
+	.button.small { font-size: 75%; padding: 3px 7px; }
+	.button.small:active { padding: 4px 7px 2px; background-position: 0 top; }
+	.button.large { font-size: 125%; padding: 7px 12px; }
+	.button.large:active { padding: 8px 12px 6px; background-position: 0 top; }
+</style>
+</head>
+<body>
+<h3>Links / Anchors:</h3>
+<a href='#' class='button'>Default</a>
+<a href='#' class='button red'>Red</a>
+<a href='#' class='button purple'>Purple</a>
+<a href='#' class='button green'>Green</a>
+<a href='#' class='button orange'>Orange</a>
+<a href='#' class='button blue'>Blue</a>
+<a href='#' class='button black'>Black</a>
+<a href='#' class='button white'>White</a>
+<br /><br />
+<h3>Other Elements:</h3>
+<div class='button red'>Div Box!</div>
+<br />
+<br />
+<input type="submit" class="button green" value="Submit Button" />
+<br />
+<br />
+<span class="button blue">Span Element</span>
+<br />
+<br />
+<h3>Sizes:</h3>
+<a href='#' class='button small'>Small</a>
+<a href='#' class='button'>Default (Medium)</a>
+<a href='#' class='button large blue'>Large</a>
+</body>
+</html>

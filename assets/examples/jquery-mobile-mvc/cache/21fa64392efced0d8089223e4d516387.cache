@@ -1,0 +1,16 @@
+	
+	<div class="content left page">
+		<h1>404 Error</h1>
+		<p>Sorry, we couldn't find that page. Please check the URL or try again later.</p>
+	</div>	</div>
+	<div data-role="footer" data-position="fixed">
+		<p class="left p10">&copy; 2010 jQuery Mobile MVC Framework</p>
+		<ul class="right simplenav p10">
+			<li><a href="./about" data-icon="info" class="ui-btn-right">About</a></li>
+			<li><a href="./terms" data-icon="add">Terms of Service</a></li>
+		</ul>
+	</div>
+
+</div>
+</body>
+</html>
