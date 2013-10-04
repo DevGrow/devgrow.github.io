@@ -21,7 +21,7 @@ sitemap:
     <img src="/assets/images/authors/mdolon.jpg" />
     <h4><a href="http://mdolon.com/">Monji Dolon</a></h4>
     <p>
-      Monji is a detail-oriented product designer and front-end developer.  In his free time, he likes to play guitar, climb tall mountains and go surfing.  You can find his portfolio at <a href="http://mdolon.com/">mdolon.com</a>.
+      Monji is a product designer and front-end developer.  In his free time, he likes to play guitar, climb tall mountains and go surfing.  You can find his portfolio at <a href="http://mdolon.com/">mdolon.com</a>.
     </p>
   </li>
 </ul>

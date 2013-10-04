@@ -23,7 +23,7 @@ I finally got around to redesigning my client invoice template and I've decided 
 
 ## Invoice Preview
 
-[![](http://devgrow.s3.amazonaws.com/assets/files/invoice.pdf)](http://devgrow.com/files/invoice.pdf)
+[![](http://devgrow.s3.amazonaws.com/assets/images/invoice.jpg)](http://devgrow.com/files/invoice.pdf)
 
 ## Download
 

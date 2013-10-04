@@ -493,7 +493,8 @@ hr {
   margin: 0; }
   .contributors li, .projects li {
     position: relative;
-    padding: 5px 0 30px 180px; }
+    padding: 5px 0 30px 180px;
+    min-height: 140px; }
     .contributors li img, .projects li img {
       position: absolute;
       top: 0;
