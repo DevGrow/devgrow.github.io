@@ -30,7 +30,7 @@ namespace :deploy do
 
   desc "Run jekyll to update site before uploading"
   task :update_jekyll do
-    run "cd #{latest_release}; bundle install; rm -rf _site/*; jekyll;"
+    run "cd #{latest_release}; rm -rf _site/*; jekyll;"
   end
 
   desc "Make sure local git is in sync with remote."
