@@ -7,7 +7,7 @@ set :deploy_via, :remote_cache
 set :use_sudo, false
 
 set :scm, "git"
-set :repository, "git@github.com:mdolon/devgrow.git"
+set :repository, "_site"
 set :branch, "master"
 
 default_run_options[:pty] = true
@@ -17,7 +17,7 @@ set :bundle_dir, ''
 set :bundle_flags, '--system --quiet'
 
 before "deploy", "deploy:check_revision"
-after "deploy", "deploy:update_jekyll"
+before "deploy:update", "deploy:update_jekyll"
 
 namespace :deploy do
 
@@ -30,7 +30,10 @@ namespace :deploy do
 
   desc "Run jekyll to update site before uploading"
   task :update_jekyll do
-    run "cd #{latest_release}; rm -rf _site/*; jekyll;"
+    # clear existing _site
+    # build site using jekyll
+    # remove Capistrano stuff from build
+    %x(rm -rf _site/* && jekyll build)
   end
 
   desc "Make sure local git is in sync with remote."
