@@ -16,6 +16,9 @@ ssh_options[:forward_agent] = true
 set :bundle_dir, ''
 set :bundle_flags, '--system --quiet'
 
+before "deploy", "deploy:check_revision"
+after "deploy", "deploy:update_jekyll"
+
 namespace :deploy do
 
   task :setup_config, roles: :web do
@@ -23,6 +26,11 @@ namespace :deploy do
     sudo "/etc/init.d/nginx reload"
     sudo "service php5-fpm restart"
     run "mkdir -p #{shared_path}/config"
+  end
+
+  desc "Run jekyll to update site before uploading"
+  task :update_jekyll do
+    %x(rm -rf _site/* && jekyll)
   end
 
   desc "Make sure local git is in sync with remote."
@@ -33,5 +41,5 @@ namespace :deploy do
       exit
     end
   end
-  before "deploy", "deploy:check_revision"
+
 end
