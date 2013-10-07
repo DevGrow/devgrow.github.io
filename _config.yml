@@ -4,7 +4,7 @@ paginate_path: ":num"
 pygments: true
 permalink: /:title/
 
-name: DevGrow
+name: DevGrow.com
 title: DevGrow - Design, Develop, Grow
 author: DevGrow.com
 description: Online journal dedicated to providing resources on the design, development and growth of websites
