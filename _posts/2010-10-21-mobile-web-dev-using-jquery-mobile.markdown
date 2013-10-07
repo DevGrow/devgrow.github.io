@@ -24,7 +24,7 @@ This past weekend, John Resig (creator of jQuery) announced the release of the a
 ## Download
 
 <div class="download">
-  <a href="http://demos.devgrow.com/jquerymobile/jquerymobile.zip" class="primary">Download</a>
+  <a href="http://devgrow.s3.amazonaws.com/assets/files/jquerymobile.zip" class="primary">Download</a>
   <a href="http://demos.devgrow.com/jquerymobile/" class="secondary">Preview</a>
 </div>
 
