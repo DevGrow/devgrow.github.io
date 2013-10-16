@@ -1,5 +1,5 @@
 ---
-author: Monji Dolon
+author: mdolon
 comments: true
 date: 2011-01-18 21:43:13+00:00
 layout: post

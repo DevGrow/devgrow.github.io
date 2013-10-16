@@ -1,8 +1,11 @@
-      <footer id="footer">
-        <a class="top" href="#top">&#x25B2;</a>
-        <p class="copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name }}</p>
-      </footer>
     </section>
+    <footer id="footer">
+      <a href="https://mixpanel.com/f/partner" class="mixpanel right"><img src="//cdn.mxpnl.com/site_media/images/partner/badge_light.png" alt="Mobile Analytics" /></a>
+      <p class="copyright">
+        <strong>&copy; {{ site.time | date: '%Y' }} {{ site.name }}</strong><br />
+        Build Date: <time class="build-date" datetime="{{ site..time }}">{{ site.time }}</time>
+      </p>
+    </footer>
   </section>
   <script type="text/javascript">
     var _gaq = _gaq || [];

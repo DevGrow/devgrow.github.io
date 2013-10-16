@@ -1,5 +1,5 @@
 ---
-author: Monji Dolon
+author: mdolon
 comments: true
 date: 2010-05-26 18:30:27+00:00
 layout: post
@@ -25,8 +25,8 @@ I'm always looking for ways to create neat looking effects with minimal code, so
 The zip file below contains the CSS and HTML to create all of the elements in the above example, as well as the image file used.
 
 <div class="download">
-  <a href="http://demos.devgrow.com/slickmenus/slickmenus.zip" class="primary">Download</a>
-  <a href="http://demos.devgrow.com/slickmenus/" class="secondary">Preview</a>
+  <a href="http://demos.devgrow.com/slickmenus/slickmenus.zip" class="button primary">Download</a>
+  <a href="http://demos.devgrow.com/slickmenus/" class="button secondary">Preview</a>
 </div>
 
 

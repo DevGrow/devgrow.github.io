@@ -1,5 +1,5 @@
 ---
-author: Monji Dolon
+author: mdolon
 comments: true
 date: 2011-01-06 23:43:08+00:00
 layout: post
@@ -32,8 +32,8 @@ You can view the files or contribute at the [Github repository](https://github.c
 
 
 <div class="download">
-  <a href="https://github.com/mdolon/jQuery-Mobile-PHP-MVC/zipball/master" class="primary">Download</a>
-  <a href="http://demos.devgrow.com/jquery-mobile-mvc/)" class="secondary">Preview</a>
+  <a href="https://github.com/mdolon/jQuery-Mobile-PHP-MVC/zipball/master" class="button primary">Download</a>
+  <a href="http://demos.devgrow.com/jquery-mobile-mvc/)" class="button secondary">Preview</a>
 </div>
 
 [![](http://devgrow.s3.amazonaws.com/assets/images/jquery-mobile-mvc.gif)](https://github.com/mdolon/jQuery-Mobile-PHP-MVC)

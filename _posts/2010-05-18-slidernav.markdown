@@ -1,5 +1,5 @@
 ---
-author: Monji Dolon
+author: mdolon
 comments: false
 date: 2010-05-18 00:24:42+00:00
 layout: post
@@ -39,8 +39,8 @@ The plugin has been tested (and works fine) on Firefox 3, Chrome 5, IE7, Safari 
 You can download the [full source](http://devgrow.com/slidernav-jquery-plugin/slidernav.js), [minified version](http://devgrow.com/slidernav-jquery-plugin/slidernav-min.js), [css file](http://devgrow.com/slidernav-jquery-plugin/slidernav.css), or [view the example online](http://devgrow.com/slidernav-jquery-plugin).
 
 <div class="download">
-  <a href="http://devgrow.com/slidernav-jquery-plugin/slidernav.zip" class="primary">Download</a>
-  <a href="http://devgrow.com/slidernav-jquery-plugin" class="secondary">Preview</a>
+  <a href="http://devgrow.com/slidernav-jquery-plugin/slidernav.zip" class="button primary">Download</a>
+  <a href="http://devgrow.com/slidernav-jquery-plugin" class="button secondary">Preview</a>
 </div>
 
 

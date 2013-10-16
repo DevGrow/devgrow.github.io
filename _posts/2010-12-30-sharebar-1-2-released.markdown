@@ -1,5 +1,5 @@
 ---
-author: Monji Dolon
+author: mdolon
 comments: true
 date: 2010-12-30 23:11:30+00:00
 layout: post
@@ -22,7 +22,7 @@ I've just finished an update to the Sharebar WordPress plugin that adds color se
 You can view the [plugin details](http://wordpress.org/extend/plugins/sharebar/) at [WordPress.org](http://www.wordpress.org/).
 
 <div class="download">
-  <a href="http://downloads.wordpress.org/plugin/sharebar.zip" class="primary">Download</a>
+  <a href="http://downloads.wordpress.org/plugin/sharebar.zip" class="button primary">Download</a>
 </div>
 
 ![](http://devgrow.s3.amazonaws.com/assets/images/v1.2.gif)

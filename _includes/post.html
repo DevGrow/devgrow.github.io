@@ -8,10 +8,10 @@
   {% else %}
     <h1 class="heading"><a href="{{ page.url }}">{{ page.title }}</a></h1>
     <p class="meta">
-      {% if page.author %}
-        By {{ page.author }}
+      {% if author %}
+        By {{ author.display_name }}
       {% endif %}
-      {% if show_count %}
+      {% if homepage %}
         &bull;
         {% if page.wordpress_id %}
           <a href="{{ page.url }}#disqus_thread" class="dsq-postid" rel="{{ page.wordpress_id }} http://devgrow.com/?p={{ page.wordpress_id }}">Comments</a>
@@ -28,5 +28,23 @@
   {% endif %}
 
   <div class="post-content">{{ content }}</div>
+
+  {% if homepage != true %}
+    <div class="share">
+      <strong>Enjoy this post? Please consider sharing:</strong>
+      <ul class="share-links">
+        <li class="facebook">
+          <iframe src="//www.facebook.com/plugins/like.php?href={{ site.url | url_encode }}{{ page.url | url_encode }}&amp;width=100&amp;height=21&amp;colorscheme=light&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;send=false&amp;appId=116393001730281" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
+        </li>
+        <li class="twitter">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="ThinkDevGrow" data-related="ThinkDevGrow">Tweet</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </li>
+        <li class="bitcoin">
+          <a class="coinbase-button" data-code="69b29933cc9a7ac615b9ded828bae313" data-button-style="donation_small" href="https://coinbase.com/checkouts/69b29933cc9a7ac615b9ded828bae313">Donate Bitcoins</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+        </li>
+      </ul>
+    </div>
+  {% endif %}
 
 </article>

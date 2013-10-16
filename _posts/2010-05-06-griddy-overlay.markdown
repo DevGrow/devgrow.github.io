@@ -1,5 +1,5 @@
 ---
-author: Monji Dolon
+author: mdolon
 comments: true
 date: 2010-05-06 18:21:03+00:00
 layout: post
@@ -36,8 +36,8 @@ You can see the default values in the plugin code itself (all sizes in pixels). 
 You’ll find the code below but if you prefer, you can [download it](http://devgrow.com/griddy/griddy.js) as well (and include it like any other JQuery plugin). You can also check out the [example page](http://devgrow.com/griddy/) if you’d like.
 
 <div class="download">
-  <a href="http://devgrow.com/griddy/griddy.js" class="primary">Download</a>
-  <a href="http://devgrow.com/griddy/" class="secondary">Preview</a>
+  <a href="http://devgrow.com/griddy/griddy.js" class="button primary">Download</a>
+  <a href="http://devgrow.com/griddy/" class="button secondary">Preview</a>
 </div>
 
 {% highlight html linenos=table %}

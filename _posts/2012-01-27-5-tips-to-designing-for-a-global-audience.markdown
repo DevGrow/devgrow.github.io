@@ -1,5 +1,5 @@
 ---
-author: Christian Arno
+author: carno
 comments: true
 date: 2012-01-27 01:50:09+00:00
 layout: post
@@ -64,11 +64,3 @@ If you have plans to design a number of sites and want to switch between languag
 With more than a hundred thousand characters and over 90 languages, you can transform your site from English to Chinese, to Arabic, to Hebrew, to Thai. The most frequent character encoding for this package is UTF-8, which is most used for websites and emails.
 
 Another tool to utilize is CSS, or what is known as Cascading Style Sheets. This allows you to easily keep content and images separated and doesn’t require you to begin from the start when you need to alter the language of your site. Not only that, but because the files are small your pages will load faster. This is particularly useful to know when it comes to maintaining new and existing clients.
-
-<div class="author">
-  <h3>About the author</h3>
-  <div class="content">
-    <a href="http://usa.lingo24.com/" class="avatar"><img src="http://devgrow.s3.amazonaws.com/assets/images/global_audience-author.png" /></a>
-    <strong>Christian Arno</strong> is the founder of Lingo24, one of the world’s fastest growing <a href="http://usa.lingo24.com/">translation agencies</a>. Launched in 2001, Lingo24 now has over 150 employees spanning three continents and clients in over sixty countries. In the past twelve months, they have translated over forty million words for businesses in every industry sector, including the likes of MTV, World Bank and American Express. Follow Lingo24 on Twitter: <a href="http://twitter.com/lingo24">@Lingo24</a>.
-  </div>
-</div>

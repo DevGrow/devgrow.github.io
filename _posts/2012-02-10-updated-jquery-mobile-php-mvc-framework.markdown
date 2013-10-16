@@ -1,5 +1,5 @@
 ---
-author: Monji Dolon
+author: mdolon
 comments: true
 date: 2012-02-10 04:50:56+00:00
 layout: post
@@ -21,7 +21,7 @@ tags:
 I've just spent the past couple of days rewriting a lot of the [jQuery Mobile PHP MVC Framework](https://github.com/mdolon/jQuery-Mobile-PHP-MVC).  A complete list of updates is available after the break, so check it out and let me know if you have any feedback!
 
 <div class="download">
-  <a href="https://github.com/mdolon/jQuery-Mobile-PHP-MVC" class="primary">Download at Github</a>
+  <a href="https://github.com/mdolon/jQuery-Mobile-PHP-MVC" class="button primary">Download at Github</a>
 </div>
 
 [![](http://devgrow.s3.amazonaws.com/assets/images/jquery-mobile-mvc.gif)](https://github.com/mdolon/jQuery-Mobile-PHP-MVC)

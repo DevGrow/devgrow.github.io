@@ -1,5 +1,5 @@
 ---
-author: Monji Dolon
+author: mdolon
 comments: true
 date: 2010-11-19 19:04:47+00:00
 layout: post
@@ -21,8 +21,8 @@ I've just updated Sharebar to version 1.1.3, which adds support for disabling th
 
 You can view the [plugin details](http://wordpress.org/extend/plugins/sharebar/) at [WordPress.org](http://www.wordpress.org/).
 
-<div class="download top">
-  <a href="http://downloads.wordpress.org/plugin/sharebar.zip" class="primary">Download</a>
+<div class="download">
+  <a href="http://downloads.wordpress.org/plugin/sharebar.zip" class="button primary">Download</a>
 </div>
 
 ### Nearing 10k Downloads

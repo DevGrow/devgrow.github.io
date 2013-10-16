@@ -5,9 +5,24 @@ pygments: true
 permalink: /:title/
 
 name: DevGrow.com
-title: DevGrow - Design, Develop, Grow
+title: "DevGrow - Design, Develop, Grow"
 author: DevGrow.com
-description: Online journal dedicated to providing resources on the design, development and growth of websites
+description: "Online journal dedicated to providing resources on the design, development and growth of websites"
 url: http://devgrow.com
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'Capfile', 'Guardfile']
+
+authors:
+  mdolon:
+    display_name: "Monji Dolon"
+    pic: "/assets/images/authors/mdolon.jpg"
+    email: "mdolon@gmail.com"
+    web: "http://www.mdolon.com/"
+    twitter: "mdolon"
+    github: "mdolon"
+    bio: "Monji is a product designer and front-end developer.  In his free time, he likes to play guitar, climb tall mountains and go surfing.  You can find his portfolio at <a href='http://mdolon.com/'>mdolon.com</a>."
+  carno:
+    display_name: "Christian Arno"
+    web: "http://usa.lingo24.com/"
+    pic: "http://devgrow.s3.amazonaws.com/assets/images/global_audience-author.png"
+    bio: "Christian is the founder of Lingo24, one of the world’s fastest growing <a href='http://usa.lingo24.com/'>translation agencies</a>. Launched in 2001, Lingo24 now has over 150 employees spanning three continents and clients in over sixty countries. In the past twelve months, they have translated over forty million words for businesses in every industry sector, including the likes of MTV, World Bank and American Express. Follow Lingo24 on Twitter: <a href='http://twitter.com/lingo24'>@Lingo24</a>."

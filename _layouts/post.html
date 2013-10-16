@@ -1,17 +1,27 @@
 ---
 layout: default
 ---
+{% assign author = site.authors[page.author] %}
 {% include post.html %}
 <ul class="post-nav">
   {% if page.previous %}
   <li class="page-nav-item prev">
-      <a rel="prev" href="{{ page.previous.url }}"><strong>&larr;</strong> {{ page.previous.title }}</a>
+    <small>Previous:</small>
+    <a rel="prev" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
   </li>
   {% endif %}
   {% if page.next %}
   <li class="page-nav-item next">
-      <a rel="next" href="{{ page.next.url }}">{{ page.next.title }} <strong>&rarr;</strong></a>
+    <small>Next:</small>
+    <a rel="next" href="{{ page.next.url }}">{{ page.next.title }}</a>
   </li>
   {% endif %}
 </ul>
+<div class="author">
+  <div class="content">
+    <h4>{{ author.display_name }}</h4>
+    <a href="{{ author.web }}" class="avatar"><img src="{{ author.pic }}" /></a>
+    {{ author.bio }}
+  </div>
+</div>
 {% include comments.html %}

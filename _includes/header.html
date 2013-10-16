@@ -4,7 +4,7 @@
 
   <meta charset="UTF-8">
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width" name="viewport">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
   {% if page.title %}
     <title>{{ page.title }} &ndash; {{ site.name }}</title>
     <meta content="{{ page.title }}" property="og:title">
@@ -28,7 +28,8 @@
 
   <link href="/atom.xml" rel="alternate" title="Atom" type="application/atom+xml">
   <link href="/sitemap.xml" rel="sitemap" title="Sitemap" type="application/xml">
-  <link href="/favicon.ico" rel="shortcut icon">
+  <link href="/assets/images/favicon.ico" rel="shortcut icon">
+  <link href="/assets/images/apple-touch-icon.png" rel="apple-touch-icon">
   <link href="{{ site.url }}{{ page.url }}" rel="canonical">
   <link href="/assets/application.css" rel="stylesheet" />
 
@@ -87,12 +88,17 @@
 </head>
 
 <body>
-  <div id="gradient"></div>
 
   <section id="body">
+
     <nav id="menu">
       <a href="/" id="logo">DevGrow.com - Design, Develop, Grow</a>
-      <ul>
+      <ul class="social">
+        <li><a href="http://twitter.com/ThinkDevGrow" class="twitter">@ThinkDevGrow</a></li>
+        <li><a href="http://facebook.com/DevGrow" class="fb">facebook.com/devgrow</a></li>
+        <li><a href="https://github.com/DevGrow/" class="github">Github</a></li>
+      </ul>
+      <ul class="nav">
         <li><a href="/about">About</a></li>
         <li><a href="/contribute">Contribute</a></li>
         <li><a href="/projects">Projects</a></li>

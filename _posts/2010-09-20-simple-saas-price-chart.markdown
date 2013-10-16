@@ -1,5 +1,5 @@
 ---
-author: Monji Dolon
+author: mdolon
 comments: true
 date: 2010-09-20 18:37:32+00:00
 layout: post
@@ -29,8 +29,8 @@ As I've mentioned before, I'm working on a premium WordPress themes site at the 
 The zip file below contains the CSS and HTML to create all of the elements in the above example, as well as the icon images used.
 
 <div class="download">
-  <a href="http://demos.devgrow.com/pricechart/pricechart.zip" class="primary">Download</a>
-  <a href="http://demos.devgrow.com/pricechart/" class="secondary">Preview</a>
+  <a href="http://demos.devgrow.com/pricechart/pricechart.zip" class="button primary">Download</a>
+  <a href="http://demos.devgrow.com/pricechart/" class="button secondary">Preview</a>
 </div>
 
 [![](http://devgrow.s3.amazonaws.com/assets/images/saas-pricechart.gif)](http://demos.devgrow.com/pricechart/)

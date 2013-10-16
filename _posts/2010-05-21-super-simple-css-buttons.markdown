@@ -1,5 +1,5 @@
 ---
-author: Monji Dolon
+author: mdolon
 comments: true
 date: 2010-05-21 23:47:28+00:00
 layout: post
@@ -24,8 +24,8 @@ While playing around with a few button designs for my latest project, I came up 
 The zip file below contains the CSS and HTML to create all of the elements in the above example, as well as the image file used.
 
 <div class="download">
-  <a href="http://demos.devgrow.com/cssbuttons/cssbuttons.zip" class="primary">Download</a>
-  <a href="http://demos.devgrow.com/cssbuttons/" class="secondary">Preview</a>
+  <a href="http://demos.devgrow.com/cssbuttons/cssbuttons.zip" class="button primary">Download</a>
+  <a href="http://demos.devgrow.com/cssbuttons/" class="button secondary">Preview</a>
 </div>
 
 

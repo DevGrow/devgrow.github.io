@@ -1,5 +1,5 @@
 ---
-author: Monji Dolon
+author: mdolon
 comments: true
 date: 2010-10-21 18:53:53+00:00
 layout: post
@@ -24,8 +24,8 @@ This past weekend, John Resig (creator of jQuery) announced the release of the a
 ## Download
 
 <div class="download">
-  <a href="http://devgrow.s3.amazonaws.com/assets/files/jquerymobile.zip" class="primary">Download</a>
-  <a href="http://demos.devgrow.com/jquerymobile/" class="secondary">Preview</a>
+  <a href="http://devgrow.s3.amazonaws.com/assets/files/jquerymobile.zip" class="button primary">Download</a>
+  <a href="http://demos.devgrow.com/jquerymobile/" class="button secondary">Preview</a>
 </div>
 
 [![](http://devgrow.s3.amazonaws.com/assets/images/mobile-dev2-screenshot.png)](http://demos.devgrow.com/jquerymobile/)

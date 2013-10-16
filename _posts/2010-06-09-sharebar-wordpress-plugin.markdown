@@ -1,5 +1,5 @@
 ---
-author: Monji Dolon
+author: mdolon
 comments: false
 date: 2010-06-09 20:50:14+00:00
 layout: post
@@ -25,7 +25,7 @@ This Sharebar isn't a new idea at all, in fact the plugin is meant to mimic [Mas
 You can view the [plugin details](http://wordpress.org/extend/plugins/sharebar/) at [WordPress.org](http://www.wordpress.org/).
 
 <div class="download">
-  <a href="http://wordpress.org/extend/plugins/sharebar/" class="primary">Download</a>
+  <a href="http://wordpress.org/extend/plugins/sharebar/" class="button primary">Download</a>
 </div>
 
 

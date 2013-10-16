@@ -5,8 +5,10 @@ layout: default
   <section class="latest-post">
     {% assign page = site.posts.first %}
     {% assign content = page.excerpt %}
-    {% assign show_count = true %}
+    {% assign homepage = true %}
+    {% assign author = site.authors[page.author] %}
     {% include post.html %}
+    <a href="{{ page.url }}" class="button secondary small">Continue Reading &rarr;</a>
   </section>
 {% endif %}
 
@@ -30,12 +32,12 @@ layout: default
 
     {% if paginator.previous_page %}
       {% if paginator.page == 2 %}
-        <a class="prev left" href="/">&larr; Previous</a>
+        <a class="prev" href="/">&larr; Previous</a>
       {% else %}
-        <a class="prev left" href="/{{paginator.previous_page}}/">&larr; Previous</a>
+        <a class="prev" href="/{{paginator.previous_page}}/">&larr; Previous</a>
       {% endif %}
     {% else %}
-      <span class="disabled left">&larr; Previous</span>
+      <span class="disabled">&larr; Previous</span>
     {% endif %}
 
     <span class="bullet">&bull;</span>
@@ -45,9 +47,9 @@ layout: default
     <span class="bullet">&bull;</span>
 
     {% if paginator.next_page %}
-      <a class="next right" href="/{{paginator.next_page}}/">Next &rarr;</a>
+      <a class="next" href="/{{paginator.next_page}}/">Next &rarr;</a>
     {% else %}
-      <span class="disabled right">Next &rarr;</span>
+      <span class="disabled">Next &rarr;</span>
     {% endif %}
 
   </div>

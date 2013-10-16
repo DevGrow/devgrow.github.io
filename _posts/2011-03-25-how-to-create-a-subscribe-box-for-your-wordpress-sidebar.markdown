@@ -1,5 +1,5 @@
 ---
-author: Monji Dolon
+author: mdolon
 comments: true
 date: 2011-03-25 18:53:56+00:00
 layout: post
@@ -21,8 +21,8 @@ tags:
 A few users have asked me how I've created the Subscribe box in the sidebar and some have even called for a WordPress plugin that helps automate it.  In reality, it's just simple HTML/CSS paired with the [Feedburner subscribe code](http://feedburner.google.com/fb/a/emailsyndication) and can be replicated very easily.  Let's take a look at the code used to create it:
 
 <div class="download">
-  <a href="http://devgrow.s3.amazonaws.com/assets/files/subscribe.zip" class="primary">Download at Github</a>
-  <a href="http://demos.devgrow.com/subscribe/" class="secondary">View Example</a>
+  <a href="http://devgrow.s3.amazonaws.com/assets/files/subscribe.zip" class="button primary">Download at Github</a>
+  <a href="http://demos.devgrow.com/subscribe/" class="button secondary">View Example</a>
 </div>
 
 [![](http://devgrow.s3.amazonaws.com/assets/images/subscribe-big.gif)](http://demos.devgrow.com/subscribe/)

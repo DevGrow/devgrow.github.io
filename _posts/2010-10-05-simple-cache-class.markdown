@@ -1,5 +1,5 @@
 ---
-author: Monji Dolon
+author: mdolon
 comments: true
 date: 2010-10-05 15:45:35+00:00
 layout: post
@@ -27,7 +27,7 @@ Recently for a small project, I turned one of my previous [WordPress cache exper
 The following zip file contains the PHP class and license information.
 
 <div class="download">
-  <a href="http://demos.devgrow.com/SimpleCache.zip" class="primary">Download</a>
+  <a href="http://demos.devgrow.com/SimpleCache.zip" class="button primary">Download</a>
 </div>
 
 

@@ -1,5 +1,5 @@
 ---
-author: Monji Dolon
+author: mdolon
 comments: true
 date: 2010-03-26 18:29:42+00:00
 layout: post
@@ -22,8 +22,8 @@ tags:
 For my latest project, I created a great interface for an administration panel, complete with great looking forms and buttons.  The one thing that stuck out like a sore thumb, however, were the ugly radio buttons and checkboxes I had to use repeatedly throughout the panel, so I decided to fix them.  I found [a](http://blog.pengoworks.com/index.cfm/2009/9/3/Create-iPhonestyle-buttons-with-the-iButton-jQuery-Plugin) [few](http://tdreyno.github.com/iphone-style-checkboxes/) [plugins](http://awardwinningfjords.com/2009/06/16/iphone-style-checkboxes.html) that achieved what I wanted, however they were all pretty hefty in file size.  My version doesn't look _as_ cool but makes up for it in file size, weighing less than 3kb and using only one image.
 
 <div class="download">
-  <a href="http://devgrow.s3.amazonaws.com/assets/images/iphone-style-switches.zip" class="primary">Download</a>
-  <a href="http://demos.devgrow.com/switch/index.html" class="secondary">Preview</a>
+  <a href="http://devgrow.s3.amazonaws.com/assets/images/iphone-style-switches.zip" class="button primary">Download</a>
+  <a href="http://demos.devgrow.com/switch/index.html" class="button secondary">Preview</a>
 </div>
 
 

@@ -1,5 +1,5 @@
 ---
-author: Monji Dolon
+author: mdolon
 comments: true
 date: 2010-08-05 17:37:59+00:00
 layout: post
@@ -25,9 +25,9 @@ The sweet looking buttons in this tutorial are created using only HTML and CSS3 
 
 The zip file below contains the CSS and HTML to create all of the elements in the above example, as well as the image file used.
 
-<div class="download top">
-  <a href="http://demos.devgrow.com/css3buttons/css3buttons.zip" class="primary">Download</a>
-  <a href="http://demos.devgrow.com/css3buttons/" class="secondary">Preview</a>
+<div class="download">
+  <a href="http://demos.devgrow.com/css3buttons/css3buttons.zip" class="button primary">Download</a>
+  <a href="http://demos.devgrow.com/css3buttons/" class="button secondary">Preview</a>
 </div>
 
 ## The Code

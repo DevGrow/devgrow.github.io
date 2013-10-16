@@ -1,5 +1,5 @@
 ---
-author: Monji Dolon
+author: mdolon
 comments: true
 date: 2011-01-27 18:02:45+00:00
 layout: post
@@ -23,8 +23,8 @@ tags:
 I recently came across a great looking set of [navigational buttons](http://www.premiumpixels.com/dark-button-navigation-psd/) designed by Orman Clark of [Premium Pixels](http://www.premiumpixels.com/).  I'm a big fan of his design style and decided to whip together a quick CSS3/HTML version of the buttons.  Check out the demo and feel free to download the example zip file as well.
 
 <div class="download">
-  <a href="http://devgrow.s3.amazonaws.com/assets/files/dark-nav-buttons.zip" class="primary">Download</a>
-  <a href="http://demos.devgrow.com/dark-nav-buttons/" class="secondary">Preview</a>
+  <a href="http://devgrow.s3.amazonaws.com/assets/files/dark-nav-buttons.zip" class="button primary">Download</a>
+  <a href="http://demos.devgrow.com/dark-nav-buttons/" class="button secondary">Preview</a>
 </div>
 
 [![](http://devgrow.s3.amazonaws.com/assets/images/dark-nav-buttons-big.jpg)](http://demos.devgrow.com/dark-nav-buttons/)

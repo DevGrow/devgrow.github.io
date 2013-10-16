@@ -1,3 +1,15 @@
+@mixin border-radius($radius) {
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin listless {
+  list-style-type: none;
+  padding: 0;
+}
+
 @mixin unselectable() {
   -webkit-user-select: none; /* Chrome/Safari */
   -moz-user-select: none; /* Firefox */
@@ -6,4 +18,35 @@
   /* Rules below not implemented in browsers yet */
   -o-user-select: none;
   user-select: none;
+}
+
+@mixin biopic() {
+  position: relative;
+  padding: 5px 0 30px 180px;
+  img {
+    position: absolute;
+    top: 0;  left: 0;
+    padding: 0 !important;  margin: 0 !important;
+    width: 140px;  height: 140px;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  h4 {
+    margin-bottom: 0.3em;
+    line-height: 1em;
+  }
+}
+
+%clearfix {
+  zoom:1;
+  &:before, &:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+  &:after {
+    clear: both;
+  }
 }

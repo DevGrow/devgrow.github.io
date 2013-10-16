@@ -1,5 +1,5 @@
 ---
-author: Monji Dolon
+author: mdolon
 comments: true
 date: 2010-05-30 20:27:25+00:00
 layout: post
@@ -29,8 +29,8 @@ The plugin has been tested (and works fine) on Firefox 3, Chrome 5, IE7+, Safari
 You can download the [full source](http://demos.devgrow.com/jcollapsible/jCollapsible.js), [minified version](http://demos.devgrow.com/jcollapsible/jCollapsible.min.js)  or [view the example online](http://demos.devgrow.com/jcollapsible).
 
 <div class="download">
-  <a href="http://devgrow.s3.amazonaws.com/assets/files/jcollapsible.zip" class="primary">Download</a>
-  <a href="http://demos.devgrow.com/jcollapible" class="secondary">Preview</a>
+  <a href="http://devgrow.s3.amazonaws.com/assets/files/jcollapsible.zip" class="button primary">Download</a>
+  <a href="http://demos.devgrow.com/jcollapible" class="button secondary">Preview</a>
 </div>
 
 

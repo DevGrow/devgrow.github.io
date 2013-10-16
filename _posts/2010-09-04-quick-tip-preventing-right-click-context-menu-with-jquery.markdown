@@ -1,5 +1,5 @@
 ---
-author: Monji Dolon
+author: mdolon
 comments: true
 date: 2010-09-04 19:33:32+00:00
 layout: post
@@ -32,8 +32,8 @@ Someone mentioned it doesn't work in Firefox in the comments - I've tested the c
 
 Feel free to view the source of the demo to see how the exact implementation.  Also, keep in mind that this is certainly not a fool-proof solution (not even a great one) at preventing image theft.  It's useful in deterring the subset of people who are less tech-savvy and are likely to give up after being unable to right-click.
 
-<div class="download top">
-  <a href="http://demos.devgrow.com/nocontext/" class="secondary">Live Example</a>
+<div class="download">
+  <a href="http://demos.devgrow.com/nocontext/" class="button secondary">Live Example</a>
 </div>
 
 ### Edit 2: I am not suggesting this!
