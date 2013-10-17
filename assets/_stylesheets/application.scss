@@ -608,4 +608,9 @@ a.home {
       }
     }
   }
+  .share-links {
+    li:last-child {
+      display: none;
+    }
+  }
 }

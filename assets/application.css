@@ -803,4 +803,7 @@ a.home {
       display: none; }
 
   .post .post-content img {
-    width: 100%; } }
+    width: 100%; }
+
+  .share-links li:last-child {
+    display: none; } }
