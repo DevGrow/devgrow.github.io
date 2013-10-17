@@ -2,6 +2,7 @@
 
 @import "_mixins";
 @import "_pygments";
+@import "_colors";
 
 // Base colors and fonts
 html, body {
@@ -11,16 +12,16 @@ html, body {
 }
 a {
   text-decoration: none;
-  color: #2f80c4;
+  color: $linkColor;
   &:hover {
-    color: #41a0f0;
+    color: $linkHoverColor;
     background: #fffdef;
   }
   &:active {
-    color: #222;
+    color: $linkActiveColor;
   }
   &:visited {
-    color: #999;
+    color: $linkVisitedColor;
   }
 }
 small {
@@ -143,6 +144,19 @@ hr {
   background: transparent url(./images/bg-content.png) repeat-y right -20px;
 }
 
+a.home {
+  @include opacity(0.1);
+  position: absolute;  display: block;
+  top: 40px;  left: 40px;
+  width: 38px;  height: 18px;
+  background: transparent url(./images/icon-home.png) no-repeat top left;
+  text-indent: -9999em;
+  &:hover {
+    @include opacity(0.3);
+    background: transparent url(./images/icon-home.png) no-repeat top left;
+  }
+}
+
 // Sidebar Menu
 #menu {
   position: absolute;
@@ -222,8 +236,11 @@ hr {
   h1.heading {
     margin-bottom: 0.1em;
     font-size: 1.6em;  line-height: 1.2em;
-    a:visited {
+    a, a:visited {
       color: #444;
+    }
+    a:hover {
+      color: $linkActiveColor;
     }
   }
   p {
@@ -260,7 +277,8 @@ hr {
         max-width: 100px;
       }
     }
-    .author, .note, .download, blockquote {
+    .note, .download, blockquote {
+      @include border-radius(5px);
       width: 100%;
       padding: 15px;
       margin-left: -15px;
@@ -324,6 +342,12 @@ hr {
     padding-left: 15px;  margin-bottom: 3px;
     background: url(./images/icon-bullet.png) no-repeat 0 9px;
     font-size: 1em;  font-weight: 600;
+    a {
+      color: $linkColorAlt;
+      &:hover {
+        color: $linkActiveColor;
+      }
+    }
   }
 }
 .pagination {
@@ -333,9 +357,6 @@ hr {
   .bullet {
     padding: 0 10px;
     color: #ddd;
-  }
-  a:visited {
-    color: #333;
   }
 }
 .tags {
@@ -436,6 +457,7 @@ hr {
 
 .author {
   @include biopic();
+  @include border-radius(5px);
   padding: 25px 25px 20px 105px;
   min-height: 55px;
   background: #fafafa;
@@ -489,5 +511,73 @@ hr {
   }
   .copyright {
     font-size: 0.8em;  color: #aaa;
+  }
+}
+
+// Responsiveness
+
+@media screen and (max-width: 940px) {
+  #body {
+    min-width: 600px;
+    max-width: 900px;
+    padding: 150px 100px 60px 60px;
+    margin-right: 0;
+  }
+  a.home { display: none; }
+  #menu {
+    position: absolute;
+    top: 60px;  right: 90px;  left: 60px;
+    width: auto;  min-width: 520px;
+    #logo {
+      float: left;
+      margin-right: 10px;
+      background-image: url(./images/logo-dark.png);
+    }
+    ul.social {
+      position: relative;
+      float: right;  top: 6px;
+      width: auto;  clear: none;
+    }
+    ul.nav {
+      position: relative;
+      float: left;  top: 6px;
+      width: auto;  clear: none;
+      li {
+        float: left;
+        margin-right: 7px;
+        a {
+          padding: 2px 5px;
+          color: #2f80c4;  font-size: 0.85em;
+          background: #fafafa;
+          &:hover {
+            color: #fff;
+            background: #2f80c4;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 775px) {
+  #body {
+    min-width: 400px;
+    max-width: 600px;
+    padding: 150px 100px 60px 60px;
+    margin-right: 0;
+  }
+  a.home { display: none; }
+  #menu {
+    width: 430px;
+    ul.social {
+      display: none;
+    }
+  }
+  .post {
+    .post-content {
+      img {
+        width: 100%;
+      }
+    }
   }
 }

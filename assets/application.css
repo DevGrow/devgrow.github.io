@@ -219,14 +219,14 @@ html, body {
 
 a {
   text-decoration: none;
-  color: #2f80c4; }
+  color: #b65a2d; }
   a:hover {
-    color: #41a0f0;
+    color: #ef7940;
     background: #fffdef; }
   a:active {
-    color: #222; }
+    color: #923000; }
   a:visited {
-    color: #999; }
+    color: #923000; }
 
 small {
   font-size: 12px; }
@@ -349,6 +349,26 @@ hr {
   margin-right: 150px;
   background: transparent url(./images/bg-content.png) repeat-y right -20px; }
 
+a.home {
+  opacity: 0.1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" 10 ")";
+  filter: alpha(opacity=10);
+  zoom: 1;
+  position: absolute;
+  display: block;
+  top: 40px;
+  left: 40px;
+  width: 38px;
+  height: 18px;
+  background: transparent url(./images/icon-home.png) no-repeat top left;
+  text-indent: -9999em; }
+  a.home:hover {
+    opacity: 0.3;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" 30 ")";
+    filter: alpha(opacity=30);
+    zoom: 1;
+    background: transparent url(./images/icon-home.png) no-repeat top left; }
+
 #menu {
   position: absolute;
   top: 80px;
@@ -426,8 +446,10 @@ hr {
   margin-bottom: 0.1em;
   font-size: 1.6em;
   line-height: 1.2em; }
-  .post h1.heading a:visited {
+  .post h1.heading a, .post h1.heading a:visited {
     color: #444; }
+  .post h1.heading a:hover {
+    color: #923000; }
 .post p {
   margin-bottom: 1.5em; }
   .post p.meta, .post p.meta a {
@@ -456,30 +478,34 @@ hr {
     margin: 10px 0 5px 20px; }
   .post .post-content img.small {
     max-width: 100px; }
-.post .post-content .author, .post .post-content .note, .post .post-content .download, .post .post-content blockquote {
+.post .post-content .note, .post .post-content .download, .post .post-content blockquote {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
   width: 100%;
   padding: 15px;
   margin-left: -15px;
   margin-bottom: 30px;
   background: #fafafa; }
-  .post .post-content .author h3, .post .post-content .note h3, .post .post-content .download h3, .post .post-content blockquote h3 {
+  .post .post-content .note h3, .post .post-content .download h3, .post .post-content blockquote h3 {
     margin-bottom: 0.5em; }
-  .post .post-content .author .content, .post .post-content .note .content, .post .post-content .download .content, .post .post-content blockquote .content {
+  .post .post-content .note .content, .post .post-content .download .content, .post .post-content blockquote .content {
     position: relative;
     padding-right: 115px;
     font-size: 0.8em; }
-    .post .post-content .author .content .avatar, .post .post-content .note .content .avatar, .post .post-content .download .content .avatar, .post .post-content blockquote .content .avatar {
+    .post .post-content .note .content .avatar, .post .post-content .download .content .avatar, .post .post-content blockquote .content .avatar {
       position: absolute;
       top: 2px;
       right: 0; }
-      .post .post-content .author .content .avatar img, .post .post-content .note .content .avatar img, .post .post-content .download .content .avatar img, .post .post-content blockquote .content .avatar img {
+      .post .post-content .note .content .avatar img, .post .post-content .download .content .avatar img, .post .post-content blockquote .content .avatar img {
         margin: 0;
         max-width: 80px; }
-  .post .post-content .author.download, .post .post-content .note.download, .post .post-content .download.download, .post .post-content blockquote.download {
+  .post .post-content .note.download, .post .post-content .download.download, .post .post-content blockquote.download {
     text-align: center; }
-    .post .post-content .author.download a.button, .post .post-content .note.download a.button, .post .post-content .download.download a.button, .post .post-content blockquote.download a.button {
+    .post .post-content .note.download a.button, .post .post-content .download.download a.button, .post .post-content blockquote.download a.button {
       margin: 0 5px; }
-  .post .post-content .author.small, .post .post-content .note.small, .post .post-content .download.small, .post .post-content blockquote.small {
+  .post .post-content .note.small, .post .post-content .download.small, .post .post-content blockquote.small {
     font-size: 0.85em; }
 .post .post-content blockquote p {
   margin-bottom: 0; }
@@ -509,14 +535,16 @@ hr {
     background: url(./images/icon-bullet.png) no-repeat 0 9px;
     font-size: 1em;
     font-weight: 600; }
+    .archived-posts li a {
+      color: #444444; }
+      .archived-posts li a:hover {
+        color: #923000; }
 
 .pagination .pages, .pagination .disabled {
   color: #aaa; }
 .pagination .bullet {
   padding: 0 10px;
   color: #ddd; }
-.pagination a:visited {
-  color: #333; }
 
 .tags {
   padding-top: 10px;
@@ -604,6 +632,10 @@ hr {
 .author {
   position: relative;
   padding: 5px 0 30px 180px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
   padding: 25px 25px 20px 105px;
   min-height: 55px;
   background: #fafafa;
@@ -685,3 +717,65 @@ hr {
   #footer .copyright {
     font-size: 0.8em;
     color: #aaa; }
+
+@media screen and (max-width: 940px) {
+  #body {
+    min-width: 600px;
+    max-width: 900px;
+    padding: 150px 100px 60px 60px;
+    margin-right: 0; }
+
+  a.home {
+    display: none; }
+
+  #menu {
+    position: absolute;
+    top: 60px;
+    right: 90px;
+    left: 60px;
+    width: auto;
+    min-width: 520px; }
+    #menu #logo {
+      float: left;
+      margin-right: 10px;
+      background-image: url(./images/logo-dark.png); }
+    #menu ul.social {
+      position: relative;
+      float: right;
+      top: 6px;
+      width: auto;
+      clear: none; }
+    #menu ul.nav {
+      position: relative;
+      float: left;
+      top: 6px;
+      width: auto;
+      clear: none; }
+      #menu ul.nav li {
+        float: left;
+        margin-right: 7px; }
+        #menu ul.nav li a {
+          padding: 2px 5px;
+          color: #2f80c4;
+          font-size: 0.85em;
+          background: #fafafa; }
+          #menu ul.nav li a:hover {
+            color: #fff;
+            background: #2f80c4; } }
+@media screen and (max-width: 775px) {
+  #body {
+    min-width: 400px;
+    max-width: 600px;
+    padding: 150px 100px 60px 60px;
+    margin-right: 0; }
+
+  a.home {
+    display: none; }
+
+  #menu {
+    width: 430px; }
+    #menu ul.social {
+      display: none; }
+
+  .post .post-content img {
+    width: 100%; } }
