@@ -2,7 +2,7 @@ server "74.207.227.209", :web, :app, :db, primary: true
 
 set :application, "devgrow"
 set :user, "mdolon"
-set :deploy_to, "/home/www/#{application}/app/"
+set :deploy_to, "/home/www/#{application}.com/app/"
 set :repository, "_site"
 set :scm, :none
 set :deploy_via, :copy
