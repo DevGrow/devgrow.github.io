@@ -613,7 +613,7 @@ a.home {
     -moz-box-shadow: none !important;
     box-shadow: none !important; }
   .author h4 {
-    margin-bottom: 0.3em;
+    margin: 0 0 0.3em;
     line-height: 1em; }
   .author img {
     -moz-border-radius: 140px;
@@ -649,7 +649,7 @@ a.home {
       -moz-box-shadow: none !important;
       box-shadow: none !important; }
     .contributors li h4, .projects li h4 {
-      margin-bottom: 0.3em;
+      margin: 0 0 0.3em;
       line-height: 1em; }
     .contributors li h4, .projects li h4 {
       margin-top: 0.75em; }
@@ -753,7 +753,7 @@ a.home {
 
   #body {
     min-width: 300px;
-    max-width: 400px;
+    max-width: 440px;
     margin-right: 0;
     padding: 0 45px 0 0;
     background: transparent url(./images/bg-content-small.png) repeat-y right -20px; }
