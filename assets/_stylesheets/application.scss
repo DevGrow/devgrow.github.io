@@ -516,6 +516,7 @@ a.home {
   }
   .copyright {
     font-size: 0.8em;  color: #aaa;
+    margin: 0;
   }
 }
 
@@ -526,7 +527,7 @@ a.home {
     min-width: 600px;
     max-width: 900px;
     margin-right: 0;
-    padding: 100px 70px 0px 60px;
+    padding: 100px 90px 0px 60px;
   }
   .body-wrap {
     padding: 0;
@@ -571,7 +572,7 @@ a.home {
   #body {
     min-width: 400px;
     max-width: 600px;
-    padding: 100px 70px 0px 60px;
+    padding: 100px 90px 40px 60px;
     margin-right: 0;
   }
   .body-wrap { padding: 0; }
@@ -599,7 +600,7 @@ a.home {
     min-width: 300px;
     max-width: 400px;
     margin-right: 0;
-    padding: 100px 40px 0px 30px;
+    padding: 100px 40px 40px 30px;
     background: transparent url(./images/bg-content-small.png) repeat-y right -20px;
   }
   .body-wrap { padding: 0; }
