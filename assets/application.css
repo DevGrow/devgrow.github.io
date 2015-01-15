@@ -211,7 +211,7 @@ hr, .post-nav, .share .share-links {
   color: #f5871f; }
 
 html, body {
-  background: #53a1e3 url(./images/bg-tile-blue.png) repeat;
+  background: #fff url(./images/bg-tile-blue.png) repeat;
   font-family: "proxima-nova", sans-serif;
   font-size: 19px;
   line-height: 1.45;
