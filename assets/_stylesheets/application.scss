@@ -9,6 +9,7 @@ html, body {
   background: #499ae4 url(./images/bg-tile-blue.jpg) repeat;
   font-family: "proxima-nova", sans-serif;  font-size: 19px;
   line-height: 1.45;  color: #333;
+  padding: 0;  margin: 0;
 }
 a {
   text-decoration: none;
@@ -144,7 +145,7 @@ hr {
   background: transparent url(./images/bg-content.png) repeat-y right -20px;
 }
 .body-wrap {
-  padding: 80px 110px 60px 60px;
+  padding: 20px 110px 60px 60px;
   background: #fff;
 }
 
@@ -524,8 +525,10 @@ a.home {
   #body {
     min-width: 600px;
     max-width: 900px;
-    padding: 150px 100px 60px 60px;
     margin-right: 0;
+  }
+  .body-wrap {
+    padding: 150px 100px 60px 60px;
   }
   a.home { display: none; }
   #menu {
@@ -593,9 +596,11 @@ a.home {
   #body {
     min-width: 300px;
     max-width: 400px;
-    padding: 150px 50px 40px 30px;
     margin-right: 0;
     background: transparent url(./images/bg-content-small.png) repeat-y right -20px;
+  }
+  .body-wrap {
+    padding: 150px 50px 40px 30px;
   }
   a.home { display: none; }
   #menu {
