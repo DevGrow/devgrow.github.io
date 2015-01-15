@@ -23,6 +23,9 @@
 		return false;
 	}
 </script>
+<meta name="description" content="Tutorial on how to set up a simple Honeypot." />
+<meta name="keywords" content="HTML tutorials, CSS resources, tips and tricks, honeypot, PHP, HTML" />
+
 </head>
 <body>
 <?php

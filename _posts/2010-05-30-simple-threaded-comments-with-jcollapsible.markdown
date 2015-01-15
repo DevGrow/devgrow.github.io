@@ -30,7 +30,7 @@ You can download the [full source](http://demos.devgrow.com/jcollapsible/jCollap
 
 <div class="download">
   <a href="http://devgrow.s3.amazonaws.com/assets/files/jcollapsible.zip" class="button primary">Download</a>
-  <a href="http://demos.devgrow.com/jcollapible" class="button secondary">Preview</a>
+  <a href="http://demos.devgrow.com/jcollapsible" class="button secondary">Preview</a>
 </div>
 
 

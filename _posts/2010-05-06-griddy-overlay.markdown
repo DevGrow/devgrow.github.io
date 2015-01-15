@@ -33,11 +33,11 @@ You can see the default values in the plugin code itself (all sizes in pixels). 
 
 ### The Code
 
-You’ll find the code below but if you prefer, you can [download it](http://devgrow.com/griddy/griddy.js) as well (and include it like any other JQuery plugin). You can also check out the [example page](http://devgrow.com/griddy/) if you’d like.
+You’ll find the code below but if you prefer, you can [download it](http://demos.devgrow.com/griddy/griddy.js) as well (and include it like any other JQuery plugin). You can also check out the [example page](http://demos.devgrow.com/griddy/) if you’d like.
 
 <div class="download">
-  <a href="http://devgrow.com/griddy/griddy.js" class="button primary">Download</a>
-  <a href="http://devgrow.com/griddy/" class="button secondary">Preview</a>
+  <a href="http://demos.devgrow.com/griddy/griddy.js" class="button primary">Download</a>
+  <a href="http://demos.devgrow.com/griddy/" class="button secondary">Preview</a>
 </div>
 
 {% highlight html linenos=table %}

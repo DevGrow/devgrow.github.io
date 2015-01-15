@@ -27,7 +27,7 @@ This effect is actually from [Techi.com](http://techi.com/), a new blog launched
     <strong>Updated May 25:</strong> I've just added a new option that displays arrows above and below the SliderNav object.  This is used to navigate longer sections for users that do not have a mouse wheel (or those who are on a mobile browser).
 </div>
 
-<iframe width="600" height="310" src="http://devgrow.com/slidernav-jquery-plugin/embed.html" style="border:none;" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+<iframe width="600" height="310" src="http://demos.devgrow.com/slidernav-jquery-plugin/embed.html" style="border:none;" frameborder="0" marginheight="0" marginwidth="0"></iframe>
 
 **SliderNav** is a JQuery plugin that lets you add dynamic, sliding content using a vertical navigation bar (index).  It is made mainly for alphabetical listings but can be used with anything, though longer words can look a bit awkward.  The plugin automatically adds the navigation and sets the height for the object based on how tall the navigation is, in order to make sure users have access to the entire list.  I also used the _overflow: auto;_ property for the actual content so you can **use your mousewheel to scroll through the content as well**.
 
@@ -36,11 +36,11 @@ The plugin has been tested (and works fine) on Firefox 3, Chrome 5, IE7, Safari 
 
 ## Download
 
-You can download the [full source](http://devgrow.com/slidernav-jquery-plugin/slidernav.js), [minified version](http://devgrow.com/slidernav-jquery-plugin/slidernav-min.js), [css file](http://devgrow.com/slidernav-jquery-plugin/slidernav.css), or [view the example online](http://devgrow.com/slidernav-jquery-plugin).
+You can download and view the code at [Github](https://github.com/DevGrow/SliderNav) or [view the example online](http://devgrow.com/slidernav-jquery-plugin).
 
 <div class="download">
-  <a href="http://devgrow.com/slidernav-jquery-plugin/slidernav.zip" class="button primary">Download</a>
-  <a href="http://devgrow.com/slidernav-jquery-plugin" class="button secondary">Preview</a>
+  <a href="https://github.com/DevGrow/SliderNav" class="button primary">Source</a>
+  <a href="http://demos.devgrow.com/slidernav-jquery-plugin" class="button secondary">Preview</a>
 </div>
 
 
