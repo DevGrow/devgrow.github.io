@@ -685,10 +685,10 @@ a.home {
     min-width: 600px;
     max-width: 900px;
     margin-right: 0;
-    padding: 100px 90px 0px 60px; }
+    padding: 0 45px 0 0; }
 
   .body-wrap {
-    padding: 0; }
+    padding: 100px 45px 40px 60px; }
 
   a.home {
     display: none; }
@@ -730,11 +730,11 @@ a.home {
   #body {
     min-width: 400px;
     max-width: 600px;
-    padding: 100px 90px 40px 60px;
+    padding: 0 45px 0 0;
     margin-right: 0; }
 
   .body-wrap {
-    padding: 0; }
+    padding: 100px 45px 40px 60px; }
 
   a.home {
     display: none; }
@@ -755,11 +755,11 @@ a.home {
     min-width: 300px;
     max-width: 400px;
     margin-right: 0;
-    padding: 100px 40px 40px 30px;
+    padding: 0 45px 0 0;
     background: transparent url(./images/bg-content-small.png) repeat-y right -20px; }
 
   .body-wrap {
-    padding: 0; }
+    padding: 100px 5px 40px 30px; }
 
   a.home {
     display: none; }
