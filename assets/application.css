@@ -400,76 +400,78 @@ a.home {
             background-color: #256ba5;
             z-index: 2; }
 
-.post:not(.page) > .post-content > p:first-child {
-  font-size: 1.3em;
-  line-height: 1.4em; }
-.post h1.heading {
-  margin-bottom: 0.1em;
-  font-size: 1.6em;
-  line-height: 1.2em; }
-  .post h1.heading a, .post h1.heading a:visited {
-    color: #444; }
-  .post h1.heading a:hover {
-    color: #923000; }
-.post p {
-  margin-bottom: 1.5em; }
-  .post p.meta, .post p.meta a {
-    color: #b2b1b1; }
-.post .post-content a:not(.button) {
-  font-weight: 600; }
-  .post .post-content a:not(.button):hover {
-    background: none; }
-.post .post-content img {
-  display: block;
-  position: relative;
-  left: -8px;
-  margin: 30px auto;
-  border: 8px solid #fff;
-  background-color: #fff;
-  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 1, 0.3), inset 0 0 18px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 1px 5px rgba(0, 0, 1, 0.3), inset 0 0 18px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 5px rgba(0, 0, 1, 0.3), inset 0 0 18px rgba(0, 0, 0, 0.1); }
-  .post .post-content img.image-left {
-    float: left;
-    left: 0;
-    margin: 10px 20px 5px 0; }
-  .post .post-content img.image-right {
-    float: right;
-    left: 0;
-    margin: 10px 0 5px 20px; }
-  .post .post-content img.small {
-    max-width: 100px; }
-.post .post-content .note, .post .post-content .download, .post .post-content blockquote {
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px;
-  width: 100%;
-  padding: 15px;
-  margin-left: -15px;
-  margin-bottom: 30px;
-  background: #fafafa; }
-  .post .post-content .note h3, .post .post-content .download h3, .post .post-content blockquote h3 {
-    margin-bottom: 0.5em; }
-  .post .post-content .note .content, .post .post-content .download .content, .post .post-content blockquote .content {
+.post {
+  padding-top: 50px; }
+  .post:not(.page) > .post-content > p:first-child {
+    font-size: 1.3em;
+    line-height: 1.4em; }
+  .post h1.heading {
+    margin: 0 0 0.1em;
+    font-size: 1.6em;
+    line-height: 1.2em; }
+    .post h1.heading a, .post h1.heading a:visited {
+      color: #444; }
+    .post h1.heading a:hover {
+      color: #923000; }
+  .post p {
+    margin-bottom: 1.5em; }
+    .post p.meta, .post p.meta a {
+      color: #b2b1b1; }
+  .post .post-content a:not(.button) {
+    font-weight: 600; }
+    .post .post-content a:not(.button):hover {
+      background: none; }
+  .post .post-content img {
+    display: block;
     position: relative;
-    padding-right: 115px;
-    font-size: 0.8em; }
-    .post .post-content .note .content .avatar, .post .post-content .download .content .avatar, .post .post-content blockquote .content .avatar {
-      position: absolute;
-      top: 2px;
-      right: 0; }
-      .post .post-content .note .content .avatar img, .post .post-content .download .content .avatar img, .post .post-content blockquote .content .avatar img {
-        margin: 0;
-        max-width: 80px; }
-  .post .post-content .note.download, .post .post-content .download.download, .post .post-content blockquote.download {
-    text-align: center; }
-    .post .post-content .note.download a.button, .post .post-content .download.download a.button, .post .post-content blockquote.download a.button {
-      margin: 0 5px; }
-  .post .post-content .note.small, .post .post-content .download.small, .post .post-content blockquote.small {
-    font-size: 0.85em; }
-.post .post-content blockquote p {
-  margin-bottom: 0; }
+    left: -8px;
+    margin: 30px auto;
+    border: 8px solid #fff;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 1, 0.3), inset 0 0 18px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 1, 0.3), inset 0 0 18px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 5px rgba(0, 0, 1, 0.3), inset 0 0 18px rgba(0, 0, 0, 0.1); }
+    .post .post-content img.image-left {
+      float: left;
+      left: 0;
+      margin: 10px 20px 5px 0; }
+    .post .post-content img.image-right {
+      float: right;
+      left: 0;
+      margin: 10px 0 5px 20px; }
+    .post .post-content img.small {
+      max-width: 100px; }
+  .post .post-content .note, .post .post-content .download, .post .post-content blockquote {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+    margin-left: -15px;
+    margin-bottom: 30px;
+    background: #fafafa; }
+    .post .post-content .note h3, .post .post-content .download h3, .post .post-content blockquote h3 {
+      margin-bottom: 0.5em; }
+    .post .post-content .note .content, .post .post-content .download .content, .post .post-content blockquote .content {
+      position: relative;
+      padding-right: 115px;
+      font-size: 0.8em; }
+      .post .post-content .note .content .avatar, .post .post-content .download .content .avatar, .post .post-content blockquote .content .avatar {
+        position: absolute;
+        top: 2px;
+        right: 0; }
+        .post .post-content .note .content .avatar img, .post .post-content .download .content .avatar img, .post .post-content blockquote .content .avatar img {
+          margin: 0;
+          max-width: 80px; }
+    .post .post-content .note.download, .post .post-content .download.download, .post .post-content blockquote.download {
+      text-align: center; }
+      .post .post-content .note.download a.button, .post .post-content .download.download a.button, .post .post-content blockquote.download a.button {
+        margin: 0 5px; }
+    .post .post-content .note.small, .post .post-content .download.small, .post .post-content blockquote.small {
+      font-size: 0.85em; }
+  .post .post-content blockquote p {
+    margin-bottom: 0; }
 
 .latest-post {
   padding-bottom: 35px;

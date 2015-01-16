@@ -233,13 +233,14 @@ a.home {
 
 // Posts
 .post {
+  padding-top: 50px;
   &:not(.page) {
     > .post-content > p:first-child {
       font-size: 1.3em;  line-height: 1.4em;
     }
   }
   h1.heading {
-    margin-bottom: 0.1em;
+    margin: 0 0 0.1em;
     font-size: 1.6em;  line-height: 1.2em;
     a, a:visited {
       color: #444;
