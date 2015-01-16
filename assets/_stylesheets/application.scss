@@ -145,7 +145,7 @@ hr {
   background: transparent url(./images/bg-content.png) repeat-y right -20px;
 }
 .body-wrap {
-  padding: 20px 110px 60px 60px;
+  padding: 20px 60px 60px 60px;
   background: #fff;
 }
 
@@ -447,6 +447,7 @@ a.home {
     @include listless();
     @extend %clearfix;
     padding-top: 10px;
+    margin: 0 0 20px;
     li {
       float: left;
       margin: 0;  padding-top: 5px;
@@ -623,5 +624,27 @@ a.home {
     li:last-child {
       display: none;
     }
+  }
+}
+
+#mc_embed_signup {
+  @include border-radius(3px);
+  background: #ecf5fd;
+  border: 3px solid #e2edf7;
+  font-size: 16px;
+  padding: 15px;  margin-bottom: 30px;
+  h4 {
+    margin: 0 0 5px;
+  }
+  p {
+    font-size: 16px;
+    margin: 0 0 10px;
+  }
+  #mce-EMAIL {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .button {
+    border: none;
   }
 }

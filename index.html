@@ -12,6 +12,8 @@ layout: default
   </section>
 {% endif %}
 
+{% include mailchimp.html %}
+
 <ul class="archived-posts">
   {% for post in paginator.posts %}
     {% if post != site.posts.first %}

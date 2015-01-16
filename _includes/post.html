@@ -46,6 +46,13 @@
         </li>
       </ul>
     </div>
+    <div class="author">
+      <div class="content">
+        <h4>{{ author.display_name }}</h4>
+        <a href="{{ author.web }}" class="avatar"><img src="{{ author.pic }}" /></a>
+        {{ author.bio }}
+      </div>
+    </div>
   {% endif %}
 
 </article>
