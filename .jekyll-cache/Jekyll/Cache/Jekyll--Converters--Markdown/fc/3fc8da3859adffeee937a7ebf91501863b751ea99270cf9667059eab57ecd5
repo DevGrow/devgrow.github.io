@@ -1,0 +1,30 @@
+I"%<p>I’ve just finished an update to the Sharebar WordPress plugin that adds color selectors for the vertical widget, new <a href="http://www.sharethis.com/">ShareThis</a> buttons and a switch to the Facebook Like (from Facebook Share) button.  I had planned to have AJAX loading of buttons finished with this release however it’s proving to be a bit more difficult than I originally expected.</p>
+
+<h3 id="download">Download</h3>
+
+<p>You can view the <a href="http://wordpress.org/extend/plugins/sharebar/">plugin details</a> at <a href="http://www.wordpress.org/">WordPress.org</a>.</p>
+
+<div class="download">
+  <a href="http://downloads.wordpress.org/plugin/sharebar.zip" class="button primary">Download</a>
+</div>
+
+<p><img src="http://devgrow.s3.amazonaws.com/assets/images/v1.2.gif" alt="" /></p>
+
+<h3 id="12-change-log">1.2 Change Log:</h3>
+<ul>
+  <li>Added ability to change color of vertical widget from admin panel</li>
+  <li>Added ShareThis buttons</li>
+  <li>Changed Facebook Share to Facebook Likes</li>
+</ul>
+
+<h3 id="to-do-list">To-do List:</h3>
+<ul>
+  <li>AJAX loading of buttons</li>
+  <li>Better browser compatibility (specifically Internet Explorer)</li>
+  <li>More default buttons</li>
+</ul>
+
+<p>So it turns out AJAX loading isn’t as easy as I thought.  While several buttons work, many do not function properly when called from another page via jQuery’s GET function.  I ended up switching to the Facebook ‘Like’ button as the default over the Facebook ‘Share’ widget, as I think it will be more consistent with displaying the actual share/like numbers (a common complaint of the previous Share button).  Also, the default buttons now include ShareThis, which include a couple of great E-mail and Share buttons.  I left the ShareThis Facebook button code as well, in case anyone preferred using that over the new Facebook Like one.</p>
+
+<p>If you have ideas to improve Sharebar or would like to contribute to the code, please leave a comment or send me an e-mail.  I could definitely use some help in debugging the random IE/Thesis theme errors!</p>
+:ET

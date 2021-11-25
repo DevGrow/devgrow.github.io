@@ -1,0 +1,134 @@
+I"K<p>There are a few quick fixes you can apply to your site that can help boost your search rankings.  If you haven’t already done these, take a break from what you’re doing and do this first - the results will be well worth the 10 minutes it will take.</p>
+
+<h2 id="use-either-www-or-no-www">Use Either WWW or No-WWW</h2>
+
+<p>Search engines treat each sub-domain, including www, as a different website altogether.  This means that if your content is accessible via www and without it, both will be crawled and ranked in search engines.  This will hurt your overall page rank (effectively splitting it) and reduce the number of backlinks to your domain.  Be decisive - pick one or the other and configure your website to redirect traffic there.</p>
+
+<p>The technique varies depending on your web server, but here are a few quick methods:</p>
+
+<hr />
+
+<h3 id="using-apache">Using Apache</h3>
+
+<p>First, make sure you have mod_rewrite installed and enabled.  Then create or modify an <code class="language-plaintext highlighter-rouge">.htaccess</code> file (in your directory root) and enter the following:</p>
+
+<h5 id="redirect-to-www">Redirect to WWW</h5>
+
+<figure class="highlight"><pre><code class="language-apacheconf" data-lang="apacheconf"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="code"><pre>RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} !^www.domain.com$ [NC]
+RewriteRule ^(.*)$ http://www.domain.com/$1 [L,R=301]
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<h5 id="redirect-to-no-www">Redirect to No-WWW</h5>
+
+<figure class="highlight"><pre><code class="language-apacheconf" data-lang="apacheconf"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="code"><pre>RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} !^domain.com$ [NC]
+RewriteRule ^(.*)$ http://domain.com/$1 [L,R=301]
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<hr />
+
+<h3 id="using-lighttpd">Using Lighttpd</h3>
+
+<p>Edit your site configuration, which is either your <code class="language-plaintext highlighter-rouge">/etc/lighttpd/lighttpd.conf</code> file or virtual host file (usually in sites-available), and add:</p>
+
+<h5 id="redirect-to-www-1">Redirect to WWW</h5>
+
+<figure class="highlight"><pre><code class="language-lighttpd" data-lang="lighttpd"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="code"><pre>$HTTP["host"] =~ "^www\.(.*)" {
+    url.redirect = ( "^/(.*)" =&gt; "http://%1/$1" )
+}
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<h5 id="redirect-to-no-www-1">Redirect to No-WWW</h5>
+
+<figure class="highlight"><pre><code class="language-lighttpd" data-lang="lighttpd"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="code"><pre>$HTTP["host"] =~ "^domain\.com$" {
+    url.redirect = ( "^/(.*)" =&gt; "http://www.domain.com/$1" )
+}
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<hr />
+
+<h3 id="using-nginx">Using nginx</h3>
+
+<p>Edit your site configuration, which is either your <code class="language-plaintext highlighter-rouge">/usr/local/nginx/conf/nginx.conf</code> file or virtual host file (usually in sites-available), and add:</p>
+
+<h5 id="redirect-to-www-2">Redirect to WWW</h5>
+
+<figure class="highlight"><pre><code class="language-nginx" data-lang="nginx"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="code"><pre><span class="k">server</span> <span class="p">{</span>
+    <span class="kn">server_name</span>  <span class="s">domain.com</span><span class="p">;</span>
+    <span class="kn">rewrite</span> <span class="s">^(.*)</span> <span class="s">http://www.domain.com</span><span class="nv">$1</span> <span class="s">permanent</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="k">server</span> <span class="p">{</span>
+    <span class="kn">server_name</span>  <span class="s">www.domain.com</span><span class="p">;</span>
+    <span class="c1"># Enter your configuration info here</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<h5 id="redirect-to-no-www-2">Redirect to No-WWW</h5>
+
+<figure class="highlight"><pre><code class="language-nginx" data-lang="nginx"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="code"><pre><span class="k">server</span> <span class="p">{</span>
+    <span class="kn">server_name</span>  <span class="s">www.domain.com</span><span class="p">;</span>
+    <span class="kn">rewrite</span> <span class="s">^(.*)</span> <span class="s">http://domain.com</span><span class="nv">$1</span> <span class="s">permanent</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="k">server</span> <span class="p">{</span>
+    <span class="kn">server_name</span>  <span class="s">domain.com</span><span class="p">;</span>
+    <span class="c1"># Enter your configuration info here</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<hr />
+
+<h3 id="using-windows">Using Windows</h3>
+
+<p>I personally have zero experience using Windows servers, however I did find <a href="http://www.electric-media.co.uk/blog/post/Redirecting-(301)-to-no-www-Class-B-specification-in-IIS.aspx">this article</a> by <a href="http://www.electric-media.co.uk/">Electric Media</a> that may help.  There are also a <a href="http://www.webmasterworld.com/microsoft_asp_net/3370771.htm">few</a> <a href="http://forums.iis.net/t/1148516.aspx">forum</a> posts that may shed some light into the matter.</p>
+
+<hr />
+
+<h2 id="set-preferred-domain">Set Preferred Domain</h2>
+
+<p><img src="http://devgrow.s3.amazonaws.com/assets/images/preferred-domain.gif" alt="Setting Preferred Domain in Google Webmaster Tools" />Using the incredibly useful <a href="http://www.google.com/webmasters/tools/">Google Webmaster Tools</a>, you can set a preferred domain for your website that Google will favor in rankings.  One useful bit of information is that you must verify both <strong>www.domain.com</strong> and <strong>domain.com</strong> to be able to select a preferred domain.  This took me a little searching to figure out but it makes sense - Google does really treat different sub-domains, including www, as different websites.</p>
+
+<p>You can find the <strong>Preferred Domain</strong> setting under <strong>Site Configuration -&gt; Settings</strong> in your domain settings.</p>
+
+<h2 id="final-words">Final Words</h2>
+
+<p>It takes less than 10 minutes to implement www/no-www on your website and set a preferred domain - if you haven’t already done so, do it ASAP!  This will help improve your search rankings and will make sure you’re not penalized for duplicate content, and the results are simply well worth the time.</p>
+
+<p>If you have any other quick SEO tips or suggestions, please leave them in the comments.  If you haven’t already, <a href="http://feeds.feedburner.com/devgrow">subscribe to the RSS feed</a> and <a href="http://twitter.com/ThinkDevGrow">follow us on Twitter</a>!</p>
+:ET

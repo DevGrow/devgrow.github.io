@@ -1,0 +1,182 @@
+I"�7<p>Firefox is a free, open-source web browser that is easily extensible with add-ons.  With over 12,000 of them, however, discovering new add-ons can be a chore.  We’ve compiled a list of more than 25 of the most useful Firefox add-ons for web designers and developers.</p>
+
+<h2 id="absolute-necessities">Absolute Necessities</h2>
+
+<h5 id="firebug"><a href="https://addons.mozilla.org/en-US/firefox/addon/1843">Firebug</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/1843"><img src="http://devgrow.s3.amazonaws.com/assets/images/firebug.gif" alt="" title="25+ Useful Firefox Add-ons for Web Designers and Developers" /></a></p>
+
+<p>Firebug integrates with Firefox to put a wealth of development tools at your fingertips while you browse. You can edit, debug, and monitor CSS, HTML, and JavaScript live in any web page.</p>
+
+<h5 id="web-developer"><a href="https://addons.mozilla.org/en-US/firefox/addon/60">Web Developer</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/60"><img src="http://devgrow.s3.amazonaws.com/assets/images/webdeveloper.gif" alt="" title="Web Developer width=" /></a></p>
+
+<p>The Web Developer extension adds a menu and a toolbar with various web developer tools that allow you to manage display settings and edit a number of things, including: cookies, CSS, forms, images, outlines and site validation.</p>
+
+<h5 id="greasemonkey"><a href="https://addons.mozilla.org/en-US/firefox/addon/748">Greasemonkey</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/748"><img src="http://devgrow.s3.amazonaws.com/assets/images/greasemonkey.gif" alt="" title="Greasemonkey" /></a></p>
+
+<p>Greasemonkey is a Firefox add-on that allows you to customize the way webpages look and function with any of the scripts found at <a href="http://UserScripts.org/">UserScripts.org</a>, or using one you create yourself.</p>
+
+<h5 id="screengrab"><a href="https://addons.mozilla.org/en-US/firefox/addon/1146">Screengrab!</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/1146"><img src="http://devgrow.s3.amazonaws.com/assets/images/screengrab.gif" alt="" title="Screengrab" /></a></p>
+
+<p>Screengrab! saves webpages as images.  It will capture what you can see in the window, the entire page, just a selection, a particular frame… basically it saves webpages as images – either to a file, or to the clipboard. It captures Flash too!</p>
+
+<h5 id="ie-tab-2"><a href="https://addons.mozilla.org/en-US/firefox/addon/92382">IE Tab 2</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/92382"><img src="http://devgrow.s3.amazonaws.com/assets/images/ietab.gif" alt="" title="IE Tab 2" /></a></p>
+
+<p>This extension allows you to render a website using Internet Explorer in a tab within Firefox.  This is useful for developers who want to check their site in IE but prefer to switch right back to Firefox.</p>
+
+<h5 id="fireftp"><a href="https://addons.mozilla.org/en-US/firefox/addon/684">FireFTP</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/684"><img src="http://devgrow.s3.amazonaws.com/assets/images/fireftp.gif" alt="" title="FireFTP" /></a></p>
+
+<p>FireFTP is a free, secure, cross-platform FTP client for Mozilla Firefox which provides easy and intuitive access to FTP servers.</p>
+
+<h5 id="colorzilla"><a href="https://addons.mozilla.org/en-US/firefox/addon/150368">ColorZilla</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/150368"><img src="http://devgrow.s3.amazonaws.com/assets/images/colorzilla.gif" alt="" title="ColorZilla" /></a></p>
+
+<p>Apparently this add-on is still experimental, although I use it anyways.  ColorZilla is both simple and useful – it provides an easy way to identify any color on the screen using an eyedropper.</p>
+
+<h5 id="gridfox"><a href="https://addons.mozilla.org/en-US/firefox/addon/4904">GridFox</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/4904"><img src="http://devgrow.s3.amazonaws.com/assets/images/gridfox.gif" alt="" title="GridFox" /></a></p>
+
+<p>This add-on allows you to place a customizable grid on top of any website.  You have full control over the grid – everything from number of columns and rows to varied column widths.</p>
+
+<h5 id="measureit"><a href="https://addons.mozilla.org/en-US/firefox/addon/539">MeasureIt</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/539"><img src="http://devgrow.s3.amazonaws.com/assets/images/measureit.gif" alt="" title="MeasureIt" /></a></p>
+
+<p>Super useful for designers – this add-on lets you draw out a ruler to get the pixel width and height of any elements on a webpage.</p>
+
+<h5 id="senseo"><a href="https://addons.mozilla.org/en-US/firefox/addon/9403">SenSEO</a></h5>
+
+<p><img src="http://devgrow.s3.amazonaws.com/assets/images/senseo.gif" alt="" title="SenSEO" />&lt;/a&gt;</p>
+
+<p>SenSEO is an extension checking the most important on-page-SEO-criteria and calculating a grade of how good your site fulfills these criteria.</p>
+
+<h5 id="firephp"><a href="https://addons.mozilla.org/en-US/firefox/addon/6149">FirePHP</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/9403"><img src="http://devgrow.s3.amazonaws.com/assets/images/firephp.gif" alt="" title="FirePHP" /></a></p>
+
+<p>FirePHP enables you to log to your Firebug Console using a simple PHP method call. (you need to have Firebug 1.5+ installed to use this plugin)</p>
+
+<h5 id="session-manager"><a href="https://addons.mozilla.org/en-US/firefox/addon/2324">Session Manager</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/2324"><img src="http://devgrow.s3.amazonaws.com/assets/images/session-manager.gif" alt="" title="Session Manager" /></a></p>
+
+<p>Session Manager saves and restores the state of all windows – either when you want it or automatically at startup and after crashes. Additionally it offers you to reopen (accidentally) closed windows and tabs.</p>
+
+<h2 id="highly-recommended">Highly Recommended</h2>
+
+<h5 id="all-in-one-sidebar"><a href="https://addons.mozilla.org/en-US/firefox/addon/1027">All-in-One Sidebar</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/1027"><img src="http://devgrow.s3.amazonaws.com/assets/images/aiosidebar.gif" alt="" title="All-in-One Sidebar" /></a></p>
+
+<p>Lets you open various windows as sidebar panels, and quickly switch between them. In addition to bookmarks and history it opens dialogues such as downloads, add-ons and more in the sidebar.</p>
+
+<h5 id="adblock-plus"><a href="https://addons.mozilla.org/en-US/firefox/addon/1865">AdBlock Plus</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/1865"><img src="http://devgrow.s3.amazonaws.com/assets/images/adblock.gif" alt="" title="AdBlock Plus" /></a></p>
+
+<p>Just as the name suggests, AdBlock Plus allows you to block any ad on any webpage selectively, or use one of the preset filters to block a whole range of ads (and networks).</p>
+
+<h5 id="tab-mix-plus"><a href="https://addons.mozilla.org/en-US/firefox/addon/1122">Tab Mix Plus</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/1122"><img src="http://devgrow.s3.amazonaws.com/assets/images/tabmixplus.gif" alt="" title="Tab Mix Plus" /></a></p>
+
+<p>Tab Mix Plus enhances Firefox’s tab browsing capabilities. It includes such features as duplicating tabs, controlling tab focus, tab clicking options, undo closed tabs and windows, plus much more. It also includes a full-featured session manager.</p>
+
+<h5 id="noscript"><a href="https://addons.mozilla.org/en-US/firefox/addon/722">NoScript</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/722"><img src="http://devgrow.s3.amazonaws.com/assets/images/noscript.gif" alt="" title="NoScript" /></a></p>
+
+<p>Allow active content to run only from sites you trust, and protect yourself against XSS and Clickjacking attacks.</p>
+
+<h5 id="flagfox"><a href="https://addons.mozilla.org/en-US/firefox/addon/5791">Flagfox</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/5791"><img src="http://devgrow.s3.amazonaws.com/assets/images/flagfox.gif" alt="" title="Flagfox" /></a></p>
+
+<p>This add-on displays a country flag depicting the location of the current website’s server in the address bar. It also provides other tools, such as: site safety checks, whois, translation, similar sites, validation and URL shortening.</p>
+
+<h5 id="xmarks"><a href="https://addons.mozilla.org/en-US/firefox/addon/2410">Xmarks</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/2410"><img src="http://devgrow.s3.amazonaws.com/assets/images/xmarks.gif" alt="" title="Xmarks" /></a></p>
+
+<p>Keeps your bookmarks, passwords and open tabs backed up and synchronized across computers and browsers. Also shows website ratings and reviews in your search results.</p>
+
+<h2 id="still-useful">Still Useful</h2>
+
+<h5 id="downloadthemall"><a href="https://addons.mozilla.org/en-US/firefox/addon/201">DownloadThemAll!</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/201"><img src="http://devgrow.s3.amazonaws.com/assets/images/downloadthemall.gif" alt="" title="DownloadThemAll" /></a></p>
+
+<p>An awesome download manager that lets you mass download links from any site.</p>
+
+<h5 id="fox-splitter"><a href="https://addons.mozilla.org/en-US/firefox/addon/4287">Fox Splitter</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/4287"><img src="http://devgrow.s3.amazonaws.com/assets/images/foxsplitter.gif" alt="" title="Fox Splitter" /></a></p>
+
+<p>This add-on allows you to split the content area of the browser window in anyway you like.  It can be useful with a couple of splits – anything more can get confusing and drain a lot of memory.</p>
+
+<h5 id="firesizer"><a href="https://addons.mozilla.org/en-US/firefox/addon/5792">Firesizer</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/5792"><img src="http://devgrow.s3.amazonaws.com/assets/images/firesize.gif" alt="" title="Firesizer" /></a></p>
+
+<p>This add-on allows you to resize the window to specific dimensions – very useful if you need to develop while keeping certain resolutions in mind.</p>
+
+<h5 id="speed-dial"><a href="https://addons.mozilla.org/en-US/firefox/addon/4810">Speed Dial</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/4810"><img src="http://devgrow.s3.amazonaws.com/assets/images/speed-dial.gif" alt="" title="Speed Dial" /></a></p>
+
+<p>This feature has been popping up in several browsers, including Chrome and Safari.  Until Mozilla decides to add it to Firefox natively, this add-on will have to suffice.</p>
+
+<h5 id="reminderfox"><a href="https://addons.mozilla.org/en-US/firefox/addon/1191">ReminderFox</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/1191"><img src="http://devgrow.s3.amazonaws.com/assets/images/reminderfox.gif" alt="" title="ReminderFox" /></a></p>
+
+<p>ReminderFox displays and manages lists of reminders and ToDo’s. ReminderFox makes sure you remember all of your important dates via easy-to-use lists, alerts, and alarms, right in your browser without the need for a separate calendar program.</p>
+
+<h5 id="dummy-lipsum"><a href="https://addons.mozilla.org/en-US/firefox/addon/2064">Dummy Lipsum</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/2064"><img src="http://devgrow.s3.amazonaws.com/assets/images/lipsum.gif" alt="" title="Dummy Lipsum" /></a></p>
+
+<p>Tired of having to go to Lipsum.com for dummy content?  This add-on makes it a breeze to generate fake text without having to go to any site – just launch the tool and click generate!</p>
+
+<h5 id="fireshot"><a href="https://addons.mozilla.org/en-US/firefox/addon/5648">FireShot</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/5648"><img src="http://devgrow.s3.amazonaws.com/assets/images/fireshot.gif" alt="" title="FireShot" /></a></p>
+
+<p>FireShot is a Firefox extension that creates screenshots of web pages (entirely or just visible part). Unlike other extensions, this plugin provides a set of editing and annotation tools, which let users quickly modify web captures and insert text annotations and graphical annotations. Such functionality will be especially useful for web designers, testers and content reviewers.</p>
+
+<h5 id="smoothwheel"><a href="https://addons.mozilla.org/en-US/firefox/addon/357">SmoothWheel</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/357"><img src="http://devgrow.s3.amazonaws.com/assets/images/smoothwheel.gif" alt="" title="SmoothWheel" /></a></p>
+
+<p>Scrolls the page smoothly when scrolling the mouse wheel (or keyboard arrows if enabled).</p>
+
+<h5 id="betterprivacy"><a href="https://addons.mozilla.org/en-US/firefox/addon/6623">BetterPrivacy</a></h5>
+
+<p>[<a href="https://addons.mozilla.org/en-US/firefox/addon/6623"><img src="http://devgrow.s3.amazonaws.com/assets/images/betterprivacy.gif" alt="" title="BetterPrivacy" />](https://addons.mozilla.org/en-US/firefox/addon/6623)</a></p>
+
+<p>Ever wondered why you are still tracked though you tried everything to prevent it? BetterPrivacy is a safeguard which protects from usually not deletable LSO’s on Google, YouTube, Ebay, etc.</p>
+
+<h5 id="alexa-sparky"><a href="https://addons.mozilla.org/en-US/firefox/addon/5362">Alexa Sparky</a></h5>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/5362"><img src="http://devgrow.s3.amazonaws.com/assets/images/alexa.gif" alt="" title="Alexa Sparky" /></a></p>
+
+<p>Sparky is Alexa Internet’s free Firefox status bar plugin.  It displays the Alexa rank in the bottom right corner of the browser on all websites, something I tend to often look up anyways.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>I hope you guys are able to use some of these plugins.  While I don’t use them all at once, I have tried them all out and the results have been worthwhile (enough that I can recommend them).  That said, <strong>I am sure I missed several great plugins</strong>.  If you have any other recommendations, please leave them in the comments!</p>
+
+<p>Also, if you haven’t already, please <a href="http://feeds.feedburner.com/devgrow">subscribe to the RSS</a> feed and <a href="http://twitter.com/ThinkDevGrow">follow us on Twitter</a>!</p>
+:ET

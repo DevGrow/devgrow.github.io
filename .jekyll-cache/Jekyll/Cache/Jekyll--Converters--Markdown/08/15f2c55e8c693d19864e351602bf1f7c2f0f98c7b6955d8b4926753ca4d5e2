@@ -1,0 +1,19 @@
+I"�
+<p>A new and exciting opportunity was announced today and it’s certainly worth sharing.  Google <a href="http://googleblog.blogspot.com/2010/03/open-for-business-google-apps.html">has unveiled</a> a new marketplace for Google Apps, appropriately named (you guessed it) the <a href="http://google.com/appsmarketplace">Google Apps Marketplace</a>.  There are more than 2 million businesses with over 25 million users currently using Google Apps, many of whom are willing to spend money for a useful app, as they’re already paying Google for using the base service.</p>
+
+<h3 id="what-are-google-apps">What are Google Apps?</h3>
+
+<p>Want to use Gmail or Google Docs for your business, on your own domain?  <a href="http://www.google.com/apps/intl/en/business/index.html">Google Apps</a> allows you to do that, so you can use Gmail with your own domain or even manage your website with Google Sites.  I’m using the <a href="http://www.google.com/apps/intl/en/group/index.html">standard/free edition</a> for several of my domains, including this one.</p>
+
+<h3 id="why-is-this-a-great-opportunity">Why is this a Great Opportunity?</h3>
+
+<p>Unlike the Android or iPhone app stores, your market for Google Apps will consist primarily of businesses, ranging from smaller startups to huge corporations.  Instead of just targeting consumers, you now have the opportunity to create useful products for businesses (B2B).  This is especially good news if you already have a Software as a Service (SaaS) application that is used by several businesses already.</p>
+
+<p>Another plus point of the Google Apps Marketplace is that Google is only taking a 20% share of your revenue, less than the 30% of the Android market and iPhone app store.  The biggest benefit, in my opinion, is that you’re able to charge a company on a per year and per user basis, generating recurring revenue from a single customer.  Paired with the market you’re dealing with, this could make for a very profitable gig.  Like the other app stores, there is an initial one-time fee of $99 that lets you push out an unlimited number of apps.</p>
+
+<h3 id="marketplace-specifics">Marketplace Specifics</h3>
+
+<p>While Google Apps is a cloud-based service, you don’t have to use <a href="http://code.google.com/appengine/">App Engine</a> to run your product - it can be hosted anywhere.  When a user installs your application, it is fully integrated into their Google Apps, appearing in the Google Apps Dashboard and in the universal Google Apps menu (up top).  Authentication is handled with OpenId and OAuth is used to secure the data.</p>
+
+<p>If you’re a web developer who has been looking for a new project to take on (and don’t have the time to learn Cocoa), this is probably the ideal time to look into the Google Apps Marketplace.</p>
+:ET

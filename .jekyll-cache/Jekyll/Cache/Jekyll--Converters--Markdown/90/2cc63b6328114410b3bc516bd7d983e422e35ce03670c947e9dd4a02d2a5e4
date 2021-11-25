@@ -1,0 +1,100 @@
+I"�%<p>The real beauty of WordPress is the immense community of developers behind it.  Several plugins are created and added to the <a href="http://wordpress.org/extend/plugins/">official plugin directory</a> every single day, which now catalogs nearly 10,500 in all!  It’s always interesting to check out the newest plugins on WordPress to see what people are up to, and these are among my favorites:</p>
+
+<p><a href="http://wordpress.org/extend/plugins/atd-for-comments/"><img src="http://devgrow.s3.amazonaws.com/assets/images/atd-comments.gif" alt="" /></a></p>
+
+<h4 id="after-the-deadline-for-comments-by-otto"><a href="http://wordpress.org/extend/plugins/atd-for-comments/">After The Deadline For Comments</a> by <a href="http://ottodestruct.com/">Otto</a></h4>
+
+<p>If you’re not using it, I highly recommend the After the Deadline plugin, which provides contextual spell checking and grammar checking to your blog posts.  This plugin extends that functionality to comments (<a href="http://ottopress.com/wordpress-plugins/atd-for-comments/">demo</a>).</p>
+
+<p><a href="http://dukapress.org/"><img src="http://devgrow.s3.amazonaws.com/assets/images/dukapress.gif" alt="" /></a></p>
+
+<h4 id="dukapress--by-dukapressorg"><a href="http://wordpress.org/extend/plugins/dukapress/">DukaPress</a>  by <a href="http://dukapress.org/">DukaPress.org</a></h4>
+
+<p>DukaPress is open source software that can be used to build online shops quickly and easily. DukaPress is built on top of WordPress, a world class content management system. DukaPress is built to be both simple and elegant yet powerful and scalable.</p>
+
+<p><a href="http://wordpress.org/extend/plugins/page-template-thumbnails/screenshots/"><img src="http://devgrow.s3.amazonaws.com/assets/images/page-template-thumbs.gif" alt="" /></a></p>
+
+<h4 id="page-template-thumbnails-by-c-tullos"><a href="http://wordpress.org/extend/plugins/page-template-thumbnails/screenshots/">Page Template Thumbnails</a> by <a href="http://illumifi.net/">C. Tullos</a></h4>
+
+<p>This plugin creates a thumbnail list of the available page templates.  Clicking a thumbnail updates the <code class="language-plaintext highlighter-rouge">Page Attributes -&gt; Templates</code> drop down to the corresponding page template.</p>
+
+<p><a href="http://wordpress.org/extend/plugins/basic-authentication/"><img src="http://devgrow.s3.amazonaws.com/assets/images/basic-authentication.gif" alt="" /></a></p>
+
+<h4 id="basic-authentication-by-klaas-cuvelier"><a href="http://wordpress.org/extend/plugins/basic-authentication/">Basic Authentication</a> by <a href="http://www.cuvedev.net/">Klaas Cuvelier</a></h4>
+
+<p>With this plugin, you can ask users to authenticate before they can see your WordPress site. You can either use the WordPress logins to authenticate, or a given password. This plugin can be useful when your website is still under construction or in beta.</p>
+
+<p><a href="http://wordpress.org/extend/plugins/top-contributors/"><img src="http://devgrow.s3.amazonaws.com/assets/images/top-contributors.gif" alt="" /></a></p>
+
+<h4 id="top-contributors-by-robin-dalton"><a href="http://wordpress.org/extend/plugins/top-contributors/">Top Contributors</a> by <a href="http://justmyecho.com/">Robin Dalton</a></h4>
+
+<p>Give your loyal visitors and contributors some recognition by adding a list of your top commenters to your blog.</p>
+
+<p><a href="http://wordpress.org/extend/plugins/autotwitter/"><img src="http://devgrow.s3.amazonaws.com/assets/images/auto-tweet.gif" alt="" /></a></p>
+
+<h4 id="auto-twitter-by-unreal-media"><a href="http://wordpress.org/extend/plugins/autotwitter/">Auto Twitter</a> by <a href="http://www.unrealmediallc.com/">Unreal Media</a></h4>
+
+<p>Auto Twitter is a wordpress plugin that automatically tweets each new blog post to the twitter account you specify. There really isn’t anything more to it than that.</p>
+
+<p><a href="http://wordpress.org/extend/plugins/wp-issuetracker/"><img src="http://devgrow.s3.amazonaws.com/assets/images/wp-issue.gif" alt="" /></a></p>
+
+<h4 id="wp-issuetracker-by-mahmoud-sakr"><a href="http://wordpress.org/extend/plugins/wp-issuetracker/">WP-IssueTracker</a> by <a href="http://sakr.me/">Mahmoud Sakr</a></h4>
+
+<p>WP-IssueTracker is a full (yet basic) issue tracking system powered by WordPress.  Currently WP-IT can operate one tracker per blog, however the back-end was designed to allow as many trackers as you might want. This will be targeted in a later release.</p>
+
+<p><a href="http://wordpress.org/extend/plugins/wordpress3-invoice/"><img src="http://devgrow.s3.amazonaws.com/assets/images/wp-invoice.gif" alt="" /></a></p>
+
+<h4 id="wordpress-3-invoices-by-elliot-condon"><a href="http://wordpress.org/extend/plugins/wordpress3-invoice/">WordPress 3 Invoices</a> by <a href="http://www.elliotcondon.com/">Elliot Condon</a></h4>
+
+<p>This plugin lets you generate great looking invoices directly from your WordPress admin panel.  Great for freelancers and web designers, definitely worth checking out!</p>
+
+<p><a href="http://wordpress.org/extend/plugins/wp-imagehost/"><img src="http://devgrow.s3.amazonaws.com/assets/images/wp-imagehost.gif" alt="" /></a></p>
+
+<h4 id="wp-imagehost-by-hauke-leweling"><a href="http://wordpress.org/extend/plugins/wp-imagehost/">WP ImageHost</a> by <a href="http://www.milchrausch.de/">Hauke Leweling</a></h4>
+
+<p>The WordPress Plugin WP ImageHost is a simple and easy to configurable plugin to host your images inside your blogposts on a separate subdomain to reduce the number of requests.</p>
+
+<p><a href="http://wordpress.org/extend/plugins/registration-login/"><img src="http://devgrow.s3.amazonaws.com/assets/images/register-login.gif" alt="" /></a></p>
+
+<h4 id="registration-login-by-md-jamal-hossain-khan"><a href="http://wordpress.org/extend/plugins/registration-login/">Registration-Login</a> by <a href="http://wordpress.org/extend/plugins/registration-login/">Md. Jamal Hossain Khan</a></h4>
+
+<p>Add a JavaScript loaded widget to your WordPress theme so user can login, registers without leaving the current page.</p>
+
+<p><a href="http://wordpress.org/extend/plugins/remove-wordpress-to-wordpress-filter/"><img src="http://devgrow.s3.amazonaws.com/assets/images/wordpress2.gif" alt="" /></a></p>
+
+<h4 id="remove-wordpress-to-wordpress-by-tom-lany"><a href="http://wordpress.org/extend/plugins/remove-wordpress-to-wordpress-filter/">Remove Wordpress to WordPress</a> by <a href="http://tomlany.net/">Tom Lany</a></h4>
+
+<p>WordPress introduced a new filter called <code class="language-plaintext highlighter-rouge">capital_P_dangit</code> that changes all instances of Wordpress to WordPress, <a href="http://justintadlock.com/archives/2010/07/08/lowercase-p-dangit">stirring controversy</a> in the WP community.  This plugin removes that filter.</p>
+
+<p><a href="http://wordpress.org/extend/plugins/tabs-in-post-editor/"><img src="http://devgrow.s3.amazonaws.com/assets/images/tab.gif" alt="" /></a></p>
+
+<h4 id="tabs-in-post-editor-by-aaron-harun"><a href="http://wordpress.org/extend/plugins/tabs-in-post-editor/">Tabs in Post Editor</a> by <a href="http://aahacreative.com/">Aaron Harun</a></h4>
+
+<p>This simple plugin allows you to use the tab-key inside the post editor to indent code or paragraphs.</p>
+
+<p><a href="http://wordpress.org/extend/plugins/index-press/"><img src="http://devgrow.s3.amazonaws.com/assets/images/wp-index.gif" alt="" /></a></p>
+
+<h4 id="index-press-by-grandslambert"><a href="http://wordpress.org/extend/plugins/index-press/">Index Press</a> by <a href="http://wordpress.grandslambert.com/">GrandSlambert</a></h4>
+
+<p>Provides a standard index of content in your site using a short code. Sorts results into alphabetical listings.</p>
+
+<p><a href="http://wordpress.org/extend/plugins/wp-chat/"><img src="http://devgrow.s3.amazonaws.com/assets/images/wp-chat.gif" alt="" /></a></p>
+
+<h4 id="wp-chat-by-abhinav-singh"><a href="http://wordpress.org/extend/plugins/wp-chat/">WP Chat</a> by <a href="http://abhinavsingh.com/blog">Abhinav Singh</a></h4>
+
+<p>WP Chat plugin embeds Jaxl IM (Instant Messenger for the web) for wordpress blogs. Jaxl IM is a hosted solution provided by Jaxl Inc. and requires no additional plugins from your site servers.</p>
+
+<p><a href="http://www.binarymoon.co.uk/projects/bm-shots-automated-screenshots-website/"><img src="http://devgrow.s3.amazonaws.com/assets/images/bm-shots.gif" alt="" /></a></p>
+
+<h4 id="bm-shots-by-binarymoon"><a href="http://www.binarymoon.co.uk/projects/bm-shots-automated-screenshots-website/">BM Shots</a> by <a href="http://www.binarymoon.co.uk/">BinaryMoon</a></h4>
+
+<p>So this one isn’t <em>that</em> new but very worthy of being in the list.  BM Shots is a plugin that makes use of WordPress.com mShots API for automatically creating screenshots of any website.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>I try to visit the new plugins section at least once a week to get an idea of what people are working on, the kinds of problems people are trying to solve and to see if there’s anything I can use on my own sites.  I’m always amazed at the sheer amount of creativity that people have when it comes to plugins, it’s often very entertaining to browse through.</p>
+
+<h5 id="have-you-started-using-a-new-plugin-that-youve-fallen-in-love-with--share-it-in-the-comments">Have you started using a new plugin that you’ve fallen in love with?  Share it in the comments!</h5>
+
+<p>And as always, be sure to subscribe to the <a href="http://feeds.feedburner.com/devgrow">RSS feed</a> and follow <a href="http://twitter.com/ThinkDevGrow">@ThinkDevGrow</a> on Twitter!</p>
+:ET

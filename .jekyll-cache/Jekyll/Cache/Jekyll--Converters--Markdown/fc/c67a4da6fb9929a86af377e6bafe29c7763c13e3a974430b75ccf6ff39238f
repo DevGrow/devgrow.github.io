@@ -1,0 +1,148 @@
+I"�&<p>What can I say, I’ve been in love with <a href="http://www.google.com/chrome/intl/en/landing_chrome.html?hl=en">Google Chrome</a> since they day it was released.  I resisted using it until extensions were added, as I was highly dependent on my Firefox plugins as a web developer.  As Chrome gets more and more popular, tons of great extensions are being developed that have made it one of the (if not the) best browsers around.</p>
+
+<h2 id="the-top-10">The Top 10</h2>
+
+<p>I’m always looking for ways to increase productivity and improve my overall experience in the application I spend the most amount of time in: my web browser.  The following are 10 Chrome extensions, when used in conjunction with the <a href="http://superuser.com/questions/4640/what-is-inspect-element-feature-in-google-chrome">Chrome element inspector</a>, that have helped make web developing on Chrome a lot less painful:</p>
+
+<hr />
+
+<p><a href="https://chrome.google.com/extensions/detail/laankejkbhbdhmipfmgcngdelahlfoji">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/stayfocused.gif" class="image-left" />
+</a></p>
+
+<h4 id="1-stayfocusd">1. <a href="https://chrome.google.com/extensions/detail/laankejkbhbdhmipfmgcngdelahlfoji">StayFocusd</a></h4>
+
+<p>This extension is <strong>highly recommended</strong>. StayFocusd is a productivity extension for Google Chrome that helps you stay focused on work by restricting the amount of time you can spend browsing time-wasting websites. Once your allotted time for the day has been used up, the sites you have blocked will be inaccessible for the rest of the day.</p>
+
+<hr />
+
+<p><a href="https://chrome.google.com/extensions/detail/hmdcmlfkchdmnmnmheododdhjedfccka">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/eyedropper.gif" class="image-left" />
+</a></p>
+
+<h4 id="2-eye-dropper">2. <a href="https://chrome.google.com/extensions/detail/hmdcmlfkchdmnmnmheododdhjedfccka">Eye Dropper</a></h4>
+
+<p>Eye Dropper is extension for Google Chrome and Chromium that allows you to pick color from any webpage or from an advanced color picker.</p>
+
+<hr />
+
+<p><a href="https://chrome.google.com/extensions/detail/diahigjngdnkdgajdbpjdeomopbpkjjc">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/seo-site-tools.gif" class="image-left" />
+</a></p>
+
+<h4 id="3-seo-site-tools">3. <a href="https://chrome.google.com/extensions/detail/diahigjngdnkdgajdbpjdeomopbpkjjc">SEO Site Tools</a></h4>
+
+<p>SEO Site Tools provides extensive information on the SEO and ranking of the site.  It includes on-page/external metrics, social media info, Google PageRank and various other rankings for Yahoo, Bing and Alexa.  The tool also checks the page content for validation, proper title tags (for better SEO rankings) and even provides suggestions for improving the overall site ranking.  After trying this extension out for the past couple of days, I have to say I highly recommend it for any site! (thanks to Ileane for suggesting it)</p>
+
+<p><strong>Note:</strong> SEO Site Tools has replaced <a href="https://chrome.google.com/extensions/detail/oangcciaeihlfmhppegpdceadpfaoclj">ChromeSEO</a> here, as I feel it is a more comprehensive extension for all things SEO.</p>
+
+<hr />
+
+<p><a href="https://chrome.google.com/extensions/detail/dnfpcpfijpdhabaoieccoclghgplmpbd">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/css-reloader.gif" class="image-left" />
+</a></p>
+
+<h4 id="4-css-reloader">4. <a href="https://chrome.google.com/extensions/detail/dnfpcpfijpdhabaoieccoclghgplmpbd">CSS Reloader</a></h4>
+
+<p>CSS Reloader is an extension that allows you to reload all the CSS of any site without you have to reload the page itself.  To use this extension just press F9, and the loaded stylesheets will reload.  The only drawback to this extension is that it does not support files on your local machine using the file:// protocol (however localhost should work).</p>
+
+<hr />
+
+<p><a href="https://chrome.google.com/extensions/detail/gbkffbkamcejhkcaocmkdeiiccpmjfdi">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/pendule.gif" class="image-left" />
+</a></p>
+
+<h4 id="5-pendule">5. <a href="https://chrome.google.com/extensions/detail/gbkffbkamcejhkcaocmkdeiiccpmjfdi#">Pendule</a></h4>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Pendule is an advanced set of web developer tools that allows you to easily view the (css</td>
+      <td>javascript</td>
+      <td>html) sources, adds links to popular accessibility and validation checks, and it includes a color picker and display ruler as well.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p><a href="https://chrome.google.com/extensions/detail/alelhddbbhepgpmgidjdcjakblofbmce">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/annotate.gif" class="image-left" />
+</a></p>
+
+<h4 id="6-awesome-screenshot">6. <a href="https://chrome.google.com/extensions/detail/alelhddbbhepgpmgidjdcjakblofbmce">Awesome Screenshot</a></h4>
+
+<p>Awesome Screenshot lets you capture the whole webpage or any portion of it, annotate it with rectangles, circles, arrows, lines and text, and blur sensitive info.  It supports PNG format and even has 1-click uploading (of course you can save it locally instead).</p>
+
+<p><strong>Note:</strong> Awesome Screenshot has replaced <a href="https://chrome.google.com/extensions/detail/cpngackimfmofbokmjmljamhdncknpmg">Screen Capture</a> here, as it provides a great annotation system while providing the same screen capture ability of it’s competitors.</p>
+
+<hr />
+
+<p><a href="https://chrome.google.com/extensions/detail/oiaejidbmkiecgbjeifoejpgmdaleoha">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/stylebot.gif" class="image-left" />
+</a></p>
+
+<h4 id="7-stylebot">7. <a href="https://chrome.google.com/extensions/detail/oiaejidbmkiecgbjeifoejpgmdaleoha">Stylebot</a></h4>
+
+<p>Stylebot is a Chrome extension that aims to simplify customizing the web, making it more accessible and adaptable. It puts you in control of the web’s presentation, allowing you to quickly change the appearance of any page.  You simply launch Stylebot on a page, pick an element and apply styles to it.</p>
+
+<hr />
+
+<p><a href="https://chrome.google.com/extensions/detail/aonjhmdcgbgikgjapjckfkefpphjpgma">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/measureit.gif" class="image-left" />
+</a></p>
+
+<h4 id="8-measureit">8. <a href="https://chrome.google.com/extensions/detail/aonjhmdcgbgikgjapjckfkefpphjpgma">MeasureIt!</a></h4>
+
+<p>As the name of the extension suggests, MeasureIt! provides a display ruler that lets you easily determine the dimensions of anything in your browser window.</p>
+
+<hr />
+
+<p><a href="https://chrome.google.com/extensions/detail/dbpojpfdiliekbbiplijcphappgcgjfn">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/ultimate-flags.gif" class="image-left" />
+</a></p>
+
+<h4 id="9-ultimate-chrome-flag">9. <a href="https://chrome.google.com/extensions/detail/dbpojpfdiliekbbiplijcphappgcgjfn">Ultimate Chrome Flag</a></h4>
+
+<p>This extension shows a country or region flag indicating the location of the website you’re visiting (where server is hosted).  Clicking on the flag produces a drop-down with a lot of great information, including the IP address, Pagerank, Alexa Ranking and <a href="http://www.mywot.com/">WOT ratings</a>.</p>
+
+<hr />
+
+<p><a href="https://chrome.google.com/extensions/detail/ognampngfcbddbfemdapefohjiobgbdl">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/speed-tracer.gif" class="image-left" />
+</a></p>
+
+<h4 id="10-speed-tracer">10. <a href="https://chrome.google.com/extensions/detail/ognampngfcbddbfemdapefohjiobgbdl">Speed Tracer</a></h4>
+
+<p>Speed Tracer is a tool to help you identify and fix performance problems in your web applications. It visualizes metrics that are taken from low level instrumentation points inside of the browser and analyzes them as your application runs.</p>
+
+<hr />
+
+<h3 id="also-noteworthy">Also Noteworthy:</h3>
+
+<p><a href="https://chrome.google.com/extensions/detail/bfbameneiokkgbdmiekhjnmfkcnldhhm">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/web-developer.gif" class="image-left" />
+</a></p>
+
+<h4 id="11-web-developer">11. <a href="https://chrome.google.com/extensions/detail/bfbameneiokkgbdmiekhjnmfkcnldhhm">Web Developer</a></h4>
+
+<p>Similar to Pendule, the Web Developer extension adds a toolbar button to the browser with various web developer tools, including CSS and form manipulation, multiple validation links and even has a built-in color picker and ruler.  Thanks to cmsguy for the suggestion.</p>
+
+<hr />
+
+<p><a href="https://chrome.google.com/extensions/detail/bmagokdooijbeehmkpknfglimnifench">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/firebug-lite.gif" class="image-left" />
+</a></p>
+
+<h4 id="12-firebug-lite">12. <a href="https://chrome.google.com/extensions/detail/bmagokdooijbeehmkpknfglimnifench">Firebug Lite</a></h4>
+
+<p>Firebug Lite is not a substitute for Firebug, or Chrome Developer Tools. It is a tool to be used in conjunction with these tools. Firebug Lite provides the rich visual representation we are used to see in Firebug when it comes to HTML elements, DOM elements, and Box Model shading. It provides also some cool features like inspecting HTML elemements with your mouse, and live editing CSS properties.  Thanks to Jeff for the suggestion.</p>
+
+<hr />
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>There are so many great extensions available for Chrome that I know I’ve missed a few other good ones - if you have any suggestions for this list, leave them in the comments so we can check them out!</p>
+
+<p>As always, be sure to <a href="http://feeds.feedburner.com/devgrow">subscribe to the RSS feed</a>, <a href="http://www.facebook.com/DevGrow">join our Facebook group</a> and <a href="http://twitter.com/ThinkDevGrow">follow us on Twitter</a>!</p>
+:ET

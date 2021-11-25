@@ -1,0 +1,104 @@
+I"\3<div class="note">
+  <strong>Note:</strong> The plugin is no longer enabled in the comments section of this page.  All commenting has been moved to Disqus.  To test out the plugin, please view the <a href="http://demos.devgrow.com/jcollapsible">example page</a>.
+</div>
+
+<p><strong>jCollapisble</strong> is a JQuery plugin that takes any nested list (OL or UL that have children) and coverts it into collapsible threads.  This is especially useful to create simple threaded comments on a blog or forum without having to modify the backend code.  I’ve tried to keep the plugin as simple and bare-bones as possible, so right now there are no fancy slide or fade effects.  The only thing required is the plugin JS file itself - CSS and images are completely optional.
+The plugin has been tested (and works fine) on Firefox 3, Chrome 5, IE7+, Safari 4 and Opera 10.  It should work on older browsers too though the CSS may need to be fiddled with.</p>
+
+<h2 id="download">Download</h2>
+
+<p>You can download the <a href="http://demos.devgrow.com/jcollapsible/jCollapsible.js">full source</a>, <a href="http://demos.devgrow.com/jcollapsible/jCollapsible.min.js">minified version</a>  or <a href="http://demos.devgrow.com/jcollapsible">view the example online</a>.</p>
+
+<div class="download">
+  <a href="http://devgrow.s3.amazonaws.com/assets/files/jcollapsible.zip" class="button primary">Download</a>
+  <a href="http://demos.devgrow.com/jcollapsible" class="button secondary">Preview</a>
+</div>
+
+<h2 id="usage-instructions">Usage Instructions</h2>
+
+<p>SliderNav is super easy to use, but first you have to load JQuery, the plugin and the relevant CSS file in order to use it:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="code"><pre><span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"jCollapsible.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">'text/javascript'</span><span class="nt">&gt;</span>
+  <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+      <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">#example</span><span class="dl">'</span><span class="p">).</span><span class="nx">collapsible</span><span class="p">({</span><span class="na">xoffset</span><span class="p">:</span><span class="dl">'</span><span class="s1">-10</span><span class="dl">'</span><span class="p">,</span><span class="na">yoffset</span><span class="p">:</span><span class="dl">'</span><span class="s1">5</span><span class="dl">'</span><span class="p">,</span><span class="na">defaulthide</span><span class="p">:</span> <span class="kc">false</span><span class="p">});</span>
+  <span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>Simple enough - just include JQuery, the jCollapsible file and then call the function with your settings.</p>
+
+<h2 id="customize-the-icon-or-use-images-instead">Customize the Icon or Use Images Instead</h2>
+
+<p>While I did try to keep the plugin lightweight, I also wanted to make it somewhat extensible by adding a few different options, including:</p>
+
+<ul>
+  <li><strong>defaulthide</strong> - hide all children by default (default: true)</li>
+  <li><strong>symbolhide</strong> - symbol to hide child elements (default: -)</li>
+  <li><strong>symbolshow</strong> - symbol to show child elements (default: +)</li>
+  <li><strong>imagehide</strong> - image to hide child elements (default: null)</li>
+  <li><strong>imageshow</strong> - image to show child elements (default: null)</li>
+  <li><strong>xoffset</strong> - amount pixels to move symbol/image horizontally (default: -15)</li>
+  <li><strong>yoffset</strong> - amount pixels to move symbol/image vertically (default: 0)</li>
+</ul>
+
+<p>Please note that the image values are null by default (using symbol instead) and the offset values are there to fine-tune the location of the image/symbol.</p>
+
+<h2 id="the-code">The Code</h2>
+
+<p>For those who are curious, here is the source for the code:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+</pre></td><td class="code"><pre><span class="nx">$</span><span class="p">.</span><span class="nx">fn</span><span class="p">.</span><span class="nx">collapsible</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
+	<span class="kd">var</span> <span class="nx">defaults</span> <span class="o">=</span> <span class="p">{</span><span class="na">defaulthide</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="na">symbolhide</span><span class="p">:</span> <span class="dl">'</span><span class="s1">-</span><span class="dl">'</span><span class="p">,</span> <span class="na">symbolshow</span><span class="p">:</span> <span class="dl">'</span><span class="s1">+</span><span class="dl">'</span><span class="p">,</span> <span class="na">imagehide</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> <span class="na">imageshow</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> <span class="na">xoffset</span><span class="p">:</span> <span class="dl">'</span><span class="s1">-15</span><span class="dl">'</span><span class="p">,</span> <span class="na">yoffset</span><span class="p">:</span> <span class="dl">'</span><span class="s1">0</span><span class="dl">'</span><span class="p">};</span>
+	<span class="kd">var</span> <span class="nx">opts</span> <span class="o">=</span> <span class="nx">$</span><span class="p">.</span><span class="nx">extend</span><span class="p">(</span><span class="nx">defaults</span><span class="p">,</span> <span class="nx">options</span><span class="p">);</span> <span class="kd">var</span> <span class="nx">o</span> <span class="o">=</span> <span class="nx">$</span><span class="p">.</span><span class="nx">meta</span> <span class="p">?</span> <span class="nx">$</span><span class="p">.</span><span class="nx">extend</span><span class="p">({},</span> <span class="nx">opts</span><span class="p">,</span> <span class="nx">$$</span><span class="p">.</span><span class="nx">data</span><span class="p">())</span> <span class="p">:</span> <span class="nx">opts</span><span class="p">;</span> <span class="kd">var</span> <span class="nx">obj</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+	<span class="k">if</span><span class="p">(</span><span class="nx">o</span><span class="p">.</span><span class="nx">imageshow</span><span class="p">)</span> <span class="nx">o</span><span class="p">.</span><span class="nx">symbolshow</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">![](</span><span class="dl">'</span><span class="o">+</span><span class="nx">o</span><span class="p">.</span><span class="nx">imageshow</span><span class="o">+</span><span class="dl">'</span><span class="s1">)</span><span class="dl">'</span><span class="p">;</span>
+	<span class="k">if</span><span class="p">(</span><span class="nx">o</span><span class="p">.</span><span class="nx">imagehide</span><span class="p">)</span> <span class="nx">o</span><span class="p">.</span><span class="nx">symbolhide</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">![](</span><span class="dl">'</span><span class="o">+</span><span class="nx">o</span><span class="p">.</span><span class="nx">imagehide</span><span class="o">+</span><span class="dl">'</span><span class="s1">)</span><span class="dl">'</span><span class="p">;</span>
+	<span class="kd">var</span> <span class="nx">startsymbol</span> <span class="o">=</span> <span class="nx">o</span><span class="p">.</span><span class="nx">symbolshow</span><span class="p">;</span>
+	<span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">li</span><span class="dl">'</span><span class="p">,</span> <span class="nx">obj</span><span class="p">).</span><span class="nx">each</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">index</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">if</span><span class="p">(</span><span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">&gt;ul, &gt;ol</span><span class="dl">'</span><span class="p">,</span><span class="k">this</span><span class="p">).</span><span class="nx">size</span><span class="p">()</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">){</span>
+			<span class="k">if</span><span class="p">(</span><span class="nx">o</span><span class="p">.</span><span class="nx">defaulthide</span><span class="p">)</span> <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">&gt;ul, &gt;ol</span><span class="dl">'</span><span class="p">,</span><span class="k">this</span><span class="p">).</span><span class="nx">hide</span><span class="p">();</span> <span class="k">else</span> <span class="nx">startsymbol</span> <span class="o">=</span> <span class="nx">o</span><span class="p">.</span><span class="nx">symbolhide</span><span class="p">;</span>
+			<span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">prepend</span><span class="p">(</span><span class="dl">'</span><span class="s1">[</span><span class="dl">'</span><span class="o">+</span><span class="nx">startsymbol</span><span class="o">+</span><span class="dl">'</span><span class="s1">]()</span><span class="dl">'</span><span class="p">).</span><span class="nx">css</span><span class="p">(</span><span class="dl">'</span><span class="s1">position</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">relative</span><span class="dl">'</span><span class="p">);</span>
+		<span class="p">}</span>
+	<span class="p">});</span>
+	<span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">.jcollapsible</span><span class="dl">'</span><span class="p">,</span> <span class="nx">obj</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+		<span class="kd">var</span> <span class="nx">parent</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">parent</span><span class="p">();</span>
+		<span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">&gt;ul, &gt;ol</span><span class="dl">'</span><span class="p">,</span><span class="nx">parent</span><span class="p">).</span><span class="nx">toggle</span><span class="p">();</span>
+		<span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">html</span><span class="p">(</span><span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">html</span><span class="p">()</span> <span class="o">==</span> <span class="nx">o</span><span class="p">.</span><span class="nx">symbolshow</span> <span class="p">?</span> <span class="nx">o</span><span class="p">.</span><span class="nx">symbolhide</span> <span class="p">:</span> <span class="nx">o</span><span class="p">.</span><span class="nx">symbolshow</span><span class="p">);</span>
+		<span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+	<span class="p">});</span>
+<span class="p">};</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>I wasn’t exaggerating when I said this plugin was simple!  It first few lines initialize the plugin/function and set the default values.  The [cci]each[/cci] function creates the actual expand/collapse icons and the last function ([cci]click[/cci]) just toggles the child elements.</p>
+
+<h2 id="final-thoughts">Final Thoughts</h2>
+
+<p>This plugin actually comes from a function I wrote for one of my personal projects, I just thought some of you guys may find it useful so I’ve wrapped it up as a plugin.  If you do use it (or like it), please leave some feedback, good or bad - it’s highly appreciated and helps me produce better work.</p>
+
+<p>As always, <a href="http://feeds.feedburner.com/devgrow">subscribe to the feed</a> if you haven’t and <a href="http://twitter.com/thinkdevgrow">follow me on Twitter</a>!</p>
+:ET

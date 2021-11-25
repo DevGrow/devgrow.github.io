@@ -1,0 +1,43 @@
+I"�<p>In last month’s poll, I asked the question “What CMS is best for maintaining a static website?”  Let’s take a look at the responses and what they mean (and why I disagree with the majority here).</p>
+
+<ol>
+  <li><strong>WordPress - 76%</strong></li>
+  <li>Custom CMS - 18%</li>
+  <li>Drupal - 8%</li>
+  <li>FrogCMS - 0%</li>
+</ol>
+
+<p>It turns out the vast majority of readers feel that WordPress is best suited for maintaining a static website.  As a web developer with many clients that frequently demand static websites, I actually have to disagree with this notion.  WordPress may be the best CMS for many sites, however it is packed with features and options that you probably don’t need on a simple, static website.  It’s simply overkill for simple sites and contains features which may end up confusing your client rather than helping them maintain their site.</p>
+
+<p><img src="http://devgrow.s3.amazonaws.com/assets/images/kiss.jpg" alt="" /></p>
+
+<h3 id="always-apply-kiss">Always Apply KISS</h3>
+
+<p>If you’re one of the few who doesn’t know what KISS is, it is an acronym for <em>Keep It Simple Stupid</em>, and a reminder that often the simplest idea/product is best.  In terms of CMS features, if your client can live without it, leave it out.  A static website entails a site that isn’t database intensive and will require occasional editing/updating, however for the most part will remain static.  In terms of CMS, it should have:</p>
+
+<ul>
+  <li>Content Editing via Authentication</li>
+  <li>Possibly uploading images and rich media</li>
+  <li>Minimal (if any) DB interaction</li>
+</ul>
+
+<p>WordPress can do all of the above and a lot more, which is the main problem.  The need for plugins to create static/cached content is an added headache you don’t want your clients to have to deal with.</p>
+
+<h3 id="my-pick-custom-cms">My Pick: Custom CMS</h3>
+
+<p>Like I said, I prefer keeping features to the absolute minimum to avoid overwhelming the client and making the entire updating process effortless from their site.  Often you’ll get clients who are not tech-savvy and will require an intense level of coaching, using a more feature-rich CMS in those circumstances will only result in endless support requests and late night phone calls.</p>
+
+<p>For the minimal features listed above, it’s often easier to just code a simple, custom CMS in PHP and throw it on a shared server.  To avoid DB interactions, use <a href="http://devgrow.com/simple-cache-class/">caching</a> to generate static files and avoid DB calls altogether for the majority of visitors.  Throw in a customized login screen for your client with their company logo and they’ll be even more pleased.  It may require more work than implementing WordPress at first, however you can always reuse your code after that initial development.  Bonus points if you manage to use SQLite so if your client decides to ever change hosts or upgrade servers, they just have to copy over the 1-folder all of their site files are stored in (no DB migration headaches).</p>
+
+<h3 id="the-other-options">The Other Options</h3>
+
+<p><img src="http://devgrow.s3.amazonaws.com/assets/images/drupal-frog.jpg" class="image-left" /></p>
+
+<p>Two of the other options were <a href="http://drupal.org/">Drupal</a> and <a href="http://www.madebyfrog.com/">FrogCMS</a>.  Drupal is definitely overkill for any simple, static website.  FrogCMS, on the other hand, is probably a little more complex than a custom CMS you code but is still very bare-bones.  If you haven’t heard of it, be sure to check out their site and the <a href="http://www.opensourcecms.com/demo/2/28/Frog">administration demo</a>.  It may even be worthwhile to start with FrogCMS and strip down all the excess features you don’t need to get to your ideal custom CMS.</p>
+
+<h3 id="your-thoughts-and-new-poll">Your Thoughts and New Poll</h3>
+
+<p>If you’re one of the people who picked WordPress, what are your thoughts on what I’ve said so far?  Do you agree or disagree with the notion that WordPress is probably overkill for many static websites?  Voice your thoughts in the comments!</p>
+
+<p>Also, take a look at this month’s poll in the right hand column: <strong>What is the lowest version of Internet Explorer your websites support?</strong></p>
+:ET

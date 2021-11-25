@@ -1,0 +1,125 @@
+I"/,<p>This effect is actually from <a href="http://techi.com/">Techi.com</a>, a new blog launched by the guys at <a href="http://webdesignerdepot.com/">WebDesignerDepot</a>, where they use it to display their popular tags in the sidebar.  I wanted to see how easy (or hard) it was to recreate using JQuery and CSS, and it turns out that it’s pretty simple to do.  I’ve packed it into a neat little plugin so you hopefully you can make some use of it!</p>
+
+<div class="note">
+    <strong>Updated May 25:</strong> I've just added a new option that displays arrows above and below the SliderNav object.  This is used to navigate longer sections for users that do not have a mouse wheel (or those who are on a mobile browser).
+</div>
+
+<iframe width="600" height="310" src="http://demos.devgrow.com/slidernav-jquery-plugin/embed.html" style="border:none;" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+
+<p><strong>SliderNav</strong> is a JQuery plugin that lets you add dynamic, sliding content using a vertical navigation bar (index).  It is made mainly for alphabetical listings but can be used with anything, though longer words can look a bit awkward.  The plugin automatically adds the navigation and sets the height for the object based on how tall the navigation is, in order to make sure users have access to the entire list.  I also used the <em>overflow: auto;</em> property for the actual content so you can <strong>use your mousewheel to scroll through the content as well</strong>.</p>
+
+<p>The plugin has been tested (and works fine) on Firefox 3, Chrome 5, IE7, Safari 4 and Opera 10.</p>
+
+<h2 id="download">Download</h2>
+
+<p>You can download and view the code at <a href="https://github.com/DevGrow/SliderNav">Github</a> or <a href="http://devgrow.com/slidernav-jquery-plugin">view the example online</a>.</p>
+
+<div class="download">
+  <a href="https://github.com/DevGrow/SliderNav" class="button primary">Source</a>
+  <a href="http://demos.devgrow.com/slidernav-jquery-plugin" class="button secondary">Preview</a>
+</div>
+
+<h2 id="usage-instructions">Usage Instructions</h2>
+
+<p>SliderNav is super easy to use, but first you have to load JQuery, the plugin and the relevant CSS file in order to use it:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="code"><pre><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">type=</span><span class="s">"text/css"</span> <span class="na">href=</span><span class="s">"slidernav.css"</span> <span class="na">media=</span><span class="s">"screen, projection"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"jquery-1.4.2.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"slidernav.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>After you’ve done that, create the section content in HTML using the following structure (you can name your element anything):</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+</pre></td><td class="code"><pre><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"slider"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"slider-content"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;ul&gt;</span>
+      <span class="nt">&lt;li</span> <span class="na">id=</span><span class="s">"a"</span><span class="nt">&gt;&lt;a</span> <span class="na">name=</span><span class="s">"a"</span> <span class="na">class=</span><span class="s">"title"</span><span class="nt">&gt;</span>A<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;ul&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/"</span><span class="nt">&gt;</span>Adam<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/"</span><span class="nt">&gt;</span>Alex<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/"</span><span class="nt">&gt;</span>Ali<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/"</span><span class="nt">&gt;</span>Apple<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/"</span><span class="nt">&gt;</span>Arthur<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/"</span><span class="nt">&gt;</span>Ashley<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+      <span class="nt">&lt;/li&gt;</span>
+      <span class="nt">&lt;li</span> <span class="na">id=</span><span class="s">"b"</span><span class="nt">&gt;&lt;a</span> <span class="na">name=</span><span class="s">"b"</span> <span class="na">class=</span><span class="s">"title"</span><span class="nt">&gt;</span>B<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;ul&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/"</span><span class="nt">&gt;</span>Barry<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/"</span><span class="nt">&gt;</span>Becky<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/"</span><span class="nt">&gt;</span>Biff<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/"</span><span class="nt">&gt;</span>Billy<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/"</span><span class="nt">&gt;</span>Bozarking<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/"</span><span class="nt">&gt;</span>Bryan<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+      <span class="nt">&lt;/li&gt;</span>
+      etc...
+    <span class="nt">&lt;/ul&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>Once you’ve set the HTML, it’s simply a matter of calling the sliderNav function for the element you’ve just created:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="code"><pre><span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span>
+  <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+    <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">#slider</span><span class="dl">'</span><span class="p">).</span><span class="nx">sliderNav</span><span class="p">();</span>
+  <span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<h4 id="custom-options">Custom Options</h4>
+
+<p>The first of the configurations is <strong>height</strong> - set this to a pixel value if you wish to override the automatic detection based on the vertical navigation (you may need to change the min-height in the CSS too).  Also by default, the plugin will generate an alphabetical navigation that uses all 26 letters of the English alphabet, however you can also use custom <strong>items</strong> using the following code:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+</pre></td><td class="code"><pre>    <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">#slider</span><span class="dl">'</span><span class="p">).</span><span class="nx">sliderNav</span><span class="p">({</span><span class="na">items</span><span class="p">:[</span><span class="dl">'</span><span class="s1">item1</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">item2</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">item3</span><span class="dl">'</span><span class="p">],</span> <span class="na">height</span><span class="p">:</span><span class="dl">'</span><span class="s1">200</span><span class="dl">'</span><span class="p">});</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>You can also set <strong>arrows</strong> to true (default) or false, which displays arrows above and below the slider object to allow scrolling longer sections.  Click on an arrow will scroll the object by it’s height - I used this method to keep code to the minimum, as anything smoother/nicer-looking required a lot more code.  The last customizable option is <strong>debug</strong>, which can either be <em>true</em> or <em>false</em>.  This adds a little bit of text on the bottom of the slider that shows how many pixels the current offset is (was useful during early development, probably not anymore).</p>
+
+<h2 id="possible-use-cases">Possible Use Cases</h2>
+
+<p>I believe this navigation can be useful in certain circumstances, mainly where you’re trying to show a lot of information that has been organized alphabetically (or by date) in a small area.  For instance, it could be used to create a WordPress widget that lists all posts alphabetically or better yet, a widget for complete archives categorized by date.  I’m not sure how much better it would be than traditional means of navigation but it’s certainly worth trying out.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>As usual, please leave any feedback if you have it.  I’m still very new to the JQuery plugin scene so there may be bugs or mistakes - if you find one, please mention it in the comments.</p>
+
+<p>If you haven’t yet, please <a href="http://feeds.feedburner.com/devgrow">subscribe to the RSS feed</a> and <a href="http://twitter.com/devgrowblog">follow us on Twitter</a> for more plugins and other useful bits!</p>
+:ET

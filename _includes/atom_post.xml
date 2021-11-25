@@ -11,6 +11,6 @@
     <uri>{{ site.url }}/</uri>
   </author>
   <content type="html"><![CDATA[
-    {{ post.content | expand_urls : site.url | xml_escape | markdownify | cdata_escape }}
+    {{ post.content | expand_urls : site.url | xml_ | markdownify | cdata_escape }}
   ]]></content>
 </entry>

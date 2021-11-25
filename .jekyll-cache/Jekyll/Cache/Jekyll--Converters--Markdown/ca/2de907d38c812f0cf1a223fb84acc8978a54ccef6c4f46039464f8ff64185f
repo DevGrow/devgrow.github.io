@@ -1,0 +1,16 @@
+I"><p>In order to simply the process of updating my plugins and to give you guys the ability to fork them into your own works, I’ve moved all of my plugins to <a href="http://github.com/mdolon">Github</a> (thanks to Sam Sherlock for the suggestion).  I’ll also be updating the download links to point to the repository instead of the zip file, so you can have more freedom to download what you’d like.</p>
+
+<ul>
+  <li><a href="http://github.com/mdolon/jCollapsible">jCollapsible</a> - takes any nested list (OL or UL that have children) and coverts it into collapsible threads</li>
+  <li><a href="http://github.com/mdolon/Griddy">Griddy</a> - creates a simple, customizable overlay on top of any element</li>
+  <li><a href="http://github.com/mdolon/SliderNav">SliderNav</a> - lets you add dynamic, sliding content using a vertical navigation bar (index)</li>
+</ul>
+
+<p>I am constantly trying to improve on this site and my plugins so I appreciate any and all feedback!  Also, if you’re interested in contributing a plugin or an article, please <a href="http://devgrow.com/contact">contact me</a> and we can arrange something.</p>
+
+<h3 id="while-you-were-on-facebook">While You Were On Facebook</h3>
+
+<p>I have also been working on v2 of DevGrow in my spare time, part of the <a href="http://whileyouwereonfacebook.com/">While You Were On Facebook</a> experiment started by <a href="http://karlstolley.com/">Karl Stolley</a>.  The experiment encourages you to work on a project for approx. 15 mins a day, about the time an average user spends on Facebook per day (or 100 minutes per week on avergage).  If any of you developers and designers are interested in this project, please leave a comment so we can keep tabs on each others’ progress!</p>
+
+<p>Expect a few posts to be dedicated to my progress with this experiment as summer progresses!</p>
+:ET

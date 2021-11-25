@@ -1,0 +1,66 @@
+I"�<div class="note top">
+  <strong>Note:</strong> I've released an update to this, check out the <a href="http://devgrow.com/updated-jquery-mobile-php-mvc-framework/">blog post</a> for more details!
+</div>
+
+<p>In my <a href="http://devgrow.com/mobile-web-dev-using-jquery-mobile/">Introduction to jQuery Mobile</a>, I mentioned that I had plans for a simple MVC framework using jQuery Mobile and that I would release it if there was enough interest (there was!).  While it’s not completely finished yet, I’ve decided to release it in hopes that others find use in it and can perhaps even contribute towards it’s development.</p>
+
+<h2 id="preview-and-download">Preview and Download</h2>
+
+<p>You can view the files or contribute at the <a href="https://github.com/mdolon/jQuery-Mobile-PHP-MVC">Github repository</a>.  The code is released under GPL so use it however you’d like!</p>
+
+<div class="download">
+  <a href="https://github.com/mdolon/jQuery-Mobile-PHP-MVC/zipball/master" class="button primary">Download</a>
+  <a href="http://demos.devgrow.com/jquery-mobile-mvc/)" class="button secondary">Preview</a>
+</div>
+
+<p><a href="https://github.com/mdolon/jQuery-Mobile-PHP-MVC"><img src="http://devgrow.s3.amazonaws.com/assets/images/jquery-mobile-mvc.gif" alt="" /></a></p>
+
+<h3 id="current-features">Current Features</h3>
+
+<ul>
+  <li>MVC Architecture</li>
+  <li>Simple Database (MySQL) and Authentication Classes</li>
+  <li>Custom routing for clean URLs</li>
+  <li>Apache (.htaccess), NGINX and Lighttpd support</li>
+</ul>
+
+<h3 id="configuration">Configuration</h3>
+
+<p>Please read this part, as it is crucial to getting the application to work on your test machine.  You must manually edit the <code class="language-plaintext highlighter-rouge">config.php</code> file with, at the least, your database information/credentials and the <strong>BASE_URL</strong> of the installation.  <strong>The app will not work without these two settings.</strong></p>
+
+<p><code class="language-plaintext highlighter-rouge">/lib/config.php</code>:</p>
+
+<figure class="highlight"><pre><code class="language-php" data-lang="php"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="code"><pre><span class="mf">...</span>
+<span class="c1">// Be sure to set these!</span>
+<span class="nb">define</span><span class="p">(</span><span class="s2">"BASE_URL"</span><span class="p">,</span><span class="s2">"http://localhost/jqmobile/"</span><span class="p">);</span>
+<span class="nb">define</span><span class="p">(</span><span class="s2">"COOKIE_DOMAIN"</span><span class="p">,</span><span class="s2">"localhost"</span><span class="p">);</span>
+
+<span class="c1">// Database Config</span>
+<span class="nv">$database</span> <span class="o">=</span> <span class="k">array</span> <span class="p">(</span>
+	<span class="s2">"user"</span>  <span class="o">=&gt;</span> <span class="s2">"root"</span><span class="p">,</span>
+	<span class="s2">"pass"</span>  <span class="o">=&gt;</span> <span class="s2">""</span><span class="p">,</span>
+	<span class="s2">"host"</span>  <span class="o">=&gt;</span> <span class="s2">"localhost"</span><span class="p">,</span>
+	<span class="s2">"dbname"</span> <span class="o">=&gt;</span> <span class="s2">"jqmobile"</span>
+<span class="p">);</span>
+<span class="mf">...</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<h3 id="work-in-progress">Work in Progress</h3>
+
+<p>Please be aware that this code is still in development and is likely to have bugs that need fixing.  It is by all means beta-ware and I wouldn’t recommend using it in a production environment as-is.  That said, it should still provide you with a solid base to build your mobile application from, so <a href="https://github.com/mdolon/jQuery-Mobile-PHP-MVC">download the files</a> and dig in!  If you are interested in contributing to the code, please get in touch via the <a href="http://devgrow.com/contact">contact page</a> or <a href="https://github.com/mdolon">Github</a>.</p>
+
+<p>For more articles and resources like this, be sure to <a href="http://feeds.feedburner.com/devgrow">Subscribe to our RSS Feed</a> and <a href="http://twitter.com/ThinkDevGrow">Follow us on Twitter</a>!</p>
+:ET

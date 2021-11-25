@@ -1,0 +1,60 @@
+I""<p>A sitemap is an index of pages and content found on your website.  If you don’t have a sitemap yet, make one now using free sitemap generators or plugins.  If you do have one, submit it to the big search engines to make sure your website is correctly indexed and ranked.</p>
+
+<h2 id="creating-a-sitemap">Creating a Sitemap</h2>
+
+<p>A sitemap is simply a listing of all the important pages of your website.  It’s a directory that can be easily and quickly understood by both search engines and visitors who may be lost.  Your sitemap can be a simple page on your website that lists all of the inner pages, but ideally you should use an XML sitemap, as it is preferred by most search engines.  The structure of your XML sitemap is simple:</p>
+
+<figure class="highlight"><pre><code class="language-xml" data-lang="xml"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="code"><pre><span class="cp">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
+ <span class="nt">&lt;urlset</span> <span class="na">xmlns=</span><span class="s">"http://www.sitemaps.org/schemas/sitemap/0.9"</span><span class="nt">&gt;</span>
+   <span class="nt">&lt;url&gt;</span>
+     <span class="nt">&lt;loc&gt;</span>http://devgrow.com/sharebar-wordpress-plugin/<span class="nt">&lt;/loc&gt;</span>
+     <span class="nt">&lt;lastmod&gt;</span>2010-06-16<span class="nt">&lt;/lastmod&gt;</span>
+     <span class="nt">&lt;changefreq&gt;</span>yearly<span class="nt">&lt;/changefreq&gt;</span>
+     <span class="nt">&lt;priority&gt;</span>0.8<span class="nt">&lt;/priority&gt;</span>
+   <span class="nt">&lt;/url&gt;</span>
+   <span class="nt">&lt;url&gt;</span>
+     <span class="nt">&lt;loc&gt;</span>http://devgrow.com/articles/<span class="nt">&lt;/loc&gt;</span>
+     <span class="nt">&lt;lastmod&gt;</span>2010-06-01<span class="nt">&lt;/lastmod&gt;</span>
+     <span class="nt">&lt;changefreq&gt;</span>weekly<span class="nt">&lt;/changefreq&gt;</span>
+     <span class="nt">&lt;priority&gt;</span>0.5<span class="nt">&lt;/priority&gt;</span>
+   <span class="nt">&lt;/url&gt;</span>
+ <span class="nt">&lt;/urlset&gt;</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>The above example indexes two pages from my site, a blog post and the main article homepage.  Obviously this method can be time consuming if you have a lot of pages, and this is the perfect reason to use services like <a href="http://www.makeasitemap.com/">MakeASitemap.com</a> or the <a href="http://www.xml-sitemaps.com/">XML Sitemap Generator</a> to automatically index your site.  If you’re running WordPress, I highly recommend the <a href="http://www.arnebrachhold.de/redir/sitemap-home/">Google XML Sitemaps plugin</a>, which automates sitemap creation for you blog.  If you’ve manually created the file, save it in the root of your site.</p>
+
+<h2 id="submitting-your-sitemap">Submitting Your Sitemap</h2>
+
+<p>After you’ve created your sitemap, submitting it to search engines is a great way to help them identify which pages on your site are worth crawling, how frequently they should be crawled and their overall search priority.  A good sitemap can help bring traffic to your site by essentially providing search engines with a guideline to correctly index and rank your pages.</p>
+
+<p><strong>Places to submit your XML sitemap:</strong></p>
+
+<ul>
+  <li><a href="http://google.com/webmasters/">Google Webmaster Tools</a></li>
+  <li><a href="http://siteexplorer.search.yahoo.com/">Yahoo! Site Explorer</a></li>
+  <li><a href="http://www.bing.com/webmaster">Bing Webmaster Tools</a></li>
+</ul>
+
+<p>You will have to login and verify you own the site in order to submit a sitemap, however it’s well worth the time.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>If you haven’t submitted your sitemap, do so to help search engines better index and rank your pages.  If you’re using WordPress, be sure to check out that <a href="http://www.arnebrachhold.de/redir/sitemap-home/">Google XML Sitemaps plugin</a>, it can make life a heck of a lot easier.</p>
+
+<p>If you have any other SEO tips, please leave them in the comments.  And as always, <a href="http://feeds.feedburner.com/devgrow">subscribe to the RSS feed</a> if you haven’t already and <a href="http://twitter.com/ThinkDevGrow">follow us on Twitter</a>!</p>
+:ET

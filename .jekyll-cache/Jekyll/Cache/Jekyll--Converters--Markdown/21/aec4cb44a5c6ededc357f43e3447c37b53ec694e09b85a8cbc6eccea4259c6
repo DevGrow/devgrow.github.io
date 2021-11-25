@@ -1,0 +1,162 @@
+I".<p>When I last wrote about my favorite new plugins in July, there were approximately 10,500 plugins in the official <a href="http://wordpress.org/extend/plugins/">WordPress Plugin Directory</a>.  Four months later, that number has reached nearly 12,000!  The following is a list of the best I’ve found from these new plugins, be sure to check them out:</p>
+
+<hr />
+
+<p><a href="http://wordpress.org/extend/plugins/publish-confirmation/">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/publish-confirmation.gif" class="image-left" />
+</a></p>
+
+<h4 id="publish-confirmation-by-bloggingbookshelf"><a href="http://wordpress.org/extend/plugins/publish-confirmation/">Publish Confirmation</a> by <a href="http://www.bloggingbookshelf.com/wordpress/publish-confirmation-plugin/">BloggingBookShelf</a></h4>
+
+<p>Have you ever accidentally published a post before it was ready? Yeah. It sucks. This plugin takes care of that.  When you hit the “Publish” button after writing a post, a small dialog box appears asking you if you’re sure you want to publish the post. You can either click OK or CANCEL. And that’s it! Super simple and no more acidentally published posts.</p>
+
+<hr />
+
+<p><a href="http://ottopress.com/2010/gravatar-hovercards/">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/gravatar-hovercards.gif" class="image-left" />
+</a></p>
+
+<h4 id="gravatar-hovercards--by-otto"><a href="http://ottopress.com/2010/gravatar-hovercards/">Gravatar Hovercards</a>  by <a href="http://ottopress.com/">Otto</a></h4>
+
+<p>So this is one isn’t an official plugin and thus isn’t in the WordPress plugin directory but I thought it was worth mentioning.  <a href="http://wordpress.com/">WordPress.com</a> has implemented a new feature which lets you hover over a user’s Gravatar to get additional information about them and Otto has created a jQuery/WP plugin that lets you do this on any WordPress blog.  You can see it in action on <a href="http://ottopress.com/2010/gravatar-hovercards/">his personal blog</a>.</p>
+
+<hr />
+
+<p><a href="http://wordpress.org/extend/plugins/nnd-facebook-profile-for-gravatar/">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/nnd-facebook-gravatar.gif" class="image-left" />
+</a></p>
+
+<h4 id="nnd-facebook-gravatar-grabber-by-nerdnextdoor"><a href="http://wordpress.org/extend/plugins/nnd-facebook-profile-for-gravatar/">NND Facebook Gravatar Grabber</a> by <a href="http://profiles.wordpress.org/users/NerdNextDoor/">NerdNextDoor</a></h4>
+
+<p>If a user or commenter has a link to their Facebook Profile Page as their URL link, this plugin extract their Facebook profile picture and use it as their Gravatar across the site.  This will work in comments as well as in the user admin area, and anywhere that Gravatars may be used.</p>
+
+<hr />
+
+<p><a href="http://wordpress.org/extend/plugins/visitor-analytics/">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/visitor-analytics.gif" class="image-left" />
+</a></p>
+
+<h4 id="visitor-analytics-by-suny-tse"><a href="http://wordpress.org/extend/plugins/basic-authentication/">Visitor Analytics</a> by <a href="http://ziming.org/dev/visitor-analytics">Suny Tse</a></h4>
+
+<p>This plugin provides pretty detailed information on your latest visitors, including their IP address, number and frequency of visits, time spent on the site and which pages they visited.  All of this information is available in Google Analytics or any log analyzer (ie Awstats), however it can be nice to have this quick summary easily accessible in your WordPress admin section.</p>
+
+<hr />
+
+<p><a href="http://wordpress.org/extend/plugins/diagnosis/">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/diagnosis.gif" class="image-left" />
+</a></p>
+
+<h4 id="diagnosis-by-gamajotech"><a href="http://wordpress.org/extend/plugins/diagnosis/">Diagnosis</a> by <a href="http://profiles.wordpress.org/users/GamajoTech/">GamajoTech</a></h4>
+
+<p>Diagnosis adds a subpage to the dashboard where the main administrator of the WordPress installation can view technical data about the server in an easy manner along with a suitable explanation. Most fields also have a link to an appropriate Wikipedia article.</p>
+
+<hr />
+
+<p><a href="http://wordpress.org/extend/plugins/pronamic-page-widget/">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/pronamic-page-widget.gif" class="image-left" />
+</a></p>
+
+<h4 id="pronamic-page-widget-by-pronamic-remcotolsma"><a href="http://wordpress.org/extend/plugins/pronamic-page-widget/">Pronamic Page Widget</a> by <a href="http://profiles.wordpress.org/users/pronamic/">pronamic</a>, <a href="http://profiles.wordpress.org/users/remcotolsma/">remcotolsma</a></h4>
+
+<p>This plugin makes it easy to add pages as widgets to your sidebars.  Developers can also easily create templates for the different page widgets on different sidebars.</p>
+
+<hr />
+
+<p><a href="http://wordpress.org/extend/plugins/wordpress-firewall-2/">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/wordpress-firewall-2.gif" class="image-left" />
+</a></p>
+
+<h4 id="wordpress-firewall-2-by-matthew-pavkov"><a href="http://wordpress.org/extend/plugins/wordpress-firewall-2/">WordPress Firewall 2</a> by <a href="http://matthewpavkov.com/wordpress-plugins/">Matthew Pavkov</a></h4>
+
+<p>This WordPress plugin investigates web requests with simple, WordPress-specific heuristics, to identify and stop the most obvious attacks.  It intelligently whitelists and blacklists pathological-looking phrases, based on which field they appear within, in a page request (unknown/numeric parameters vs. known post bodies, comment bodies, etc.). Its purpose is not to replace prompt and responsible upgrading, but rather to mitigate 0-day attacks and let bloggers sleep better at night.</p>
+
+<hr />
+
+<p><a href="http://wordpress.org/extend/plugins/mystique-extra-nav-icons/">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/mystique-extra-nav-icons.gif" class="image-left" />
+</a></p>
+
+<h4 id="mystique-extra-nav-icons-by-frasten"><a href="http://wordpress.org/extend/plugins/mystique-extra-nav-icons/">Mystique Extra Nav Icons</a> by <a href="http://polpoinodroidi.com/">frasten</a></h4>
+
+<p>Adds a number of social icons (customizable) above your navigation bar that slide up when you hover on them.  Check out the <a href="http://wordpress.org/extend/plugins/mystique-extra-nav-icons/screenshots/">screenshots</a> and the <a href="http://polpoinodroidi.com/">demo</a> for a better idea of how they function.</p>
+
+<hr />
+
+<p><a href="http://wordpress.org/extend/plugins/anyfeed-slideshow/">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/anyfeed-slideshow.gif" class="image-left" />
+</a></p>
+
+<h4 id="anyfeed-slideshow-by-soleil-golden"><a href="http://wordpress.org/extend/plugins/anyfeed-slideshow/">Anyfeed Slideshow</a> by <a href="http://tixen.net/blog/">Soleil Golden</a></h4>
+
+<p>Anyfeed Slideshow is a plugin that adds a slideshow widget to your library. This widget is fully customizable and will display a feed of images from any RSS or Atom feed provided to it.</p>
+
+<hr />
+
+<p><a href="http://wordpress.org/extend/plugins/allow-php-in-posts-and-pages/">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/allow-php.gif" class="image-left" />
+</a></p>
+
+<h4 id="allow-php-in-posts-and-pages-by-hit-reach"><a href="http://wordpress.org/extend/plugins/allow-php-in-posts-and-pages/">Allow PHP in Posts and Pages</a> by <a href="http://profiles.wordpress.org/users/Hit+Reach/">Hit Reach</a></h4>
+
+<p>Allow PHP in posts and pages adds the functionality to include PHP in wordpress posts and pages by adding a simple shortcode [php].code.[/php]</p>
+
+<hr />
+
+<p><a href="http://wordpress.org/extend/plugins/asteroids-widget/">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/asteroids.gif" class="image-left" />
+</a></p>
+
+<h4 id="asteroids-widget-by-electric-tree-house"><a href="http://wordpress.org/extend/plugins/asteroids-widget/">Asteroids Widget</a> by <a href="http://electrictreehouse.com/">Electric Tree House</a></h4>
+
+<p>Turn your site into the game of Asteroids. Click to start and you can destroy the contents of your webpage by flying around and shooting them. Check out the <a href="http://electrictreehouse.com/">demo</a> on the author’s blog (see right sidebar) to try it out yourself. The plugin is also highly customizable allowing you to add a description and/or image as well as controlling which pages the Asteroids widget appears on.  Based on <a href="http://erkie.github.com/">JS from Erik Rothoff Andersson</a>.</p>
+
+<hr />
+
+<p><a href="http://wordpress.org/extend/plugins/contactme/">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/contactme.gif" class="image-left" />
+</a></p>
+
+<h4 id="contact-form-by-contactmecom"><a href="http://wordpress.org/extend/plugins/contactme/">Contact Form</a> by <a href="http://contactme.com/">ContactMe.com</a></h4>
+
+<p>Add the free, eye-catching ContactMe button and contact form to your blog to turn your site visitors into sales leads and customers.</p>
+
+<hr />
+
+<p><a href="http://wordpress.org/extend/plugins/cincopa-video-slideshow-photo-gallery-podcast-plugin/">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/cincopa.gif" class="image-left" />
+</a></p>
+
+<h4 id="post-video-players-slideshow-and-photo-galleries-by-cincopa"><a href="http://wordpress.org/extend/plugins/cincopa-video-slideshow-photo-gallery-podcast-plugin/">Post video players slideshow and photo galleries</a> by <a href="http://www.cincopa.com/">Cincopa</a></h4>
+
+<p>Yes, that’s really the name of the plugin.  Despite the ridiculously long name, the plugin is actually pretty cool - it lets you post your media in multiple ways, including a variety of galleries, slideshows and players.</p>
+
+<hr />
+
+<p><a href="http://wordpress.org/extend/plugins/option-tree/">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/optiontree.gif" class="image-left" />
+</a></p>
+
+<h4 id="option-tree-by-valen-designs"><a href="http://wordpress.org/extend/plugins/option-tree/">Option Tree</a> by <a href="http://www.valendesigns.com/">Valen Designs</a></h4>
+
+<p>With OptionTree you can create as many Theme Options as your project requires and use them how you see fit. When you add a option to the Settings page, it will be available on the Theme Options page for use in your theme.</p>
+
+<hr />
+
+<p><a href="http://wordpress.org/extend/plugins/postviaemail/">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/postviaemail.gif" class="image-left" />
+</a></p>
+
+<h4 id="post-via-email-by-jonefox"><a href="http://wordpress.org/extend/plugins/postviaemail/">Post Via Email</a> by <a href="http://profiles.wordpress.org/users/jonefox/">jonefox</a></h4>
+
+<p>The easiest way to post to your WordPress blog using email. Just activate the plugin and you’ll get an email address to send to which will post the contents directly to your blog. The subject of the email is the title of the post and the body of the email will be the contents of the post. Posts will be published immediately after sending the email. Post by email!</p>
+
+<hr />
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>I’ll try to continue this series every few months to stay on top of the best new WordPress plugins being released.  If I missed one (undoubtedly so), please post it in the comments so we can check it out!</p>
+
+<p>I wasn’t able to find a few author homepage URLs so I used the WordPress profile pages - if you would like me to use your homepage URL instead, post that in the comments as well and I’ll update the post.</p>
+
+<p>As always, be sure to subscribe to the <a href="http://feeds.feedburner.com/devgrow">RSS feed</a> and follow <a href="http://twitter.com/ThinkDevGrow">@ThinkDevGrow</a> on Twitter!</p>
+:ET

@@ -1,0 +1,59 @@
+I"M<p>While working on my latest project, a custom WordPress theme framework, I came across the need to record screencast tutorials that go over the features of my app.  Using a web-based app means you don’t have to download bulky files (usually just a small Java plugin), and you can use it on whatever operating system you’re working on.  This was key for me, as I would need to record videos on both my Windows XP desktop and my Macbook Pro.</p>
+
+<p>The following is a compilation of the top 5 free, web-based screencasting apps available right now:</p>
+
+<hr />
+
+<h3 id="1-screencast-o-matic">1. <a href="http://www.screencast-o-matic.com/">Screencast-O-Matic</a></h3>
+
+<p><a href="http://www.screencast-o-matic.com/">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/screencast-o-matic.gif" class="image-left small" />
+</a>
+Screencast-O-Matic offers a free and paid service, with the free service allowing you to record watermarked videos of 15 mins in length (or 10 mins if exporting to YouTube).  The paid service has a one-time $5 fee, bumps record time to 1 hour and removes the pesky watermark (not a bad deal!).</p>
+
+<hr />
+
+<h3 id="2-screentoaster">2. <a href="http://www.screentoaster.com/">Screentoaster</a></h3>
+
+<p><a href="http://www.screentoaster.com/">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/screentoaster.gif" class="image-left small" />
+</a>
+Screentoaster is another 1-click recording service that is completely free and provides the user registration so you can access/manage your screencasts from any computer.  I found their new capture tool fantastic - it worked fast and effectively, plus the preset size options were very convenient.</p>
+
+<hr />
+
+<h3 id="3-screencastle">3. <a href="http://screencastle.com/">ScreenCastle</a></h3>
+
+<p><a href="http://screencastle.com/">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/screencastle.gif" class="image-left small" />
+</a>
+This one is dead-simple - on the homepage you’re greeted with a giant red button that, when clicked, loads the Java applet to record any portion of your screen.  Once you’re done recording, the video is uploaded to their servers and you’re given an array of links, including one to view the video and another to the FLV file (in case you need to download it).  There are no user accounts or paid plans, this app follows the KISS principle to the T.</p>
+
+<hr />
+
+<h3 id="4-screenjelly">4. <a href="http://www.screenjelly.com/">ScreenJelly</a></h3>
+
+<p><a href="http://screenjelly.com/">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/screenjelly.gif" class="image-left small" />
+</a>
+ScreenJelly is another 1-click service that also gives you the option to create an account and manage all of your recordings.  Once you’ve recorded a video, you can easily share it on Twitter or Facebook for maximum exposure.  This service is pretty useful for quick recordings, however there is a 3-minute time limit.</p>
+
+<hr />
+
+<h3 id="5-screenr">5. <a href="http://screenr.com/">Screenr</a></h3>
+
+<p><a href="http://screenr.com/">
+  <img src="http://devgrow.s3.amazonaws.com/assets/images/screenr.gif" class="image-left small" />
+</a>
+This one is probably my favorite of the bunch, not because of it’s feature set or recording, but rather the complete experience it provides. Screenr makes it easy and more importantly worthwhile to share your screencasts using Twitter, leveraging your own network of friends for maximum exposure.</p>
+
+<p>The recording tool is great, the commenting system (via Twitter) is awesome and overall the site feels trendy and complete.  The public stream is also fun to browse and actually has screencasts you may just find interesting.  My only gripe with this otherwise excellent service is their 5-min limit.</p>
+
+<hr />
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>If you need to record a screencast, try out one of the above services - they’re often just as good (in terms of quality) as a downloadable application and remove one step from the video tutorial process: uploading.  Most allow you to manage your videos from a central location and at least a couple have great sharing features to get your videos some immediate exposure.</p>
+
+<p>If you found this article useful, please consider subscribing to the <a href="http://feeds.feedburner.com/devgrow">DevGrow RSS feed</a> or <a href="http://twitter.com/ThinkDevGrow">follow us on Twitter</a>!</p>
+:ET

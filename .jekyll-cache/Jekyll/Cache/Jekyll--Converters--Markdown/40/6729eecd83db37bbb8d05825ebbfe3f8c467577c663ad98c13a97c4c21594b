@@ -1,0 +1,188 @@
+I"W2<p>CSS is powerful in styling HTML documents and making things look the way you want.  When writing CSS, there are a few factors to consider that can impact the way you write your code and structure your files.  The following are some best bet practices to clean, effective styling with CSS.</p>
+
+<h3 id="organizing-your-files">Organizing Your Files</h3>
+
+<p>Your file structure can largely depend on the number of documents you will be dealing with and how well you want to organize them. For a small site, having a single <strong>style.css</strong> file in the root directory can suffice. For a larger site that requires complex styling, especially blogs such as <a href="http://jasonsantamaria.com/">Jason Santa Maria</a> and <a href="http://dustincurtis.com/">Dustin Curtis</a>, it can be very helpful to split up your CSS into multiple files. This can help increase load times by allowing you to load only the CSS that you will use on a single page but make life easier for you, giving you the ability to quickly find relevant styles and easily make changes.</p>
+
+<p>Pick a directory and file structure you’re comfortable with, and one that gives you options. My preferred structure is:</p>
+
+<ul>
+  <li>css
+    <ul>
+      <li>reset.css</li>
+      <li>grid.css</li>
+      <li>layout.css</li>
+      <li>section-name.css</li>
+    </ul>
+  </li>
+  <li>images</li>
+  <li>js</li>
+  <li>index.php</li>
+  <li>header.php</li>
+  <li>etc..</li>
+</ul>
+
+<p>There are obviously many ways to go about structuring your files, just try to maintain consistency with whichever format do end up using.</p>
+
+<h3 id="the-reset">The Reset</h3>
+
+<p>Resetting your CSS should be the first thing you do when styling your website. Doing this puts you on a level playing field with all browsers, removing all unnecessary margins, padding and default styling. You can reset the common styles yourself or save time by using an existing reset file, such as:</p>
+
+<ul>
+  <li><a href="http://developer.yahoo.com/yui/reset/">Yahoo! UI CSS Reset</a></li>
+  <li><a href="http://meyerweb.com/eric/tools/css/reset/">Meyer’s CSS Reset Reloaded</a></li>
+  <li><a href="http://devkick.com/lab/tripoli/">Tripoli</a></li>
+  <li><a href="http://warpspire.com/features/css-frameworks/">Kyle Neath’s CSS Global Reset</a></li>
+</ul>
+
+<p>A best bet is to start with one of the existing CSS resets and add your own base styles to it over time, creating a simple framework to build your styles on.</p>
+
+<h3 id="formatting-your-code">Formatting Your Code</h3>
+
+<p>Like with any other form of coding, semantics and proper formatting can go a long way in providing organization and increased readability. This is especially important with CSS, where you will often find yourself returning to your code to make small adjustments and corrections as you tweak your design. A great resource that lists most of the many ways to format CSS can be found at <a href="http://css-tricks.com/different-ways-to-format-css/">CSSTricks.com</a>. I found myself agreeing with the author, Chris Coyer, in using single-line format with indenting for longer CSS stylesheets and more descriptive, multi-line format with indenting for shorter stylesheets.</p>
+
+<p>An example of the <strong>single-line format with indenting</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="code"><pre><span class="c">/*** @Content ***/</span>
+<span class="nf">#content</span> <span class="p">{</span> <span class="nl">width</span><span class="p">:</span> <span class="m">900px</span><span class="p">;</span> <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span> <span class="nl">border</span><span class="p">:</span> <span class="m">2px</span> <span class="nb">solid</span> <span class="m">#ccc</span><span class="p">;</span> <span class="p">}</span>
+  <span class="nf">#content</span> <span class="nt">ul</span> <span class="p">{</span> <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span> <span class="m">0</span> <span class="m">0</span> <span class="m">20px</span><span class="p">;</span> <span class="nl">list-style-type</span><span class="p">:</span> <span class="nb">square</span><span class="p">;</span> <span class="p">}</span>
+    <span class="nf">#content</span> <span class="nt">ul</span> <span class="nt">li</span> <span class="p">{</span> <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span> <span class="m">0</span> <span class="m">0</span> <span class="m">30px</span><span class="p">;</span> <span class="p">}</span>
+  <span class="nf">#content</span> <span class="nt">strong</span> <span class="p">{</span> <span class="nl">color</span><span class="p">:</span> <span class="m">#ff0000</span><span class="p">;</span> <span class="nl">background</span><span class="p">:</span> <span class="m">#fff</span><span class="p">;</span> <span class="p">}</span>
+  <span class="nf">#content</span> <span class="nt">em</span> <span class="p">{</span> <span class="nl">font-weight</span><span class="p">:</span> <span class="nb">bold</span><span class="p">;</span> <span class="nl">color</span><span class="p">:</span> <span class="m">#aaa</span><span class="p">;</span> <span class="p">}</span>
+    <span class="nf">#content</span> <span class="nt">em</span> <span class="nt">span</span> <span class="p">{</span> <span class="nl">color</span><span class="p">:</span> <span class="m">#444</span><span class="p">;</span> <span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>An example of the same styles in <strong>multi-line format with indenting</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+</pre></td><td class="code"><pre><span class="c">/*** @Content ***/</span>
+<span class="nf">#content</span> <span class="p">{</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">900px</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
+  <span class="nl">border</span><span class="p">:</span> <span class="m">2px</span> <span class="nb">solid</span> <span class="m">#ccc</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="nf">#content</span> <span class="nt">ul</span> <span class="p">{</span>
+    <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span> <span class="m">0</span> <span class="m">0</span> <span class="m">20px</span><span class="p">;</span>
+    <span class="nl">list-style-type</span><span class="p">:</span> <span class="nb">square</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="nf">#content</span> <span class="nt">ul</span> <span class="nt">li</span> <span class="p">{</span>
+      <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span> <span class="m">0</span> <span class="m">0</span> <span class="m">30px</span><span class="p">;</span>
+      <span class="p">}</span>
+  <span class="nf">#content</span> <span class="nt">strong</span> <span class="p">{</span>
+    <span class="nl">color</span><span class="p">:</span> <span class="m">#ff0000</span><span class="p">;</span>
+    <span class="nl">background</span><span class="p">:</span> <span class="m">#fff</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="nf">#content</span> <span class="nt">em</span> <span class="p">{</span>
+    <span class="nl">font-weight</span><span class="p">:</span> <span class="nb">bold</span><span class="p">;</span>
+    <span class="nl">color</span><span class="p">:</span> <span class="m">#aaa</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="nf">#content</span> <span class="nt">em</span> <span class="nt">span</span> <span class="p">{</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="m">#444</span><span class="p">;</span>
+      <span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>As you can see, while the multi-line format is easier to read, it does take up a lot more space than the alternative.</p>
+
+<h3 id="commenting">Commenting</h3>
+
+<p>This one is a no-brainer for most developers, however many designers seem to overlook this simple but useful advice.  Commenting frequently helps keep your code organized and will save you time when you inevitably revisit it, allowing you to easily find your way around.  A best bet practice is to take this advice to the next level, using a numerical hierarchy and a simple table of contents for your styles:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+</pre></td><td class="code"><pre><span class="c">/************************
+  Table of Contents:
+  1. Reset
+  2. Layout Structuring
+      2.1. Body
+      2.2. Sidebar
+      2.3. Footer
+  3. Widgets
+      3.1. Flickr Widget
+************************/</span>
+
+<span class="c">/*** @ 1. Reset ***/</span>
+
+<span class="c">/*** @ 2. Layout Structuring ***/</span>
+
+<span class="c">/*** @ etc. ***/</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<h3 id="loading-your-styles">Loading Your Styles</h3>
+
+<p>The CSS styles you write can be stored in an individual file or embedded in the HTML itself. The best bet practice is certainly to load an external stylesheet that has all of your styles within it, allowing you to reuse the same stylesheet in multiple documents. This reduces code redundancy and allows you to change a style and see it reflected in all documents that load that particular stylesheet.</p>
+
+<p>You can load a <strong>single stylesheet</strong> by linking to the file in your HTML header:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+</pre></td><td class="code"><pre><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"/css/style.css"</span> <span class="na">type=</span><span class="s">"text/css"</span> <span class="na">media=</span><span class="s">"screen"</span> <span class="nt">/&gt;</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>You can also <strong>import multiple stylesheets</strong> at once too:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="code"><pre><span class="nt">&lt;style </span><span class="na">type=</span><span class="s">"text/css"</span><span class="nt">&gt;</span>
+    <span class="k">@import</span> <span class="sx">url(/css/reset.css)</span><span class="p">;</span>
+    <span class="k">@import</span> <span class="sx">url(/css/layout.css)</span><span class="p">;</span>
+<span class="nt">&lt;/style&gt;</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>A best bet in loading multiple CSS files is to use a PHP or JavaScript compressor to pack them into one file.  This allows you to maintain your internal organization by having multiple files while reducing HTTP requests for the visitor, who probably doesn’t care too much about how well organized your code is and would rather have a faster website.  Some resources on how to compress your CSS code:</p>
+
+<ul>
+  <li><a href="http://www.catswhocode.com/blog/3-ways-to-compress-css-files-using-php">3 ways to compress CSS files using PHP</a></li>
+  <li><a href="http://manas.tungare.name/software/css-compression-in-php/">On-the-fly CSS Compression Script in PHP</a></li>
+  <li><a href="http://ajaxian.com/archives/jscsscomp-javascript-and-css-files-compressor">jscsscomp: JavaScript and CSS files compressor</a></li>
+  <li><a href="http://robertnyman.com/2010/01/19/tools-for-concatenating-and-minifying-css-and-javascript-files-in-different-development-environments/">Huge list of compressors by Robert Nyman</a></li>
+</ul>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>CSS is a major part of making your website look the way you want, taking the time to make sure your code is well organized and follows the best bet practices can make life easier for you in the long run.  Keep your code clean and organized, comment frequently and compress your files to keep not only your visitors happy but your whole design process painless and dare I say… fun!</p>
+:ET

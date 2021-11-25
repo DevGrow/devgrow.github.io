@@ -1,0 +1,100 @@
+I"?,<p>While working on the new theme for this site, I realized that the various social media buttons I use were making the entire page load considerably slower.  As soon as the browser hit that region of the page (the end of each post), everything would stop until those pesky buttons were loaded.  Using a little bit of jQuery, however, it’s possible to get around this and load these heavier elements after the rest of the page has finished loading.</p>
+
+<h2 id="the-code">The Code</h2>
+
+<p>In order to load the share buttons after everything else, we need to do two things.  First, we need to edit our post template (<code class="language-plaintext highlighter-rouge">single.php</code>) to call a jQuery function <em>after</em> everything has loaded.  We call this function in <code class="language-plaintext highlighter-rouge">single.php</code> instead of an external JavaScript file since some buttons benefit from the post permalink or title, so we need to make sure our buttons have access to that information as well.</p>
+
+<h3 id="singlephp">single.php</h3>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="code"><pre><span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span>
+    <span class="kd">function</span> <span class="nx">get_social</span><span class="p">(</span><span class="nx">permalink</span><span class="p">,</span><span class="nx">title</span><span class="p">){</span>
+        <span class="kd">var</span> <span class="nx">url</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">share.php</span><span class="dl">'</span><span class="p">;</span>
+        <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">#sharing-buttons</span><span class="dl">'</span><span class="p">).</span><span class="nx">load</span><span class="p">(</span><span class="nx">url</span><span class="p">,{</span><span class="na">permalink</span><span class="p">:</span><span class="nx">permalink</span><span class="p">,</span><span class="na">title</span><span class="p">:</span><span class="nx">title</span><span class="p">});</span>
+    <span class="p">}</span>
+    <span class="nx">$</span><span class="p">(</span><span class="nb">window</span><span class="p">).</span><span class="nx">bind</span><span class="p">(</span><span class="dl">"</span><span class="s2">load</span><span class="dl">"</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nx">get_social</span><span class="p">(</span><span class="dl">'</span><span class="s1">&lt;?php the_permalink() ?&gt;</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">&lt;?php the_title(); ?&gt;</span><span class="dl">'</span><span class="p">);</span>
+    <span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"sharing-buttons"</span><span class="nt">&gt;&lt;/div&gt;</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>In the code above, we’re calling the function <code class="language-plaintext highlighter-rouge">get_social</code> using jQuery’s <a href="http://api.jquery.com/ready/">window load</a> function instead of the typical document ready - this makes means our function is called after everything has loaded, whereas document ready loads all code immediately after the DOM is ready.  Inside the window load event, we call our function and pass the title and permalink so our buttons have access to it.</p>
+
+<p>In the <code class="language-plaintext highlighter-rouge">get_social</code> function itself, we can use jQuery’s load function to pass our variables, get the response and populate or <code class="language-plaintext highlighter-rouge">div</code> (with the id of “sharing-buttons”).  Please be sure to point to the correct URL of your share.php file (which we’ll create next) - you may even want to use the absolute URL to minimize errors (ie http://…).</p>
+
+<h3 id="sharephp">share.php</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">share.php</code> simply contains all of your dynamic button code.  Here’s what mine looks like:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+</pre></td><td class="code"><pre><span class="cp">&lt;?php
+    $permalink = $_GET['permalink'] ? $_GET['permalink'] : $_POST['permalink'];
+    $title = $_GET['title'] ? $_GET['title'] : $_POST['title'];
+?&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"digg"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span>
+        <span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+        <span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="dl">'</span><span class="s1">SCRIPT</span><span class="dl">'</span><span class="p">),</span> <span class="nx">s1</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="dl">'</span><span class="s1">SCRIPT</span><span class="dl">'</span><span class="p">)[</span><span class="mi">0</span><span class="p">];</span>
+        <span class="nx">s</span><span class="p">.</span><span class="nx">type</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">text/javascript</span><span class="dl">'</span><span class="p">;</span>
+        <span class="nx">s</span><span class="p">.</span><span class="k">async</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+        <span class="nx">s</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">http://widgets.digg.com/buttons.js</span><span class="dl">'</span><span class="p">;</span>
+        <span class="nx">s1</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">.</span><span class="nx">insertBefore</span><span class="p">(</span><span class="nx">s</span><span class="p">,</span> <span class="nx">s1</span><span class="p">);</span>
+        <span class="p">})();</span>
+    <span class="nt">&lt;/script&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"DiggThisButton DiggMedium"</span><span class="nt">&gt;&lt;/a&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"fb-share"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">name=</span><span class="s">"fb_share"</span> <span class="na">type=</span><span class="s">"box_count"</span> <span class="na">href=</span><span class="s">"http://www.facebook.com/sharer.php"</span><span class="nt">&gt;</span>Share<span class="nt">&lt;/a&gt;&lt;script </span><span class="na">src=</span><span class="s">"http://static.ak.fbcdn.net/connect.php/js/FB.Share"</span> <span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tweet"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"http://twitter.com/share"</span> <span class="na">class=</span><span class="s">"twitter-share-button"</span> <span class="na">data-count=</span><span class="s">"vertical"</span> <span class="na">data-via=</span><span class="s">"ThinkDevGrow"</span><span class="nt">&gt;</span>Tweet<span class="nt">&lt;/a&gt;&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"http://platform.twitter.com/widgets.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>In the beginning, I grab the permalink and title variables from either <code class="language-plaintext highlighter-rouge">$_GET</code> or <code class="language-plaintext highlighter-rouge">$_POST</code> (a bit more future-proof in case our function changes) and use the default button codes provided by these services.  Note that I don’t use the permalink or title in any of the above buttons, as these services automatically detect that information from whatever page they’re posted on, however it’s there if you need it!</p>
+
+<p>That should be it though - if you edited your <code class="language-plaintext highlighter-rouge">single.php</code> and correctly point to your <code class="language-plaintext highlighter-rouge">share.php</code> file in the <code class="language-plaintext highlighter-rouge">get_social</code> function, you should be loading your buttons after the rest of the page is completely loaded!</p>
+
+<h2 id="see-it-in-action">See It In Action</h2>
+
+<p>The current DevGrow theme (v3) is using this code in every post.  To see it, go to any article posted on this site and immediately scroll to the ‘Share this Article’ section.  You should just see the small icons (RSS, email, reddit, etc.) until the entire page has finished loading, after which 3 additional buttons (Digg, Facebook and Twitter) should pop up above it.  If you take too long to scroll there you may end up missing it but keep an eye on your status bar - you should see the buttons loaded only after the rest of the page has finished loading.</p>
+
+<h2 id="caveats-and-conclusion">Caveats and Conclusion</h2>
+
+<p>While working on this, I found that <strong>some buttons did not function correctly when loaded this way</strong>, such as the one for <a href="http://www.dzone.com/links/index.html">DZone</a>.  I didn’t spend too much time trying to figure out why but I assume it has to do with the way their button code extracts the host URL, which it may have had difficulty with since it was being loaded from an external file.  While it would’ve been nice to include that button, I found that having a faster loading site is much more important to me than any single service.</p>
+
+<p>Also, please keep in mind that this won’t really change your overall page loading times - it will only make it so that the rest of the site is loaded before the social media buttons.  It’s useful if you find these buttons to be slow at times and parts of your page render white/blank until they’re finished loading, which is the issue I was having.</p>
+
+<p>Are any of you doing something similar to this in order to load your content a little faster?  Anyone know why the DZone button isn’t working or know how to fix it?</p>
+:ET

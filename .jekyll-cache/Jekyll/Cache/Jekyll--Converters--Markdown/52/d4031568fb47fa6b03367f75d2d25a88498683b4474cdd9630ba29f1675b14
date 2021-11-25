@@ -1,0 +1,28 @@
+I"�<p>There’s a new trend in web design that I’m already getting sick of.  Designers, listen up!  I know you love your Apple products and it’s great that you’ve found so much inspiration from their designs but please, for the sake of people who aren’t using OS X or Safari, make sure your web designs look good on other operating systems too.</p>
+
+<h2 id="stats-speak-for-themselves">Stats Speak For Themselves</h2>
+
+<p>Unless you’re selling something Apple-related (iPhone &amp; Mac apps, etc.), chances are you’re going to have a decent amount of traffic from people who aren’t running OS X.  Shouldn’t you make your design look nice for those users too?  Check your Google Analytics visitor info and you’ll see that a lot of people still use Windows (gasp!).</p>
+
+<p><img src="http://devgrow.s3.amazonaws.com/assets/images/fonts-3.png" alt="Stats Speak For Themselves!" /></p>
+
+<div class="note small">
+  <strong>UPDATE:</strong> Just to be clear, the stats above are indeed for [DevGrow](http://devgrow.com/), a site marketed towards web developers and designers.  I checked a few of my other websites, including the last 400,000 visitors for a site that's not as targeted, and Windows XP was unequivocally the dominant platform (for that site, 90% use Windows, of which 60% use XP).
+</div>
+
+<h2 id="what-to-avoid">What to Avoid</h2>
+
+<p>Most of my complaints stem from websites that use certain fonts that are illegible at certain sizes and with certain effects applied to them.  Now, I’m not asking you to abandon your typographical instincts, just test out your design on Windows or Linux to make sure it looks decent.  I don’t think I’m knowledgeable enough to suggest the perfect OS-friendly fonts stack, however there are <a href="http://www.smashingmagazine.com/2009/09/22/complete-guide-to-css-font-stacks/">many</a> <a href="http://articles.sitepoint.com/article/eight-definitive-font-stacks">articles</a> <a href="http://www.awayback.com/revised-font-stack/">out</a> <a href="http://www.codestyle.org/css/font-family/BuildBetterCSSFontStacks.shtml">there</a> that discuss it.</p>
+
+<p><a href="http://slicehost.com/"><img src="http://devgrow.s3.amazonaws.com/assets/images/fonts.png" alt="Windows vs OS X Comparison" /></a>
+A handful of websites are able to somewhat pull off using exotic fonts, like <a href="http://elliotjaystocks.com/">Elliot Jay Stocks</a>:</p>
+
+<p><img src="http://devgrow.s3.amazonaws.com/assets/images/fonts-2.png" alt="Some Can Pull It Off" />
+Apple has positively inspired a lot of great designers and I admire the bulk of it, especially if they look good on any computer (<a href="http://tapbots.com/">Tapbots</a> I’m looking at you!).</p>
+
+<h2 id="parting-thoughts">Parting Thoughts</h2>
+
+<p>I’m just ranting off from my personal experiences - can anyone else relate to this sentiment at all?  I’m still relatively new to web design so maybe I’m missing something here, or maybe I should just turn on smooth fonts in my Windows Display options, but do I really have to?  For some reason, I kind of like my Windows fonts they way they look - does that make me a bad person?</p>
+
+<p>And if you’re curious, I use either Windows XP or Ubuntu for work.  For everything else and when I’m traveling, I use my 15” Macbook Pro.</p>
+:ET

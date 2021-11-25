@@ -1,0 +1,43 @@
+I"#<p>I’ve been trying to utilize HTML5 more recently in a few smaller projects and came across a really cool new attribute: ContentEditable.  You can add this attribute to any HTML element and it automatically makes that (and any element within it) editable.</p>
+
+<h3 id="live-example">Live Example</h3>
+
+<p>Everything in this paragraph is editable in any modern browser that supports HTML5.  You should see a grey outline when you mouseover it, indicating that it is editable.  One very cool aspect of this is that it retains the CSS styling from the parent document, so the edited elements will still look correct.</p>
+
+<ul class="edited-list" contenteditable="" style="padding-top:10px;padding-bottom:10px;">
+  <li>Feel free to edit this list element.</li>
+  <li>Or add more by simply pressing enter after the last list item &#8211; no HTML needed!</li>
+</ul>
+
+<p>Chris Coyier of <a href="http://css-tricks.com/show-and-edit-style-element/">CSS-Tricks.com</a> pointed out that you can also let users edit CSS styles and have them update in real-time using the ContentEditable attribute.  Try it out by editing the background color of the above list:</p>
+
+<style contenteditable="" style="display: block; background: lightblue; padding: 10px; white-space: pre; margin: 0 0 30px;">.edited-list { background: lightyellow; }</style>
+
+<h3 id="adding-the-mouseover-outline">Adding the MouseOver Outline</h3>
+
+<p>To create the outline effect on mouseover, I had to add the following line to my CSS stylesheet:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="code"><pre><span class="o">[</span><span class="nt">contenteditable</span><span class="o">]</span><span class="nd">:hover</span> <span class="p">{</span>
+     <span class="nl">outline</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">dotted</span> <span class="m">#ccc</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>Obviously this can be styled to your liking and since it’s just using standard CSS, it’s possible to do some really creative things with this (I’ll leave that to your imagination).  As for using the ContentEditable attribute itself, it really is as simple as appending it to any tag like so:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="code"><pre><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"make-me-editable"</span> <span class="na">contenteditable</span><span class="nt">&gt;</span>
+     Any text in this DIV will be editable.
+<span class="nt">&lt;/div&gt;</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<h3 id="final-thoughts">Final Thoughts</h3>
+
+<p>This attribute really opens a lot of doors when <a href="https://www.ibm.com/developerworks/mydeveloperworks/blogs/bobleah/entry/html5_code_example_of_contenteditable_and_localstorage_create_a_web_sticky_note?lang=en">paired with HTML5’s LocalStorage capabilities</a>.  There’s also the <a href="http://www.aloha-editor.org/">Aloha Editor</a>, a pure HTML5 WYSIWYG editor that utilizes the ContentEditable attribute and generates a nifty real-time editor.</p>
+
+<p>I’m really looking forward to the day that the majority of internet users have HTML5 capable browsers so that I can more freely use these cool new features! (hopefully soon, fingers crossed)</p>
+:ET
