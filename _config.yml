@@ -1,7 +1,6 @@
 plugins: [jekyll-paginate]
 paginate: 30
 paginate_path: ":num"
-pygments: true
 permalink: /:title/
 
 name: DevGrow.com
